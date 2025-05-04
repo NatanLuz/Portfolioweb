@@ -1,351 +1,317 @@
+/* ========== importando fonts ========== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;700&display=swap');
 
-/* Definindo a fonte geral para o corpo com a fonte diferente >poppins. */
 body {
     font-family: 'Poppins', sans-serif;
     background-color: black;
-    color: #eaeaea;
-}
-
-/* Cabeçalho */
-header {
-    background-color: black;
-    text-align: center;
-    padding: 2rem 0;
-}
-
-header h1 {
+    color: #e0b3ff;
     margin: 0;
-    color: white;
-    font-size: 2.5rem;
-    font-weight: 600; /* Peso mais grosso para o título */
-}
-
-header p {
-    margin: 10px 0;
-    font-size: 1.8rem;
-    color: purple;
-    font-weight: 400; /* Peso mais leve para o subtítulo */
-}
-
-/* Estilo para as imagens das tecnologias com poucos detalhes */
-.tech-icon {
-    width: 50px;
-    height: auto;
-    margin-bottom: 10px;
-}
-
-/* Estilo para as seções para ficar bem feitinho quis caprichar nessa parte tmb */
-#links-contato, #sobre-mim, #skills, #projetos, #contato {
-    background-color: #000;
-    color: white;
-}
-
-#links-contato .btn, .social-buttons a, .card-body a.btn {
-    background-color: #6a0dad;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-}
-
-#links-contato .btn:hover, .social-buttons a:hover, .card-body a.btn:hover {
-    background-color: #a445ed;
-}
-
-.card-body {
-    background-color: #f1f1f1;
-    color: black;
-}
-
-/* Alteração para as listas de Hard Skills e Soft Skills */
-#skills .d-flex {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 2rem;
-    padding-top: 1rem;
-}
-
-.skills-column {
-    text-align: center;
-    flex: 1;
-    max-width: 300px;
-}
-
-#skills h3 {
-    font-size: 1.8rem;
-    color: #6a0dad;
-    margin-bottom: 1rem;
-    font-weight: 500; /* Peso médio para os títulos das habilidades */
-}
-
-#skills ul {
-    list-style-type: none;
     padding: 0;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.fade-in {
+    animation: fadeIn 2s ease-in-out;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 0 0 10px rgb(7, 218, 70);
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+/* ========== HEADER ========== */
+.zoom-in {
+    animation: zoomFade 1.5s ease-in-out forwards;
+    transform: scale(0.6);
+    opacity: 0;
+    display: inline-block;
+    font-size: 3.1rem; /* Ajuste como preferir */
+    font-weight: 700;
+    color: #e0b3ff;
+    text-shadow: 0 0 20px purple;
+}
+
+@keyframes zoomFade {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* ========== LINKS CONTATO CURRICULO ========== */
+#links-contato button {
+    background-color: #230261;
+    border: none;
+}
+
+#links-contato button:hover {
+    background-color: purple;
+}
+
+/* ========== SOBRE MIM DESCRICAO ========== */
+#sobre-mim {
+    background-color: black;
+}
+
+#sobre-mim h2 {
+    margin-bottom: 1rem;
+}
+#sobre-mim p {
     font-size: 1.2rem;
+    line-height: 1.5;
+}
+#sobre-mim ul {
+    margin-top: 1rem;
 }
 
-#skills ul li {
-    padding: 0.3rem 0;
-    color: #eaeaea
 
-}
-
-/* Ajustando o estilo para o  'Mais projetos em  breve' bem simples */
-#projetos .card-body {
-    background-color: #f1f1f1;
-    color: black;
+/* ========== SEÇÃO TECNOLOGIAS ========== */
+#tecnologias {
+    background-color: black;
+    padding: 4rem 1rem;
     text-align: center;
 }
 
-#projetos .card-body h3 {
-    font-size: 1.5rem;
-    color: #0d0d0e;
+#tecnologias .container {
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
-#projetos .card-body p {
-    font-size: 1.2rem;
-    color: black;
+#tecnologias h2 {
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
 }
 
-
-/* Seção Tecnologias */
-
-#tecnologias .row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.tech-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    justify-items: center;
+    align-items: center;
     gap: 2rem;
+    padding: 1rem;
 }
 
-#tecnologias .col-6 {
-    flex: 1 1 25%;
-    max-width: 200px; 
-}
-
-/* Garantir que o layout se ajuste em telas menores quero que fique o mais responsivel possivel  */
-@media (max-width: 768px) {
-    #tecnologias .col-6 {
-        flex: 1 1 45%; /* Ajuste para telas médias tablets, ipads.*/
-        max-width: 45%;
-    }
-}
-
-@media (max-width: 480px) {
-    #tecnologias .col-6 {
-        flex: 1 1 80%; /* Ajuste para telas pequenas  */
-        max-width: 80%;
-    }
-}
-
-/* Adicionando mais estilo  ao layout */
-.tech-icon {
-    width: 60px;
-    height: auto;
-    margin-bottom: 10px;
-}
-
-.card-body a.btn {
-    font-size: 1rem;
-}
-
-
-
-/* Estilo para o título "Projetos" *  codigo basico para mudana de cor em titulos h2 */
-#projetos h2 {
-    color: #6a0dad; 
-}
-
-
-/* Ajustes para a seção de contato */
-#contato h2 {
-    text-align: center;
-    color: #6a0dad; 
-    margin-bottom: 20px;
-}
-
-/* Estilo dos botões de redes sociais */
-
-.social-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 1.5rem; /* Espaço maior entre os ícones */
-}
-
-.social-buttons a {
+.tech-item {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #6a0dad;
-    color: white;
-    padding: 15px;
-    border-radius: 50%; /* cria um Formato circular */
-    text-decoration: none;
-    font-size: 1.5rem; /* Tam dos ícones */
-    width: 50px;  
-    height: 50px; 
-    transition: background-color 0.3s ease;
+    padding: 1rem;
+    transition: all 0.3s ease;
 }
 
-.social-buttons a:hover {
-    background-color: #a445ed;
+.tech-icon {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    filter: grayscale(30%) brightness(0.9);
+    transition: all 0.3s ease;
 }
 
-.social-buttons a i {
-    margin: 0; /* margin  Remove espaço adicional dentro dos botões */
+.tech-item:hover .tech-icon {
+    transform: scale(1.2);
+    filter: grayscale(0%) brightness(1.2) drop-shadow(0 0 10px purple);
 }
 
-
-
-/* Ajustes de layout  */
-
-@media (max-width: 768px) {
-    .skills-column {
-        margin-bottom: 30px;
+/* Responsividade */
+@media (max-width: 900px) {
+    .tech-grid {
+        grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+        gap: 1.5rem;
     }
-
-    .social-buttons a {
-        font-size: 20px;
-        margin-right: 10px;
-    }
-}
-
-@media (max-width: 480px) {
     .tech-icon {
-        max-width: 100%;
-        margin-bottom: 20px;
-    }
-
-    .card-body {
-        padding: 15px;
-    }
-
-    .row {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        width: 55px;
+        height: 55px;
     }
 }
 
-
-
-/* Melhorando a responsividade das colunas de Tecnologias para ficar bem organizado */
-#tecnologias .col-6 {
-    flex: 1 1 25%; 
-    max-width: 200px; 
-}
-
-@media (max-width: 768px) {
-    /* Responsividade para dispositivos menores */
-    header h1 {
-        font-size: 2rem; /* Reduzindo o tamanho do título pois achei que tava enorme.*/
+@media (max-width: 600px) {
+    .tech-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.2rem;
     }
-
-    #links-contato .btn {
-        width: 80%; /* botão de currículo de largura total */
-    }
-
-    .skills-column {
-        max-width: 100%; /* Para melhorar o alinhamento em telas menores */
-    }
-
-    .card-body {
-        padding: 1rem; /* Ajuste no padding das cards para telas pequenas */
-    }
-
-    /* Tecnologias ajustadas para telas menores responsividade 100% */
-
-    #tecnologias .col-6 {
-        flex: 1 1 50%; /* Ajustando a largura das colunas */
-        max-width: 150px; /* Reduzindo a largura máxima */
-    }
-
-    /* Ajustando as imagens de tecnologias */
     .tech-icon {
-        width: 40px; /* Diminuindo o tamanho das imagens para telas pequenas para ficar mais adaptavel */
-    }
-
-    /* Ajustando o estilo da seção de habilidades */
-    #skills .d-flex {
-        flex-direction: column;
-        gap: 1rem;
-    }
-
-    .skills-column {
-        max-width: 100%;
+        width: 50px;
+        height: 50px;
     }
 }
 
-/* Melhorando contraste e legibilidade em áreas com fundo preto */
-body {
-    background-color: #121212; /* Tom de fundo mais escuro para melhorar o contraste */
-    color: #f1f1f1; /* Texto com tom mais claro  */
-}
-
-/* Ajuste das cores dos links para melhorar a visibilidade */
-a, .btn, .social-buttons a {
-    color: #fff; /* links brancos */
-    text-decoration: none;
-}
-
-/* Hover do botão para melhorar o contraste */
-a:hover, .btn:hover {
-    background-color: #5e2a8d; /* Um tom mais escuro do roxo para hover */
-}
-
-/* Ajustei no fundo dos  cards para evitar contraste excessivo */
-.card-body {
-    background-color: #eaeaea;
-    color: #333; /* Texto em uma cor mais escura para contraste */
+@media (max-width: 400px) {
+    .tech-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 
-.download-btn {
-    background-color: grey; /* Cor no fundo */
-    color: white; /* Cor do texto */
-    padding: 10px 20px; /* Espaçamento interno */
-    border: none; /* Remove a borda */
-    border-radius: 5px; /* Borda arredondada */
-    font-size: 16px; /* Tamanho da fonte */
-    cursor: pointer; /* Muda o cursor para pointer ao passar o mouse */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
-    transition: background-color 0.5s ease; /* Transição suave */
-  }
-  .download-btn:hover {
-    background-color: purple; /* Cor ao passar o mouse e efetuar download*/
-  }
-  
-
-  footer {
-    padding: 80px; /* Ajuste o valor conforme necessário */
-    text-align: center;
+/* ========== aba de SKILLS ========== */
+#skills {
+    background-color: black;
+    padding: 2rem 0;
 }
 
+.skills-column {
+    flex: 1;
+    padding: 10px;
+    min-width: 250px;
+    width: 60%;
+}
 
+.skills-column h3 {
+    margin-bottom: 1rem;
+    font-size: 1.65rem;
+    color: #a53288;
 
-/* Estilo geral para a seção Skills e Idiomas */
-.skills, .idiomas {
+    /* foi corrigido aqui, antes estava com "color: color: red;" */
+}
+
+.skills-column ul li {
+    margin-bottom: 0.8rem;
+}
+
+#skills .d-flex {
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Estilo opcional para grade de ícones (se estiver usando imagens ou ícones para skills) */
+.tech-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.tech-icon {
+    width: 50px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.tech-icon:hover {
+    transform: scale(1.2);
+}
+
+/* ========== aba > PROJETOS ========== */
+
+#projetos {
+    background-color: black;
+}
+
+#projetos .card {
+    background-color: #222;
+    border: none;
+    color: #fff;
+    transition: transform 0.4s ease;
+}
+
+#projetos .card:hover {
+    transform: translateY(-5px);
+}
+
+#projetos .btn {
+    background-color: purple;
+    border: none;
+}
+
+#projetos .btn:hover {
+    background-color: #5a35a4;
+    
+}
+
+/* Ajusta o container dos botões para alinhá-los na mesma altura */
+.red-dead-card .btn-container {
     display: flex;
-    flex-direction: column; /* Empilhar itens verticalmente */
-    align-items: center; /* Alinha os itens no centro horizontalmente */
-    justify-content: center; /* Alinha os itens no centro verticalmente */
-    max-width: 800px; /* Limita a largura para evitar que se estique demais */
-    margin: 0 auto; /* Centraliza as seções */
-    padding: 20px;
+    justify-content: space-between; /* Espaço entre os botões */
+    align-items: center; /* Garante que ambos os botões fiquem na mesma altura */
+    gap: 10px; /* Ajusta o espaço entre os botões */
 }
 
-/* Ajuste para telas menores (dispositivos móveis) */
-@media (max-width: 768px) {
-    .skills, .idiomas {
-        max-width: 100%; /* Garante que a largura não ultrapasse a tela */
-        padding: 10px; /* Ajuste o padding se necessário */
-    }
+/* Remover margens extras do botão "Ver Site" */
+.red-dead-card .btn-secondary {
+    margin-top: 0; /* Remove qualquer margem superior do botão */
 }
 
-/* Estilo adicional para ser responsivo */
-@media (max-width: 480px) {
-    .skills, .idiomas {
-        padding: 5px; /* Ajuste para telas muito pequenas */
-    }
+/* Garantir que ambos os botões tenham altura consistente */
+.red-dead-card .btn {
+    height: 40px; /* Ajuste a altura dos botões se necessário */
 }
+
+
+/* ========== parte do CONTATO ========== */
+#contato {
+    background-color: black;
+}
+
+#contato h2 {
+    margin-bottom: 3rem;
+}
+
+.social-buttons .btn {
+    font-size: 1.5rem;
+    margin: 0 10px;
+    color: rgb(26, 10, 26);
+    background-color: #6e38d1;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.5s ease;
+}
+
+.social-buttons .btn:hover {
+    background-color: purple;
+}
+
+.social-buttons .btn img {
+    width: 28px;
+    height: 28px;
+    filter: invert(1); /* Para inverter as cores da imagem para a o branco */
+    transition: transform 0.3s ease;
+}
+
+.social-buttons .btn:hover img {
+    transform: scale(1.2);
+} 
+
+/* ========== FOOTER ========== */
+footer {
+    background-color: black;
+    back drop-color: black;
+    
+}
+
+footer p {
+    margin: 0.25rem 0;
+    font-size: 0.9rem;
+}
+

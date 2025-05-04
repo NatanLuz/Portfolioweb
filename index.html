@@ -6,72 +6,79 @@
     <title>Portfólio Natan da Luz</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
 <body>
-    <!-- Cabeçalho citando sobre mim  e minha stack  -->
-    <header class="text-white text-center py-4">
-        <h1>Natan Da Luz</h1>
-        <p>Desenvolvedor Full Stack</p>
+    <!-- Cabeçalho nome e minha stack -->
+    <header class="text-white text-center py-4 animated-header">
+        <h1 class="zoom-in">Natan Da Luz</h1>
+        <p class="fade-in">Desenvolvedor Full Stack</p>
     </header>
 
-    <!-- Seção para meu curriculo com botao de download  -->
+    <!-- Seção para meu currículo com botão de download -->
     <section id="links-contato" class="py-5 text-center">
         <div class="container">
-            <a href="assets/NatanDaLuzCV.pdf" download="Curriculo_NatanDaLuz.pdf">
-                <button class="download-btn">Download CV</button>
+            <a href="assets/NatanDaLuzdevCV.pdf" download="Curriculo_NatanDaLuz.pdf">
+                <button class="btn btn-primary btn-lg">Download CV</button>
             </a>
         </div>
-    </section>
-    
+    </section> 
 
-    <!-- Seção Sobre Mim contano a tragetoria -->
-    <section id="sobre-mim" class="py-5">
+    <!-- Seção Sobre Mim resumido apresentaçao  -->
+    <section id="sobre-mim" class="py-5 fade-in-up">
         <div class="container">
             <h2>Sobre Mim</h2>
-            <p>Sou Natan da Luz, desenvolvedor Fullstack com experiência em HTML, CSS, JavaScript e Python, e atualmente expandindo meus conhecimentos em Java. Tenho paixão por criar soluções inovadoras e eficientes, aplicando boas práticas de desenvolvimento para entregar resultados de alta qualidade. Trabalho com frameworks como Bootstrap e Tailwind CSS para design responsivo, e no Python, utilizei bibliotecas como Pandas e Tkinter em projetos como um sistema de escala de trabalho. Busco constantemente aprimorar minhas habilidades para atuar em todas as camadas de uma aplicação, sempre com foco em soluções tecnológicas funcionais e escaláveis.</p>
+            <p> Desenvolvedor Fullstack com experiência em HTML, CSS, JavaScript e Python, e ampliando conhecimentos em Java estudando com muita consistência. Crio soluções eficientes e escaláveis, aplicando boas práticas de desenvolvimento e utilizando frameworks como Bootstrap e Tailwind. Estou sempre aprimorando minhas habilidades para entregar aplicações de alta qualidade.</p>
         </div>
     </section>
 
-    <!-- Seção Tecnologias que domino e que tenho conhecimento  -->
+    <!-- Seção Tecnologias que domino e que tenho conhecimento -->
     <section id="tecnologias" class="py-5">
         <div class="container">
             <h2>Tecnologias</h2>
-            <div class="row text-center">
-                <!-- Colocar as imagens de ícones de tecnologia -->
-                <div class="col-6 col-md-3">
+            <div class="tech-grid">
+                <div class="tech-item">
                     <img src="img/git2.svg" alt="Git" class="tech-icon">
-                    <p>Git (Controle de versão)</p>
                 </div>
-                <div class="col-6 col-md-3">
+                <div class="tech-item">
                     <img src="img/css3.svg" alt="CSS3" class="tech-icon">
-                    <p>CSS3 (Estilização)</p>
                 </div>
-                <div class="col-6 col-md-3">
+                <div class="tech-item">
                     <img src="img/html5.svg" alt="HTML5" class="tech-icon">
-                    <p>HTML5 (Estruturação de páginas web)</p>
                 </div>
-                <div class="col-6 col-md-3">
+                <div class="tech-item">
                     <img src="img/sql.svg" alt="SQL" class="tech-icon">
-                    <p>SQL (Consultas a bancos de dados)</p>
                 </div>
-                <div class="col-6 col-md-3">
+                <div class="tech-item">
                     <img src="img/java.svg" alt="Java" class="tech-icon">
-                    <p>Java (Desenvolvimento de software)</p>
                 </div>
-                <div class="col-6 col-md-3">
+                <div class="tech-item">
                     <img src="img/js.svg" alt="JavaScript" class="tech-icon">
-                    <p>JavaScript (Programação web)</p>
                 </div>
-                <div class="col-6 col-md-3">
+                <div class="tech-item">
                     <img src="img/python.svg" alt="Python" class="tech-icon">
-                    <p>Python (Desenvolvimento e automação)</p>
                 </div>
-                <div class="col-6 col-md-3">
+                <div class="tech-item">
                     <img src="img/github.svg" alt="GitHub" class="tech-icon">
-                    <p>GitHub (Repositório de códigos)</p>
+                </div>
+                <div class="tech-item">
+                    <img src="img/bootstrap.svg" alt="Bootstrap" class="tech-icon">
+                </div>
+                <div class="tech-item">
+                    <img src="img/tailwind.svg" alt="Tailwind CSS" class="tech-icon">
+                </div>
+                <div class="tech-item">
+                    <img src="img/sublime-text.svg" alt="Sublime Text" class="tech-icon">
+                </div>
+                <div class="tech-item">
+                    <img src="img/intellij-idea.svg" alt="IntelliJ IDEA" class="tech-icon">
+                </div>
+                <div class="tech-item">
+                    <img src="img/vs-code.svg" alt="Visual Studio Code" class="tech-icon">
                 </div>
             </div>
         </div>
@@ -81,15 +88,15 @@
     <section id="skills" class="py-5">
         <div class="container">
             <div class="d-flex justify-content-between">
+
                 <!-- Hard Skills -->
                 <div class="skills-column text-center">
-                    <h3>Hard Skills</h3>
+                    <h3>Tecnologias que domino</h3>
                     <ul>
-                        <li>HTML, CSS, JavaScript</li>
-                        <li>Bootstrap, Tailwind CSS</li>
-                        <li>Python (Pandas, Tkinter)</li>
-                        <li>Java</li>
-                        <li>SQL e Banco de Dados</li>
+                        <li>HTML, CSS Bootstrap/Tailwind</li>
+                        <li>JavaScript</li>
+                        <li>Python (Pandas e Tkinter)</li>
+                        <li>Git e GitHub</li>
                     </ul>
                 </div>
 
@@ -98,8 +105,8 @@
                     <h3>Idiomas</h3>
                     <ul>
                         <li>Português (Nativo)</li>
-                        <li>Inglês (Avançado)</li>
-                        <li>Francês (Básico) (Estudando) </li>
+                        <li>Inglês (C1)</li>
+                        <li>Francês (A2)</li>
                     </ul>
                 </div>
 
@@ -108,11 +115,11 @@
                     <h3>Soft Skills</h3>
                     <ul>
                         <li>Trabalho em equipe</li>
-                        <li>Boa comunicação</li>
+                        <li>Comunicação</li>
                         <li>Resolução de problemas</li>
-                        <li>Agilidade e adaptação</li>
-                        <li>Pensamento crítico</li>
-                        <li>Proatividade</li>
+                        <li>Adaptabilidade</li>
+                        <li>Pensamento Crítico</li>
+                        <li>Curiosidade e aprendizado contínuo</li>
                     </ul>
                 </div>
             </div>
@@ -122,35 +129,29 @@
     <!-- Seção Projetos -->
     <section id="projetos" class="py-5">
         <div class="container">
-            <h2>Projetos</h2>
+            <h2 class="text-center">Projetos</h2>
             <div class="row">
-                <!-- Cards de Projetos -->
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="img/escalapy.webp" class="card-img-top" alt="Projeto 1">
+                        <img src="img/escalapy.webp" alt="Projeto Escala de Trabalho com Tkinter">
+
                         <div class="card-body">
-                            <h3 class="card-title">Escala de Trabalho com Python, Tkinter e Pandas</h3>
+                            <h3 class="card-title">Escala de Trabalho (Python Tkinter e Pandas)</h3>
                             <p class="card-text">Desktop para otimizar cadastro e gestão de escalas de trabalho de funcionários, com Python, Tkinter e Pandas.</p>
-                            <a href="https://github.com/archivesysl/bettertable" class="btn btn-primary">Ver no GitHub</a>
+                            <a href="https://github.com/archivesysl/bettertable" class="btn btn-primary">Código Fonte</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card">
+                    <div class="card red-dead-card">
                         <img src="img/reddead.webp" class="card-img-top" alt="Projeto 2">
                         <div class="card-body">
-                            <h3 class="card-title">Site Responsivo</h3>
-                            <p class="card-text">Website responsivo, o projeto destaca aspectos do jogo, como trilha sonora, personagens e cidades, com design limpo e moderno com HTML, CSS, JavaScript com hospedagem feita no Vercel.</p>
-                            <a href="https://github.com/archivesysl/reddead2" class="btn btn-primary">Ver no GitHub</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Novo Card - Mais projetos em breve -->
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body text-center">
-                            <h3 class="card-title">Mais projetos em breve!</h3>
-                            <p class="card-text">Estou desenvolvendo mais projetos, que serão adicionados em breve. Fique atento para novas atualizações!</p>
+                            <h3 class="card-title">Site Responsivo - Red Dead Redemption 2</h3>
+                            <p class="card-text">Projeto de website responsivo, com tema do jogo Red Dead Redemption 2, utilizando HTML, CSS e JavaScript, hospedado no Vercel.</p>
+                            <div class="btn-container d-flex justify-content-between">
+                                <a href="https://github.com/archivesysl/reddead2" class="btn btn-primary">Código Fonte</a>
+                                <a href="https://reddead2-self.vercel.app" class="btn btn-secondary mt-2" target="_blank">Ver Site</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -158,33 +159,34 @@
         </div>
     </section>
 
-       <!-- Seção Contato -->
-       <section id="contato" class="py-5 text-center">
+    <!-- Seção Contato -->
+    <section id="contato" class="py-5 text-center">
         <div class="container">
-            <h2>CONTATO</h2>
-            <p>Entre em contato comigo através das minhas redes sociais ou por e-mail:</p>
+            <h2>Contato</h2>
         </div>
-
         <div class="social-buttons">
             <a href="https://www.linkedin.com/in/natan-da-luz-3156582a2/" target="_blank" class="btn">
-                <i class="fab fa-linkedin"></i>
+                <img src ="img/linkedin.svg" alt="LinkedIn" class="social-icon">
             </a>
             <a href="https://github.com/archivesysl" target="_blank" class="btn">
-                <i class="fab fa-github"></i>
+                <img src ="img/githubazul.svg" alt="GitHub" class="social-icon">
             </a>
             <a href="mailto:natandaluz01@gmail.com" target="_blank" class="btn">
-                <i class="fas fa-envelope"></i>
+                <img src="img/emailicon.svg" alt="E-mail" class="social-icon">
             </a>
         </div>
     </section>
 
-    <footer class="text-center py-3">
-        <p> Obrigado pela sua visita ! </p>
-        <p> Desenvolvido: Natan da Luz</p>
+    <!-- Rodapé -->
+    <footer class="text-center py-4">
+        
+        <p>Desenvolvido por Natan Da Luz</p>
 
-    <!-- Scripts do Bootstrap e Font Awesome -->
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
-
-
