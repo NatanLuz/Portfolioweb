@@ -4,7 +4,7 @@ https://portfolioweb-olive-tau.vercel.app
 
 ## 🔥 Introdução
 
-Este projeto tem como objetivo apresentar minhas habilidades como desenvolvedor front-end. Nele, você encontrará informações sobre mim, meus projetos e formas de contato. A estrutura foi feita com HTML e CSS para garantir uma boa experiência de visualização e interação.
+Este projeto tem como objetivo apresentar minhas habilidades como desenvolvedor Fullstack. Nele, você encontrará informações sobre mim, meus projetos e formas de Contato. A estrutura foi feita com HTML e CSS para garantir uma boa experiência de visualização e interação.
 
 ## ⚙️ Pré-requisitos
 
@@ -28,7 +28,9 @@ Após clonar o repositório, entre na pasta do projeto e abra o arquivo index.ht
 🛠️ Executando os testes
 Atualmente, não há testes automatizados configurados para esse projeto, mas você pode testar visualmente o site ao abrir o arquivo index.html no seu navegador.
 
+Sendo mais objetivo: https://portfolioweb-olive-tau.vercel.app/
+
 📦 Tecnologias usadas: HTML & CSS
 
 Autor
-Natan Da Luz 
+Natan Da Luz.
