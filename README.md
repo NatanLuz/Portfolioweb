@@ -1,4 +1,4 @@
-**Descrição**: Este é o meu portfólio, onde apresento meus projetos, habilidades e informações de contato como desenvolvedor. O site foi criado para mostrar minha jornada, o que já aprendi e o que sou capaz de desenvolver.
+ Este é o meu portfólio, onde apresento meus projetos, habilidades e informações de contato como desenvolvedor. O site foi criado para mostrar minha jornada, o que já aprendi e o que sou capaz de desenvolver.
 
 ##  Introdução
 
