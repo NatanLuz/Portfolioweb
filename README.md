@@ -1,5 +1,3 @@
- Este é o meu portfólio, onde apresento meus projetos, habilidades e informações de contato como desenvolvedor. O site foi criado para mostrar minha jornada, o que já aprendi e o que sou capaz de desenvolver.
-
 ##  Introdução
 
 Este projeto tem como objetivo apresentar minhas habilidades como desenvolvedor Fullstack. Nele, você encontrará informações sobre mim, meus projetos e formas de Contato. A estrutura foi feita com HTML e CSS para garantir uma boa experiência de visualização e interação.
