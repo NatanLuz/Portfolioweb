@@ -1,0 +1,582 @@
+/* ========== importando as fontes  ========== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;700&display=swap');
+
+/* ========== palheta de cores com root ========== */
+
+:root {
+    --primary-color: #e0b3ff;
+    --secondary-color: #a53288;
+    --accent-color: #5a35a4;
+    --background-color: #000000;
+    --card-background: #111111;
+    --text-primary: #ffffff;
+    --text-secondary: #e0b3ff;
+    --transition: all 0.3s ease;
+}
+
+/* ========== estilos base do portfolio body, section etc.. ========== */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-primary);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+section {
+    padding: 3rem 0;
+    position: relative;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    position: relative;
+    color: var(--primary-color);
+}
+
+h2::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 3px;
+    background: var(--secondary-color);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.fade-in {
+    animation: fadeIn 2s ease-in-out;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 0 0 10px rgb(7, 218, 70);
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+/* ========== cabeçalho ========== */
+.zoom-in {
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    text-shadow: 0 0 20px var(--secondary-color);
+    opacity: 0;
+    animation: titleAnimation 2s ease forwards;
+    position: relative;
+}
+
+@keyframes titleAnimation {
+    0% {
+        opacity: 0;
+        transform: scale(0.8) translateY(-20px);
+        text-shadow: 0 0 0 var(--secondary-color);
+    }
+    50% {
+        opacity: 0.5;
+        transform: scale(1.1) translateY(0);
+        text-shadow: 0 0 30px var(--secondary-color);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+        text-shadow: 0 0 20px var(--secondary-color),
+                     0 0 40px var(--accent-color);
+    }
+}
+
+.fade-in {
+    font-size: 2.3rem;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    color: var(--text-primary);
+    opacity: 0;
+    animation: subtitleAnimation 2s ease forwards;
+    animation-delay: 0.5s;
+    position: relative;
+}
+
+@keyframes subtitleAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+        letter-spacing: 5px;
+    }
+    50% {
+        opacity: 0.5;
+        transform: translateY(-5px);
+        letter-spacing: 2px;
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+        letter-spacing: normal;
+        text-shadow: 0 0 10px rgb(7, 218, 70),
+                     0 0 20px var(--accent-color);
+    }
+}
+
+/* Efeito de destaque nos caracteres */
+
+.zoom-in::after,
+.fade-in::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    bottom: -5px;
+    left: 50%;
+    background: linear-gradient(90deg, 
+        transparent, 
+        var(--secondary-color),
+        var(--accent-color),
+        var(--secondary-color),
+        transparent
+    );
+    transform: translateX(-50%);
+    animation: underlineAnimation 2s ease forwards;
+    animation-delay: 1.5s;
+}
+
+@keyframes underlineAnimation {
+    0% {
+        width: 0;
+        opacity: 0;
+    }
+    100% {
+        width: 100%;
+        opacity: 1;
+    }
+}
+
+/* ========== LINKS CONTATO CURRICULO ========== */
+#links-contato button {
+    background-color: #230261;
+    border: none;
+}
+
+#links-contato button:hover {
+    background-color: purple;
+}
+
+/* ========== SOBRE MIM DESCRICAO ========== */
+#sobre-mim {
+    background-color: var(--background-color);
+    padding: 3rem 0;
+}
+
+#sobre-mim h2 {
+    margin-bottom: 2rem;
+}
+#sobre-mim p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--text-primary);
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: justify;
+}
+#sobre-mim ul {
+    margin-top: 1rem;
+}
+
+
+/* ========== SEÇÃO TECNOLOGIAS ========== */
+
+#tecnologias {
+    background-color: black;
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+#tecnologias .container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#tecnologias h2 {
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+}
+
+.tech-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1.5rem;
+    padding: 1.5rem;
+}
+
+.tech-item {
+    background: var(--card-background);
+    padding: 1rem;
+    border-radius: 10px;
+    transition: var(--transition);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.tech-icon {
+    width: 50px;
+    height: 50px;
+    filter: grayscale(30%);
+    transition: var(--transition);
+}
+
+.tech-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(90, 53, 164, 0.3);
+}
+
+.tech-item:hover .tech-icon {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}
+
+/* Responsividade */
+@media (max-width: 900px) {
+    .tech-grid {
+        grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+        gap: 1.5rem;
+    }
+    .tech-icon {
+        width: 55px;
+        height: 55px;
+    }
+}
+
+@media (max-width: 600px) {
+    .tech-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.2rem;
+    }
+    .tech-icon {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 400px) {
+    .tech-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+/* ========== aba de SKILLS ========== */
+
+#skills {
+    background-color: black;
+    padding: 3rem 0;
+}
+
+.skills-column {
+    background: var(--card-background);
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin: 0.75rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: var(--transition);
+}
+
+.skills-column:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(90, 53, 164, 0.3);
+}
+
+.skills-column h3 {
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.skills-column ul li {
+    margin-bottom: 1rem;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.skills-column ul li::before {
+    content: '▹';
+    position: absolute;
+    left: 0;
+    color: var(--secondary-color);
+}
+
+#skills .d-flex {
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Estilo opcional para grade de ícones (se estiver usando imagens ou ícones para skills) */
+
+.tech-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.tech-icon {
+    width: 50px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.tech-icon:hover {
+    transform: scale(1.2);
+}
+
+/* ========== aba > PROJETOS ========== */
+
+#projetos {
+    background-color: black;
+    padding: 3rem 0;
+}
+
+#projetos .card {
+    background: var(--card-background);
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: var(--transition);
+    margin-bottom: 1.5rem;
+}
+
+#projetos .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(90, 53, 164, 0.3);
+}
+
+#projetos .card-body {
+    padding: 1.25rem;
+}
+
+#projetos .card-title {
+    color: var(--primary-color);
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+#projetos .card-text {
+    color: var(--text-primary);
+    margin-bottom: 1.5rem;
+}
+
+#projetos .btn {
+    background-color: var(--accent-color);
+    border: none;
+    padding: 0.5rem 1.5rem;
+    transition: var(--transition);
+}
+
+#projetos .btn:hover {
+    background-color: var(--secondary-color);
+    transform: translateY(-2px);
+}
+
+/* Ajusta o container dos botões para alinhá-los na mesma altura */
+
+.red-dead-card .btn-container {
+    display: flex;
+    justify-content: space-between; /* Espaço entre os botões */
+    align-items: center; /* Garante que ambos os botões fiquem na mesma altura */
+    gap: 10px; /* Ajusta o espaço entre os botões */
+}
+
+/* Remover margens extras do botão "Ver Site" */
+.red-dead-card .btn-secondary {
+    margin-top: 0; /* Remove qualquer margem superior do botão */
+}
+
+/* Garantir que ambos os botões tenham altura consistente */
+.red-dead-card .btn {
+    height: 40px; /* Ajuste a altura dos botões se necessário */
+}
+
+
+/* ========== sessao contato ========== */
+
+#contato {
+    background: var(--background-color);
+    text-align: center;
+    padding: 3rem 0;
+}
+
+#contato h2 {
+    margin-bottom: 3rem;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.social-buttons .btn {
+    background: var(--card-background);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition);
+}
+
+.social-buttons .btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(90, 53, 164, 0.4);
+}
+
+.social-buttons .btn img {
+    width: 30px;
+    height: 30px;
+    transition: var(--transition);
+}
+
+/* ========== FOOTER ========== */
+
+footer {
+    background-color: var(--card-background);
+    color: var(--text-secondary);
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer p {
+    margin: 0.25rem 0;
+    font-size: 0.9rem;
+}
+
+/* ========== parte do design responsivo ========== */
+
+@media (max-width: 768px) {
+    .zoom-in {
+        font-size: 3rem;
+    }
+    
+    .fade-in {
+        font-size: 1.8rem;
+    }
+    
+    .skills-column {
+        margin: 0.5rem;
+        padding: 1.25rem;
+    }
+    
+    .tech-grid {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        gap: 1rem;
+    }
+    
+    section {
+        padding: 2rem 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .zoom-in {
+        font-size: 2.5rem;
+    }
+    
+    .fade-in {
+        font-size: 1.5rem;
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
+    
+    .social-buttons {
+        gap: 1rem;
+    }
+    
+    .social-buttons .btn {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+/* ========== Estilos do Header (layout, botões, cores, responsividade) ========== */
+
+header {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.7));
+    position: relative;
+    overflow: hidden;
+    padding: 2rem 0;
+}
+
+header .btn {
+    padding: 0.8rem 1.5rem;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    min-width: 200px;
+}
+
+header .btn-outline-light {
+    border-width: 2px;
+}
+
+header .btn-outline-light:hover {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: var(--background-color);
+    transform: translateY(-3px);
+}
+
+header .btn-primary {
+    background-color: var(--accent-color);
+    border: none;
+}
+
+header .btn-primary:hover {
+    background-color: var(--secondary-color);
+    transform: translateY(-3px);
+}
+
+@media (max-width: 576px) {
+    header .d-flex {
+        flex-direction: column;
+        gap: 1rem !important;
+    }
+    
+    header .btn {
+        width: 100%;
+        min-width: auto;
+    }
+}
+
