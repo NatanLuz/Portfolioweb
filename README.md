@@ -9,18 +9,6 @@ Antes de começar, verifique se você tem o seguinte instalado:
 - **Git**: Para clonar o repositório.
 - **Um navegador de internet**: Para visualizar o projeto localmente.
 
-##  Guia de instalação
-Siga os passos abaixo para rodar o projeto localmente:
-
-### Etapa 1: Clone o repositório
-
-Abra o terminal e rode o seguinte comando para clonar o repositório:
-
-https://github.com/archivesysl/Portfolioweb
-
-Etapa 2: Abra o arquivo index.html
-Após clonar o repositório, entre na pasta do projeto e abra o arquivo index.html no seu navegador.
-
 Sendo mais objetivo: https://portfolioweb-olive-tau.vercel.app/
 
 Tecnologias usadas: HTML & CSS
