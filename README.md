@@ -1,25 +1,27 @@
-## Portfólio Pessoal - Natan Da Luz
-Bem-vindo ao meu portfólio desenvolvido com foco na apresentação das minhas habilidades como Desenvolvedor Fullstack. Este projeto foi criado com HTML e CSS, com atenção especial à estrutura, responsividade e experiência do usuário.
+## Personal Portfolio – Natan Da Luz
 
-## Acesse o portfólio online:
+Welcome to my personal portfolio, developed to showcase my skills as a Fullstack Developer. This project was built using HTML and CSS, with special attention to structure, responsiveness, and user experience.
+
+Access the online portfolio:
+
 https://portfolioweb-olive-tau.vercel.app/
 
-## Sobre o Projeto
-Este portfólio tem como principal objetivo:
+About the Project
 
-Apresentar quem sou profissionalmente;
+The main goals of this portfolio are to:
+Present who I am professionally
+Showcase some of the projects I’ve developed
+Provide accessible contact channels
 
-Exibir alguns dos projetos que desenvolvi;
+Demonstrate basic proficiency in HTML and CSS structure and styling
 
-Disponibilizar canais de contato de forma acessível;
+It’s a simple but functional project that serves as a starting point for future improvements and expansions, such as adding JavaScript, integrating APIs, or using frameworks like React.
 
-Demonstrar domínio básico de estruturação e estilização com HTML e CSS.
+Technologies Used :
 
-Trata-se de um projeto simples, porém funcional, que representa um ponto de partida para futuras melhorias e expansões, como a inclusão de JavaScript, integração com APIs ou frameworks como React.
-
-## Tecnologias Utilizadas
 HTML5
 CSS3
 
-## Autor
- Natan Da Luz.
+Author
+
+Natan Da Luz - Developer
