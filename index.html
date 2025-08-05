@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Natan da Luz - Desenvolvedor Full Stack profissional especializado em JavaScript, Python, Java e tecnologias web modernas. Portfólio com projetos e experiência em desenvolvimento web.">
+    <meta name="keywords" content="desenvolvedor full stack, javascript, python, java, web development, frontend, backend, react, vue, node.js">
+    <meta name="author" content="Natan da Luz">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Natan da Luz - Desenvolvedor Full Stack">
+    <meta property="og:description" content="Portfólio profissional de Natan da Luz, desenvolvedor Full Stack especializado em tecnologias web modernas.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://natandaluz.dev">
+    <meta property="og:image" content="img/profile.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Natan da Luz - Desenvolvedor Full Stack">
+    <meta name="twitter:description" content="Portfólio profissional de Natan da Luz">
+    
+    <title>Natan da Luz</title>
+    
+    <!-- Ícones que aparecem na aba do navegador e em dispositivos -->
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    
+    <!-- Fontes -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Bibliotecas CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- colocando as fontes do css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <!-- Botão para alternar entre tema claro e escuro -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- navegação  -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+        <div class="container">
+            <a href="#home" class="navbar-brand">
+                <span class="brand-emoji">💻</span>
+                <span class="brand-text">Natan Dev</span>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home" data-translate="nav.home">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre" data-translate="nav.about">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tecnologias" data-translate="nav.technologies">Tecnologias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projetos" data-translate="nav.projects">Projetos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato" data-translate="nav.contact">Contato</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- Selecionar linguagem -->
+            <div class="language-selector">
+                <button class="lang-btn active" data-lang="pt" aria-label="Português">PT</button>
+                <button class="lang-btn" data-lang="en" aria-label="English">EN</button>
+                <button class="lang-btn" data-lang="fr" aria-label="Français">FR</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- seção hero -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+                <h1 class="hero-title" data-translate="hero.title">Natan da Luz</h1>
+                <p class="hero-subtitle" data-translate="hero.subtitle">Desenvolvedor Full Stack</p>
+
+                <div class="hero-buttons" data-aos="fade-up" data-aos-delay="600">
+                    <a href="assets/NatanDaLuzCvDev.pdf.pdf" download="NatanDaLuz_CV.pdf" class="btn btn-primary" data-translate="hero.cta.cv">
+                        <i class="fas fa-download me-2"></i>Download CV
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- seção sobre do portfolio-->
+    <section id="sobre" class="section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8" data-aos="fade-up">
+                    <h2 class="section-title text-center" data-translate="about.title">Sobre Mim</h2>
+                    <div class="about-content">
+                        <p class="about-intro" data-translate="about.intro">
+                            Olá! Sou Natan Da Luz, estudante de Sistemas de Informação (2º semestre) e venho desde os meus 15 anos consumindo e gostando muito dessa área. Estou em constante evolução na área de desenvolvimento Fullstack, com experiência em HTML, CSS, JavaScript e Python para automações, além de estar me aprofundando em Java com bastante dedicação.
+                        </p>
+                        
+                        <p data-translate="about.description">
+                            Gosto de criar soluções eficientes, utilizando boas práticas de desenvolvimento e frameworks como Bootstrap e Tailwind. Busco oportunidades que me desafiem, onde eu possa aplicar meus conhecimentos, colaborar em projetos reais e crescer profissionalmente.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- seção de tecnologias -->
+    <section id="tecnologias" class="section">
+        <div class="container">
+            <h2 class="section-title text-center" data-translate="technologies.title">Tecnologias</h2>
+            
+            <!-- Tecnologias do Frontend -->
+            <div class="tech-category" data-aos="fade-up">
+                <h3 class="tech-category-title" data-translate="technologies.frontend">Front End</h3>
+                <p class="tech-category-description" data-translate="technologies.frontend.description">Desenvolvimento de interfaces modernas e responsivas, criando experiências de usuário excepcionais com as melhores práticas de design web.</p>
+                <div class="tech-grid frontend-grid">
+                    <div class="tech-item" data-aos="fade-in" data-aos-delay="100">
+                        <img src="img/html5.svg" alt="HTML5" class="tech-icon">
+                        <span class="tech-name">HTML5</span>
+                    </div>
+                    <div class="tech-item" data-aos="fade-in" data-aos-delay="150">
+                        <img src="img/css3.svg" alt="CSS3" class="tech-icon">
+                        <span class="tech-name">CSS3</span>
+                    </div>
+                    <div class="tech-item" data-aos="fade-in" data-aos-delay="200">
+                        <img src="img/js.svg" alt="JavaScript" class="tech-icon">
+                        <span class="tech-name">JavaScript</span>
+                    </div>
+                    <div class="tech-item" data-aos="fade-in" data-aos-delay="250">
+                        <img src="img/bootstrap.svg" alt="Bootstrap" class="tech-icon">
+                        <span class="tech-name">Bootstrap</span>
+                    </div>
+                    <div class="tech-item" data-aos="fade-in" data-aos-delay="300">
+                        <img src="img/tailwind.svg" alt="Tailwind CSS" class="tech-icon">
+                        <span class="tech-name">Tailwind CSS</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Tecnologias do backend -->
+            <div class="tech-category" data-aos="fade-up">
+                <h3 class="tech-category-title" data-translate="technologies.backend">Back End</h3>
+                <p class="tech-category-description" data-translate="technologies.backend.description">Construção de sistemas robustos e escaláveis, desenvolvendo APIs eficientes e gerenciando dados com segurança e performance.</p>
+                <div class="tech-grid">
+                    <div class="tech-item" data-aos="fade-in" data-aos-delay="100">
+                        <img src="img/python.svg" alt="Python" class="tech-icon">
+                        <span class="tech-name">Python</span>
+                    </div>
+                    <div class="tech-item" data-aos="fade-in" data-aos-delay="150">
+                        <img src="img/java.svg" alt="Java" class="tech-icon">
+                        <span class="tech-name">Java</span>
+                    </div>
+                    <div class="tech-item" data-aos="fade-in" data-aos-delay="200">
+                        <img src="img/sql.svg" alt="SQL" class="tech-icon">
+                        <span class="tech-name">SQL</span>
+                    </div>
+                    <div class="tech-item" data-aos="fade-in" data-aos-delay="250">
+                        <img src="img/api-interface-svgrepo-com.svg" alt="APIs" class="tech-icon">
+                        <span class="tech-name">APIs</span>
+                    </div>
+                </div>
+            </div>
+            
+           <!-- Ferramentas essenciais para desenvolvimento -->
+            <div class="tech-category" data-aos="fade-up">
+                <h3 class="tech-category-title" data-translate="technologies.tools">Ferramentas</h3>
+                <p class="tech-category-description" data-translate="technologies.tools.description">Controle de versão e colaboração em projetos, garantindo qualidade e organização no desenvolvimento de software.</p>
+                <div class="tech-grid tools-grid">
+                    <div class="tech-item" data-aos="fade-in" data-aos-delay="100">
+                        <img src="img/git2.svg" alt="Git" class="tech-icon">
+                        <span class="tech-name">Git</span>
+                    </div>
+                    <div class="tech-item" data-aos="fade-in" data-aos-delay="150">
+                        <img src="img/github.svg" alt="GitHub" class="tech-icon">
+                        <span class="tech-name">GitHub</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- seção projetos  -->
+    <section id="projetos" class="section">
+        <div class="container">
+            <h2 class="section-title text-center" data-translate="projects.title">Projetos</h2>
+            
+            <div class="row">
+                <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="img/escalapy.webp" alt="Sistema de Escala de Trabalho">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/archivesysl/bettertable" target="_blank" class="project-link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3 data-translate="projects.escala.title">Sistema de Escala de Trabalho</h3>
+                                <span class="project-type" data-translate="projects.escala.type">Aplicação Desktop</span>
+                            </div>
+                            <p data-translate="projects.escala.description">
+                                Sistema completo para gestão de escalas de trabalho, desenvolvido com Python, 
+                                Tkinter e Pandas. Inclui funcionalidades de cadastro, visualização e exportação de dados.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Tkinter</span>
+                                <span class="tech-tag">Pandas</span>
+                            </div>
+                            <div class="project-features">
+                                <span class="feature-item" data-translate="projects.escala.feature1">Gestão de funcionários</span>
+                                <span class="feature-item" data-translate="projects.escala.feature2">Geração de escalas</span>
+                                <span class="feature-item" data-translate="projects.escala.feature3">Relatórios automáticos</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="img/reddead.webp" alt="Website Red Dead Redemption 2">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/archivesysl/reddead2" target="_blank" class="project-link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="https://reddead2-self.vercel.app" target="_blank" class="project-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3 data-translate="projects.reddead.title">Red Dead Redemption 2</h3>
+                                <span class="project-type" data-translate="projects.reddead.type">Website</span>
+                            </div>
+                            <p data-translate="projects.reddead.description">
+                                Website responsivo com tema do jogo Red Dead Redemption 2, desenvolvido com 
+                                HTML, CSS e JavaScript. Inclui animações, efeitos visuais e design moderno.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">Responsive</span>
+                            </div>
+                            <div class="project-features">
+                                <span class="feature-item" data-translate="projects.reddead.feature1">Design responsivo</span>
+                                <span class="feature-item" data-translate="projects.reddead.feature2">Animações CSS</span>
+                                <span class="feature-item" data-translate="projects.reddead.feature3">Hospedado no Vercel</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-5" data-aos="fade-up" data-aos-delay="300">
+                <a href="https://github.com/NatanLuz" target="_blank" class="btn btn-primary" data-translate="projects.viewMore">
+                    <i class="fab fa-github me-2"></i>Ver mais projetos
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- seção do contato -->
+    <section id="contato" class="section">
+        <div class="container">
+            <h2 class="section-title text-center" data-translate="contact.title">Contato</h2>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="contact-content" data-aos="fade-up">
+                        <div class="social-links">
+                            <h4 data-translate="contact.social.title">Conecte-se Comigo</h4>
+                            <div class="social-buttons">
+                                <a href="mailto:natandaluz01@gmail.com" class="social-btn email" aria-label="Email">
+                                    <i class="fas fa-envelope"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/natan-da-luz-3156582a2/" target="_blank" class="social-btn linkedin" aria-label="LinkedIn">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="https://github.com/NatanLuz" target="_blank" class="social-btn github" aria-label="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ajeitando o footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="text-center">
+                    <p>&copy; 2024 Natan da Luz. <span data-translate="footer.rights">Todos os direitos reservados.</span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--botão que interagindo você volta para o topo -->
+    <button id="backToTop" class="back-to-top" aria-label="Voltar ao topo">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- parte dos Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
