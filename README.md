@@ -2,8 +2,6 @@
 
 A modern, responsive, and professional portfolio showcasing my skills and projects as a Full Stack Developer.
 
-## 🚀 Features
-
 ### **Professional Design**
 - **Dark theme** with elegant beige accents (`#f5f5dc`, `#e8e8d0`, `#d4d4b8`)
 - **Minimalist approach** with clean typography
