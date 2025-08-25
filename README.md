@@ -13,6 +13,11 @@ This project serves as a **professional showcase** for a frontend developer, ena
 It provides a **centralized, visually appealing, and responsive platform** to present expertise in JavaScript, Python, Java, and modern web technologies.  
 Additionally, it demonstrates **UI/UX design skills, accessibility awareness, and clean coding practices**, ensuring a strong first impression and effective communication of professional capabilities.
 
+
+
+![Pré-visualização do Portfólio](assets/preview.jpg)
+
+
 ---
 
 ## Overview
