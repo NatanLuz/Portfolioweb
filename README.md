@@ -15,7 +15,7 @@ Additionally, it demonstrates **UI/UX design skills, accessibility awareness, an
 
 
 
-![Pré-visualização do Portfólio](assets/preview.jpg)
+![Pré-visualização do Portfólio](img/preview.jpg)
 
 
 ---
