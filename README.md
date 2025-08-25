@@ -8,7 +8,7 @@
 
 ---
 
-## Project Purpose
+## Project Purpose (read)
 This project serves as a **professional showcase** for a frontend developer, enabling potential employers, clients, and collaborators to quickly understand technical skills, professional background, and completed projects.  
 It provides a **centralized, visually appealing, and responsive platform** to present expertise in JavaScript, Python, Java, and modern web technologies.  
 Additionally, it demonstrates **UI/UX design skills, accessibility awareness, and clean coding practices**, ensuring a strong first impression and effective communication of professional capabilities.
