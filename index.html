@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Natan da Luz - Desenvolvedor Frontend profissional especializado em JavaScript, HTML5, CSS3, Tailwind CSS, PHP, MySQL e Node.js. Portfólio com projetos reais de barbearia especializada e estúdio de tatuagem. Disponível para novos projetos.">
+    <meta name="keywords" content="desenvolvedor frontend, javascript, html5, css3, tailwind css, php, mysql, node.js, web development, portfolio, projetos, barbearia, tatuagem, responsive design, pwa">
+    <meta name="author" content="Natan da Luz">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#000000">
+    <meta name="msapplication-TileColor" content="#000000">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://natandaluz.dev">
+    <meta property="og:title" content="Natan da Luz - Desenvolvedor Frontend | Projetos Profissionais">
+    <meta property="og:description" content="Desenvolvedor Frontend especializado em criar websites profissionais. Projetos reais: barbearia especializada em TEA e estúdio de tatuagem. Tecnologias: HTML5, CSS3, JavaScript, Tailwind CSS, PHP, MySQL, Node.js">
+    <meta property="og:image" content="https://natandaluz.dev/img/foto%20portfolio.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="Natan da Luz Portfolio">
+    <meta property="og:locale" content="pt_BR">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://natandaluz.dev">
+    <meta name="twitter:title" content="Natan da Luz - Desenvolvedor Frontend">
+    <meta name="twitter:description" content="Desenvolvedor Frontend com projetos reais de barbearia e tatuagem. Especialista em HTML5, CSS3, JavaScript, Tailwind CSS, PHP, MySQL e Node.js">
+    <meta name="twitter:image" content="https://natandaluz.dev/img/foto%20portfolio.jpg">
+    <meta name="twitter:creator" content="@tanysl0">
+
+    <!-- Additional SEO -->
+    <meta name="geo.region" content="BR">
+    <meta name="geo.placename" content="Brasil">
+    <meta name="language" content="Portuguese">
+    <meta name="revisit-after" content="7 days">
+    <meta name="distribution" content="global">
+    <meta name="rating" content="general">
+
+    <title>Natan da Luz - Desenvolvedor Frontend</title>
+
+    <!-- Ícones que aparecem na aba do navegador e em dispositivos -->
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+
+    <!-- Fontes -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Bibliotecas para add o  CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- colocando as fontes do css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- aba de navegação  -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+        <div class="container">
+            <a href="#home" class="navbar-brand">
+                <span class="brand-emoji">💻</span>
+                <span class="brand-text">Natan Dev</span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home" data-translate="nav.home">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre" data-translate="nav.about">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tecnologias" data-translate="nav.technologies">Tecnologias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projetos" data-translate="nav.projects">Projetos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#certificados" data-translate="nav.certificates">Certificados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato" data-translate="nav.contact">Contato</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Selecionar linguagem PT EN FR-->
+            <div class="language-selector">
+                <button class="lang-btn active" data-lang="pt" aria-label="Português">PT</button>
+                <button class="lang-btn" data-lang="en" aria-label="English">EN</button>
+                <button class="lang-btn" data-lang="fr" aria-label="Français">FR</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- seção hero -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+                <div class="hero-profile">
+                    <img src="img/foto portfolio.jpg" alt="Natan da Luz" class="hero-image">
+                </div>
+                <h1 class="hero-title" data-translate="hero.title">Natan da Luz</h1>
+                <p class="hero-subtitle" data-translate="hero.subtitle">Desenvolvedor Frontend</p>
+
+                <div class="hero-buttons" data-aos="fade-up" data-aos-delay="600">
+                    <a href="assets/NatanDaLuzCvDev.pdf.pdf" download="NatanDaLuz_CV.pdf" class="btn btn-primary btn-cta-primary" data-translate="hero.cta.cv">
+                        <i class="fas fa-download me-2"></i>Download CV
+                    </a>
+                    <a href="#contato" class="btn btn-outline-primary btn-cta-secondary" data-translate="hero.cta.contact">
+                        <i class="fas fa-envelope me-2"></i>Vamos Conversar
+                    </a>
+                    <!-- Botão para alternar entre tema claro e escuro -->
+                    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- seção sobre do portfolio-->
+    <section id="sobre" class="section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8" data-aos="fade-up">
+                    <h2 class="section-title text-center" data-translate="about.title">Sobre Mim</h2>
+                    <div class="about-content">
+                        <p class="about-intro" data-translate="about.intro">
+                            Estudante de Sistemas de Informação e desenvolvedor Frontend, especializado em criar interfaces limpas e funcionais. Busco desafios reais para aplicar minhas habilidades em projetos que gerem impacto.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Minhas Soft Skills -->
+            <div class="row mt-5">
+                <div class="col-lg-8 mx-auto" data-aos="fade-up" data-aos-delay="200">
+                    <h3 class="skills-title text-center" data-translate="about.softSkills.title">Soft Skills</h3>
+                    <div class="soft-skills-grid">
+                        <div class="skill-item" data-aos="fade-in" data-aos-delay="100">
+                            <span data-translate="about.softSkills.teamwork">Trabalho em equipe</span>
+                        </div>
+                        <div class="skill-item" data-aos="fade-in" data-aos-delay="150">
+                            <span data-translate="about.softSkills.communication">Boa comunicação</span>
+                        </div>
+                        <div class="skill-item" data-aos="fade-in" data-aos-delay="200">
+                            <span data-translate="about.softSkills.problemSolving">Resolução de problemas</span>
+                        </div>
+                        <div class="skill-item" data-aos="fade-in" data-aos-delay="250">
+                            <span data-translate="about.softSkills.agility">Agilidade</span>
+                        </div>
+                        <div class="skill-item" data-aos="fade-in" data-aos-delay="300">
+                            <span data-translate="about.softSkills.adaptability">Adaptabilidade</span>
+                        </div>
+                        <div class="skill-item" data-aos="fade-in" data-aos-delay="350">
+                            <span data-translate="about.softSkills.proactivity">Proatividade</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Add parte dos Idiomas -->
+            <div class="row mt-5">
+                <div class="col-lg-8 mx-auto" data-aos="fade-up" data-aos-delay="300">
+                    <h3 class="skills-title text-center" data-translate="about.languages.title">Idiomas</h3>
+                    <div class="languages-grid">
+                        <div class="language-item" data-aos="fade-in" data-aos-delay="100">
+                            <span class="language-name" data-translate="about.languages.portuguese">Português</span>
+                            <span class="language-level">Nativo</span>
+                        </div>
+                        <div class="language-item" data-aos="fade-in" data-aos-delay="150">
+                            <span class="language-name" data-translate="about.languages.english">Inglês</span>
+                            <span class="language-level">C1</span>
+                        </div>
+                        <div class="language-item" data-aos="fade-in" data-aos-delay="200">
+                            <span class="language-name" data-translate="about.languages.french">Francês</span>
+                            <span class="language-level">A2</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- seção de tecnologias -->
+    <section id="tecnologias" class="section">
+        <div class="container">
+            <h2 class="section-title text-center" data-translate="technologies.title">Tecnologias</h2>
+
+            <!-- Tecnologias do Frontend -->
+            <div class="tech-category" data-aos="fade-up">
+                <h3 class="tech-category-title" data-translate="technologies.frontend">Frontend</h3>
+                <p class="tech-category-description" data-translate="technologies.frontend.description">Desenvolvimento de interfaces modernas e responsivas, criando experiências de usuário excepcionais com as melhores práticas de design web.</p>
+                <div class="tech-grid frontend-grid">
+                    <div class="tech-item" data-aos="fade-in" data-aos-delay="100">
+                        <img src="img/html5.svg" alt="HTML5" class="tech-icon">
+                        <span class="tech-name">HTML5</span>
+                    </div>
+                    <div class="tech-item" data-aos="fade-in" data-aos-delay="150">
+                        <img src="img/css3.svg" alt="CSS3" class="tech-icon">
+                        <span class="tech-name">CSS3</span>
+                    </div>
+                    <div class="tech-item" data-aos="fade-in" data-aos-delay="200">
+                        <img src="img/js.svg" alt="JavaScript" class="tech-icon">
+                        <span class="tech-name">JavaScript</span>
+                    </div>
+                    <div class="tech-item" data-aos="fade-in" data-aos-delay="300">
+                        <img src="img/tailwind.svg" alt="Tailwind CSS" class="tech-icon">
+                        <span class="tech-name">Tailwind CSS</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tecnologias do backend -->
+            <div class="tech-category" data-aos="fade-up">
+                <h3 class="tech-category-title" data-translate="technologies.backend">Backend</h3>
+                <p class="tech-category-description" data-translate="technologies.backend.description">Construção de sistemas robustos e escaláveis, desenvolvendo APIs eficientes e gerenciando dados com segurança e performance.</p>
+                <div class="tech-grid backend-grid">
+                    <div class="tech-item" data-aos="fade-in" data-aos-delay="100">
+                        <img src="img/php.svg" alt="PHP" class="tech-icon">
+                        <span class="tech-name">PHP</span>
+                    </div>
+                    <div class="tech-item" data-aos="fade-in" data-aos-delay="150">
+                        <img src="img/mysql.svg" alt="MySQL" class="tech-icon">
+                        <span class="tech-name">MySQL</span>
+                    </div>
+                    <div class="tech-item" data-aos="fade-in" data-aos-delay="200">
+                        <img src="img/sql.svg" alt="SQL" class="tech-icon">
+                        <span class="tech-name">SQL</span>
+                    </div>
+                    <div class="tech-item" data-aos="fade-in" data-aos-delay="250">
+                        <img src="img/api.svg" alt="APIs REST" class="tech-icon">
+                        <span class="tech-name">APIs REST</span>
+                    </div>
+                    <div class="tech-item" data-aos="fade-in" data-aos-delay="300">
+                        <img src="img/node.svg" alt="Node.js" class="tech-icon">
+                        <span class="tech-name">Node.js</span>
+                    </div>
+                </div>
+            </div>
+
+<!-- Ferramentas essenciais para desenvolvimento -->
+            <div class="tech-category" data-aos="fade-up">
+                <h3 class="tech-category-title" data-translate="technologies.tools">Ferramentas</h3>
+                <p class="tech-category-description" data-translate="technologies.tools.description">Controle de versão e colaboração em projetos, garantindo qualidade e organização no desenvolvimento de software.</p>
+                <div class="tech-grid tools-grid">
+                    <div class="tech-item" data-aos="fade-in" data-aos-delay="100">
+                        <img src="img/git2.svg" alt="Git" class="tech-icon">
+                        <span class="tech-name">Git</span>
+                    </div>
+                    <div class="tech-item" data-aos="fade-in" data-aos-delay="150">
+                        <img src="img/github.svg" alt="GitHub" class="tech-icon">
+                        <span class="tech-name">GitHub</span>
+                    </div>
+                    <div class="tech-item" data-aos="fade-in" data-aos-delay="200">
+                        <img src="img/vs-code.svg" alt="VS Code" class="tech-icon">
+                        <span class="tech-name">VS Code</span>
+                    </div>
+                    <div class="tech-item" data-aos="fade-in" data-aos-delay="250">
+                        <img src="img/sublime-text.svg" alt="Sublime Text" class="tech-icon">
+                        <span class="tech-name">Sublime Text</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- seção projetos  -->
+    <section id="projetos" class="section">
+        <div class="container">
+            <h2 class="section-title text-center" data-translate="projects.title">Projetos</h2>
+
+            <div class="row">
+                <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="img/projetobarbeiroTEA.PNG" alt="CorteAzulTea - Website para barbearia especializada" loading="lazy" class="project-img">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/NatanLuz/Barberwebsite" target="_blank" rel="noopener" class="project-link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="https://projeto-corte-azul-tea.vercel.app/" target="_blank" rel="noopener" class="project-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3 data-translate="projects.barber.title">CorteAzulTea – Barbearia Especial</h3>
+                                <span class="project-type" data-translate="projects.barber.type">Website Profissional</span>
+                            </div>
+                            <p data-translate="projects.barber.description">
+                                Website para barbearia especializada em atendimento humanizado para crianças com TEA (Transtorno do Espectro Autista). Site moderno, responsivo e otimizado que transmite confiança e facilita o contato com as famílias.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">Tailwind CSS</span>
+                                <span class="tech-tag">JavaScript ES6+</span>
+                            </div>
+                            <div class="project-features">
+                                <span class="feature-item" data-translate="projects.barber.feature1">Atendimento Especializado</span>
+                                <span class="feature-item" data-translate="projects.barber.feature2">PWA Configurado</span>
+                                <span class="feature-item" data-translate="projects.barber.feature3">Integração WhatsApp</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="img/projetotatuador.PNG" alt="Marcos Garcia Tattoo – Website" loading="lazy" class="project-img">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/NatanLuz" target="_blank" rel="noopener" class="project-link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="https://vercel.com/natan-da-luzs-projects/marcosgarcia-tattoo-website" target="_blank" rel="noopener" class="project-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3 data-translate="projects.tattoo.title">Marcos Garcia Tattoo – Website</h3>
+                                <span class="project-type" data-translate="projects.tattoo.type">Website Profissional</span>
+                            </div>
+                            <p data-translate="projects.tattoo.description">
+                                Website responsivo, moderno e alinhado à identidade visual do cliente, destacando seu estilo único e facilitando a conexão com novos clientes. Inclui portfólio filtrado por categorias, depoimentos reais e integração direta com WhatsApp e Instagram.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">Tailwind CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                            <div class="project-features">
+                                <span class="feature-item" data-translate="projects.tattoo.feature1">Portfólio Filtrado</span>
+                                <span class="feature-item" data-translate="projects.tattoo.feature2">Integração WhatsApp</span>
+                                <span class="feature-item" data-translate="projects.tattoo.feature3">Google Maps</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="img/escalapy.webp" alt="Sistema de Escala de Trabalho" loading="lazy" class="project-img">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/archivesysl/bettertable" target="_blank" rel="noopener" rel="noopener" class="project-link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3 data-translate="projects.escala.title">Sistema de Escala de Trabalho</h3>
+                                <span class="project-type" data-translate="projects.escala.type">Aplicação Desktop</span>
+                            </div>
+                            <p data-translate="projects.escala.description">
+                                Sistema completo para gestão de escalas de trabalho, desenvolvido com Python,
+                                Tkinter e Pandas. Inclui funcionalidades de cadastro, visualização e exportação de dados.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Tkinter</span>
+                                <span class="tech-tag">Pandas</span>
+                            </div>
+                            <div class="project-features">
+                                <span class="feature-item" data-translate="projects.escala.feature1">Gestão de funcionários</span>
+                                <span class="feature-item" data-translate="projects.escala.feature2">Geração de escalas</span>
+                                <span class="feature-item" data-translate="projects.escala.feature3">Relatórios automáticos</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="img/reddead.webp" alt="Website Red Dead Redemption 2" loading="lazy" class="project-img">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/archivesysl/reddead2" target="_blank" rel="noopener" class="project-link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="https://www.youtube.com/watch?v=7tvEBNR_plQ" target="_blank" rel="noopener" class="project-link">
+                                        <i class="fab fa-youtube"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3 data-translate="projects.reddead.title">Red Dead Redemption 2</h3>
+                                <span class="project-type" data-translate="projects.reddead.type">Website Acadêmico</span>
+                            </div>
+                            <p data-translate="projects.reddead.description">
+                                Website responsivo com tema do jogo Red Dead Redemption 2, desenvolvido com
+                                HTML, CSS e JavaScript. Inclui animações, efeitos visuais e design moderno.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">Responsive</span>
+                            </div>
+                            <div class="project-features">
+                                <span class="feature-item" data-translate="projects.reddead.feature1">Design Responsivo</span>
+                                <span class="feature-item" data-translate="projects.reddead.feature2">Animações CSS</span>
+                                <span class="feature-item" data-translate="projects.reddead.feature3">Hospedado no Vercel</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="500">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="img/projetoamazonfullstack1.PNG" alt="Amazon Scraper – Full-stack" loading="lazy" class="project-img">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/NatanLuz" target="_blank" rel="noopener" class="project-link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="#" target="_blank" rel="noopener" class="project-link">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3 data-translate="projects.amazon.title">Amazon Scraper – Full-stack</h3>
+                                <span class="project-type" data-translate="projects.amazon.type">Aplicação Web</span>
+                            </div>
+                            <p data-translate="projects.amazon.description">
+                                Aplicação web moderna para busca de produtos na Amazon. Interface responsiva com funcionalidades de busca avançada, filtros e comparação de preços. Desenvolvido com tecnologias full-stack para demonstrar habilidades em desenvolvimento completo.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Frontend</span>
+                                <span class="tech-tag">Backend</span>
+                                <span class="tech-tag">APIs</span>
+                                <span class="tech-tag">Responsive</span>
+                            </div>
+                            <div class="project-features">
+                                <span class="feature-item" data-translate="projects.amazon.feature1">Busca de produtos</span>
+                                <span class="feature-item" data-translate="projects.amazon.feature2">Interface moderna</span>
+                                <span class="feature-item" data-translate="projects.amazon.feature3">Multi-dispositivo</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-5" data-aos="fade-up" data-aos-delay="600">
+                <a href="https://github.com/NatanLuz" target="_blank" rel="noopener" class="btn btn-primary" data-translate="projects.viewMore">
+                    <i class="fab fa-github me-2"></i>Ver mais projetos
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- seção dos meus certificados -->
+    <section id="certificados" class="section">
+        <div class="container">
+            <h2 class="section-title text-center" data-translate="certificates.title">Certificados</h2>
+
+            <div class="row">
+                <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="certificate-card">
+                        <div class="certificate-image">
+                            <img src="img/CursoAlgoritmoLogicadeprogramacao.PNG" alt="Curso Algoritmo e Lógica de Programação">
+                        </div>
+                        <div class="certificate-content">
+                            <h4 data-translate="certificates.algorithm.title">Algoritmo e Lógica de Programação</h4>
+                            <p data-translate="certificates.algorithm.description">Fundamentos essenciais de programação e lógica computacional.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="certificate-card">
+                        <div class="certificate-image">
+                            <img src="img/cursohtmlecsscompleto.PNG" alt="Curso HTML e CSS Completo">
+                        </div>
+                        <div class="certificate-content">
+                            <h4 data-translate="certificates.htmlcss.title">HTML e CSS Completo</h4>
+                            <p data-translate="certificates.htmlcss.description">Desenvolvimento web completo com HTML5 e CSS3.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="certificate-card">
+                        <div class="certificate-image">
+                            <img src="img/Cursojavascriptalgoritmosestruturadedados.PNG" alt="Curso JavaScript Algoritmos e Estruturas de Dados">
+                        </div>
+                        <div class="certificate-content">
+                            <h4 data-translate="certificates.javascript.title">JavaScript Algoritmos e Estruturas de Dados</h4>
+                            <p data-translate="certificates.javascript.description">Programação avançada em JavaScript com foco em algoritmos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- seção de contato -->
+    <section id="contato" class="section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="contact-content" data-aos="fade-up">
+                        <h2 class="section-title text-center" data-translate="contact.title">Contato</h2>
+                        <p class="contact-description text-center" data-translate="contact.description">
+                            Estou sempre aberto a novas oportunidades e colaborações. Entre em contato comigo abaixo.
+                        </p>
+                        <div class="contact-buttons">
+                            <a href="mailto:natandaluz01@gmail.com" class="contact-btn email-btn btn-cta-primary">
+                                <i class="fas fa-envelope"></i>
+                                <span>Enviar Email</span>
+                                <small>Resposta em 24h</small>
+                            </a>
+                            <a href="https://www.linkedin.com/in/natan-da-luz-3156582a2/" target="_blank" rel="noopener" class="contact-btn linkedin-btn btn-cta-secondary">
+                                <i class="fab fa-linkedin-in"></i>
+                                <span>LinkedIn</span>
+                                <small>Conectar</small>
+                            </a>
+                            <a href="https://github.com/NatanLuz" target="_blank" rel="noopener" class="contact-btn github-btn btn-cta-secondary">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                                <small>Ver Projetos</small>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- organizando o  footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="text-center">
+                    <p>&copy; Portfólio Desenvolvido e Criado por <a href="https://www.instagram.com/tanysl0/" target="_blank" rel="noopener" class="footer-link">Natan da Luz</a> <span data-translate="footer.rights"></span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Barra de progresso de scroll -->
+    <div id="progressBar" class="progress-bar"></div>
+
+    <!--botão que interagindo você volta para o topo para ansiosos de plantao -->
+    <button id="backToTop" class="back-to-top" aria-label="Voltar ao topo">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+
+    <!-- Loading overlay -->
+    <div id="loadingOverlay" class="loading-overlay">
+        <div class="loading-spinner">
+            <div class="spinner"></div>
+            <p>Carregando...</p>
+        </div>
+    </div>
+
+    <!-- parte dos Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
