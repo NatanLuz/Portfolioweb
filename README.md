@@ -182,8 +182,6 @@ Portfolioweb-main/
 
 **LinkedIn:** [https://www.linkedin.com/in/natan-da-luz-3156582a2/](https://www.linkedin.com/in/natan-da-luz-3156582a2/)
 
-**Instagram:** [https://www.instagram.com/tanysl0/](https://www.instagram.com/tanysl0/)
-
 ---
 
 ## 📄 **License**
