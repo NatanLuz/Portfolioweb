@@ -194,4 +194,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Thank you for visiting my portfolio! I'm always open to new opportunities, collaborations, and challenging projects. Let's create something amazing together!
 
-**Ready to bring your ideas to life?** Let's connect and discuss how we can work together to achieve your goals.
+**Ready to bring your ideas to life?** Let's connect and discuss how we can work together to achieve your goals. 
