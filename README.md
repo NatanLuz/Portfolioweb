@@ -14,6 +14,7 @@
 
 ![Pré-visualização do Portfólio](img/preview.jpg)
 
+---
 
 ##  **Professional Frontend Developer**
 
