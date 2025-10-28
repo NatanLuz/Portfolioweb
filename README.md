@@ -1,4 +1,4 @@
-# Natan da Luz - Frontend Developer Portfolio
+# Natan da Luz - Fullstack Developer Portfolio
 
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)]()
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)]()
@@ -15,62 +15,42 @@
 ![Pré-visualização do Portfólio](img/preview.jpg)
 
 
-## 🚀 **Professional Frontend Developer**
+##  **Professional Frontend Developer**
 
 **Systems Information Student** | **Multi-language Portfolio** | **Client-focused Solutions**
 
-A passionate frontend developer specializing in creating **clean, functional interfaces** and delivering **real-world business solutions**. Currently pursuing Systems Information degree while building professional websites for diverse clients.
-
----
-
-## 💼 **Featured Professional Projects**
-
-### 🌟 **CorteAzulTea – Specialized Barber Shop**
-**Professional Website** | **Live Project** | **Social Impact**
-
-- **Client**: Barber shop specialized in humanized care for children with ASD (Autism Spectrum Disorder)
-- **Technologies**: HTML5, CSS3, Tailwind CSS, JavaScript ES6+
-- **Key Features**: PWA configuration, WhatsApp integration, responsive design
-- **Impact**: Builds trust with families and facilitates contact for specialized care
-- **Live Demo**: [projeto-corte-azul-tea.vercel.app](https://projeto-corte-azul-tea.vercel.app/)
-
-### 🎨 **Marcos Garcia Tattoo – Professional Studio**
-**Professional Website** | **Portfolio Showcase** | **Business Growth**
-
-- **Client**: Professional tattoo studio
-- **Technologies**: HTML5, CSS3, Tailwind CSS, JavaScript
-- **Key Features**: Filtered portfolio by categories, real testimonials, WhatsApp/Instagram integration, Google Maps
-- **Impact**: Highlights unique artistic style and facilitates connection with new clients
-- **Live Demo**: [Vercel Deployment](https://vercel.com/natan-da-luzs-projects/marcosgarcia-tattoo-website)
+I'm an Information Systems student and Fullstack Developer. I build web systems that are actually used by clients on a daily basis. My main stack is React on the frontend and PHP + Laravel on the backend, focusing on clean code, functionality, and a good user experience. I seek real challenges to grow as a developer and deliver real value.
 
 ---
 
 ## 🛠️ **Technical Expertise**
 
-### **Frontend Development**
-- **HTML5** – Semantic structure and accessibility
-- **CSS3** – Advanced styling with CSS variables and custom themes
-- **JavaScript ES6+** – Interactive functionalities and modern features
-- **Bootstrap 5.3.2** – Responsive CSS framework
-- **Tailwind CSS** – Utility-first CSS framework for rapid development
-- **AOS (Animate On Scroll)** – Smooth scroll animations
-- **Font Awesome 6.4.0** – Comprehensive icon library
+## Frontend Development
+HTML5 – Semantic structure and accessibility
+CSS3 – Advanced styling with CSS variables and custom themes
+JavaScript ES6+ – Interactive functionalities and modern features
+React – Component-based library for dynamic UIs
+Tailwind CSS – Utility-first CSS framework for rapid development
+AOS (Animate On Scroll) – Smooth scroll animations
+Font Awesome 6.4.0 – Comprehensive icon library
 
-### **Backend & Database**
-- **PHP** – Server-side development
-- **MySQL** – Database management and optimization
-- **SQL** – Advanced database queries
-- **REST APIs** – Web service integration
+## Backend & Database
+PHP – Server-side development
+Laravel – Modern PHP framework for robust backend applications
+MySQL – Database management and optimization
+SQL – Advanced database queries
+REST APIs – Web service integration
 
-### **Development Tools & Deployment**
-- **VS Code** – Primary development environment
-- **Git & GitHub** – Version control and collaboration
-- **Vercel** – Modern deployment platform
-- **Responsive Design** – Mobile-first approach
+## Development Tools & Deployment
+VS Code – Primary development environment
+Git & GitHub – Version control and collaboration
+Vercel – Modern deployment platform
+Docker – Containerization for consistent development and deployment
+Responsive Design
 
 ---
 
-## 🌟 **Portfolio Features**
+##  **Portfolio Features**
 
 ### **🌐 Multi-Language Support**
 - **Portuguese (PT)** – Native language
@@ -79,52 +59,21 @@ A passionate frontend developer specializing in creating **clean, functional int
 - Dynamic switching without page reload
 - Persistent language preferences
 
-### **🎨 Advanced Theme System**
+### ** Advanced Theme System**
 - **Dark Theme (Default)** – Professional black background with beige text
 - **Light Theme** – Clean white background with dark text
 - Smooth transitions and user preference persistence
 - CSS Variables system for easy maintenance
 
-### **📱 Responsive & Accessible**
+### ** Responsive & Accessible**
 - **Mobile-First Design** – Optimized for all devices
-- **Bootstrap 5.3.2** grid system
 - **Tailwind CSS** utility classes
 - **Full keyboard navigation** support
 - **ARIA labels** and semantic HTML structure
 - **SEO optimized** with comprehensive meta tags
 
----
-
-## 📚 **Academic & Development Projects**
-
-### **Sistema de Escala de Trabalho**
-**Desktop Application** | **Python Development**
-
-- Complete work schedule management system
-- Technologies: Python, Tkinter, Pandas
-- Features: Employee management, automatic schedule generation, reports
-- [GitHub Repository](https://github.com/archivesysl/bettertable)
-
-### **Red Dead Redemption 2 Website**
-**Academic Project** | **Game-themed Design**
-
-- Responsive website with game theme
-- Technologies: HTML, CSS, JavaScript
-- Features: CSS animations, visual effects, modern design
-- Hosted on Vercel with YouTube demonstration
-
-### **Amazon Scraper – Full-stack**
-**Web Application** | **Full-stack Development**
-
-- Modern web application for Amazon product search
-- Responsive interface with advanced search functionality
-- Full-stack technologies demonstrating complete development skills
-
----
-
-## 🎯 **Professional Skills**
-
 ### **Soft Skills**
+
 - **Team Collaboration** – Effective teamwork and communication
 - **Problem Solving** – Analytical approach to complex challenges
 - **Adaptability** – Quick learning and technology adaptation
@@ -132,6 +81,7 @@ A passionate frontend developer specializing in creating **clean, functional int
 - **Client Communication** – Professional client relationship management
 
 ### **Languages**
+
 - **Portuguese** – Native proficiency
 - **English** – C1 level (Advanced)
 - **French** – A2 level (Basic)
@@ -176,7 +126,7 @@ Portfolioweb-main/
 
 ---
 
-## 📞 **Let's Connect**
+##  **Let's Connect**
 
 **Email:** [natandaluz01@gmail.com](mailto:natandaluz01@gmail.com)
 
@@ -190,7 +140,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-### 🙏 **Thank You!**
+## Thank You!
 
 Thank you for visiting my portfolio! I'm always open to new opportunities, collaborations, and challenging projects. Let's create something amazing together!
 
