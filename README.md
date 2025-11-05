@@ -1,4 +1,43 @@
-# Natan da Luz - Frontend Developer Portfolio
+# Portfólio — Natan da Luz
+
+Este repositório contém a versão pública e estática do meu portfólio profissional. O objetivo deste documento é explicar, de forma direta e profissional, o propósito do projeto e as decisões que orientaram seu desenvolvimento.
+
+Objetivo do projeto
+
+- Servir como vitrine profissional que comunica minhas competências como desenvolvedor Full Stack, a abordagem de trabalho e a preocupação com usabilidade e qualidade.
+- Facilitar o contato com clientes e recrutadores, oferecendo uma visão clara sobre minha forma de trabalhar e minha postura técnica.
+
+Intuitos e público-alvo
+
+- Demonstrar experiência prática na construção de aplicações web com foco em funcionalidade, performance e experiência do usuário.
+- Atender recrutadores, times de tecnologia e potenciais clientes que buscam um desenvolvedor capaz de atuar tanto no frontend quanto no backend.
+
+Decisões de design e implementação
+
+- Arquitetura simples e modular: separação clara entre marcação (HTML), estilos (CSS) e comportamento (JavaScript) para facilitar manutenção e evolução.
+- Performance: prioridade em carregamento rápido — imagens otimizadas, carregamento preguiçoso e minimização de dependências externas quando possível.
+- Acessibilidade e semântica: uso de elementos semânticos, atenção a atributos ARIA e navegação por teclado para melhorar a experiência de todos os usuários.
+- Responsividade: abordagem mobile-first para garantir usabilidade consistente em dispositivos de diferentes tamanhos.
+- Internacionalização leve: mecanismo de traduções que permite alternância de idiomas sem recarregar a página.
+
+Diferenciais pensados para o público profissional
+
+- Conteúdo objetivo e orientado a resultados, enfatizando práticas de produção e entregas reais.
+- Estrutura preparada para deploy estático em provedores modernos (GitHub Pages, Vercel, Netlify), o que facilita publicação e atualização contínua.
+
+Possíveis evoluções
+
+- Integração de formulário de contato com serviço de envio (Formspree, Netlify Forms) para facilitar comunicações diretas.
+- Geração de variantes responsivas de imagens (srcset/webp) para ganho adicional de performance.
+- Transformação de partes do site em componentes reusáveis (por exemplo, migrar para React) caso queira uma versão dinâmica ou componentizada.
+
+Contato e uso
+
+- Este repositório é uma representação pública do meu portfólio. Para discussões profissionais ou propostas, os contatos públicos do site são o melhor canal.
+
+Se quiser que eu adapte o texto do README (tom mais técnico, mais comercial ou versão curta para GitHub), eu faço a alteração rapidamente.
+
+# Natan da Luz — Desenvolvedor Full Stack
 
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)]()
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)]()
@@ -15,18 +54,18 @@
 
 ![Pré-visualização do Portfólio](img/preview.jpg)
 
+## **Desenvolvedor Full Stack**
 
-##  **Professional Frontend Developer**
+**Estudante de Sistemas de Informação** | **Portfólio multilíngue** | **Soluções orientadas ao cliente**
 
-**Systems Information Student** | **Multi-language Portfolio** | **Client-focused Solutions**
-
-A passionate frontend developer specializing in creating **clean, functional interfaces** and delivering **real-world business solutions**. Currently pursuing Systems Information degree while building professional websites for diverse clients.
+Sou Natan da Luz, desenvolvedor Full Stack com foco em construir aplicações funcionais e escaláveis que entreguem valor real aos usuários. Trabalho tanto no frontend quanto no backend, aplicando boas práticas de arquitetura, código limpo e integração com APIs REST. Tenho experiência com Laravel no backend, React no frontend e bancos MySQL, além de ferramentas para deploy e conteinerização.
 
 ---
 
 ## 💼 **Featured Professional Projects**
 
 ### 🌟 **CorteAzulTea – Specialized Barber Shop**
+
 **Professional Website** | **Live Project** | **Social Impact**
 
 - **Client**: Barber shop specialized in humanized care for children with ASD (Autism Spectrum Disorder)
@@ -36,6 +75,7 @@ A passionate frontend developer specializing in creating **clean, functional int
 - **Live Demo**: [projeto-corte-azul-tea.vercel.app](https://projeto-corte-azul-tea.vercel.app/)
 
 ### 🎨 **Marcos Garcia Tattoo – Professional Studio**
+
 **Professional Website** | **Portfolio Showcase** | **Business Growth**
 
 - **Client**: Professional tattoo studio
@@ -49,6 +89,7 @@ A passionate frontend developer specializing in creating **clean, functional int
 ## **Technical Expertise**
 
 ### **Frontend Development**
+
 - **HTML5** – Semantic structure and accessibility
 - **CSS3** – Advanced styling with CSS variables and custom themes
 - **JavaScript ES6+** – Interactive functionalities and modern features
@@ -58,12 +99,14 @@ A passionate frontend developer specializing in creating **clean, functional int
 - **Font Awesome 6.4.0** – Comprehensive icon library
 
 ### **Backend & Database**
+
 - **PHP** – Server-side development
 - **MySQL** – Database management and optimization
 - **SQL** – Advanced database queries
 - **REST APIs** – Web service integration
 
 ### **Development Tools & Deployment**
+
 - **VS Code** – Primary development environment
 - **Git & GitHub** – Version control and collaboration
 - **Vercel** – Modern deployment platform
@@ -80,12 +123,14 @@ A passionate frontend developer specializing in creating **clean, functional int
 - Persistent language preferences
 
 ### **🎨 Advanced Theme System**
+
 - **Dark Theme (Default)** – Professional black background with beige text
 - **Light Theme** – Clean white background with dark text
 - Smooth transitions and user preference persistence
 - CSS Variables system for easy maintenance
 
 ### **📱 Responsive & Accessible**
+
 - **Mobile-First Design** – Optimized for all devices
 - **Tailwind CSS** utility classes
 - **Full keyboard navigation** support
@@ -97,6 +142,7 @@ A passionate frontend developer specializing in creating **clean, functional int
 ## 📚 **Academic & Development Projects**
 
 ### **Sistema de Escala de Trabalho**
+
 **Desktop Application** | **Python Development**
 
 - Complete work schedule management system
@@ -105,6 +151,7 @@ A passionate frontend developer specializing in creating **clean, functional int
 - [GitHub Repository](https://github.com/archivesysl/bettertable)
 
 ### **Red Dead Redemption 2 Website**
+
 **Academic Project** | **Game-themed Design**
 
 - Responsive website with game theme
@@ -113,6 +160,7 @@ A passionate frontend developer specializing in creating **clean, functional int
 - Hosted on Vercel with YouTube demonstration
 
 ### **Amazon Scraper – Full-stack**
+
 **Web Application** | **Full-stack Development**
 
 - Modern web application for Amazon product search
@@ -179,7 +227,7 @@ Portfolioweb-main/
 
 ---
 
-##  **Let's Connect**
+## **Let's Connect**
 
 **Email:** [natandaluz01@gmail.com](mailto:natandaluz01@gmail.com)
 

@@ -44,6 +44,12 @@ const translations = {
 
         // Traduzindo para PTBR EN e FR seção projetos
         "projects.title": "Projetos",
+        "projects.petshop.title": "Sistema de PetShop Completo",
+        "projects.petshop.type": "Sistema Fullstack",
+        "projects.petshop.description": "Sistema de agendamento e gestão para petshops e clínicas veterinárias. Lançamento inicial com CRUD, agendamento e dashboard; versão profissional revisada com backend refatorado, segurança reforçada (bcrypt, prepared statements, XSS), check-in rápido, dashboard interativo e scripts de instalação/teste automáticos.",
+        "projects.petshop.feature1": "CRUD Completo",
+        "projects.petshop.feature2": "Dashboard Interativo",
+        "projects.petshop.feature3": "Segurança Reforçada",
         "projects.escala.title": "Sistema de Escala de Trabalho",
         "projects.escala.type": "Aplicação Desktop",
         "projects.escala.description": "Sistema completo para gestão de escalas de trabalho, desenvolvido com Python, Tkinter e Pandas. Inclui funcionalidades de cadastro, visualização e exportação de dados.",
@@ -139,6 +145,12 @@ const translations = {
 
         // Traduzindo para PTBR EN e FR seção projetos
         "projects.title": "Projects",
+        "projects.petshop.title": "Complete PetShop System",
+        "projects.petshop.type": "Fullstack System",
+        "projects.petshop.description": "Appointment and management system for pet shops and veterinary clinics. Initial launch with CRUD, appointments and dashboard; professional revision with refactored backend, enhanced security (bcrypt, prepared statements, XSS), quick check-in, interactive dashboard and automatic installation/test scripts.",
+        "projects.petshop.feature1": "Complete CRUD",
+        "projects.petshop.feature2": "Interactive Dashboard",
+        "projects.petshop.feature3": "Enhanced Security",
         "projects.escala.title": "Work Schedule System",
         "projects.escala.type": "Desktop Application",
         "projects.escala.description": "Complete system for work schedule management, developed with Python, Tkinter and Pandas. Includes registration, visualization and data export functionalities.",
@@ -234,6 +246,12 @@ const translations = {
 
         // Traduzindo para PTBR EN e FR seção projetos
         "projects.title": "Projets",
+        "projects.petshop.title": "Système Complet de PetShop",
+        "projects.petshop.type": "Système Fullstack",
+        "projects.petshop.description": "Système de prise de rendez-vous et de gestion pour animaleries et cliniques vétérinaires. Lancement initial avec CRUD, rendez-vous et tableau de bord ; version professionnelle révisée avec backend refactorisé, sécurité renforcée (bcrypt, prepared statements, XSS), check-in rapide, tableau de bord interactif et scripts d'installation/test automatiques.",
+        "projects.petshop.feature1": "CRUD Complet",
+        "projects.petshop.feature2": "Tableau de Bord Interactif",
+        "projects.petshop.feature3": "Sécurité Renforcée",
         "projects.escala.title": "Système de Planning de Travail",
         "projects.escala.type": "Application Desktop",
         "projects.escala.description": "Système complet pour la gestion des plannings de travail, développé avec Python, Tkinter et Pandas. Inclut des fonctionnalités d'enregistrement, de visualisation et d'exportation de données.",

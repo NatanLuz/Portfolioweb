@@ -996,27 +996,29 @@ p {
     max-width: 800px;
     margin: 0 auto;
     justify-items: center;
+    place-items: center;
 }
 
 .frontend-grid {
     gap: 1.5rem;
-    max-width: 600px;
+    max-width: 700px;
 }
 
 .backend-grid {
     gap: 1rem;
-    max-width: 500px;
+    max-width: 650px;
 }
 
 .tools-grid {
     gap: 1.5rem;
-    max-width: 500px;
+    max-width: 650px;
 }
 
 .tech-item {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 0.8rem;
     transition: var(--transition);
     padding: 1.2rem;
@@ -1025,6 +1027,7 @@ p {
     transform: translateY(20px);
     width: 100%;
     max-width: 100px;
+    min-height: 120px;
     position: relative;
 }
 
@@ -1033,6 +1036,7 @@ p {
 .tech-item:nth-child(3) { animation-delay: 0.3s; }
 .tech-item:nth-child(4) { animation-delay: 0.4s; }
 .tech-item:nth-child(5) { animation-delay: 0.5s; }
+.tech-item:nth-child(6) { animation-delay: 0.6s; }
 
 @keyframes slideInUp {
     to {
@@ -1048,6 +1052,12 @@ p {
     transition: var(--transition);
     font-size: 45px;
     color: var(--text-secondary);
+    object-fit: contain;
+}
+
+.tech-item:hover .tech-icon {
+    filter: grayscale(0%);
+    transform: scale(1.1);
 }
 
 .tech-name {
@@ -1057,6 +1067,11 @@ p {
     margin-bottom: 0;
     text-align: center;
     transition: var(--transition);
+    word-wrap: break-word;
+}
+
+.tech-item:hover .tech-name {
+    color: var(--primary-color);
 }
 
 /* Editando a sessao de projetos */
@@ -1464,17 +1479,17 @@ p {
 
     .frontend-grid {
         gap: 1rem;
-        max-width: 400px;
+        max-width: 450px;
     }
 
     .backend-grid {
         gap: 0.8rem;
-        max-width: 350px;
+        max-width: 400px;
     }
 
     .tools-grid {
         gap: 1rem;
-        max-width: 350px;
+        max-width: 400px;
     }
 
     .tech-item {
@@ -1629,17 +1644,17 @@ p {
 
     .frontend-grid {
         gap: 0.8rem;
-        max-width: 350px;
+        max-width: 380px;
     }
 
     .backend-grid {
         gap: 0.6rem;
-        max-width: 280px;
+        max-width: 320px;
     }
 
     .tools-grid {
         gap: 0.8rem;
-        max-width: 280px;
+        max-width: 320px;
     }
 
     .tech-item {
