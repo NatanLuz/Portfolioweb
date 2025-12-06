@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="twitter:description"
+      id="metaDescription"
       content="Desenvolvedor Fullstack com projetos reais: Sistema PetShop, Barbearia e Tatuagem. Especialista em React, Laravel, PHP, JavaScript, MySQL e Docker"
     />
     <meta
@@ -21,7 +22,7 @@
     <meta name="distribution" content="global" />
     <meta name="rating" content="general" />
 
-    <title>Natan da Luz - Desenvolvedor Fullstack</title>
+    <title>Natan Da Luz - Dev Fullstack</title>
 
     <!-- Ícones que aparecem na aba do navegador e em dispositivos -->
     <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
@@ -84,40 +85,22 @@
         >
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="#home" data-translate="nav.home"
-                >Início</a
-              >
+              <a class="nav-link" href="#home" data-translate="nav.home">Início</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#sobre" data-translate="nav.about"
-                >Sobre</a
-              >
+              <a class="nav-link" href="#sobre" data-translate="nav.about">Sobre</a>
             </li>
             <li class="nav-item">
-              <a
-                class="nav-link"
-                href="#tecnologias"
-                data-translate="nav.technologies"
-                >Tecnologias</a
-              >
+              <a class="nav-link" href="#tecnologias" data-translate="nav.technologies">Tecnologias</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#projetos" data-translate="nav.projects"
-                >Projetos</a
-              >
+              <a class="nav-link" href="#projetos" data-translate="nav.projects">Projetos</a>
             </li>
             <li class="nav-item">
-              <a
-                class="nav-link"
-                href="#certificados"
-                data-translate="nav.certificates"
-                >Certificados</a
-              >
+              <a class="nav-link" href="#certificados" data-translate="nav.certificates">Cursos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contato" data-translate="nav.contact"
-                >Contato</a
-              >
+              <a class="nav-link" href="#contato" data-translate="nav.contact">Contato</a>
             </li>
           </ul>
         </div>
@@ -144,11 +127,11 @@
           <div class="hero-profile">
             <img
               src="img/foto portfolio.jpg"
-              alt="Natan da Luz"
+              alt="Natan Da Luz"
               class="hero-image"
             />
           </div>
-          <h1 class="hero-title" data-translate="hero.title">Natan da Luz</h1>
+          <h1 class="hero-title" data-translate="hero.title">Natan Da Luz</h1>
           <p class="hero-subtitle" data-translate="hero.subtitle">
             Desenvolvedor Fullstack
           </p>
@@ -192,19 +175,7 @@
               Sobre Mim
             </h2>
             <div class="about-content">
-              <p class="about-intro" data-translate="about.intro">
-  Sou Natan da Luz, estudante de Sistemas de Informação e desenvolvedor Full Stack. Construo aplicações modernas, funcionais e escaláveis, sempre priorizando boas práticas, organização e uma experiência de uso clara e objetiva.
-  <br /><br />
-  Atuo com PHP (Laravel), JavaScript (React), MySQL/SQL como banco de dados e possuo experiência prática com Git, GitHub e Docker (em aprendizado).
-  <br /><br />
-  Já desenvolvi soluções reais para diferentes segmentos, incluindo:
-  <br /><br />
-  • Websites profissionais para Barbeiro Especial T.E.A e Estúdio de Tatuagem, com foco em performance, identidade visual e integração com WhatsApp e Google Maps.<br />
-  • Sistema completo para Pet Shop, com autenticação, dashboard administrativo e backend seguro e organizado.<br />
-  • Integrações com APIs REST, desenvolvimento de interfaces responsivas e criação de fluxos funcionais no frontend e backend.
-  <br /><br />
-  Busco uma oportunidade como Desenvolvedor Júnior ou Estagiário, onde eu possa aplicar meus conhecimentos em projetos reais, contribuir com entregas de qualidade e seguir evoluindo como profissional dentro de uma equipe de tecnologia.
-</p>
+              <p class="about-intro" data-translate="about.intro"></p>
             </div>
           </div>
         </div>
@@ -422,6 +393,10 @@
               <img src="img/vs-code.svg" alt="VS Code" class="tech-icon" />
               <span class="tech-name">VS Code</span>
             </div>
+            <div class="tech-item" data-aos="fade-in" data-aos-delay="275">
+              <img src="img/intellij-idea.svg" alt="IntelliJ IDEA" class="tech-icon" />
+              <span class="tech-name">IntelliJ IDEA</span>
+            </div>
             <div class="tech-item" data-aos="fade-in" data-aos-delay="300">
               <img
                 src="img/sublime-text.svg"
@@ -442,8 +417,9 @@
           Projetos
         </h2>
 
-        <div class="row">
-          <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="row g-4">
+          <!-- PetShop -->
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <div class="project-card">
               <div class="project-image">
                 <img
@@ -459,8 +435,7 @@
                       target="_blank"
                       rel="noopener"
                       class="project-link"
-                      title="Ver código no GitHub"
-                      aria-label="Abrir repositório no GitHub"
+                      data-translate-attr="title:project.github.title;aria-label:project.github.aria"
                     >
                       <i class="fab fa-github" aria-hidden="true"></i>
                     </a>
@@ -469,13 +444,9 @@
                       target="_blank"
                       rel="noopener"
                       class="project-link"
-                      title="Ver demonstração no LinkedIn"
-                      aria-label="Abrir demonstração no LinkedIn"
+                      data-translate-attr="title:project.linkedin.title;aria-label:project.linkedin.aria"
                     >
-                      <i
-                        class="fas fa-external-link-alt"
-                        aria-hidden="true"
-                      ></i>
+                      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
                     </a>
                   </div>
                 </div>
@@ -483,52 +454,27 @@
               <div class="project-content">
                 <div class="project-header">
                   <h3 data-translate="projects.petshop.title">
-                    Sistema de Agendamento para Petshops e Clínicas Veterinárias
+                    Sistema de PetShop — Plataforma Completa de Agendamentos e Gestão
                   </h3>
-                  <span
-                    class="project-type"
-                    data-translate="projects.petshop.type"
-                    >Sistema Fullstack</span
-                  >
+                  <span class="project-type" data-translate="projects.petshop.type">Sistema Fullstack</span>
                 </div>
-                <p data-translate="projects.petshop.description">
-                  Sistema de agendamento e gestão para petshops e clínicas
-                  veterinárias. Lançamento inicial com CRUD, agendamento e
-                  dashboard; versão profissional revisada com backend
-                  refatorado, segurança reforçada (bcrypt, prepared statements,
-                  XSS), check-in rápido, dashboard interativo e scripts de
-                  instalação/teste automáticos.
+                <p class="project-description" data-translate="projects.petshop.description">
+                  Desenvolvi um sistema fullstack para petshops e clínicas veterinárias, incluindo CRUD completo, agendamento, dashboard interativo e check-in rápido. A versão profissional recebeu melhorias robustas no backend, segurança reforçada (bcrypt, prepared statements, proteção XSS) e scripts automáticos de instalação e teste.
                 </p>
                 <div class="project-tech">
                   <span class="tech-tag">PHP</span>
                   <span class="tech-tag">MySQL</span>
+                  <span class="tech-tag">JavaScript</span>
                   <span class="tech-tag">HTML5</span>
                   <span class="tech-tag">CSS3</span>
-                  <span class="tech-tag">JavaScript</span>
                   <span class="tech-tag">Chart.js</span>
-                </div>
-                <div class="project-features">
-                  <span
-                    class="feature-item"
-                    data-translate="projects.petshop.feature1"
-                    >CRUD Completo</span
-                  >
-                  <span
-                    class="feature-item"
-                    data-translate="projects.petshop.feature2"
-                    >Dashboard Interativo</span
-                  >
-                  <span
-                    class="feature-item"
-                    data-translate="projects.petshop.feature3"
-                    >Segurança Reforçada</span
-                  >
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+          <!-- CorteAzulTea -->
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <div class="project-card">
               <div class="project-image">
                 <img
@@ -544,8 +490,7 @@
                       target="_blank"
                       rel="noopener"
                       class="project-link"
-                      title="Ver código no GitHub"
-                      aria-label="Abrir repositório no GitHub"
+                      data-translate-attr="title:project.github.title;aria-label:project.github.aria"
                     >
                       <i class="fab fa-github" aria-hidden="true"></i>
                     </a>
@@ -554,13 +499,9 @@
                       target="_blank"
                       rel="noopener"
                       class="project-link"
-                      title="Abrir demo"
-                      aria-label="Abrir demonstração do projeto"
+                      data-translate-attr="title:project.linkedin.title;aria-label:project.linkedin.aria"
                     >
-                      <i
-                        class="fas fa-external-link-alt"
-                        aria-hidden="true"
-                      ></i>
+                      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
                     </a>
                   </div>
                 </div>
@@ -568,115 +509,25 @@
               <div class="project-content">
                 <div class="project-header">
                   <h3 data-translate="projects.barber.title">
-                    CorteAzulTea – Barbearia Especial
+                    CorteAzulTea – Website para barbearia especializada
                   </h3>
-                  <span
-                    class="project-type"
-                    data-translate="projects.barber.type"
-                    >Website Profissional</span
-                  >
+                  <span class="project-type" data-translate="projects.barber.type">Website Profissional</span>
                 </div>
-                <p data-translate="projects.barber.description">
-                  Website para barbearia especializada em atendimento humanizado
-                  para crianças com TEA (Transtorno do Espectro Autista). Site
-                  moderno, responsivo e otimizado que transmite confiança e
-                  facilita o contato com as famílias.
+                <p class="project-description" data-translate="projects.barber.description">
+                  Website para barbearia especializada em atendimento humanizado para crianças com TEA (Transtorno do Espectro Autista). Site moderno, responsivo e otimizado que transmite confiança e facilita o contato com as famílias.
                 </p>
                 <div class="project-tech">
                   <span class="tech-tag">HTML5</span>
                   <span class="tech-tag">CSS3</span>
                   <span class="tech-tag">Tailwind CSS</span>
-                  <span class="tech-tag">JavaScript ES6+</span>
-                </div>
-                <div class="project-features">
-                  <span
-                    class="feature-item"
-                    data-translate="projects.barber.feature1"
-                    >Atendimento Especializado</span
-                  >
-                  <span
-                    class="feature-item"
-                    data-translate="projects.barber.feature2"
-                    >PWA Configurado</span
-                  >
-                  <span
-                    class="feature-item"
-                    data-translate="projects.barber.feature3"
-                    >Integração WhatsApp</span
-                  >
+                  <span class="tech-tag">JavaScript</span>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="300">
-            <div class="project-card">
-              <div class="project-image">
-                <img
-                  src="img/escalapy.webp"
-                  alt="Sistema de Escala de Trabalho"
-                  loading="lazy"
-                  class="project-img"
-                />
-                <div class="project-overlay">
-                  <div class="project-links">
-                    <a
-                      href="https://github.com/archivesysl/bettertable"
-                      target="_blank"
-                      rel="noopener"
-                      class="project-link"
-                      title="Ver código no GitHub"
-                      aria-label="Abrir repositório no GitHub"
-                    >
-                      <i class="fab fa-github" aria-hidden="true"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="project-content">
-                <div class="project-header">
-                  <h3 data-translate="projects.escala.title">
-                    Sistema de Escala de Trabalho para Mercado Baita Super
-                  </h3>
-                  <span
-                    class="project-type"
-                    data-translate="projects.escala.type"
-                    >Aplicação Desktop</span
-                  >
-                </div>
-                <p data-translate="projects.escala.description">
-                  Sistema completo para gestão de escalas de trabalho,
-                  desenvolvido com Python, Tkinter e Pandas. Inclui
-                  funcionalidades de cadastro, visualização e exportação de
-                  dados.
-                </p>
-                <div class="project-tech">
-                  <span class="tech-tag">Python</span>
-                  <span class="tech-tag">Tkinter</span>
-                  <span class="tech-tag">Pandas</span>
-                </div>
-                <div class="project-features">
-                  <span
-                    class="feature-item"
-                    data-translate="projects.escala.feature1"
-                    >Gestão de funcionários</span
-                  >
-                  <span
-                    class="feature-item"
-                    data-translate="projects.escala.feature2"
-                    >Geração de escalas</span
-                  >
-                  <span
-                    class="feature-item"
-                    data-translate="projects.escala.feature3"
-                    >Relatórios automáticos</span
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="500">
+          <!-- Marcos Garcia Tattoo -->
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
             <div class="project-card">
               <div class="project-image">
                 <img
@@ -692,8 +543,7 @@
                       target="_blank"
                       rel="noopener"
                       class="project-link"
-                      title="Ver código no GitHub"
-                      aria-label="Abrir repositório no GitHub"
+                      data-translate-attr="title:project.github.title;aria-label:project.github.aria"
                     >
                       <i class="fab fa-github" aria-hidden="true"></i>
                     </a>
@@ -702,13 +552,9 @@
                       target="_blank"
                       rel="noopener"
                       class="project-link"
-                      title="Link externo"
-                      aria-label="Abrir link externo do projeto"
+                      data-translate-attr="title:project.linkedin.title;aria-label:project.linkedin.aria"
                     >
-                      <i
-                        class="fas fa-external-link-alt"
-                        aria-hidden="true"
-                      ></i>
+                      <i class="fas fa-external-link-alt" aria-hidden="true"></i>
                     </a>
                   </div>
                 </div>
@@ -718,41 +564,16 @@
                   <h3 data-translate="projects.tattoo.title">
                     Marcos Garcia Tattoo – Website
                   </h3>
-                  <span
-                    class="project-type"
-                    data-translate="projects.tattoo.type"
-                    >Website Profissional</span
-                  >
+                  <span class="project-type" data-translate="projects.tattoo.type">Website Profissional</span>
                 </div>
-                <p data-translate="projects.tattoo.description">
-                  Website responsivo, moderno e alinhado à identidade visual do
-                  cliente, destacando seu estilo único e facilitando a conexão
-                  com novos clientes. Inclui portfólio filtrado por categorias,
-                  depoimentos reais e integração direta com WhatsApp e
-                  Instagram.
+                <p class="project-description" data-translate="projects.tattoo.description">
+                  Website responsivo, moderno e alinhado à identidade visual do cliente, destacando seu estilo único e facilitando a conexão com novos clientes. Inclui portfólio filtrado por categorias, depoimentos reais e integração direta com WhatsApp e Instagram.
                 </p>
                 <div class="project-tech">
                   <span class="tech-tag">HTML5</span>
                   <span class="tech-tag">CSS3</span>
                   <span class="tech-tag">Tailwind CSS</span>
                   <span class="tech-tag">JavaScript</span>
-                </div>
-                <div class="project-features">
-                  <span
-                    class="feature-item"
-                    data-translate="projects.tattoo.feature1"
-                    >Portfólio Filtrado</span
-                  >
-                  <span
-                    class="feature-item"
-                    data-translate="projects.tattoo.feature2"
-                    >Integração WhatsApp</span
-                  >
-                  <span
-                    class="feature-item"
-                    data-translate="projects.tattoo.feature3"
-                    >Google Maps</span
-                  >
                 </div>
               </div>
             </div>
@@ -780,7 +601,7 @@
           class="section-title text-center"
           data-translate="certificates.title"
         >
-          Certificados
+          Cursos
         </h2>
 
         <div class="row">
@@ -868,10 +689,10 @@
                 <a
                   href="mailto:natandaluz01@gmail.com?subject=Contato%20via%20site"
                   class="contact-btn email-btn btn-cta-primary"
-                  aria-label="Enviar email para Natan da Luz"
+                  data-translate-attr="aria-label:contact.email.aria"
                 >
                   <i class="fas fa-envelope" aria-hidden="true"></i>
-                  <span>Enviar email</span>
+                  <span data-translate="contact.email">Enviar email</span>
                 </a>
 
                 <a
@@ -879,10 +700,10 @@
                   target="_blank"
                   rel="noopener"
                   class="contact-btn linkedin-btn btn-cta-secondary"
-                  aria-label="Abrir perfil do LinkedIn de Natan da Luz"
+                  data-translate-attr="aria-label:contact.linkedin.aria"
                 >
                   <i class="fab fa-linkedin-in" aria-hidden="true"></i>
-                  <span>LinkedIn</span>
+                  <span data-translate="contact.linkedin">LinkedIn</span>
                 </a>
 
                 <a
@@ -890,10 +711,10 @@
                   target="_blank"
                   rel="noopener"
                   class="contact-btn github-btn btn-cta-secondary"
-                  aria-label="Abrir repositório do GitHub de Natan da Luz"
+                  data-translate-attr="aria-label:contact.github.aria"
                 >
                   <i class="fab fa-github" aria-hidden="true"></i>
-                  <span>GitHub</span>
+                  <span data-translate="contact.github">GitHub</span>
                 </a>
               </div>
 
@@ -910,8 +731,9 @@
         <div class="footer-content">
           <div class="text-center">
             <p>
-              &copy; Portfólio Desenvolvido e Criado por Natan da Luz
-              <span data-translate="footer.rights"></span>
+              &copy; <span data-translate="footer.credit">Portfólio Desenvolvido e Criado por Natan Da Luz</span>
+              <span>&nbsp;•&nbsp;</span>
+              <span data-translate="footer.rights">Todos os direitos reservados.</span>
             </p>
           </div>
         </div>
@@ -922,7 +744,7 @@
     <div id="progressBar" class="progress-bar"></div>
 
     <!--botão que interagindo você volta para o topo para ansiosos de plantao -->
-    <button id="backToTop" class="back-to-top" aria-label="Voltar ao topo">
+    <button id="backToTop" class="back-to-top" data-translate-attr="aria-label:backToTop.aria">
       <i class="fas fa-chevron-up"></i>
     </button>
 
@@ -930,7 +752,7 @@
     <div id="loadingOverlay" class="loading-overlay">
       <div class="loading-spinner">
         <div class="spinner"></div>
-        <p>Carregando...</p>
+        <p data-translate="loading.text">Carregando...</p>
       </div>
     </div>
 
