@@ -1,61 +1,102 @@
-## Meu Portfólio Profissional — Natan da Luz
+<div align="center">
+   <img src="img/preview.jpg" alt="Pré-visualização do Portfólio" width="760" />
 
-Este repositório contém o código-fonte do meu portfólio profissional, desenvolvido para apresentar projetos, habilidades técnicas e experiência como desenvolvedor Full Stack.
+# Portfólio — Natan Da Luz
 
-Visão Geral
+Desenvolvedor de Software (Fullstack)
 
-O objetivo deste projeto é centralizar informações profissionais em um único ambiente, com foco em clareza, organização e usabilidade. O site foi desenvolvido de forma simples, responsiva e de fácil manutenção.
+</div>
 
-Funcionalidades
+---
 
-Apresentação de projetos e experiências profissionais
+## Visão Geral
 
-Estrutura responsiva para desktop e dispositivos móveis
+Site estático e profissional para apresentar projetos, competências e experiência em desenvolvimento de software. A aplicação é responsiva, multilíngue (PT/EN/FR), com alternância de tema claro/escuro e microinterações agradáveis.
 
-Navegação clara e direta
+---
 
-Suporte a múltiplos idiomas
+## Destaques de Projetos
 
-Links diretos para contato e redes profissionais
+- **Workshift Manager — Sistema de Escalas de Trabalho**: Aplicação desktop (Python/Tkinter) para geração de escalas semanais/mensais, regras de negócio (folgas, turnos, validações), persistência em SQLite e exportação para Excel (Pandas/OpenPyXL).
+- **Amazon Scraper — Aplicação Web Fullstack**: JavaScript (Node.js/Express) para busca e comparação de produtos da Amazon usando Fetch APIs e JSDOM. Interface responsiva com HTML5, CSS3 e Tailwind CSS.
+- **Sistema de PetShop**: Plataforma fullstack com dashboard, CRUD, agendamentos e segurança reforçada.
+- **CorteAzulTea**: Website profissional com foco em atendimento humanizado.
 
-Estrutura do Projeto
+Imagens dos projetos estão em `img/` e são carregadas com `loading="lazy"`.
+
+---
+
+## Funcionalidades
+
+- Layout responsivo (mobile/desktop) com animações AOS
+- Suporte a idiomas (PT/EN/FR) usando `data-translate` e `data-translate-attr`
+- Alternância de tema (`dark`/`light`) com persistência em `localStorage`
+- Barra de progresso de scroll e botão “Voltar ao topo”
+- Links de contato e redes profissionais
+
+---
+
+## Tecnologias
+
+- **Frontend:** HTML5, CSS3, JavaScript, Tailwind CSS
+- **Backend:** PHP, Laravel, MySQL/SQL
+- **Desktop:** Python, Tkinter, SQLite, Pandas, OpenPyXL
+- **Ferramentas:** Git, GitHub, VS Code, AOS, Font Awesome
+
+---
+
+## Estrutura
+
+```
 Portfolioweb/
-├── index.html              # Página principal
-├── style.css               # Estilos globais
-├── script.js               # Scripts e interações
-├── translations.js         # Sistema de idiomas
-├── assets/
-│   ├── img/                # Imagens e ícones
-│   └── documents/          # Arquivos complementares
-└── README.md               # Documentação
+├── index.html        # Página principal e seções (home/sobre/tecnologias/projetos/contato)
+├── style.css         # Tema (variáveis CSS), responsividade e componentes
+├── script.js         # Interações: idioma, tema, scroll, animações e lazy-loading
+├── translations.js   # Chaves PT/EN/FR para textos e atributos
+├── assets/           # Currículo e documentos
+├── img/              # Imagens e ícones dos projetos
+└── README.md         # Documentação
+```
 
+---
 
-Como Executar
+## Uso e Execução
 
-Clone o repositório:
-
+```bash
 git clone https://github.com/NatanLuz/Portfolioweb.git
-
-Acesse a pasta do projeto:
-
 cd Portfolioweb
+```
 
-Abra o arquivo index.html em qualquer navegador moderno.
+Abra `index.html` diretamente no navegador.
 
-Tecnologias e Competências
+### Idiomas
 
-Desenvolvimento Web Full Stack
+- Botões `PT | EN | FR` no cabeçalho alternam o idioma.
+- Textos usam `data-translate`; atributos usam `data-translate-attr`.
 
-Integração de APIs REST
+### Tema
 
-Criação de interfaces responsivas
+- Botão de lua/sol alterna entre `dark` e `light` (salvo em `localStorage`).
 
-Versionamento de código com Git
+---
 
-Organização e padronização de projetos
+## Convenções do Projeto
 
-Contato
+- Respeitar variáveis de tema (`:root` e `[data-theme="light"]`); evitar cores fixas.
+- Manter paridade de traduções em PT/EN/FR ao adicionar novos textos.
+- Seguir o padrão de cards `.project-card` e grade `.tech-grid` para novos itens.
+- Usar `rel="noopener"` em links externos e `aria-label` com `data-translate-attr` quando aplicável.
 
-Email: natandaluz01@gmail.com
+---
 
-LinkedIn: https://www.linkedin.com/in/natan-da-luz-3156582a2/
+## Contato
+
+- **Email:** natandaluz01@gmail.com
+- **LinkedIn:** https://www.linkedin.com/in/natan-da-luz-3156582a2/
+- **GitHub:** https://github.com/NatanLuz
+
+---
+
+## Licença
+
+Projeto de portfólio pessoal. Entre em contato para solicitações de uso ou colaboração.

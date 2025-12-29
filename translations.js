@@ -10,17 +10,17 @@ const translations = {
 
     // Traduzindo para PTBR EN e FR seção hero
     "hero.title": "Natan Da Luz",
-    "hero.subtitle": "Desenvolvedor Fullstack",
-    "meta.title": "Natan Da Luz - Desenvolvedor Fullstack",
+    "hero.subtitle": "Desenvolvedor De Software",
+    "meta.title": "Natan Da Luz - Desenvolvedor De Software",
     "hero.cta.cv": "Download Currículo",
     "meta.description":
-      "Desenvolvedor Fullstack com projetos reais: Sistema PetShop, Barbearia e Tatuagem. Especialista em React, Laravel, PHP, JavaScript, MySQL e Docker",
+      "Desenvolvedor De Software com projetos reais: Sistema PetShop e Barbearia. Especialista em React, Laravel, PHP, JavaScript, MySQL e Docker",
     "hero.cta.contact": "Vamos Conversar",
 
     // Traduzindo para PTBR EN e FR sobre seção
     "about.title": "Sobre Mim",
     "about.intro":
-      "Sou Natan Da Luz, Desenvolvedor Full Stack com experiência prática em JavaScript (React) e PHP (Laravel). Tenho como foco a construção de aplicações modernas, funcionais e escaláveis, sempre priorizando desempenho, organização, boas práticas de desenvolvimento e uma experiência de usuário clara e eficiente.\n\nAtualmente curso Sistemas de Informação e aplico meu conhecimento em projetos reais, atuando com PHP/Laravel, JavaScript/React, MySQL/SQL, além de possuir experiência com Git, GitHub e Docker (em constante aprimoramento).\n\nEntre os projetos que já desenvolvi, destacam-se:\n• Websites profissionais para Barbeiro Especial T.E.A e um Estúdio de Tatuagem, com foco em performance, identidade visual e integrações com WhatsApp e Google Maps.\n• Sistema completo para Pet Shop, incluindo autenticação, dashboard administrativo e backend seguro e bem estruturado.\n• Integrações com APIs REST, desenvolvimento de interfaces responsivas e criação de fluxos completos no frontend e backend.\n\nBusco uma oportunidade como Desenvolvedor Júnior ou Estagiário, onde eu possa aplicar meus conhecimentos em projetos reais, contribuir com soluções de qualidade e seguir evoluindo como profissional dentro de uma equipe de tecnologia.",
+      "Sou Desenvolvedor de Software com foco em backend, atuando no desenvolvimento de aplicações web, sistemas e APIs utilizando principalmente PHP (Laravel) e Python. Tenho experiência na construção de soluções robustas, seguras e bem estruturadas, aplicando boas práticas de desenvolvimento e organização de código.\n\nTrabalho com a criação de sistemas completos, desde a modelagem de dados até a implementação de regras de negócio e integrações com APIs externas. Possuo experiência em projetos voltados à gestão, automação e sistemas administrativos, sempre priorizando desempenho, clareza e manutenibilidade.\n\nTambém atuo com JavaScript e tecnologias de frontend para integração com o backend e construção de interfaces funcionais. Estou em constante evolução técnica, buscando aprimorar minhas habilidades e entregar soluções eficientes e bem estruturadas.",
 
     // Traduzindo para PTBR EN e FR Soft Skills
     "about.softSkills.title": "Soft Skills",
@@ -75,21 +75,19 @@ const translations = {
     "projects.barber.feature1": "Atendimento especializado",
     "projects.barber.feature2": "PWA configurado",
     "projects.barber.feature3": "Integração WhatsApp",
-    "projects.tattoo.title": "Marcos Garcia Tattoo – Website",
-    "projects.tattoo.type": "Website Profissional",
-    "projects.tattoo.description":
-      "Website responsivo, moderno e alinhado à identidade visual do cliente, destacando seu estilo único e facilitando a conexão com novos clientes. Inclui portfólio filtrado por categorias, depoimentos reais e integração direta com WhatsApp e Instagram.",
-    "projects.tattoo.feature1": "Portfólio filtrado",
-    "projects.tattoo.feature2": "Integração WhatsApp",
-    "projects.tattoo.feature3": "Google Maps",
-    "projects.amazon.title": "Amazon Scraper – Full-stack",
+    "projects.amazon.title": "Amazon Scraper – Aplicação Web Fullstack",
     "projects.amazon.type": "Aplicação Web",
     "projects.amazon.description":
-      "Aplicação web moderna para busca de produtos na Amazon. Interface responsiva com funcionalidades de busca avançada, filtros e comparação de preços. Desenvolvido com tecnologias full-stack para demonstrar habilidades em desenvolvimento completo.",
+      "Desenvolvido em Jul-2025: aplicação web em JavaScript (Node.js e Express) para busca e comparação de produtos da Amazon, utilizando Fetch APIs e JSDOM. Interface responsiva com HTML5, CSS3 e Tailwind CSS.",
     "projects.amazon.feature1": "Busca de produtos",
     "projects.amazon.feature2": "Interface moderna",
     "projects.amazon.feature3": "Multi-dispositivo",
-    "projects.viewMore": "Ver mais projetos",
+    "projects.viewMore": "Veja mais Projetos",
+    "projects.workshift.title":
+      "Workshift Manager – Sistema de Escalas de Trabalho",
+    "projects.workshift.type": "Aplicação Desktop",
+    "projects.workshift.description":
+      "Desenvolvimento de aplicação desktop para geração de escalas semanais e mensais, com regras de negócio (folgas, turnos, validações), persistência de dados em SQLite e exportação para Excel utilizando Pandas e OpenPyXL. Interface gráfica desenvolvida com Tkinter.",
 
     // Traduzindo para PTBR EN e FR seção certificados
     "certificates.title": "Cursos",
@@ -118,7 +116,7 @@ const translations = {
 
     // Traduzindo para PTBR EN e FR seção Footer
     "footer.rights": "Todos os direitos reservados.",
-    "footer.credit": "Portfólio Desenvolvido e Criado por Natan Da Luz",
+    "footer.credit": "Desenvolvido Por Natan Da Luz",
     "backToTop.aria": "Voltar ao topo",
     "loading.text": "Carregando...",
     "project.github.title": "Ver código no GitHub",
@@ -138,17 +136,17 @@ const translations = {
 
     // Traduzindo para PTBR EN e FR seção hero
     "hero.title": "Natan Da Luz",
-    "hero.subtitle": "Fullstack Developer",
-    "meta.title": "Natan Da Luz - Fullstack Developer",
+    "hero.subtitle": "Software Developer",
+    "meta.title": "Natan Da Luz - Software Developer",
     "hero.cta.cv": "Download CV",
     "meta.description":
-      "Fullstack developer with real projects: PetShop system, Barbershop and Tattoo studio. Experienced in React, Laravel, PHP, JavaScript, MySQL and Docker",
+      "Software developer with real projects: PetShop system and Barbershop. Experienced in React, Laravel, PHP, JavaScript, MySQL and Docker",
     "hero.cta.contact": "Let's Talk",
 
     // Traduzindo para PTBR EN e FR sobre seção
     "about.title": "About Me",
     "about.intro":
-      "I'm Natan Da Luz, a Full Stack Developer with hands-on experience in JavaScript (React) and PHP (Laravel). I focus on building modern, functional, and scalable applications, always prioritizing performance, organization, development best practices, and a clear, efficient user experience.\n\nI am currently studying Information Systems and apply my knowledge to real projects, working with PHP/Laravel, JavaScript/React, MySQL/SQL, and I have experience with Git, GitHub and Docker (continuously improving).\n\nAmong the projects I've developed are:\n• Professional websites for a specialized barber service (CorteAzulTea) and a tattoo studio, emphasizing performance, visual identity, and integrations with WhatsApp and Google Maps.\n• A complete Pet Shop system, including authentication, admin dashboard and a secure, well-structured backend.\n• REST API integrations, responsive interface development and end-to-end frontend and backend flows.\n\nI'm seeking a Junior Developer or Intern position where I can apply my knowledge to real projects, contribute quality solutions and continue growing as a professional within a technology team.",
+      "I'm Natan Da Luz, a Full Stack Developer with hands-on experience in JavaScript (React) and PHP (Laravel). I focus on building modern, functional, and scalable applications, always prioritizing performance, organization, development best practices, and a clear, efficient user experience.\n\nI am currently studying Information Systems and apply my knowledge to real projects, working with PHP/Laravel, JavaScript/React, MySQL/SQL, and I have experience with Git, GitHub and Docker (continuously improving).\n\nAmong the projects I've developed are:\n• Professional websites for a specialized barber service (CorteAzulTea) and a tattoo studio, emphasizing performance, visual identity, and integrations with WhatsApp and Google Maps.\n• A complete Pet Shop system, including authentication, admin dashboard and a secure, well-structured backend.\n• REST API integrations, responsive interface development and end-to-end frontend and backend flows.\n\n<span class=\"about-highlight\">I'm seeking a Junior Developer or Intern position where I can apply my knowledge to real projects, contribute quality solutions and continue growing as a professional within a technology team.</span>",
 
     // Traduzindo para PTBR EN e FR Soft Skills
     "about.softSkills.title": "Soft Skills",
@@ -201,21 +199,19 @@ const translations = {
     "projects.barber.feature1": "Specialized care",
     "projects.barber.feature2": "PWA configured",
     "projects.barber.feature3": "WhatsApp integration",
-    "projects.tattoo.title": "Marcos Garcia Tattoo – Website",
-    "projects.tattoo.type": "Professional Website",
-    "projects.tattoo.description":
-      "Responsive, modern website aligned with the client's visual identity, highlighting their unique style and facilitating connection with new clients. Includes portfolio filtered by categories, real testimonials and direct integration with WhatsApp and Instagram.",
-    "projects.tattoo.feature1": "Filtered portfolio",
-    "projects.tattoo.feature2": "WhatsApp integration",
-    "projects.tattoo.feature3": "Google Maps",
-    "projects.amazon.title": "Amazon Scraper – Full-stack",
+    "projects.amazon.title": "Amazon Scraper – Fullstack Web Application",
     "projects.amazon.type": "Web Application",
     "projects.amazon.description":
-      "Modern web application for Amazon product search. Responsive interface with advanced search features, filters and price comparison. Developed with full-stack technologies to demonstrate complete development skills.",
+      "Built in Jul-2025: JavaScript (Node.js and Express) web app for Amazon product search and comparison, using Fetch APIs and JSDOM. Responsive interface with HTML5, CSS3 and Tailwind CSS.",
     "projects.amazon.feature1": "Product search",
     "projects.amazon.feature2": "Modern interface",
     "projects.amazon.feature3": "Multi-device",
     "projects.viewMore": "View more projects",
+    "projects.workshift.title":
+      "Workshift Manager – Work Shift Scheduling System",
+    "projects.workshift.type": "Desktop Application",
+    "projects.workshift.description":
+      "Desktop application for generating weekly and monthly schedules, implementing business rules (days off, shifts, validations), data persistence with SQLite, and Excel export using Pandas and OpenPyXL. GUI built with Tkinter.",
 
     // Traduzindo para PTBR EN e FR seção certificados
     "certificates.title": "Certificates",
@@ -264,17 +260,17 @@ const translations = {
 
     // Traduzindo para PTBR EN e FR seção hero
     "hero.title": "Natan Da Luz",
-    "hero.subtitle": "Développeur Fullstack",
-    "meta.title": "Natan Da Luz - Développeur Fullstack",
+    "hero.subtitle": "Développeur de Logiciels",
+    "meta.title": "Natan Da Luz - Développeur de Logiciels",
     "hero.cta.cv": "Télécharger CV",
     "meta.description":
-      "Développeur Fullstack avec des projets réels : système PetShop, barbier et studio de tatouage. Expérimenté en React, Laravel, PHP, JavaScript, MySQL et Docker",
+      "Développeur de Logiciels avec des projets réels : système PetShop et barbier. Expérimenté en React, Laravel, PHP, JavaScript, MySQL et Docker",
     "hero.cta.contact": "Parlons",
 
     // Traduzindo para PTBR EN e FR seção sobre
     "about.title": "À Propos de Moi",
     "about.intro":
-      "Je suis Natan Da Luz, développeur Full Stack avec une expérience pratique en JavaScript (React) et PHP (Laravel). Je me consacre à la conception d'applications modernes, fonctionnelles et évolutives, en donnant toujours la priorité aux performances, à l'organisation, aux bonnes pratiques de développement et à une expérience utilisateur claire et efficace.\n\nActuellement, j'étudie les Systèmes d'Information et j'applique mes connaissances à des projets réels, travaillant avec PHP/Laravel, JavaScript/React, MySQL/SQL, et j'ai de l'expérience avec Git, GitHub et Docker (en amélioration continue).\n\nParmi les projets que j'ai développés, on peut citer :\n• Sites web professionnels pour un service de barbier spécialisé T.E.A et un studio de tatouage, axés sur la performance, l'identité visuelle et les intégrations avec WhatsApp et Google Maps.\n• Système complet pour Pet Shop, incluant authentification, tableau de bord administratif et backend sécurisé et bien structuré.\n• Intégrations avec des API REST, développement d'interfaces réactives et création de flux complets front-end et back-end.\n\nJe recherche une opportunité en tant que développeur junior ou stagiaire, où je pourrai appliquer mes connaissances à des projets réels, contribuer par des solutions de qualité et continuer à évoluer en tant que professionnel au sein d'une équipe technologique.",
+      "Je suis Natan Da Luz, développeur Full Stack avec une expérience pratique en JavaScript (React) et PHP (Laravel). Je me consacre à la conception d'applications modernes, fonctionnelles et évolutives, en donnant toujours la priorité aux performances, à l'organisation, aux bonnes pratiques de développement et à une expérience utilisateur claire et efficace.\n\nActuellement, j'étudie les Systèmes d'Information et j'applique mes connaissances à des projets réels, travaillant avec PHP/Laravel, JavaScript/React, MySQL/SQL, et j'ai de l'expérience avec Git, GitHub et Docker (en amélioration continue).\n\nParmi les projets que j'ai développés, on peut citer :\n• Sites web professionnels pour un service de barbier spécialisé T.E.A et un studio de tatouage, axés sur la performance, l'identité visuelle et les intégrations avec WhatsApp et Google Maps.\n• Système complet pour Pet Shop, incluant authentification, tableau de bord administratif et backend sécurisé et bien structuré.\n• Intégrations avec des API REST, développement d'interfaces réactives et création de flux complets front-end et back-end.\n\n<span class=\"about-highlight\">Je recherche une opportunité en tant que développeur junior ou stagiaire, où je pourrai appliquer mes connaissances à des projets réels, contribuer par des solutions de qualité et continuer à évoluer en tant que professionnel au sein d'une équipe technologique.</span>",
 
     // Traduzindo para PTBR EN e FR Soft Skills
     "about.softSkills.title": "Compétences Douces",
@@ -327,21 +323,19 @@ const translations = {
     "projects.barber.feature1": "Soins spécialisés",
     "projects.barber.feature2": "PWA configuré",
     "projects.barber.feature3": "Intégration WhatsApp",
-    "projects.tattoo.title": "Marcos Garcia Tattoo – Site Web",
-    "projects.tattoo.type": "Site Web Professionnel",
-    "projects.tattoo.description":
-      "Site web responsif et moderne aligné sur l'identité visuelle du client, mettant en valeur son style unique et facilitant la connexion avec de nouveaux clients. Inclut un portfolio filtré par catégories, des témoignages réels et une intégration directe avec WhatsApp et Instagram.",
-    "projects.tattoo.feature1": "Portfolio filtré",
-    "projects.tattoo.feature2": "Intégration WhatsApp",
-    "projects.tattoo.feature3": "Google Maps",
-    "projects.amazon.title": "Amazon Scraper – Full-stack",
+    "projects.amazon.title": "Amazon Scraper – Application Web Fullstack",
     "projects.amazon.type": "Application Web",
     "projects.amazon.description":
-      "Application web moderne pour la recherche de produits sur Amazon. Interface responsive avec fonctionnalités de recherche avancée, filtres et comparaison de prix. Développé avec des technologies full-stack pour démontrer des compétences de développement complet.",
+      "Réalisé en juil-2025 : application web en JavaScript (Node.js et Express) pour la recherche et la comparaison de produits Amazon, utilisant Fetch APIs et JSDOM. Interface responsive avec HTML5, CSS3 et Tailwind CSS.",
     "projects.amazon.feature1": "Recherche de produits",
     "projects.amazon.feature2": "Interface moderne",
     "projects.amazon.feature3": "Multi-appareil",
     "projects.viewMore": "Voir plus de projets",
+    "projects.workshift.title":
+      "Workshift Manager – Système de Plannings de Travail",
+    "projects.workshift.type": "Application Desktop",
+    "projects.workshift.description":
+      "Application desktop pour générer des plannings hebdomadaires et mensuels, avec règles métier (repos, shifts, validations), persistance des données avec SQLite et export Excel via Pandas et OpenPyXL. Interface graphique réalisée avec Tkinter.",
 
     // Traduzindo para PTBR EN e FR seção certificados
     "certificates.title": "Certificats",

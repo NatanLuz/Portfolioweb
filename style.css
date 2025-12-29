@@ -232,51 +232,37 @@
 
 /* Contact buttons melhorados */
 .contact-btn {
-  display: flex;
-  flex-direction: column;
+  display: inline-flex;
   align-items: center;
-  padding: 12px 16px;
-  border-radius: 10px;
-  text-decoration: none;
-  transition: var(--transition);
-  position: relative;
-  overflow: hidden;
-  min-height: 80px;
   justify-content: center;
-  flex: 1;
-  max-width: 160px;
+  padding: 0;
+  border-radius: 0;
+  text-decoration: none;
+  transition: none;
+  position: relative;
+  overflow: visible;
+  min-height: auto;
+  flex: 0 0 auto;
+  max-width: none;
 }
 
 .contact-btn::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(
-    135deg,
-    rgba(255, 255, 255, 0.1),
-    rgba(255, 255, 255, 0.05)
-  );
-  opacity: 0;
-  transition: opacity 0.3s;
+  display: none;
 }
 
 .contact-btn:hover::before {
-  opacity: 1;
+  opacity: 0;
 }
 
 .contact-btn i {
-  font-size: 1.2rem;
-  margin-bottom: 4px;
-  transition: var(--transition);
+  font-size: 1.6rem;
+  color: #f59e0b; /* dourado */
+  margin: 0;
+  transition: none;
 }
 
 .contact-btn span {
-  font-weight: 600;
-  font-size: 0.85rem;
-  margin-bottom: 0;
+  display: none; /* mostrar apenas o ícone */
 }
 
 .contact-btn small {
@@ -284,28 +270,20 @@
   opacity: 0.8;
 }
 
-.email-btn {
-  background: linear-gradient(135deg, #667eea, #764ba2);
-  color: white;
-}
-
-.linkedin-btn {
-  background: linear-gradient(135deg, #0077b5, #005885);
-  color: white;
-}
-
+.email-btn,
+.linkedin-btn,
 .github-btn {
-  background: linear-gradient(135deg, #333, #000);
-  color: white;
+  background: transparent;
+  color: inherit;
 }
 
 .contact-btn:hover {
-  transform: translateY(-5px);
-  box-shadow: var(--shadow-xl);
+  transform: none;
+  box-shadow: none;
 }
 
 .contact-btn:hover i {
-  transform: scale(1.2);
+  transform: none;
 }
 
 /* Estilo para a seção Sobre (profissional e legível) */
@@ -316,6 +294,15 @@
   text-align: justify;
   margin-top: 1rem;
   white-space: pre-line; /* preserva quebras de linha nas traduções */
+}
+
+/* Destaque sutil dentro do texto do Sobre Mim */
+.about-highlight {
+  display: inline-block;
+  border-bottom: 2px solid var(--primary-color);
+  font-weight: 600;
+  color: var(--text-primary);
+  padding-bottom: 2px;
 }
 
 /* Estilos para animação de digitação no hero */
@@ -1110,6 +1097,18 @@ p {
   animation: fadeInUp 1s ease 0.3s both;
 }
 
+/* Emphasis wrapper for Backend heading + description */
+.backend-emphasis {
+  background: var(--card-background);
+  border: 1px solid var(--border-color);
+  border-left: 3px solid var(--primary-color);
+  border-radius: 12px;
+  padding: 0.75rem 1rem;
+  max-width: 720px;
+  margin: 0.5rem auto 2rem;
+  box-shadow: var(--shadow-sm);
+}
+
 .tech-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
@@ -1415,32 +1414,39 @@ p {
 .contact-buttons {
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: 1.25rem; /* ligeiramente mais espaço entre ícones */
   flex-wrap: wrap;
   margin-top: 2rem;
 }
 
 .contact-btn {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.6rem;
-  padding: 1rem;
   color: var(--text-secondary);
   text-decoration: none;
-  transition: var(--transition);
+  padding: 0;
+  gap: 0;
+  transition: none;
 }
 
 .contact-btn i {
-  font-size: 1.5rem;
-  transition: var(--transition);
+  font-size: 1.9rem; /* ícones um pouco maiores */
+  transition: none;
   color: #f59e0b;
 }
 
 .contact-btn span {
-  font-size: 0.9rem;
-  font-weight: 500;
-  transition: var(--transition);
+  display: none;
+}
+
+/* Remover estilos de CTA nos botões de contato */
+.contact-btn.btn-cta-primary,
+.contact-btn.btn-cta-secondary {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+.contact-btn.btn-cta-primary::before,
+.contact-btn.btn-cta-secondary::before {
+  display: none !important;
 }
 
 /* Editando a sessao Footer */
