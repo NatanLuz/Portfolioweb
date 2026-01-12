@@ -39,7 +39,7 @@ Portfolioweb/
 ├── style.css         # Tema por variáveis, componentes e responsividade
 ├── script.js         # Idioma, tema, scroll, microinterações
 ├── translations.js   # Mapeamento de textos PT/EN/FR
-├── public/           # Currículo e arquivos públicos (deploy Vercel)
+├── CurriculoNatanDaLuz.pdf  # Currículo acessível na raiz (Vercel)
 ├── img/              # Imagens e ícones
 └── README.md         # Documentação
 ```
