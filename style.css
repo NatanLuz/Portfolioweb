@@ -151,6 +151,15 @@
   color: var(--background-color);
 }
 
+/* Botão de download do CV: ajustes finos para ícone e espaçamento */
+.cv-download-btn {
+  gap: 8px;
+  font-size: 1rem;
+}
+.cv-download-btn i {
+  color: inherit;
+}
+
 .btn-cta-secondary {
   background: transparent;
   border: 2px solid var(--primary-color);
