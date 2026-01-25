@@ -2,51 +2,44 @@
    <img src="img/preview.jpg" alt="Pré-visualização do Portfólio" width="760" />
 
    <h1>Portfólio — Natan Da Luz</h1>
-   <p>Desenvolvedor de Software</p>
+   <p>Desenvolvedor de Software Backend</p>
 </div>
 
 ---
 
-## Visão Geral
+## Sobre o Projeto
 
-Portfólio estático (HTML/CSS/JS) para apresentar projetos e competências. Interface responsiva, multilíngue (PT/EN/FR) e com alternância de tema claro/escuro, incluindo microinterações e boas práticas de acessibilidade.
-
----
-
-## Funcionalidades
-
-- **Responsivo:** experiência fluida em mobile e desktop.
-- **Multilíngue:** PT/EN/FR via `data-translate` e `data-translate-attr`.
-- **Tema Dinâmico:** alternância `dark`/`light` com persistência em `localStorage`.
-- **UX aprimorada:** AOS para animações, barra de progresso de scroll e botão voltar ao topo.
-- **Contato:** links diretos para e-mail, LinkedIn e GitHub.
+Portfólio pessoal desenvolvido em HTML, CSS e JavaScript para apresentar projetos, tecnologias e experiência como desenvolvedor backend. O site é estático, responsivo, multilíngue (PT/EN/FR) e possui alternância de tema claro/escuro.
 
 ---
 
-## Tecnologias
+## Principais Funcionalidades
 
-- **Frontend:** HTML5, CSS3, JavaScript, AOS, Font Awesome
-- **Outros:** Tailwind CSS (em projetos listados), PHP/Laravel e MySQL
-- **Desktop:** Python, Tkinter, SQLite, Pandas, OpenPyXL
+- **Layout responsivo:** otimizado para desktop, tablet e mobile.
+- **Multilíngue (PT/EN/FR):** sistema de tradução via `data-translate` e `translations.js`.
+- **Tema claro/escuro:** alternância com persistência em `localStorage`.
+- **Seção de Tecnologias:** destaque para backend (PHP/Laravel, Python), bancos de dados (MySQL/SQL) e ferramentas de desenvolvimento.
+- **Seção de Projetos:** projetos reais com foco em sistemas web, automações e aplicações desktop.
+- **Acessibilidade e UX:** uso de AOS para animações, botão de voltar ao topo e navegação clara.
 
 ---
 
-## Estrutura
+## Estrutura do Repositório
 
 ```
 Portfolioweb/
-├── index.html        # Home, Sobre, Tecnologias, Projetos, Contato
-├── style.css         # Tema por variáveis, componentes e responsividade
-├── script.js         # Idioma, tema, scroll, microinterações
-├── translations.js   # Mapeamento de textos PT/EN/FR
-├── CurriculoNatanDaLuz.pdf  # Currículo acessível na raiz (Vercel)
-├── img/              # Imagens e ícones
-└── README.md         # Documentação
+├── index.html          # Página principal (Home, Sobre, Tecnologias, Projetos, Contato)
+├── style.css           # Estilos globais, temas e responsividade
+├── script.js           # Lógica de idioma, tema, scroll e interações
+├── translations.js     # Dicionário de traduções PT/EN/FR
+├── assets/             # Arquivos auxiliares (ex.: currículo)
+├── img/                # Imagens e ícones do portfólio
+└── README.md           # Documentação do projeto
 ```
 
 ---
 
-## Execução Local
+## Como Rodar Localmente
 
 ```powershell
 git clone https://github.com/NatanLuz/Portfolioweb.git
@@ -54,16 +47,18 @@ cd Portfolioweb
 npx http-server .
 ```
 
-Acesse em `http://localhost:8080`. Para testes locais sem servidor, alguns caminhos absolutos (`/...`) podem não funcionar via `file://`.
+Acesse em `http://localhost:8080`.
+
+Sem servidor HTTP, alguns recursos podem não funcionar corretamente ao abrir o `index.html` diretamente pelo navegador (`file://`).
 
 ---
 
-## Convenções
+## Boas Práticas no Projeto
 
-- Usar variáveis de tema (evitar cores fixas).
-- Manter traduções sincronizadas em PT/EN/FR.
-- Adotar padrões de componentes (`.project-card`, `.tech-grid`).
-- Links externos com `target="_blank"` e `rel="noopener"`.
+- Manter textos sincronizados em PT/EN/FR no arquivo `translations.js`.
+- Reaproveitar componentes visuais (`.project-card`, `.tech-grid`, etc.).
+- Utilizar variáveis de tema no CSS, evitando cores “soltas” no código.
+- Garantir que links externos usem `target="_blank"` com `rel="noopener"`.
 
 ---
 
@@ -71,3 +66,10 @@ Acesse em `http://localhost:8080`. Para testes locais sem servidor, alguns camin
 
 - **Email:** natandaluz01@gmail.com
 - **LinkedIn:** https://www.linkedin.com/in/natan-da-luz-3156582a2/
+- **GitHub:** https://github.com/NatanLuz
+
+---
+
+## Licença
+
+Projeto de portfólio pessoal. Para uso, referências ou colaboração, entre em contato.
