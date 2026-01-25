@@ -45,6 +45,9 @@ const translations = {
     "technologies.backend": "Backend",
     "technologies.backend.description":
       "Construção de sistemas robustos e escaláveis, desenvolvendo APIs eficientes e gerenciando dados com segurança e performance.",
+    "technologies.databases": "Banco de Dados",
+    "technologies.databases.description":
+      "Modelagem e gerenciamento de bancos de dados relacionais com foco em segurança, consistência e performance.",
     "technologies.tools": "Ferramentas",
     "technologies.tools.description":
       "Controle de versão e colaboração em projetos, garantindo qualidade e organização no desenvolvimento de software.",
@@ -136,17 +139,17 @@ const translations = {
 
     // Traduzindo para PTBR EN e FR seção hero
     "hero.title": "Natan Da Luz",
-    "hero.subtitle": "Software Developer",
-    "meta.title": "Natan Da Luz - Software Developer",
+    "hero.subtitle": "Backend Software Developer",
+    "meta.title": "Natan Da Luz - Backend Software Developer",
     "hero.cta.cv": "Download CV",
     "meta.description":
-      "Software developer with real projects: PetShop system and Barbershop. Experienced in React, Laravel, PHP, JavaScript, MySQL and Docker",
+      "Backend-oriented Software Developer with real projects such as a PetShop system, barbershop website and administrative automation solutions. Experience with PHP (Laravel), Python, JavaScript, MySQL/SQL, REST APIs and software engineering best practices.",
     "hero.cta.contact": "Let's Talk",
 
     // Traduzindo para PTBR EN e FR sobre seção
     "about.title": "About Me",
     "about.intro":
-      "I'm Natan Da Luz, a Full Stack Developer with hands-on experience in JavaScript (React) and PHP (Laravel). I focus on building modern, functional, and scalable applications, always prioritizing performance, organization, development best practices, and a clear, efficient user experience.\n\nI am currently studying Information Systems and apply my knowledge to real projects, working with PHP/Laravel, JavaScript/React, MySQL/SQL, and I have experience with Git, GitHub and Docker (continuously improving).\n\nAmong the projects I've developed are:\n• Professional websites for a specialized barber service (CorteAzulTea) and a tattoo studio, emphasizing performance, visual identity, and integrations with WhatsApp and Google Maps.\n• A complete Pet Shop system, including authentication, admin dashboard and a secure, well-structured backend.\n• REST API integrations, responsive interface development and end-to-end frontend and backend flows.\n\n<span class=\"about-highlight\">I'm seeking a Junior Developer or Intern position where I can apply my knowledge to real projects, contribute quality solutions and continue growing as a professional within a technology team.</span>",
+      "I'm a Software Developer focused on backend, working on the development of web applications, systems and APIs mainly with PHP (Laravel) and Python. I have experience building robust, secure and well-structured solutions, applying development best practices and clean, organized code.\n\nI work on end-to-end systems, from data modelling and database design to business rules and integrations with external APIs. I have experience in management, automation and administrative systems projects, always prioritizing performance, clarity and maintainability.\n\nI also work with JavaScript and frontend technologies to integrate interfaces with the backend and deliver functional, consistent user experiences. I am constantly improving my technical skills, seeking to evolve as a backend and database developer.\n\n<span class=\"about-highlight\">I'm looking for a Junior Backend Developer or Intern position where I can apply my knowledge to real projects, contribute high-quality solutions and continue growing within a technology team.</span>",
 
     // Traduzindo para PTBR EN e FR Soft Skills
     "about.softSkills.title": "Soft Skills",
@@ -171,6 +174,9 @@ const translations = {
     "technologies.backend": "Backend",
     "technologies.backend.description":
       "Building robust and scalable systems, developing efficient APIs and managing data with security and performance.",
+    "technologies.databases": "Databases",
+    "technologies.databases.description":
+      "Design and management of relational databases with a focus on security, consistency and performance.",
     "technologies.tools": "Tools",
     "technologies.tools.description":
       "Version control and collaboration on projects, ensuring quality and organization in software development.",
@@ -260,17 +266,17 @@ const translations = {
 
     // Traduzindo para PTBR EN e FR seção hero
     "hero.title": "Natan Da Luz",
-    "hero.subtitle": "Développeur de Logiciels",
-    "meta.title": "Natan Da Luz - Développeur de Logiciels",
+    "hero.subtitle": "Développeur Backend",
+    "meta.title": "Natan Da Luz - Développeur Backend",
     "hero.cta.cv": "Télécharger CV",
     "meta.description":
-      "Développeur de Logiciels avec des projets réels : système PetShop et barbier. Expérimenté en React, Laravel, PHP, JavaScript, MySQL et Docker",
+      "Développeur de logiciels orienté backend, avec des projets réels tels qu'un système de PetShop, un site de barbier et des solutions d'automatisation administrative. Expérience en PHP (Laravel), Python, JavaScript, MySQL/SQL, API REST et bonnes pratiques de développement.",
     "hero.cta.contact": "Parlons",
 
     // Traduzindo para PTBR EN e FR seção sobre
     "about.title": "À Propos de Moi",
     "about.intro":
-      "Je suis Natan Da Luz, développeur Full Stack avec une expérience pratique en JavaScript (React) et PHP (Laravel). Je me consacre à la conception d'applications modernes, fonctionnelles et évolutives, en donnant toujours la priorité aux performances, à l'organisation, aux bonnes pratiques de développement et à une expérience utilisateur claire et efficace.\n\nActuellement, j'étudie les Systèmes d'Information et j'applique mes connaissances à des projets réels, travaillant avec PHP/Laravel, JavaScript/React, MySQL/SQL, et j'ai de l'expérience avec Git, GitHub et Docker (en amélioration continue).\n\nParmi les projets que j'ai développés, on peut citer :\n• Sites web professionnels pour un service de barbier spécialisé T.E.A et un studio de tatouage, axés sur la performance, l'identité visuelle et les intégrations avec WhatsApp et Google Maps.\n• Système complet pour Pet Shop, incluant authentification, tableau de bord administratif et backend sécurisé et bien structuré.\n• Intégrations avec des API REST, développement d'interfaces réactives et création de flux complets front-end et back-end.\n\n<span class=\"about-highlight\">Je recherche une opportunité en tant que développeur junior ou stagiaire, où je pourrai appliquer mes connaissances à des projets réels, contribuer par des solutions de qualité et continuer à évoluer en tant que professionnel au sein d'une équipe technologique.</span>",
+      "Je suis développeur de logiciels spécialisé dans le backend, travaillant sur le développement d'applications web, de systèmes et d'API principalement avec PHP (Laravel) et Python. J'ai de l'expérience dans la conception de solutions robustes, sécurisées et bien structurées, en appliquant de bonnes pratiques de développement et un code clair et organisé.\n\nJe travaille sur des systèmes complets de bout en bout, de la modélisation de données et la conception de bases de données aux règles métier et aux intégrations avec des API externes. J'ai de l'expérience dans des projets de gestion, d'automatisation et de systèmes administratifs, en priorisant toujours les performances, la clarté et la maintenabilité.\n\nJe travaille également avec JavaScript et des technologies frontend pour intégrer les interfaces au backend et offrir des expériences utilisateur fonctionnelles et cohérentes. Je suis en évolution technique constante, cherchant à progresser en tant que développeur backend et bases de données.\n\n<span class=\"about-highlight\">Je recherche un poste de développeur backend junior ou de stagiaire afin d'appliquer mes connaissances à des projets réels, contribuer avec des solutions de qualité et continuer à évoluer au sein d'une équipe technologique.</span>",
 
     // Traduzindo para PTBR EN e FR Soft Skills
     "about.softSkills.title": "Compétences Douces",
@@ -295,6 +301,9 @@ const translations = {
     "technologies.backend": "Backend",
     "technologies.backend.description":
       "Construction de systèmes robustes et évolutifs, développement d'API efficaces et gestion des données avec sécurité et performance.",
+    "technologies.databases": "Bases de données",
+    "technologies.databases.description":
+      "Conception et gestion de bases de données relationnelles avec un fort accent sur la sécurité, la cohérence et la performance.",
     "technologies.tools": "Outils",
     "technologies.tools.description":
       "Contrôle de version et collaboration sur les projets, garantissant la qualité et l'organisation dans le développement du logiciel.",
