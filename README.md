@@ -36,23 +36,6 @@ Portfolioweb/
 ├── img/                # Imagens e ícones do portfólio
 └── README.md           # Documentação do projeto
 ```
-
----
-
-## Como Rodar Localmente
-
-```powershell
-git clone https://github.com/NatanLuz/Portfolioweb.git
-cd Portfolioweb
-npx http-server .
-```
-
-Acesse em `http://localhost:8080`.
-
-Sem servidor HTTP, alguns recursos podem não funcionar corretamente ao abrir o `index.html` diretamente pelo navegador (`file://`).
-
----
-
 ## Boas Práticas no Projeto
 
 - Manter textos sincronizados em PT/EN/FR no arquivo `translations.js`.
@@ -66,7 +49,6 @@ Sem servidor HTTP, alguns recursos podem não funcionar corretamente ao abrir o 
 
 - **Email:** natandaluz01@gmail.com
 - **LinkedIn:** https://www.linkedin.com/in/natan-da-luz-3156582a2/
-- **GitHub:** https://github.com/NatanLuz
 
 ---
 
