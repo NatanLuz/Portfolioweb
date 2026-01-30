@@ -1,3 +1,23 @@
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .tech-grid {
+    max-width: 900px;
+    gap: 1.5rem;
+  }
+  .frontend-grid {
+    max-width: 800px;
+  }
+  .backend-grid {
+    max-width: 600px;
+  }
+  .tools-grid {
+    max-width: 600px;
+  }
+}
 /* Importando as fontes necessárias  */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600&display=swap");
@@ -19,12 +39,12 @@
   --error-color: #ef4444;
   --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
-    0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
-    0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
-    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --shadow:
+    0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg:
+    0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-xl:
+    0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
   --gradient-primary: linear-gradient(
     135deg,
     var(--primary-color),
@@ -52,12 +72,12 @@
   --warning-color: #d69e2e;
   --error-color: #e53e3e;
   --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
-    0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
-    0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
-    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --shadow:
+    0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg:
+    0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-xl:
+    0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
   --gradient-primary: linear-gradient(
     135deg,
     var(--primary-color),
@@ -292,6 +312,7 @@
 }
 
 .contact-btn:hover i {
+  /* sem efeito hover */
   transform: none;
 }
 
@@ -476,36 +497,12 @@
 }
 
 .tech-item {
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  /* Removido efeito de transição/hover para visual mais profissional */
   position: relative;
   overflow: hidden;
 }
 
-.tech-item::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 0;
-  height: 0;
-  background: radial-gradient(
-    circle,
-    rgba(102, 126, 234, 0.3) 0%,
-    transparent 70%
-  );
-  transition: all 0.3s ease;
-  transform: translate(-50%, -50%);
-}
-
-.tech-item:hover::before {
-  width: 200px;
-  height: 200px;
-}
-
-.tech-item:hover {
-  transform: scale(1.1) translateY(-5px);
-  box-shadow: 0 10px 25px rgba(102, 126, 234, 0.2);
-}
+/* Removido efeito hover e sombra das tecnologias */
 
 /* Lazy loading para imagens */
 .project-img {
@@ -543,7 +540,9 @@ body {
   line-height: 1.6;
   overflow-x: hidden;
   font-size: 16px;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
 }
 
 /* estado de carregamento   */
@@ -785,7 +784,8 @@ p {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   margin-bottom: 1rem;
-  animation: titleGlow 3s ease-in-out infinite alternate,
+  animation:
+    titleGlow 3s ease-in-out infinite alternate,
     fadeInUp 1.5s ease 0.5s both;
   opacity: 0;
   transform: translateY(30px);
@@ -801,7 +801,8 @@ p {
 }
 
 [data-theme="light"] .hero-title {
-  animation: titleGlowLight 3s ease-in-out infinite alternate,
+  animation:
+    titleGlowLight 3s ease-in-out infinite alternate,
     fadeInUp 1.5s ease 0.5s both;
 }
 
@@ -819,7 +820,8 @@ p {
   font-weight: 600;
   color: var(--text-secondary);
   margin-bottom: 3rem;
-  animation: subtitleGlow 3s ease-in-out infinite alternate,
+  animation:
+    subtitleGlow 3s ease-in-out infinite alternate,
     fadeInUp 1s ease 2s both;
   opacity: 0;
   transform: translateY(30px);
@@ -835,7 +837,8 @@ p {
 }
 
 [data-theme="light"] .hero-subtitle {
-  animation: subtitleGlowLight 3s ease-in-out infinite alternate,
+  animation:
+    subtitleGlowLight 3s ease-in-out infinite alternate,
     fadeInUp 1s ease 2s both;
 }
 
@@ -1120,27 +1123,27 @@ p {
 
 .tech-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  gap: 1.5rem;
-  max-width: 800px;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  gap: 0.7rem;
+  max-width: 600px;
   margin: 0 auto;
   justify-items: center;
   place-items: center;
 }
 
 .frontend-grid {
-  gap: 1.5rem;
-  max-width: 700px;
+  gap: 0.7rem;
+  max-width: 500px;
 }
 
 .backend-grid {
-  gap: 1rem;
-  max-width: 650px;
+  gap: 0.6rem;
+  max-width: 400px;
 }
 
 .tools-grid {
-  gap: 1.5rem;
-  max-width: 650px;
+  gap: 0.7rem;
+  max-width: 400px;
 }
 
 .tech-item {

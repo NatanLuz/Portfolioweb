@@ -1,3 +1,39 @@
+// Envio do formulário de contato (simulação frontend)
+function sendContactForm(event) {
+  event.preventDefault();
+  const form = document.getElementById("contactForm");
+  const feedback = document.getElementById("formFeedback");
+  // Honeypot anti-spam
+  if (form.website && form.website.value) {
+    feedback.style.display = "inline";
+    feedback.style.color = "#e74c3c";
+    feedback.textContent = "Erro: envio bloqueado.";
+    return false;
+  }
+  // Simula envio (você pode integrar com um serviço real depois)
+  feedback.style.display = "inline";
+  feedback.style.color = "#f59e0b";
+  feedback.textContent = "Mensagem enviada!";
+  setTimeout(() => {
+    feedback.style.display = "none";
+    form.reset();
+  }, 2000);
+  return false;
+}
+// Feedback visual ao clicar no email de contato
+function showEmailFeedback(event) {
+  event.preventDefault();
+  const email = "natandaluz01@gmail.com";
+  if (navigator.clipboard) {
+    navigator.clipboard.writeText(email);
+  }
+  const feedback = document.getElementById("emailFeedback");
+  feedback.style.display = "inline";
+  setTimeout(() => {
+    feedback.style.display = "none";
+    window.location.href = "mailto:" + email + "?subject=Contato%20via%20site";
+  }, 1200);
+}
 // Sistema de mudança de idioma pt en fr
 let currentLanguage = "pt";
 
@@ -40,7 +76,7 @@ function initializeLazyLoading() {
   }
 }
 
-// adicionando função skeleton loading 
+// adicionando função skeleton loading
 function showSkeleton(element) {
   element.classList.add("skeleton");
 }
@@ -67,7 +103,7 @@ function changeLanguage(lang) {
       try {
         // Se o elemento contém um ícone (<i>) ou outros filhos, preserve-os
         const hasChildren = element.querySelector(
-          "i, img, svg, .icon, .btn-icon"
+          "i, img, svg, .icon, .btn-icon",
         );
         const html = String(value).replace(/\n/g, "<br/>");
         if (hasChildren) {
@@ -334,7 +370,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
       });
     },
-    { threshold: 0.1 }
+    { threshold: 0.1 },
   );
 
   revealElements.forEach((element) => {
