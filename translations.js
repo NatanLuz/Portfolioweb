@@ -20,7 +20,7 @@ const translations = {
     // Traduzindo para PTBR EN e FR sobre seção
     "about.title": "Sobre Mim",
     "about.intro":
-      "Sou Desenvolvedor de Software com foco em backend, atuando no desenvolvimento de aplicações web, sistemas e APIs utilizando principalmente PHP (Laravel) e Python. Tenho experiência na construção de soluções robustas, seguras e bem estruturadas, aplicando boas práticas de desenvolvimento e organização de código.\n\nTrabalho com a criação de sistemas completos, desde a modelagem de dados até a implementação de regras de negócio e integrações com APIs externas. Possuo experiência em projetos voltados à gestão, automação e sistemas administrativos, sempre priorizando desempenho, clareza e manutenibilidade.\n\nTambém atuo com JavaScript e tecnologias de frontend para integração com o backend e construção de interfaces funcionais. Estou em constante evolução técnica, buscando aprimorar minhas habilidades e entregar soluções eficientes e bem estruturadas.",
+      "Sou Desenvolvedor Back-end Júnior com experiência no desenvolvimento de sistemas reais através de projetos freelance, voluntários e autorais. Atuo principalmente com PHP (Laravel) e Python, desenvolvendo aplicações com regras de negócio, autenticação, APIs e integração com banco de dados. Tenho experiência com MySQL, SQLite e geração de relatórios/exportações em Excel, sempre com foco em organização de código, boas práticas e aprendizado contínuo.\n\nAo longo dos meus projetos, desenvolvi soluções voltadas para demandas reais de negócio. Um dos principais é o PetSystem, sistema que desenvolvi sozinho em PHP com MySQL para um petshop local. Nesse projeto, fui responsável por toda a construção do sistema, incluindo autenticação de usuários, modelagem do banco de dados e implementação das regras de agendamento, garantindo prevenção de conflitos de horários e gestão eficiente de clientes.\n\nTambém desenvolvi individualmente o WorkshiftManager, um sistema freelancer criado para automatizar a geração de escalas semanais e mensais para um mercado local. A aplicação foi construída em Python, onde implementei persistência de dados com SQLite, regras operacionais como turnos e folgas, além da exportação automática das escalas para Excel, atendendo uma necessidade operacional real.\n\nAlém dos projetos freelance, participei voluntariamente do desenvolvimento do CorteAzulTea, um website para uma barbearia especializada no atendimento humanizado de crianças com TEA (Transtorno do Espectro Autista). Contribuí na criação de uma interface moderna, responsiva e acessível utilizando HTML5, CSS3, Tailwind CSS e JavaScript, com foco em transmitir confiança e facilitar o contato com as famílias.\n\nEssas experiências consolidaram minha atuação em desenvolvimento back-end, modelagem de dados, construção de APIs e implementação de regras de negócio, além de ampliar minha vivência com desenvolvimento front-end e projetos com impacto social, sempre com foco em qualidade, organização e resolução de problemas práticos.",
 
     // Traduzindo para PTBR EN e FR Soft Skills
     "about.softSkills.title": "Soft Skills",
@@ -50,7 +50,7 @@ const translations = {
       "Modelagem e gerenciamento de bancos de dados relacionais com foco em segurança, consistência e performance.",
     "technologies.tools": "Ferramentas",
     "technologies.tools.description":
-      "Controle de versão e colaboração em projetos, garantindo qualidade e organização no desenvolvimento de software.",
+      "Controle de versão, colaboração e ambientes de desenvolvimento em diferentes sistemas operacionais, garantindo qualidade e organização.",
 
     // Traduzindo para PTBR EN e FR seção projetos
     "projects.title": "Projetos",
@@ -81,7 +81,7 @@ const translations = {
     "projects.amazon.title": "Amazon Scraper – Aplicação Web Fullstack",
     "projects.amazon.type": "Aplicação Web",
     "projects.amazon.description":
-      "Desenvolvido em Jul-2025: aplicação web em JavaScript (Node.js e Express) para busca e comparação de produtos da Amazon, utilizando Fetch APIs e JSDOM. Interface responsiva com HTML5, CSS3 e Tailwind CSS.",
+      "Aplicação web em JavaScript (Node.js e Express) para busca e comparação de produtos da Amazon, utilizando Fetch APIs e JSDOM. Interface responsiva com HTML5, CSS3 e Tailwind CSS.",
     "projects.amazon.feature1": "Busca de produtos",
     "projects.amazon.feature2": "Interface moderna",
     "projects.amazon.feature3": "Multi-dispositivo",
@@ -149,7 +149,7 @@ const translations = {
     // Traduzindo para PTBR EN e FR sobre seção
     "about.title": "About Me",
     "about.intro":
-      "I'm a Software Developer focused on backend, working on the development of web applications, systems and APIs mainly with PHP (Laravel) and Python. I have experience building robust, secure and well-structured solutions, applying development best practices and clean, organized code.\n\nI work on end-to-end systems, from data modelling and database design to business rules and integrations with external APIs. I have experience in management, automation and administrative systems projects, always prioritizing performance, clarity and maintainability.\n\nI also work with JavaScript and frontend technologies to integrate interfaces with the backend and deliver functional, consistent user experiences. I am constantly improving my technical skills, seeking to evolve as a backend and database developer.\n\n<span class=\"about-highlight\">I'm looking for a Junior Backend Developer or Intern position where I can apply my knowledge to real projects, contribute high-quality solutions and continue growing within a technology team.</span>",
+      "I'm a Junior Backend Developer with experience building real-world systems through freelance, volunteer and personal projects. I mainly work with PHP (Laravel) and Python, developing applications with business rules, authentication, APIs and database integrations. I have experience with MySQL, SQLite and generating reports/exports to Excel, always focusing on clean code organization, best practices and continuous learning.\n\nThroughout my projects, I've developed solutions for real business needs. One of the main ones is PetSystem, a system I built entirely in PHP with MySQL for a local pet shop. In this project I was responsible for the whole system, including user authentication, database modelling and implementation of scheduling rules, ensuring conflict-free time slots and efficient customer management.\n\nI also individually developed WorkshiftManager, a freelance system created to automate weekly and monthly shift generation for a local market. The application was built in Python, where I implemented data persistence with SQLite, operational rules such as shifts and days off, and automatic export of schedules to Excel, addressing a real operational need.\n\nIn addition to freelance work, I contributed voluntarily to the development of CorteAzulTea, a website for a barbershop specialized in humanized care for children with ASD (Autism Spectrum Disorder). I helped create a modern, responsive and accessible interface using HTML5, CSS3, Tailwind CSS and JavaScript, focusing on conveying trust and facilitating contact with families.\n\nThese experiences have consolidated my work in backend development, data modelling, API design and business rule implementation, while also expanding my experience with frontend development and socially impactful projects, always aiming for quality, organization and practical problem-solving.",
 
     // Traduzindo para PTBR EN e FR Soft Skills
     "about.softSkills.title": "Soft Skills",
@@ -179,7 +179,7 @@ const translations = {
       "Design and management of relational databases with a focus on security, consistency and performance.",
     "technologies.tools": "Tools",
     "technologies.tools.description":
-      "Version control and collaboration on projects, ensuring quality and organization in software development.",
+      "Version control, collaboration and development environments across different operating systems, ensuring quality and organization.",
 
     // Traduzindo para PTBR EN e FR seção projetos
     "projects.title": "Projects",
@@ -208,7 +208,7 @@ const translations = {
     "projects.amazon.title": "Amazon Scraper – Fullstack Web Application",
     "projects.amazon.type": "Web Application",
     "projects.amazon.description":
-      "Built in Jul-2025: JavaScript (Node.js and Express) web app for Amazon product search and comparison, using Fetch APIs and JSDOM. Responsive interface with HTML5, CSS3 and Tailwind CSS.",
+      "JavaScript (Node.js and Express) web app for Amazon product search and comparison, using Fetch APIs and JSDOM. Responsive interface with HTML5, CSS3 and Tailwind CSS.",
     "projects.amazon.feature1": "Product search",
     "projects.amazon.feature2": "Modern interface",
     "projects.amazon.feature3": "Multi-device",
@@ -276,7 +276,7 @@ const translations = {
     // Traduzindo para PTBR EN e FR seção sobre
     "about.title": "À Propos de Moi",
     "about.intro":
-      "Je suis développeur de logiciels spécialisé dans le backend, travaillant sur le développement d'applications web, de systèmes et d'API principalement avec PHP (Laravel) et Python. J'ai de l'expérience dans la conception de solutions robustes, sécurisées et bien structurées, en appliquant de bonnes pratiques de développement et un code clair et organisé.\n\nJe travaille sur des systèmes complets de bout en bout, de la modélisation de données et la conception de bases de données aux règles métier et aux intégrations avec des API externes. J'ai de l'expérience dans des projets de gestion, d'automatisation et de systèmes administratifs, en priorisant toujours les performances, la clarté et la maintenabilité.\n\nJe travaille également avec JavaScript et des technologies frontend pour intégrer les interfaces au backend et offrir des expériences utilisateur fonctionnelles et cohérentes. Je suis en évolution technique constante, cherchant à progresser en tant que développeur backend et bases de données.\n\n<span class=\"about-highlight\">Je recherche un poste de développeur backend junior ou de stagiaire afin d'appliquer mes connaissances à des projets réels, contribuer avec des solutions de qualité et continuer à évoluer au sein d'une équipe technologique.</span>",
+      "Je suis développeur backend junior avec une expérience dans le développement de systèmes réels à travers des projets freelance, bénévoles et personnels. Je travaille principalement avec PHP (Laravel) et Python, en développant des applications avec des règles métier, authentification, APIs et intégration avec des bases de données. J'ai de l'expérience avec MySQL, SQLite et la génération de rapports/exportations vers Excel, en mettant toujours l'accent sur l'organisation du code, les bonnes pratiques et l'apprentissage continu.\n\nAu fil de mes projets, j'ai développé des solutions orientées vers des besoins réels d'entreprise. L'un des principaux est PetSystem, un système que j'ai développé seul en PHP avec MySQL pour un petshop local. Dans ce projet, j'ai été responsable de toute la construction du système, y compris l'authentification des utilisateurs, la modélisation de la base de données et la mise en œuvre des règles de planification, garantissant la prévention des conflits d'horaires et une gestion efficace des clients.\n\nJ'ai également développé individuellement WorkshiftManager, un système freelance créé pour automatiser la génération de plannings hebdomadaires et mensuels pour un supermarché local. L'application a été construite en Python, où j'ai mis en place la persistance des données avec SQLite, des règles opérationnelles telles que les shifts et les jours de repos, ainsi que l'exportation automatique des plannings vers Excel, répondant à un besoin opérationnel réel.\n\nEn plus des projets freelance, j'ai participé bénévolement au développement de CorteAzulTea, un site web pour un barbier spécialisé dans l'accueil humanisé d'enfants avec TSA (Trouble du Spectre Autistique). J'ai contribué à la création d'une interface moderne, responsive et accessible en utilisant HTML5, CSS3, Tailwind CSS et JavaScript, en mettant l'accent sur la confiance transmise et la facilitation du contact avec les familles.\n\nCes expériences ont consolidé mon rôle dans le développement backend, la modélisation de données, la construction d'APIs et la mise en œuvre de règles métier, tout en élargissant mon expérience en développement frontend et dans des projets à impact social, toujours avec un focus sur la qualité, l'organisation et la résolution pratique de problèmes.",
 
     // Traduzindo para PTBR EN e FR Soft Skills
     "about.softSkills.title": "Compétences Douces",
@@ -306,7 +306,7 @@ const translations = {
       "Conception et gestion de bases de données relationnelles avec un fort accent sur la sécurité, la cohérence et la performance.",
     "technologies.tools": "Outils",
     "technologies.tools.description":
-      "Contrôle de version et collaboration sur les projets, garantissant la qualité et l'organisation dans le développement du logiciel.",
+      "Contrôle de version, collaboration et environnements de développement sur différents systèmes d'exploitation, garantissant la qualité et l'organisation.",
 
     // Traduzindo para PTBR EN e FR seção projetos
     "projects.title": "Projets",
@@ -335,7 +335,7 @@ const translations = {
     "projects.amazon.title": "Amazon Scraper – Application Web Fullstack",
     "projects.amazon.type": "Application Web",
     "projects.amazon.description":
-      "Réalisé en juil-2025 : application web en JavaScript (Node.js et Express) pour la recherche et la comparaison de produits Amazon, utilisant Fetch APIs et JSDOM. Interface responsive avec HTML5, CSS3 et Tailwind CSS.",
+      "Application web en JavaScript (Node.js et Express) pour la recherche et la comparaison de produits Amazon, utilisant Fetch APIs et JSDOM. Interface responsive avec HTML5, CSS3 et Tailwind CSS.",
     "projects.amazon.feature1": "Recherche de produits",
     "projects.amazon.feature2": "Interface moderne",
     "projects.amazon.feature3": "Multi-appareil",
