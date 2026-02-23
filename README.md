@@ -18,7 +18,7 @@ Portfólio pessoal desenvolvido em HTML, CSS e JavaScript para apresentar projet
 - **Layout responsivo:** otimizado para desktop, tablet e mobile.
 - **Multilíngue (PT/EN/FR):** sistema de tradução via `data-translate` e `translations.js`.
 - **Tema claro/escuro:** alternância com persistência em `localStorage`.
-- **Seção de Tecnologias:** destaque para backend (PHP/Laravel, Python), bancos de dados (MySQL/SQL) e ferramentas de desenvolvimento.
+- **Seção de Tecnologias:** destaque para backend (PHP, Python), bancos de dados (MySQL/SQL) e ferramentas de desenvolvimento.
 - **Seção de Projetos:** projetos reais com foco em sistemas web, automações e aplicações desktop.
 - **Acessibilidade e UX:** uso de AOS para animações, botão de voltar ao topo e navegação clara.
 
@@ -36,6 +36,7 @@ Portfolioweb/
 ├── img/                # Imagens e ícones do portfólio
 └── README.md           # Documentação do projeto
 ```
+
 ## Boas Práticas no Projeto
 
 - Manter textos sincronizados em PT/EN/FR no arquivo `translations.js`.

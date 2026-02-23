@@ -1,8 +1,0 @@
-{
-  "git.ignoreLimitWarning": true,
-  "commentTranslate.hover.enabled": true,
-  "commentTranslate.source": "Google",
-  "files.autoSave": "afterDelay",
-  "files.autoSaveDelay": 500,
-  "files.hotExit": "onExitAndWindowClose"
-}

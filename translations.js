@@ -10,17 +10,18 @@ const translations = {
 
     // Traduzindo para PTBR EN e FR seção hero
     "hero.title": "Natan Da Luz",
-    "hero.subtitle": "Desenvolvedor De Software",
+    "hero.subtitle":
+      "Desenvolvedor Backend | PHP • Python | MySQL | APIs REST |",
     "meta.title": "Natan Da Luz - Desenvolvedor De Software",
     "hero.cta.cv": "Download Currículo",
     "meta.description":
-      "Desenvolvedor De Software com projetos reais: Sistema PetShop e Barbearia. Especialista em React, Laravel, PHP, JavaScript, MySQL e Docker",
+      "Desenvolvedor De Software com projetos reais: Sistema PetShop e Barbearia. Especialista em PHP, Python, JavaScript, MySQL e Docker",
     "hero.cta.contact": "Vamos Conversar",
 
     // Traduzindo para PTBR EN e FR sobre seção
     "about.title": "Sobre Mim",
     "about.intro":
-      "Sou Desenvolvedor Back-end Júnior com experiência no desenvolvimento de sistemas reais através de projetos freelance, voluntários e autorais. Atuo principalmente com PHP (Laravel) e Python, desenvolvendo aplicações com regras de negócio, autenticação, APIs e integração com banco de dados. Tenho experiência com MySQL, SQLite e geração de relatórios/exportações em Excel, sempre com foco em organização de código, boas práticas e aprendizado contínuo.\n\nAo longo dos meus projetos, desenvolvi soluções voltadas para demandas reais de negócio. Um dos principais é o PetSystem, sistema que desenvolvi sozinho em PHP com MySQL para um petshop local. Nesse projeto, fui responsável por toda a construção do sistema, incluindo autenticação de usuários, modelagem do banco de dados e implementação das regras de agendamento, garantindo prevenção de conflitos de horários e gestão eficiente de clientes.\n\nTambém desenvolvi individualmente o WorkshiftManager, um sistema freelancer criado para automatizar a geração de escalas semanais e mensais para um mercado local. A aplicação foi construída em Python, onde implementei persistência de dados com SQLite, regras operacionais como turnos e folgas, além da exportação automática das escalas para Excel, atendendo uma necessidade operacional real.\n\nAlém dos projetos freelance, participei voluntariamente do desenvolvimento do CorteAzulTea, um website para uma barbearia especializada no atendimento humanizado de crianças com TEA (Transtorno do Espectro Autista). Contribuí na criação de uma interface moderna, responsiva e acessível utilizando HTML5, CSS3, Tailwind CSS e JavaScript, com foco em transmitir confiança e facilitar o contato com as famílias.\n\nEssas experiências consolidaram minha atuação em desenvolvimento back-end, modelagem de dados, construção de APIs e implementação de regras de negócio, além de ampliar minha vivência com desenvolvimento front-end e projetos com impacto social, sempre com foco em qualidade, organização e resolução de problemas práticos.",
+      "Sou Desenvolvedor Backend com experiência prática no desenvolvimento de sistemas para negócios locais através de projetos freelance, voluntários e autorais.\n\nAtuo principalmente com PHP e Python, desenvolvendo aplicações com autenticação, APIs REST, modelagem de banco de dados e implementação de regras de negócio.\n\nJá desenvolvi sistemas completos de forma independente, incluindo uma plataforma de gestão para petshop e um sistema de automação de escalas operacionais. Tenho foco em organização de código, separação de responsabilidades, segurança da aplicação e arquitetura consistente.\n\nBusco evoluir continuamente como desenvolvedor, criando soluções funcionais, eficientes e sustentáveis para problemas reais.",
 
     // Traduzindo para PTBR EN e FR Soft Skills
     "about.softSkills.title": "Soft Skills",
@@ -54,14 +55,13 @@ const translations = {
 
     // Traduzindo para PTBR EN e FR seção projetos
     "projects.title": "Projetos",
-    "projects.petshop.title":
-      "Sistema de PetShop — Plataforma Completa de Agendamentos e Gestão",
+    "projects.petshop.title": "Sistema de PetShop — Plataforma de Gestão",
     "projects.petshop.type": "Sistema Fullstack",
     "projects.petshop.description":
-      "Desenvolvi um sistema fullstack para petshops e clínicas veterinárias, incluindo CRUD completo, agendamento, dashboard interativo e check-in rápido. A versão profissional recebeu melhorias robustas no backend, segurança reforçada (bcrypt, prepared statements, proteção XSS) e scripts automáticos de instalação e teste. Projeto focado em desempenho, confiabilidade e boa experiência para o usuário.",
-    "projects.petshop.feature1": "CRUD Completo",
-    "projects.petshop.feature2": "Dashboard Interativo",
-    "projects.petshop.feature3": "Segurança Reforçada",
+      "Plataforma de gestão para petshops e clínicas veterinárias, centralizando clientes, serviços e agendamentos com foco em regras de negócio sólidas e operação segura.",
+    "projects.petshop.feature1": "Agendamentos sem conflitos",
+    "projects.petshop.feature2": "Autenticação e segurança",
+    "projects.petshop.feature3": "Dashboard operacional",
 
     "projects.reddead.title": "Red Dead Redemption 2",
     "projects.reddead.type": "Website Acadêmico",
@@ -70,27 +70,25 @@ const translations = {
     "projects.reddead.feature1": "Design responsivo",
     "projects.reddead.feature2": "Animações CSS",
     "projects.reddead.feature3": "Hospedado no Vercel",
-    "projects.barber.title":
-      "CorteAzulTea – Website para barbearia especializada",
+    "projects.barber.title": "CorteAzulTea – Website Institucional",
     "projects.barber.type": "Website Profissional",
     "projects.barber.description":
-      "Website para barbearia especializada em atendimento humanizado para crianças com TEA (Transtorno do Espectro Autista). Site moderno, responsivo e otimizado que transmite confiança e facilita o contato com as famílias.",
-    "projects.barber.feature1": "Atendimento especializado",
-    "projects.barber.feature2": "PWA configurado",
-    "projects.barber.feature3": "Integração WhatsApp",
-    "projects.amazon.title": "Amazon Scraper – Aplicação Web Fullstack",
+      "Website institucional para barbearia especializada em atendimento humanizado a crianças com TEA, focado em transmitir confiança e facilitar o contato e agendamento de serviços.",
+    "projects.barber.feature1": "Layout responsivo",
+    "projects.barber.feature2": "Conteúdo focado em conversão",
+    "projects.barber.feature3": "Experiência acessível",
+    "projects.amazon.title": "Amazon Scraper – Aplicação Web",
     "projects.amazon.type": "Aplicação Web",
     "projects.amazon.description":
-      "Aplicação web em JavaScript (Node.js e Express) para busca e comparação de produtos da Amazon, utilizando Fetch APIs e JSDOM. Interface responsiva com HTML5, CSS3 e Tailwind CSS.",
-    "projects.amazon.feature1": "Busca de produtos",
-    "projects.amazon.feature2": "Interface moderna",
-    "projects.amazon.feature3": "Multi-dispositivo",
+      "Aplicação web em Node.js para coleta e análise de produtos da Amazon, com filtros por preço e avaliação em uma interface responsiva.",
+    "projects.amazon.feature1": "Scraping de produtos",
+    "projects.amazon.feature2": "Filtros por preço e rating",
+    "projects.amazon.feature3": "Interface responsiva",
     "projects.viewMore": "Veja mais Projetos",
-    "projects.workshift.title":
-      "Workshift Manager – Sistema de Escalas de Trabalho",
+    "projects.workshift.title": "Workshift Manager – Sistema de Escalas",
     "projects.workshift.type": "Aplicação Desktop",
     "projects.workshift.description":
-      "Desenvolvimento de aplicação desktop para geração de escalas semanais e mensais, com regras de negócio (folgas, turnos, validações), persistência de dados em SQLite e exportação para Excel utilizando Pandas e OpenPyXL. Interface gráfica desenvolvida com Tkinter.",
+      "Aplicação desktop para geração automática de escalas semanais e mensais, reduzindo erros manuais com regras para turnos, folgas e validações operacionais.",
 
     // Traduzindo para PTBR EN e FR seção certificados
     "certificates.title": "Cursos",
@@ -143,13 +141,13 @@ const translations = {
     "meta.title": "Natan Da Luz - Backend Software Developer",
     "hero.cta.cv": "Download CV",
     "meta.description":
-      "Backend-oriented Software Developer with real projects such as a PetShop system, barbershop website and administrative automation solutions. Experience with PHP (Laravel), Python, JavaScript, MySQL/SQL, REST APIs and software engineering best practices.",
+      "Backend-oriented Software Developer with real projects such as a PetShop system, barbershop website and administrative automation solutions. Experience with PHP, Python, JavaScript, MySQL/SQL, REST APIs and software engineering best practices.",
     "hero.cta.contact": "Let's Talk",
 
     // Traduzindo para PTBR EN e FR sobre seção
     "about.title": "About Me",
     "about.intro":
-      "I'm a Junior Backend Developer with experience building real-world systems through freelance, volunteer and personal projects. I mainly work with PHP (Laravel) and Python, developing applications with business rules, authentication, APIs and database integrations. I have experience with MySQL, SQLite and generating reports/exports to Excel, always focusing on clean code organization, best practices and continuous learning.\n\nThroughout my projects, I've developed solutions for real business needs. One of the main ones is PetSystem, a system I built entirely in PHP with MySQL for a local pet shop. In this project I was responsible for the whole system, including user authentication, database modelling and implementation of scheduling rules, ensuring conflict-free time slots and efficient customer management.\n\nI also individually developed WorkshiftManager, a freelance system created to automate weekly and monthly shift generation for a local market. The application was built in Python, where I implemented data persistence with SQLite, operational rules such as shifts and days off, and automatic export of schedules to Excel, addressing a real operational need.\n\nIn addition to freelance work, I contributed voluntarily to the development of CorteAzulTea, a website for a barbershop specialized in humanized care for children with ASD (Autism Spectrum Disorder). I helped create a modern, responsive and accessible interface using HTML5, CSS3, Tailwind CSS and JavaScript, focusing on conveying trust and facilitating contact with families.\n\nThese experiences have consolidated my work in backend development, data modelling, API design and business rule implementation, while also expanding my experience with frontend development and socially impactful projects, always aiming for quality, organization and practical problem-solving.",
+      "I'm a Junior Backend Developer with experience building real-world systems through freelance, volunteer and personal projects. I mainly work with PHP and Python, developing applications with business rules, authentication, APIs and database integrations. I have experience with MySQL, SQLite and generating reports/exports to Excel, always focusing on clean code organization, best practices and continuous learning.\n\nThroughout my projects, I've developed solutions for real business needs. One of the main ones is PetSystem, a system I built entirely in PHP with MySQL for a local pet shop. In this project I was responsible for the whole system, including user authentication, database modelling and implementation of scheduling rules, ensuring conflict-free time slots and efficient customer management.\n\nI also individually developed WorkshiftManager, a freelance system created to automate weekly and monthly shift generation for a local market. The application was built in Python, where I implemented data persistence with SQLite, operational rules such as shifts and days off, and automatic export of schedules to Excel, addressing a real operational need.\n\nIn addition to freelance work, I contributed voluntarily to the development of CorteAzulTea, a website for a barbershop specialized in humanized care for children with ASD (Autism Spectrum Disorder). I helped create a modern, responsive and accessible interface using HTML5, CSS3, Tailwind CSS and JavaScript, focusing on conveying trust and facilitating contact with families.\n\nThese experiences have consolidated my work in backend development, data modelling, API design and business rule implementation, while also expanding my experience with frontend development and socially impactful projects, always aiming for quality, organization and practical problem-solving.",
 
     // Traduzindo para PTBR EN e FR Soft Skills
     "about.softSkills.title": "Soft Skills",
@@ -183,13 +181,13 @@ const translations = {
 
     // Traduzindo para PTBR EN e FR seção projetos
     "projects.title": "Projects",
-    "projects.petshop.title": "Complete PetShop System",
+    "projects.petshop.title": "PetShop Management Platform",
     "projects.petshop.type": "Fullstack System",
     "projects.petshop.description":
-      "Appointment and management system for pet shops and veterinary clinics. Initial launch with CRUD, appointments and dashboard; professional revision with refactored backend, enhanced security (bcrypt, prepared statements, XSS), quick check-in, interactive dashboard and automatic installation/test scripts.",
-    "projects.petshop.feature1": "Complete CRUD",
-    "projects.petshop.feature2": "Interactive Dashboard",
-    "projects.petshop.feature3": "Enhanced Security",
+      "Management platform for pet shops and veterinary clinics, centralizing clients, services and appointments with solid business rules and safe operation.",
+    "projects.petshop.feature1": "Conflict-free scheduling",
+    "projects.petshop.feature2": "Authentication and security",
+    "projects.petshop.feature3": "Operational dashboard",
 
     "projects.reddead.title": "Red Dead Redemption 2",
     "projects.reddead.type": "Academic Website",
@@ -198,26 +196,25 @@ const translations = {
     "projects.reddead.feature1": "Responsive design",
     "projects.reddead.feature2": "CSS animations",
     "projects.reddead.feature3": "Hosted on Vercel",
-    "projects.barber.title": "CorteAzulTea – Specialized barbershop website",
+    "projects.barber.title": "CorteAzulTea – Institutional website",
     "projects.barber.type": "Professional Website",
     "projects.barber.description":
-      "Website for barbershop specialized in humanized care for children with ASD (Autism Spectrum Disorder). Modern, responsive and optimized site that conveys trust and facilitates contact with families.",
-    "projects.barber.feature1": "Specialized care",
-    "projects.barber.feature2": "PWA configured",
-    "projects.barber.feature3": "WhatsApp integration",
-    "projects.amazon.title": "Amazon Scraper – Fullstack Web Application",
+      "Institutional website for a barbershop specialized in humanized care for children with ASD, focused on building trust and making contact and booking easier.",
+    "projects.barber.feature1": "Responsive layout",
+    "projects.barber.feature2": "Content focused on conversion",
+    "projects.barber.feature3": "Accessible experience",
+    "projects.amazon.title": "Amazon Scraper – Web Application",
     "projects.amazon.type": "Web Application",
     "projects.amazon.description":
-      "JavaScript (Node.js and Express) web app for Amazon product search and comparison, using Fetch APIs and JSDOM. Responsive interface with HTML5, CSS3 and Tailwind CSS.",
-    "projects.amazon.feature1": "Product search",
-    "projects.amazon.feature2": "Modern interface",
-    "projects.amazon.feature3": "Multi-device",
+      "Web application in Node.js to collect and analyze Amazon products, with filters by price and rating in a responsive interface.",
+    "projects.amazon.feature1": "Product scraping",
+    "projects.amazon.feature2": "Price and rating filters",
+    "projects.amazon.feature3": "Responsive interface",
     "projects.viewMore": "View more projects",
-    "projects.workshift.title":
-      "Workshift Manager – Work Shift Scheduling System",
+    "projects.workshift.title": "Workshift Manager – Scheduling System",
     "projects.workshift.type": "Desktop Application",
     "projects.workshift.description":
-      "Desktop application for generating weekly and monthly schedules, implementing business rules (days off, shifts, validations), data persistence with SQLite, and Excel export using Pandas and OpenPyXL. GUI built with Tkinter.",
+      "Desktop app for automatically generating weekly and monthly schedules, reducing manual errors with rules for shifts, days off and operational validations.",
 
     // Traduzindo para PTBR EN e FR seção certificados
     "certificates.title": "Certificates",
@@ -270,13 +267,13 @@ const translations = {
     "meta.title": "Natan Da Luz - Développeur Backend",
     "hero.cta.cv": "Télécharger CV",
     "meta.description":
-      "Développeur de logiciels orienté backend, avec des projets réels tels qu'un système de PetShop, un site de barbier et des solutions d'automatisation administrative. Expérience en PHP (Laravel), Python, JavaScript, MySQL/SQL, API REST et bonnes pratiques de développement.",
+      "Développeur de logiciels orienté backend, avec des projets réels tels qu'un système de PetShop, un site de barbier et des solutions d'automatisation administrative. Expérience en PHP, Python, JavaScript, MySQL/SQL, API REST et bonnes pratiques de développement.",
     "hero.cta.contact": "Parlons",
 
     // Traduzindo para PTBR EN e FR seção sobre
     "about.title": "À Propos de Moi",
     "about.intro":
-      "Je suis développeur backend junior avec une expérience dans le développement de systèmes réels à travers des projets freelance, bénévoles et personnels. Je travaille principalement avec PHP (Laravel) et Python, en développant des applications avec des règles métier, authentification, APIs et intégration avec des bases de données. J'ai de l'expérience avec MySQL, SQLite et la génération de rapports/exportations vers Excel, en mettant toujours l'accent sur l'organisation du code, les bonnes pratiques et l'apprentissage continu.\n\nAu fil de mes projets, j'ai développé des solutions orientées vers des besoins réels d'entreprise. L'un des principaux est PetSystem, un système que j'ai développé seul en PHP avec MySQL pour un petshop local. Dans ce projet, j'ai été responsable de toute la construction du système, y compris l'authentification des utilisateurs, la modélisation de la base de données et la mise en œuvre des règles de planification, garantissant la prévention des conflits d'horaires et une gestion efficace des clients.\n\nJ'ai également développé individuellement WorkshiftManager, un système freelance créé pour automatiser la génération de plannings hebdomadaires et mensuels pour un supermarché local. L'application a été construite en Python, où j'ai mis en place la persistance des données avec SQLite, des règles opérationnelles telles que les shifts et les jours de repos, ainsi que l'exportation automatique des plannings vers Excel, répondant à un besoin opérationnel réel.\n\nEn plus des projets freelance, j'ai participé bénévolement au développement de CorteAzulTea, un site web pour un barbier spécialisé dans l'accueil humanisé d'enfants avec TSA (Trouble du Spectre Autistique). J'ai contribué à la création d'une interface moderne, responsive et accessible en utilisant HTML5, CSS3, Tailwind CSS et JavaScript, en mettant l'accent sur la confiance transmise et la facilitation du contact avec les familles.\n\nCes expériences ont consolidé mon rôle dans le développement backend, la modélisation de données, la construction d'APIs et la mise en œuvre de règles métier, tout en élargissant mon expérience en développement frontend et dans des projets à impact social, toujours avec un focus sur la qualité, l'organisation et la résolution pratique de problèmes.",
+      "Je suis développeur backend junior avec une expérience dans le développement de systèmes réels à travers des projets freelance, bénévoles et personnels. Je travaille principalement avec PHP et Python, en développant des applications avec des règles métier, authentification, APIs et intégration avec des bases de données. J'ai de l'expérience avec MySQL, SQLite et la génération de rapports/exportations vers Excel, en mettant toujours l'accent sur l'organisation du code, les bonnes pratiques et l'apprentissage continu.\n\nAu fil de mes projets, j'ai développé des solutions orientées vers des besoins réels d'entreprise. L'un des principaux est PetSystem, un système que j'ai développé seul en PHP avec MySQL pour un petshop local. Dans ce projet, j'ai été responsable de toute la construction du système, y compris l'authentification des utilisateurs, la modélisation de la base de données et la mise en œuvre des règles de planification, garantissant la prévention des conflits d'horaires et une gestion efficace des clients.\n\nJ'ai également développé individuellement WorkshiftManager, un système freelance créé pour automatiser la génération de plannings hebdomadaires et mensuels pour un supermarché local. L'application a été construite en Python, où j'ai mis en place la persistance des données avec SQLite, des règles opérationnelles telles que les shifts et les jours de repos, ainsi que l'exportation automatique des plannings vers Excel, répondant à un besoin opérationnel réel.\n\nEn plus des projets freelance, j'ai participé bénévolement au développement de CorteAzulTea, un site web pour un barbier spécialisé dans l'accueil humanisé d'enfants avec TSA (Trouble du Spectre Autistique). J'ai contribué à la création d'une interface moderne, responsive et accessible en utilisant HTML5, CSS3, Tailwind CSS et JavaScript, en mettant l'accent sur la confiance transmise et la facilitation du contact avec les familles.\n\nCes expériences ont consolidé mon rôle dans le développement backend, la modélisation de données, la construction d'APIs et la mise en œuvre de règles métier, tout en élargissant mon expérience en développement frontend et dans des projets à impact social, toujours avec un focus sur la qualité, l'organisation et la résolution pratique de problèmes.",
 
     // Traduzindo para PTBR EN e FR Soft Skills
     "about.softSkills.title": "Compétences Douces",
@@ -310,13 +307,13 @@ const translations = {
 
     // Traduzindo para PTBR EN e FR seção projetos
     "projects.title": "Projets",
-    "projects.petshop.title": "Système Complet de PetShop",
+    "projects.petshop.title": "Plateforme de Gestion PetShop",
     "projects.petshop.type": "Système Fullstack",
     "projects.petshop.description":
-      "Système de prise de rendez-vous et de gestion pour animaleries et cliniques vétérinaires. Lancement initial avec CRUD, rendez-vous et tableau de bord ; version professionnelle révisée avec backend refactorisé, sécurité renforcée (bcrypt, prepared statements, XSS), check-in rapide, tableau de bord interactif et scripts d'installation/test automatiques.",
-    "projects.petshop.feature1": "CRUD Complet",
-    "projects.petshop.feature2": "Tableau de Bord Interactif",
-    "projects.petshop.feature3": "Sécurité Renforcée",
+      "Plateforme de gestion pour animaleries et cliniques vétérinaires, centralisant clients, services et rendez-vous avec des règles métier solides et une opération sûre.",
+    "projects.petshop.feature1": "Planification sans conflits",
+    "projects.petshop.feature2": "Authentification et sécurité",
+    "projects.petshop.feature3": "Tableau de bord opérationnel",
 
     "projects.reddead.title": "Red Dead Redemption 2",
     "projects.reddead.type": "Site Web Académique",
@@ -325,26 +322,25 @@ const translations = {
     "projects.reddead.feature1": "Design responsif",
     "projects.reddead.feature2": "Animations CSS",
     "projects.reddead.feature3": "Hébergé sur Vercel",
-    "projects.barber.title": "CorteAzulTea – Site web de barbier spécialisé",
+    "projects.barber.title": "CorteAzulTea – Site institutionnel",
     "projects.barber.type": "Site Web Professionnel",
     "projects.barber.description":
-      "Site web pour barbier spécialisé dans les soins humanisés pour enfants avec TSA (Trouble du Spectre Autistique). Site moderne, responsif et optimisé qui transmet la confiance et facilite le contact avec les familles.",
-    "projects.barber.feature1": "Soins spécialisés",
-    "projects.barber.feature2": "PWA configuré",
-    "projects.barber.feature3": "Intégration WhatsApp",
-    "projects.amazon.title": "Amazon Scraper – Application Web Fullstack",
+      "Site institutionnel pour un barbier spécialisé dans l'accueil humanisé d'enfants avec TSA, axé sur la confiance et la facilitation du contact et de la prise de rendez-vous.",
+    "projects.barber.feature1": "Mise en page responsive",
+    "projects.barber.feature2": "Contenu orienté conversion",
+    "projects.barber.feature3": "Expérience accessible",
+    "projects.amazon.title": "Amazon Scraper – Application Web",
     "projects.amazon.type": "Application Web",
     "projects.amazon.description":
-      "Application web en JavaScript (Node.js et Express) pour la recherche et la comparaison de produits Amazon, utilisant Fetch APIs et JSDOM. Interface responsive avec HTML5, CSS3 et Tailwind CSS.",
-    "projects.amazon.feature1": "Recherche de produits",
-    "projects.amazon.feature2": "Interface moderne",
-    "projects.amazon.feature3": "Multi-appareil",
+      "Application web en Node.js pour collecter et analyser des produits Amazon, avec filtres par prix et évaluation dans une interface responsive.",
+    "projects.amazon.feature1": "Scraping de produits",
+    "projects.amazon.feature2": "Filtres par prix et note",
+    "projects.amazon.feature3": "Interface responsive",
     "projects.viewMore": "Voir plus de projets",
-    "projects.workshift.title":
-      "Workshift Manager – Système de Plannings de Travail",
+    "projects.workshift.title": "Workshift Manager – Système de Plannings",
     "projects.workshift.type": "Application Desktop",
     "projects.workshift.description":
-      "Application desktop pour générer des plannings hebdomadaires et mensuels, avec règles métier (repos, shifts, validations), persistance des données avec SQLite et export Excel via Pandas et OpenPyXL. Interface graphique réalisée avec Tkinter.",
+      "Application desktop pour générer automatiquement des plannings hebdomadaires et mensuels, réduisant les erreurs manuelles avec des règles pour shifts, repos et validations opérationnelles.",
 
     // Traduzindo para PTBR EN e FR seção certificados
     "certificates.title": "Certificats",

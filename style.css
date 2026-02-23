@@ -492,8 +492,8 @@
 }
 
 .project-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  transform: translateY(-6px);
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.18);
 }
 
 .tech-item {
@@ -1344,6 +1344,26 @@ p {
   border-radius: 15px;
   font-size: 0.65rem;
   font-weight: 500;
+}
+
+/* Garante alinhamento e altura uniforme dos cards de projetos */
+#projetos .row.g-4 > .col-lg-6 {
+  display: flex;
+}
+
+#projetos .project-card {
+  display: flex;
+  flex-direction: column;
+}
+
+#projetos .project-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+#projetos .project-tech {
+  margin-top: auto;
 }
 
 .project-features {

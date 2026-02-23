@@ -322,6 +322,9 @@ function handleScroll() {
 
 // Função para inicializar tudo quando o DOM estiver pronto
 document.addEventListener("DOMContentLoaded", function () {
+  // Garante que a página comece sempre do topo ao abrir
+  window.scrollTo(0, 0);
+
   // Inicializar AOS
   AOS.init({
     duration: 800,
