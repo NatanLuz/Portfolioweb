@@ -24,7 +24,7 @@ Portfólio pessoal desenvolvido em HTML, CSS e JavaScript para apresentar projet
 
 ---
 
-## Estrutura do PROJETO
+## Estrutura do Portfolio
 
 ```
 Portfolioweb/
