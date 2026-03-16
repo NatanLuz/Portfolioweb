@@ -496,13 +496,192 @@
   box-shadow: 0 16px 30px rgba(0, 0, 0, 0.18);
 }
 
+/* Layout refinado da seção de projetos (inspirado no grid de exemplo) */
+.projects-meta-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.75rem;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 1rem;
+}
+
+.projects-count {
+  font-size: 0.8rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.projects-filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.projects-filter-btn {
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--border-color);
+  background: transparent;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.projects-filter-btn:hover {
+  border-color: var(--primary-color);
+  color: var(--text-primary);
+}
+
+.projects-filter-btn.active {
+  background: var(--gradient-primary);
+  border-color: transparent;
+  color: var(--background-color);
+}
+
+.project-content {
+  padding: 1.5rem 1.5rem 1.75rem;
+}
+
+.project-meta {
+  display: none; /* cabeçalho removido, evita espaço vazio no topo do card */
+}
+
+.project-num {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.project-meta-right {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.project-badge {
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border-radius: 4px;
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary);
+}
+
+.project-date {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.project-name {
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin-bottom: 0.15rem;
+}
+
+.project-tagline {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.75rem;
+}
+
+.project-detail-block {
+  margin-bottom: 1rem;
+  padding: 0.9rem 1rem;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+[data-theme="light"] .project-detail-block {
+  background: rgba(0, 0, 0, 0.02);
+  border-color: rgba(0, 0, 0, 0.06);
+}
+
+.project-divider {
+  width: 32px;
+  height: 1px;
+  background: var(--border-color);
+  margin-bottom: 0.75rem;
+}
+
+.project-problem {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 0.5rem;
+}
+
+.project-result {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  margin-bottom: 0;
+}
+
+.result-dot {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.result-dot svg {
+  width: 9px;
+  height: 9px;
+}
+
+.project-result-text {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.project-actions {
+  margin-top: 0.9rem;
+}
+
+.project-github-btn {
+  font-size: 0.85rem;
+  padding: 0.45rem 0.9rem;
+}
+
 .tech-item {
-  /* Removido efeito de transição/hover para visual mais profissional */
   position: relative;
   overflow: hidden;
 }
 
 /* Removido efeito hover e sombra das tecnologias */
+
+.project-bullets {
+  margin: 0 0 1.5rem 1.2rem;
+  padding: 0;
+  color: var(--text-secondary);
+}
+
+.project-bullets li {
+  margin-bottom: 0.4rem;
+  line-height: 1.6;
+}
+
+.project-bullets strong {
+  color: var(--text-primary);
+}
 
 /* Lazy loading para imagens */
 .project-img {
@@ -554,7 +733,7 @@ body.loaded {
   overflow-x: hidden;
 }
 
-/*  estilização dos titulos   */
+/*  estilização dos titulos  */
 h1,
 h2,
 h3,
@@ -591,7 +770,7 @@ p {
   color: var(--text-secondary);
 }
 
-/* ========== editando a parte de decoração para a seleção de linguagem ========== */
+/* editando a parte de decoração para a seleção de linguagem */
 .language-selector {
   display: flex;
   gap: 4px;

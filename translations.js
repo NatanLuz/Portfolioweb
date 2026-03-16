@@ -11,7 +11,7 @@ const translations = {
     // Traduzindo para PTBR EN e FR seção hero
     "hero.title": "Natan Da Luz",
     "hero.subtitle":
-      "Desenvolvedor Backend | PHP • Python | MySQL | APIs REST |",
+      "Desenvolvedor Backend PHP | Python | APIs & Automação | Docker | n8n",
     "meta.title": "Natan Da Luz - Desenvolvedor De Software",
     "hero.cta.cv": "Download Currículo",
     "meta.description":
@@ -120,7 +120,7 @@ const translations = {
     "footer.credit": "Desenvolvido Por Natan Da Luz",
     "backToTop.aria": "Voltar ao topo",
     "loading.text": "Carregando...",
-    "project.github.title": "Ver código no GitHub",
+    "project.github.title": "Ver no GitHub",
     "project.linkedin.title": "Ver demonstração no LinkedIn",
     "project.github.aria": "Abrir repositório no GitHub",
     "project.linkedin.aria": "Abrir demonstração no LinkedIn",
@@ -137,7 +137,8 @@ const translations = {
 
     // Traduzindo para PTBR EN e FR seção hero
     "hero.title": "Natan Da Luz",
-    "hero.subtitle": "Backend Software Developer",
+    "hero.subtitle":
+      "Backend Developer | PHP | Python | APIs & Automation | Docker | n8n",
     "meta.title": "Natan Da Luz - Backend Software Developer",
     "hero.cta.cv": "Download CV",
     "meta.description":
@@ -263,7 +264,8 @@ const translations = {
 
     // Traduzindo para PTBR EN e FR seção hero
     "hero.title": "Natan Da Luz",
-    "hero.subtitle": "Développeur Backend",
+    "hero.subtitle":
+      "Développeur Backend | PHP | Python | APIs & Automatisation | Docker | n8n",
     "meta.title": "Natan Da Luz - Développeur Backend",
     "hero.cta.cv": "Télécharger CV",
     "meta.description":
