@@ -1,11 +1,3 @@
-<div align="center">
-   <img src="img/preview.jpg" alt="Pré-visualização do Portfólio" width="760" />
-
-   <h1>Portfólio — Natan Da Luz</h1>
-   <p>Desenvolvedor de Software Backend</p>
-</div>
-
----
 
 ## Sobre o Projeto
 
