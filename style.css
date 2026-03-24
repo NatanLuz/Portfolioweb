@@ -1253,7 +1253,7 @@ p {
 
 /* Editando a sessao tecnologias */
 .tech-category {
-  margin-bottom: 4rem;
+  margin-bottom: 3.2rem;
 }
 
 .tech-category-title {
@@ -1266,38 +1266,69 @@ p {
   letter-spacing: 1px;
 }
 
-.tech-category-title::after {
-  content: "";
-  position: absolute;
-  bottom: -8px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 40px;
-  height: 2px;
-  background: var(--gradient-primary);
-  border-radius: 1px;
+.tech-title-with-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.tech-focus-label {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.22rem 0.62rem;
+  border-radius: 999px;
+  font-size: 0.66rem;
+  font-weight: 800;
+  letter-spacing: 0.09em;
+  line-height: 1;
+}
+
+.focus-primary {
+  background: rgba(245, 158, 11, 0.18);
+  border: 1px solid rgba(245, 158, 11, 0.55);
+  color: #fbbf24;
+}
+
+.focus-secondary {
+  background: rgba(148, 163, 184, 0.12);
+  border: 1px solid rgba(148, 163, 184, 0.36);
+  color: var(--text-secondary);
 }
 
 .tech-category-description {
   text-align: center;
   color: var(--text-muted);
-  font-size: 1rem;
-  line-height: 1.6;
-  max-width: 600px;
-  margin: 0 auto 2.5rem;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  max-width: 540px;
+  margin: 0 auto 1.85rem;
   animation: fadeInUp 1s ease 0.3s both;
 }
 
 /* Emphasis wrapper for Backend heading + description */
 .backend-emphasis {
-  background: var(--card-background);
-  border: 1px solid var(--border-color);
-  border-left: 3px solid var(--primary-color);
-  border-radius: 12px;
-  padding: 0.75rem 1rem;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  padding: 0;
   max-width: 720px;
-  margin: 0.5rem auto 2rem;
-  box-shadow: var(--shadow-sm);
+  margin: 0.15rem auto 1.35rem;
+  box-shadow: none;
+}
+
+.backend-emphasis .tech-category-title {
+  font-size: 1.95rem;
+  margin-bottom: 0.7rem;
+  letter-spacing: 0.4px;
+}
+
+.backend-emphasis .tech-category-description {
+  color: var(--text-secondary);
+  font-weight: 500;
 }
 
 .tech-grid {
@@ -1317,12 +1348,60 @@ p {
 
 .backend-grid {
   gap: 0.6rem;
-  max-width: 400px;
+  max-width: 500px;
 }
 
 .tools-grid {
   gap: 0.7rem;
   max-width: 400px;
+}
+
+.backend-grid .tech-item {
+  max-width: 105px;
+  min-height: 124px;
+}
+
+.backend-grid .tech-icon {
+  filter: grayscale(0.05);
+}
+
+.backend-grid .tech-name {
+  color: var(--text-primary);
+  font-weight: 700;
+}
+
+.frontend-grid .tech-item {
+  max-width: 92px;
+  min-height: 108px;
+  padding: 1rem;
+}
+
+.frontend-secondary .tech-category-title {
+  font-size: 1.55rem;
+  color: var(--text-secondary);
+  letter-spacing: 0.6px;
+}
+
+.frontend-secondary .tech-category-description {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  max-width: 500px;
+}
+
+.frontend-grid .tech-icon {
+  width: 40px;
+  height: 40px;
+  filter: grayscale(0.45) opacity(0.92);
+}
+
+.frontend-grid .tech-name {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.tools-grid .tech-name {
+  font-size: 0.86rem;
 }
 
 .tech-item {
@@ -1543,6 +1622,123 @@ p {
 
 #projetos .project-tech {
   margin-top: auto;
+}
+
+/* Projetos: visual mais leve e escaneavel, sem caixas internas */
+#projetos .project-card::before {
+  display: none;
+}
+
+#projetos .project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.14);
+}
+
+#projetos .project-content {
+  padding: 1.45rem 1.45rem 1.35rem;
+}
+
+#projetos .project-divider {
+  margin-bottom: 0.55rem;
+}
+
+#projetos .project-detail-block {
+  margin-bottom: 0.85rem;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+
+#projetos .project-problem {
+  margin-bottom: 0.55rem;
+}
+
+#projetos .project-result {
+  gap: 0.5rem;
+  margin-bottom: 0.28rem;
+}
+
+#projetos .result-dot {
+  width: 10px;
+  height: 10px;
+  margin-top: 0.38rem;
+  border-radius: 50%;
+  background: transparent;
+  border: 1.5px solid var(--primary-color);
+}
+
+#projetos .result-dot svg {
+  display: none;
+}
+
+#projetos .project-result-text {
+  line-height: 1.5;
+}
+
+#projetos .project-tech {
+  margin-top: 0.45rem;
+  margin-bottom: 0.8rem;
+}
+
+#projetos .project-actions {
+  margin-top: 0.1rem;
+}
+
+.featured-petshop {
+  border-color: #f59e0b;
+  box-shadow:
+    0 0 0 1px rgba(245, 158, 11, 0.38),
+    0 10px 22px rgba(245, 158, 11, 0.16);
+  background-image: linear-gradient(
+    145deg,
+    rgba(245, 158, 11, 0.12),
+    rgba(245, 158, 11, 0)
+  );
+}
+
+.featured-petshop:hover {
+  box-shadow:
+    0 0 0 1px rgba(245, 158, 11, 0.55),
+    0 14px 28px rgba(245, 158, 11, 0.2);
+}
+
+[data-theme="light"] .featured-petshop {
+  background-image: linear-gradient(
+    145deg,
+    rgba(245, 158, 11, 0.16),
+    rgba(245, 158, 11, 0)
+  );
+}
+
+.project-highlight-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-bottom: 0.55rem;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #fbbf24;
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  font-weight: 600;
+  line-height: 1.2;
+  max-width: 100%;
+}
+
+.project-highlight-badge::before {
+  content: "";
+  width: 18px;
+  height: 2px;
+  border-radius: 2px;
+  background: currentColor;
+  opacity: 0.8;
+}
+
+[data-theme="light"] .project-highlight-badge {
+  color: #b45309;
 }
 
 .project-features {

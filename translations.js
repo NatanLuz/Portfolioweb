@@ -9,19 +9,18 @@ const translations = {
     "nav.contact": "Contato",
 
     // Traduzindo para PTBR EN e FR seção hero
-    "hero.title": "Natan Da Luz",
-    "hero.subtitle":
-      "Desenvolvedor Backend PHP | Python | APIs & Automação | Docker | n8n",
+    "hero.title": "Desenvolvedor Backend",
+    "hero.subtitle": "",
     "meta.title": "Natan Da Luz - Desenvolvedor De Software",
     "hero.cta.cv": "Download Currículo",
     "meta.description":
-      "Desenvolvedor De Software com projetos reais: Sistema PetShop e Barbearia. Especialista em PHP, Python, JavaScript, MySQL e Docker",
+      "Desenvolvedor De Software com projetos reais: Sistema PetShop e Barbearia. Especialista em PHP, JavaScript, MySQL e Docker",
     "hero.cta.contact": "Vamos Conversar",
 
     // Traduzindo para PTBR EN e FR sobre seção
     "about.title": "Sobre Mim",
     "about.intro":
-      "Sou Desenvolvedor Backend com experiência prática no desenvolvimento de sistemas para negócios locais através de projetos freelance, voluntários e autorais.\n\nAtuo principalmente com PHP e Python, desenvolvendo aplicações com autenticação, APIs REST, modelagem de banco de dados e implementação de regras de negócio.\n\nJá desenvolvi sistemas completos de forma independente, incluindo uma plataforma de gestão para petshop e um sistema de automação de escalas operacionais. Tenho foco em organização de código, separação de responsabilidades, segurança da aplicação e arquitetura consistente.\n\nBusco evoluir continuamente como desenvolvedor, criando soluções funcionais, eficientes e sustentáveis para problemas reais.",
+      "Sou desenvolvedor backend com foco em PHP, especializado na construção de sistemas e aplicações orientadas a regras de negócio.\n\nPossuo experiência no desenvolvimento de soluções completas, incluindo autenticação, modelagem de banco de dados e organização de código com separação de responsabilidades.\n\nJá desenvolvi sistemas utilizados em ambiente real, com foco em segurança, previsibilidade e eficiência operacional.\n\nTenho conhecimento em front-end para integração de interfaces, mas meu foco principal é backend.",
 
     // Traduzindo para PTBR EN e FR Soft Skills
     "about.softSkills.title": "Soft Skills",
@@ -40,18 +39,18 @@ const translations = {
 
     // Traduzindo para PTBR EN e FR seção de tecnologias
     "technologies.title": "Tecnologias",
-    "technologies.frontend": "Frontend",
+    "technologies.frontend": "Frontend | COMPLEMENTAR",
     "technologies.frontend.description":
-      "Desenvolvimento de interfaces modernas e responsivas, criando experiências de usuário excepcionais com as melhores práticas de design web.",
-    "technologies.backend": "Backend",
+      "Integração de interfaces e consumo de APIs",
+    "technologies.backend": "Backend | FOCO PRINCIPAL",
     "technologies.backend.description":
-      "Construção de sistemas robustos e escaláveis, desenvolvendo APIs eficientes e gerenciando dados com segurança e performance.",
+      "APIs REST • Regras de negócio • Persistência de dados",
     "technologies.databases": "Banco de Dados",
     "technologies.databases.description":
       "Modelagem e gerenciamento de bancos de dados relacionais com foco em segurança, consistência e performance.",
     "technologies.tools": "Ferramentas",
     "technologies.tools.description":
-      "Controle de versão, colaboração e ambientes de desenvolvimento em diferentes sistemas operacionais, garantindo qualidade e organização.",
+      "Fluxo de versionamento, colaboração e execução de ambientes",
 
     // Traduzindo para PTBR EN e FR seção projetos
     "projects.title": "Projetos",
@@ -136,19 +135,18 @@ const translations = {
     "nav.contact": "Contact",
 
     // Traduzindo para PTBR EN e FR seção hero
-    "hero.title": "Natan Da Luz",
-    "hero.subtitle":
-      "Backend Developer | PHP | Python | APIs & Automation | Docker | n8n",
+    "hero.title": "Backend Developer",
+    "hero.subtitle": "",
     "meta.title": "Natan Da Luz - Backend Software Developer",
     "hero.cta.cv": "Download CV",
     "meta.description":
-      "Backend-oriented Software Developer with real projects such as a PetShop system, barbershop website and administrative automation solutions. Experience with PHP, Python, JavaScript, MySQL/SQL, REST APIs and software engineering best practices.",
+      "Backend-oriented Software Developer with real projects such as a PetShop system, barbershop website and administrative automation solutions. Experience with PHP, JavaScript, MySQL/SQL, REST APIs and software engineering best practices.",
     "hero.cta.contact": "Let's Talk",
 
     // Traduzindo para PTBR EN e FR sobre seção
     "about.title": "About Me",
     "about.intro":
-      "I'm a Junior Backend Developer with experience building real-world systems through freelance, volunteer and personal projects. I mainly work with PHP and Python, developing applications with business rules, authentication, APIs and database integrations. I have experience with MySQL, SQLite and generating reports/exports to Excel, always focusing on clean code organization, best practices and continuous learning.\n\nThroughout my projects, I've developed solutions for real business needs. One of the main ones is PetSystem, a system I built entirely in PHP with MySQL for a local pet shop. In this project I was responsible for the whole system, including user authentication, database modelling and implementation of scheduling rules, ensuring conflict-free time slots and efficient customer management.\n\nI also individually developed WorkshiftManager, a freelance system created to automate weekly and monthly shift generation for a local market. The application was built in Python, where I implemented data persistence with SQLite, operational rules such as shifts and days off, and automatic export of schedules to Excel, addressing a real operational need.\n\nIn addition to freelance work, I contributed voluntarily to the development of CorteAzulTea, a website for a barbershop specialized in humanized care for children with ASD (Autism Spectrum Disorder). I helped create a modern, responsive and accessible interface using HTML5, CSS3, Tailwind CSS and JavaScript, focusing on conveying trust and facilitating contact with families.\n\nThese experiences have consolidated my work in backend development, data modelling, API design and business rule implementation, while also expanding my experience with frontend development and socially impactful projects, always aiming for quality, organization and practical problem-solving.",
+      "I am a backend developer focused on PHP, specialized in building systems and applications based on business rules.\n\nI have experience developing complete solutions, including authentication, database modeling, and code organization with clear separation of responsibilities.\n\nI have delivered systems used in real environments, with focus on security, predictability, and operational efficiency.\n\nI also have frontend knowledge for interface integration, but my primary focus is backend.",
 
     // Traduzindo para PTBR EN e FR Soft Skills
     "about.softSkills.title": "Soft Skills",
@@ -167,18 +165,18 @@ const translations = {
 
     // Traduzindo para PTBR EN e FR seção de tecnologias
     "technologies.title": "Technologies",
-    "technologies.frontend": "Frontend",
+    "technologies.frontend": "Frontend | SUPPORTING",
     "technologies.frontend.description":
-      "Development of modern and responsive interfaces, creating exceptional user experiences with the best web design practices.",
-    "technologies.backend": "Backend",
+      "Interface integration and API consumption",
+    "technologies.backend": "Backend | PRIMARY FOCUS",
     "technologies.backend.description":
-      "Building robust and scalable systems, developing efficient APIs and managing data with security and performance.",
+      "REST APIs • Business rules • Data persistence",
     "technologies.databases": "Databases",
     "technologies.databases.description":
       "Design and management of relational databases with a focus on security, consistency and performance.",
     "technologies.tools": "Tools",
     "technologies.tools.description":
-      "Version control, collaboration and development environments across different operating systems, ensuring quality and organization.",
+      "Version control, collaboration, and environment execution",
 
     // Traduzindo para PTBR EN e FR seção projetos
     "projects.title": "Projects",
@@ -263,19 +261,18 @@ const translations = {
     "nav.contact": "Contact",
 
     // Traduzindo para PTBR EN e FR seção hero
-    "hero.title": "Natan Da Luz",
-    "hero.subtitle":
-      "Développeur Backend | PHP | Python | APIs & Automatisation | Docker | n8n",
+    "hero.title": "Développeur Backend",
+    "hero.subtitle": "",
     "meta.title": "Natan Da Luz - Développeur Backend",
     "hero.cta.cv": "Télécharger CV",
     "meta.description":
-      "Développeur de logiciels orienté backend, avec des projets réels tels qu'un système de PetShop, un site de barbier et des solutions d'automatisation administrative. Expérience en PHP, Python, JavaScript, MySQL/SQL, API REST et bonnes pratiques de développement.",
+      "Développeur de logiciels orienté backend, avec des projets réels tels qu'un système de PetShop, un site de barbier et des solutions d'automatisation administrative. Expérience en PHP, JavaScript, MySQL/SQL, API REST et bonnes pratiques de développement.",
     "hero.cta.contact": "Parlons",
 
     // Traduzindo para PTBR EN e FR seção sobre
     "about.title": "À Propos de Moi",
     "about.intro":
-      "Je suis développeur backend junior avec une expérience dans le développement de systèmes réels à travers des projets freelance, bénévoles et personnels. Je travaille principalement avec PHP et Python, en développant des applications avec des règles métier, authentification, APIs et intégration avec des bases de données. J'ai de l'expérience avec MySQL, SQLite et la génération de rapports/exportations vers Excel, en mettant toujours l'accent sur l'organisation du code, les bonnes pratiques et l'apprentissage continu.\n\nAu fil de mes projets, j'ai développé des solutions orientées vers des besoins réels d'entreprise. L'un des principaux est PetSystem, un système que j'ai développé seul en PHP avec MySQL pour un petshop local. Dans ce projet, j'ai été responsable de toute la construction du système, y compris l'authentification des utilisateurs, la modélisation de la base de données et la mise en œuvre des règles de planification, garantissant la prévention des conflits d'horaires et une gestion efficace des clients.\n\nJ'ai également développé individuellement WorkshiftManager, un système freelance créé pour automatiser la génération de plannings hebdomadaires et mensuels pour un supermarché local. L'application a été construite en Python, où j'ai mis en place la persistance des données avec SQLite, des règles opérationnelles telles que les shifts et les jours de repos, ainsi que l'exportation automatique des plannings vers Excel, répondant à un besoin opérationnel réel.\n\nEn plus des projets freelance, j'ai participé bénévolement au développement de CorteAzulTea, un site web pour un barbier spécialisé dans l'accueil humanisé d'enfants avec TSA (Trouble du Spectre Autistique). J'ai contribué à la création d'une interface moderne, responsive et accessible en utilisant HTML5, CSS3, Tailwind CSS et JavaScript, en mettant l'accent sur la confiance transmise et la facilitation du contact avec les familles.\n\nCes expériences ont consolidé mon rôle dans le développement backend, la modélisation de données, la construction d'APIs et la mise en œuvre de règles métier, tout en élargissant mon expérience en développement frontend et dans des projets à impact social, toujours avec un focus sur la qualité, l'organisation et la résolution pratique de problèmes.",
+      "Je suis développeur backend orienté PHP, spécialisé dans la création de systèmes et d'applications basés sur des règles métier.\n\nJ'ai de l'expérience dans le développement de solutions complètes, incluant authentification, modélisation de base de données et organisation du code avec séparation claire des responsabilités.\n\nJ'ai livré des systèmes utilisés en environnement réel, avec un focus sur la sécurité, la prévisibilité et l'efficacité opérationnelle.\n\nJe possède aussi des connaissances frontend pour l'intégration d'interfaces, mais mon focus principal est le backend.",
 
     // Traduzindo para PTBR EN e FR Soft Skills
     "about.softSkills.title": "Compétences Douces",
@@ -294,18 +291,18 @@ const translations = {
 
     // Traduzindo para PTBR EN e FR seção tecnologias
     "technologies.title": "Technologies",
-    "technologies.frontend": "Frontend",
+    "technologies.frontend": "Frontend | COMPLEMENTAIRE",
     "technologies.frontend.description":
-      "Développement d'interfaces modernes et responsives, créant des expériences d'utilisateur exceptionnelles avec les meilleures pratiques de design web.",
-    "technologies.backend": "Backend",
+      "Intégration d'interfaces et consommation d'APIs",
+    "technologies.backend": "Backend | FOCUS PRINCIPAL",
     "technologies.backend.description":
-      "Construction de systèmes robustes et évolutifs, développement d'API efficaces et gestion des données avec sécurité et performance.",
+      "APIs REST • Règles métier • Persistance des données",
     "technologies.databases": "Bases de données",
     "technologies.databases.description":
       "Conception et gestion de bases de données relationnelles avec un fort accent sur la sécurité, la cohérence et la performance.",
     "technologies.tools": "Outils",
     "technologies.tools.description":
-      "Contrôle de version, collaboration et environnements de développement sur différents systèmes d'exploitation, garantissant la qualité et l'organisation.",
+      "Versioning, collaboration et exécution d'environnements",
 
     // Traduzindo para PTBR EN e FR seção projetos
     "projects.title": "Projets",
