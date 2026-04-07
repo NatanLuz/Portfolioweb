@@ -10,7 +10,7 @@ function sendContactForm(event) {
     feedback.textContent = "Erro: envio bloqueado.";
     return false;
   }
-  // Simula envio (você pode integrar com um serviço real depois)
+  
   feedback.style.display = "inline";
   feedback.style.color = "#f59e0b";
   feedback.textContent = "Mensagem enviada!";
@@ -37,7 +37,7 @@ function showEmailFeedback(event) {
 // Sistema de mudança de idioma pt en fr
 let currentLanguage = "pt";
 
-// Sistema de loading
+// Sistema de carregamento
 function showLoading() {
   document.getElementById("loadingOverlay").classList.add("show");
 }
