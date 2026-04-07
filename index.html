@@ -4,11 +4,11 @@
     <!-- SEO aprimorado -->
     <meta
       name="description"
-      content="Portfólio de Natan Da Luz, desenvolvedor de software especializado em PHP, JavaScript, MySQL, Docker e projetos reais como sistemas para PetShop, Barbearia e Tatuagem."
+      content="Portfólio de Natan Da Luz, desenvolvedor de software especializado em PHP, JavaScript, MySQL e projetos reais como sistemas para PetShop, Barbearia e Tatuagem."
     />
     <meta
       name="keywords"
-      content="Natan Da Luz, portfólio, desenvolvedor, software, PHP, JavaScript, MySQL, Docker, projetos, sistemas, PetShop, Barbearia, Tatuagem, backend, frontend"
+      content="Natan Da Luz, portfólio, desenvolvedor, software, PHP, JavaScript, MySQL, projetos, sistemas, PetShop, Barbearia, Tatuagem, backend, frontend"
     />
     <meta
       property="og:title"
@@ -29,7 +29,7 @@
     <meta
       name="twitter:description"
       id="metaDescription"
-      content="Desenvolvedor De Software com projetos reais: Sistema PetShop, Barbearia e Tatuagem. Especialista em PHP, JavaScript, MySQL e Docker"
+      content="Desenvolvedor De Software com projetos reais: Sistema PetShop, Barbearia e Tatuagem. Especialista em PHP, JavaScript e MySQL"
     />
     <meta
       name="twitter:image"
@@ -205,32 +205,9 @@
               Sobre Mim
             </h2>
             <div class="about-content">
-              <div
-                class="about-intro"
-                style="
-                  display: flex;
-                  justify-content: center;
-                  align-items: center;
-                  min-height: 1px;
-                "
-              >
-                <div
-                  style="
-                    background: none;
-                    max-width: 650px;
-                    width: 100%;
-                    padding: 0 1.2rem;
-                    margin: 0 auto;
-                  "
-                >
-                  <p
-                    style="
-                      text-align: justify;
-                      font-size: 1.12rem;
-                      line-height: 1.8;
-                    "
-                    data-translate="about.intro"
-                  >
+              <div class="about-intro about-intro-layout">
+                <div class="about-intro-box">
+                  <p class="about-intro-text" data-translate="about.intro">
                     Sou desenvolvedor backend com foco em PHP, especializado na
                     construção de sistemas e aplicações orientadas a regras de
                     negócio. Possuo experiência no desenvolvimento de soluções
@@ -474,15 +451,6 @@
               />
               <span class="tech-name">GitHub</span>
             </div>
-            <div class="tech-item" data-aos="fade-in" data-aos-delay="300">
-              <img
-                src="img/docker.svg"
-                alt="Ícone Docker"
-                class="tech-icon"
-                loading="lazy"
-              />
-              <span class="tech-name">Docker</span>
-            </div>
             <div class="tech-item" data-aos="fade-in" data-aos-delay="350">
               <img
                 src="img/linux.svg"
@@ -532,7 +500,6 @@
                     negócio e menor fricção no processo de atendimento.
                   </p>
                   <div class="project-video-wrapper">
-                    <p class="project-video-title">Vídeo Projeto PetSystem</p>
                     <video
                       class="project-video-embed"
                       controls
@@ -569,9 +536,6 @@
           </div>
         </div>
 
-        <h3 class="projects-tier-title" data-aos="fade-up" data-aos-delay="120">
-          Projetos selecionados
-        </h3>
         <div class="row g-4 projects-tier-gap">
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="180">
             <article class="project-card tier-secondary" data-cat="frontend">
@@ -615,12 +579,7 @@
               </div>
             </article>
           </div>
-        </div>
 
-        <h3 class="projects-tier-title" data-aos="fade-up" data-aos-delay="220">
-          Projetos de estudo e exploração
-        </h3>
-        <div class="row g-4 projects-tier-gap">
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="280">
             <article class="project-card tier-study" data-cat="desktop">
               <div class="project-content">
@@ -663,7 +622,9 @@
               </div>
             </article>
           </div>
+        </div>
 
+        <div class="row g-4 projects-tier-gap">
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="340">
             <article class="project-card tier-study" data-cat="automacao">
               <div class="project-content">
@@ -749,15 +710,7 @@
                 >
                   <i class="fas fa-envelope" aria-hidden="true"></i>
                   <span data-translate="contact.email">Enviar email</span>
-                  <small
-                    id="emailFeedback"
-                    style="
-                      display: none;
-                      margin-left: 8px;
-                      font-size: 0.8rem;
-                      opacity: 0.8;
-                    "
-                  >
+                  <small id="emailFeedback" class="email-feedback">
                     Email Copiado!
                   </small>
                 </a>
@@ -811,6 +764,7 @@
       id="backToTop"
       class="back-to-top"
       data-translate-attr="aria-label:backToTop.aria"
+      title="Voltar ao topo"
     >
       <i class="fas fa-chevron-up"></i>
     </button>

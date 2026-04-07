@@ -270,7 +270,7 @@
   transition: none;
   position: relative;
   overflow: visible;
-  min-height: auto;
+  min-height: 0;
   flex: 0 0 auto;
   max-width: none;
 }
@@ -654,6 +654,10 @@
 
 .project-video-wrapper {
   margin-top: 0.85rem;
+  background: var(--card-background);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 0.75rem;
 }
 
 .project-video-title {
@@ -670,6 +674,15 @@
   border: 1px solid var(--border-color);
   border-radius: 10px;
   background: #000;
+}
+
+@media (min-width: 992px) {
+  .featured-petshop .project-video-wrapper {
+    max-width: 760px;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .project-actions {
@@ -1175,6 +1188,27 @@ p {
   animation: fadeInUp 1s ease 0.5s both;
 }
 
+.about-intro-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 1px;
+}
+
+.about-intro-box {
+  background: none;
+  max-width: 650px;
+  width: 100%;
+  padding: 0 1.2rem;
+  margin: 0 auto;
+}
+
+.about-intro-text {
+  text-align: justify;
+  font-size: 1.12rem;
+  line-height: 1.8;
+}
+
 .about-content p {
   animation: fadeInUp 1s ease 1s both;
   margin-bottom: 1.5rem;
@@ -1635,8 +1669,20 @@ p {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 }
 
+#projetos .row > [class*="col-"] {
+  display: flex;
+}
+
+#projetos .row > [class*="col-"] > .project-card {
+  width: 100%;
+  display: flex;
+}
+
 #projetos .project-content {
   padding: 1.35rem 1.35rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 /* Projetos: visual mais leve e escaneavel, sem caixas internas */
@@ -1659,6 +1705,7 @@ p {
   border: 0;
   border-radius: 0;
   background: transparent;
+  flex-grow: 1;
 }
 
 #projetos .project-problem {
@@ -1693,20 +1740,38 @@ p {
 }
 
 #projetos .project-actions {
-  margin-top: 0;
+  margin-top: auto;
+  padding-top: 0.35rem;
 }
 
 .projects-tier-title {
   margin-top: 1.35rem;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.9rem;
   font-size: 0.95rem;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.09em;
   text-transform: uppercase;
   color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.projects-tier-title::after {
+  content: "";
+  height: 1px;
+  flex: 1;
+  background: var(--border-color);
+  opacity: 0.7;
 }
 
 .projects-tier-gap {
-  margin-bottom: 0.35rem;
+  margin-bottom: 0.8rem;
+}
+
+@media (max-width: 768px) {
+  #projetos .row > [class*="col-"] {
+    display: block;
+  }
 }
 
 #projetos .project-card.tier-secondary {
@@ -1772,6 +1837,47 @@ p {
   font-weight: 600;
   line-height: 1.2;
   max-width: 100%;
+}
+
+#projetos .project-name {
+  margin-bottom: 0.45rem;
+  line-height: 1.35;
+  font-size: clamp(1.05rem, 1vw + 0.85rem, 1.3rem);
+}
+
+#projetos .project-tagline {
+  margin-bottom: 0.95rem;
+  line-height: 1.62;
+}
+
+#projetos .project-tech {
+  gap: 0.45rem;
+}
+
+#projetos .tech-tag {
+  font-size: 0.68rem;
+  padding: 0.26rem 0.6rem;
+  border-radius: 999px;
+}
+
+@media (min-width: 1100px) {
+  .featured-petshop .project-detail-block {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(300px, 420px);
+    gap: 0.6rem 1.15rem;
+    align-items: start;
+  }
+
+  .featured-petshop .project-video-wrapper {
+    grid-column: 2;
+    grid-row: 1 / span 3;
+    margin: 0;
+    max-width: none;
+  }
+
+  .featured-petshop .project-problem {
+    margin-bottom: 0.4rem;
+  }
 }
 
 .project-highlight-badge::before {
@@ -1888,6 +1994,13 @@ p {
 
 .contact-btn span {
   display: none;
+}
+
+.email-feedback {
+  display: none;
+  margin-left: 8px;
+  font-size: 0.8rem;
+  opacity: 0.8;
 }
 
 /* Remover estilos de CTA nos botões de contato */
@@ -2186,6 +2299,8 @@ p {
 @media (max-width: 576px) {
   .hero-title {
     font-size: 2rem;
+    white-space: normal;
+    line-height: 1.16;
   }
 
   .hero-image {
@@ -2210,6 +2325,11 @@ p {
 
   .container {
     padding: 0 1rem;
+  }
+
+  .hero-content {
+    max-width: 100%;
+    padding: 0 0.2rem;
   }
 
   .section {
@@ -2309,6 +2429,19 @@ p {
   .contact-btn span {
     font-size: 0.75rem;
   }
+
+  #projetos .project-content {
+    padding: 1rem;
+  }
+
+  #projetos .project-name {
+    font-size: 1.02rem;
+  }
+
+  #projetos .project-github-btn {
+    width: 100%;
+    justify-content: center;
+  }
 }
 
 /* Media query para telas muito pequenas */
@@ -2389,6 +2522,36 @@ p {
 
   .certificate-content {
     padding: 1rem;
+  }
+}
+
+/* Ajustes globais de responsividade e mídia */
+img,
+video {
+  max-width: 100%;
+}
+
+.hero-subtitle,
+.project-tagline,
+.project-problem {
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 992px) {
+  .section {
+    padding: 5rem 0;
+  }
+
+  .navbar .container {
+    row-gap: 0.7rem;
+  }
+
+  .language-selector {
+    margin-left: 0;
+  }
+
+  #projetos .projects-tier-gap {
+    margin-bottom: 0.45rem;
   }
 }
 

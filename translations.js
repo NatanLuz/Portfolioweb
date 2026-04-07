@@ -15,7 +15,7 @@ const translations = {
     "meta.title": "Natan Da Luz - Desenvolvedor De Software",
     "hero.cta.cv": "Download Currículo",
     "meta.description":
-      "Desenvolvedor De Software com projetos reais: Sistema PetShop e Barbearia. Especialista em PHP, JavaScript, MySQL e Docker",
+      "Desenvolvedor De Software com projetos reais: Sistema PetShop e Barbearia. Especialista em PHP, JavaScript e MySQL",
     "hero.cta.contact": "Vamos Conversar",
 
     // Traduzindo para PTBR EN e FR sobre seção
