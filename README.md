@@ -1,5 +1,5 @@
 
-## Sobre o Projeto
+## Sobre o Portfolio.
 
 
 Portfólio pessoal desenvolvido em HTML, CSS e JavaScript para apresentar projetos, tecnologias e experiência como desenvolvedor backend. O site é estático, responsivo, multilíngue (PT/EN/FR) e possui alternância de tema claro/escuro.
