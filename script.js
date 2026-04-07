@@ -440,7 +440,7 @@ function animateHero() {
       if (heroSubtitle) {
         heroSubtitle.style.opacity = "0";
         heroSubtitle.style.transform = "translateY(8px)";
-        heroSubtitle.textContent = subtitleText;
+        heroSubtitle.innerHTML = String(subtitleText).replace(/\n/g, "<br/>");
         setTimeout(() => {
           heroSubtitle.style.transition = "all 400ms ease";
           heroSubtitle.style.opacity = "1";

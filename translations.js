@@ -9,8 +9,9 @@ const translations = {
     "nav.contact": "Contato",
 
     // Traduzindo para PTBR EN e FR seção hero
-    "hero.title": "Desenvolvedor Backend",
-    "hero.subtitle": "",
+    "hero.title": "Natan Da Luz",
+    "hero.subtitle":
+      "Backend Developer | PHP • Laravel • APIs\nDesenvolvimento de Sistemas\nAPIs Robustas\nCódigo Limpo e de Qualidade",
     "meta.title": "Natan Da Luz - Desenvolvedor De Software",
     "hero.cta.cv": "Download Currículo",
     "meta.description":
@@ -135,8 +136,9 @@ const translations = {
     "nav.contact": "Contact",
 
     // Traduzindo para PTBR EN e FR seção hero
-    "hero.title": "Backend Developer",
-    "hero.subtitle": "",
+    "hero.title": "Natan Da Luz",
+    "hero.subtitle":
+      "Backend Developer | PHP • Laravel • APIs\nSystems Development\nRobust APIs\nClean, High-Quality Code",
     "meta.title": "Natan Da Luz - Backend Software Developer",
     "hero.cta.cv": "Download CV",
     "meta.description":
@@ -261,8 +263,9 @@ const translations = {
     "nav.contact": "Contact",
 
     // Traduzindo para PTBR EN e FR seção hero
-    "hero.title": "Développeur Backend",
-    "hero.subtitle": "",
+    "hero.title": "Natan Da Luz",
+    "hero.subtitle":
+      "Backend Developer | PHP • Laravel • APIs\nDéveloppement de systèmes\nAPIs robustes\nCode propre et de qualité",
     "meta.title": "Natan Da Luz - Développeur Backend",
     "hero.cta.cv": "Télécharger CV",
     "meta.description":
