@@ -10,8 +10,7 @@ const translations = {
 
     // Traduzindo para PTBR EN e FR seção hero
     "hero.title": "Natan Da Luz",
-    "hero.subtitle":
-      "Backend Developer | PHP • Laravel • APIs\nDesenvolvimento de Sistemas\nAPIs Robustas\nCódigo Limpo e de Qualidade",
+    "hero.subtitle": "Desenvolvedor Backend",
     "meta.title": "Natan Da Luz - Desenvolvedor De Software",
     "hero.cta.cv": "Download Currículo",
     "meta.description":
