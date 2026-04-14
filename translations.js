@@ -20,7 +20,7 @@ const translations = {
     // Traduzindo para PTBR EN e FR sobre seção
     "about.title": "Sobre Mim",
     "about.intro":
-      "Sou desenvolvedor backend com foco em PHP, especializado na construção de sistemas e aplicações orientadas a regras de negócio.\n\nPossuo experiência no desenvolvimento de soluções completas, incluindo autenticação, modelagem de banco de dados e organização de código com separação de responsabilidades.\n\nJá desenvolvi sistemas utilizados em ambiente real, com foco em segurança, previsibilidade e eficiência operacional.\n\nTenho conhecimento em front-end para integração de interfaces, mas meu foco principal é backend.",
+      "Desenvolvedor backend com foco em PHP e Laravel, especializado na construção de sistemas orientados a regras de negócio e APIs REST.\n\nPossuo experiência no desenvolvimento de aplicações completas, incluindo autenticação, modelagem de banco de dados relacional (MySQL) e organização de código seguindo boas práticas como separação de responsabilidades.\n\nJá desenvolvi sistemas utilizados em ambiente real, com foco em segurança, previsibilidade e eficiência operacional.\n\nTambém possuo conhecimento em front-end, facilitando a integração e consumo de APIs.",
 
     // Traduzindo para PTBR EN e FR Soft Skills
     "about.softSkills.title": "Soft Skills",
@@ -119,7 +119,7 @@ const translations = {
     "footer.credit": "Desenvolvido Por Natan Da Luz",
     "backToTop.aria": "Voltar ao topo",
     "loading.text": "Carregando...",
-    "project.github.title": "Ver no GitHub",
+    "project.github.title": "Ver projeto completo",
     "project.linkedin.title": "Ver demonstração no LinkedIn",
     "project.github.aria": "Abrir repositório no GitHub",
     "project.linkedin.aria": "Abrir demonstração no LinkedIn",
