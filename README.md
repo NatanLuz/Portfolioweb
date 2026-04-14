@@ -51,4 +51,4 @@ Portfolioweb/
 
 ## Licença
 
-Projeto de portfólio pessoal. Para uso, referências ou colaboração, entre em contato.
+Projeto de portfólio pessoal.
