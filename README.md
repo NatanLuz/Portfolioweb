@@ -6,7 +6,6 @@ Meu Portfólio pessoal desenvolvido em HTML, CSS e JavaScript para apresentar pr
 
 Feito para me apresentar e mostrar meus trabalho e evolução como dev backend com noções front e sistemas operacionais.
 
-
 ---
 
 ## Principais Funcionalidades
@@ -22,6 +21,7 @@ Feito para me apresentar e mostrar meus trabalho e evolução como dev backend c
 
 ## Estrutura do Portfolio
 
+
 ```
 Portfolioweb/
 ├── index.html          # Página principal (Home, Sobre, Tecnologias, Projetos, Contato)
@@ -32,6 +32,7 @@ Portfolioweb/
 ├── img/                # Imagens e ícones do portfólio
 └── README.md           # Documentação do projeto
 ```
+
 
 ## Boas Práticas no Projeto
 
@@ -46,7 +47,6 @@ Portfolioweb/
 
 - **Email:** natandaluz01@gmail.com
 - **LinkedIn:** https://www.linkedin.com/in/natan-da-luz-3156582a2/
-
 ---
 
 ## Licença
