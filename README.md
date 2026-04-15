@@ -2,7 +2,7 @@
 ## Sobre o Portfolio.
 
 
-Portfólio pessoal desenvolvido em HTML, CSS e JavaScript para apresentar projetos, tecnologias e experiência como desenvolvedor backend. O site é estático, responsivo, multilíngue (PT/EN/FR) e possui alternância de tema claro/escuro.
+Meu Portfólio pessoal desenvolvido em HTML, CSS e JavaScript para apresentar projetos, tecnologias e experiência como desenvolvedor backend. O site é estático, responsivo, multilíngue (PT/EN/FR) e possui alternância de tema claro/escuro.
 
 Feito para me apresentar e mostrar meus trabalho e evolução como dev backend com noções front e sistemas operacionais.
 
