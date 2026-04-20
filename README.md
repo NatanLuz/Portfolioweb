@@ -136,5 +136,7 @@ Natan Da Luz
 Desenvolvedor de Software
 
 📧 natandaluz01@gmail.com  
+
+
 🔗 https://www.linkedin.com/in/natan-da-luz-3156582a2/
 
