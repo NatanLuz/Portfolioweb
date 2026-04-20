@@ -4,10 +4,6 @@ Aplicação web estática responsiva desenvolvida para apresentação profission
 
 ---
 
-## 🎯 Proposta do projeto feito
-
-Centralizar a apresentação profissional em uma interface web moderna, acessível e organizada, facilitando a visualização de projetos, habilidades técnicas e formas de contato.
-
 **Benefícios principais:**
 
 * Apresentação clara e estruturada de projetos reais
