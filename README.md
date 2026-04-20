@@ -1,16 +1,22 @@
-# Portfolio Web — Website Pessoal
+# Portfólio Web — Website Pessoal
 
-Aplicação web estática responsiva desenvolvida para apresentação profissional, destacando meus  projetos, tecnologias e evolução como desenvolvedor backend, com suporte a múltiplos idiomas e alternância de tema.
+Aplicação web estática desenvolvida para apresentação profissional, reunindo projetos, tecnologias e evolução como desenvolvedor backend, com suporte a múltiplos idiomas e personalização de interface.
 
 ---
 
+## 🎯 Proposta do Projeto 
+
+Centralizar a apresentação profissional em um único ambiente digital, permitindo comunicação clara das competências técnicas, projetos desenvolvidos e evolução como desenvolvedor.
+
+
 **Benefícios principais:**
 
-* Apresentação clara e estruturada de projetos reais
-* Suporte multilíngue (PT/EN/FR)
-* Experiência personalizada com tema claro/escuro
-* Interface responsiva e acessível
-* Foco em backend com visão full stack
+
+- Apresentação estruturada de projetos e habilidades
+- Suporte multilíngue (PT/EN/FR)
+- Interface responsiva e acessível
+- Personalização de tema (claro/escuro)
+- Experiência fluida para recrutadores e visitantes
 
 ---
 
@@ -18,27 +24,27 @@ Aplicação web estática responsiva desenvolvida para apresentação profission
 
 ### Interface e UX
 
-* Layout responsivo (desktop, tablet e mobile)
-* Navegação fluida com scroll e organização por seções
-* Botão de retorno ao topo
-* Animações suaves com AOS
+- Layout responsivo (desktop, tablet e mobile)
+- Navegação simples e intuitiva
+- Botão de voltar ao topo
+- Animações com AOS (Animate On Scroll)
 
 ### Internacionalização
 
-* Sistema multilíngue (Português, Inglês e Francês)
-* Tradução dinâmica via `data-translate`
-* Gerenciamento centralizado em `translations.js`
+- Suporte a múltiplos idiomas (Português, Inglês e Francês)
+- Sistema baseado em `data-translate`
+- Gerenciamento centralizado via `translations.js`
 
 ### Personalização
 
-* Alternância de tema (claro/escuro)
-* Persistência de preferência com `localStorage`
+- Alternância de tema claro/escuro
+- Persistência de preferência com `localStorage`
 
-### Conteúdo Profissional
+### Conteúdo
 
-* Seção de tecnologias com foco em backend (PHP, Python, SQL)
-* Seção de projetos com aplicações reais
-* Área de contato integrada
+- Seção de tecnologias (ênfase em backend: PHP, Python, SQL)
+- Seção de projetos reais
+- Apresentação da trajetória e evolução profissional
 
 ---
 
@@ -46,9 +52,9 @@ Aplicação web estática responsiva desenvolvida para apresentação profission
 
 Separação clara entre estrutura, estilo e comportamento:
 
-* **HTML** → estrutura e conteúdo
-* **CSS** → layout, responsividade e temas
-* **JavaScript** → interações, idioma e lógica de UI
+- **HTML** -> estrutura e conteúdo
+- **CSS** -> estilização, responsividade e temas
+- **JavaScript** -> interatividade, idioma e controle de UI
 
 **Estrutura do projeto:**
 
@@ -67,18 +73,19 @@ Portfolioweb/
 
 ## 🔐 Segurança
 
-* Aplicação estática (sem backend)
-* Sem manipulação de dados sensíveis
-* Uso seguro de links externos (`rel="noopener"`)
+- Aplicação totalmente estática (sem backend)
+- Nenhuma manipulação de dados sensíveis
+- Uso controlado de scripts externos
+- Boas práticas em links externos (`rel="noopener"`)
 
 ---
 
 ## 🧰 Stack Tecnológica
 
-* HTML5 (semântico)
-* CSS3
-* JavaScript (Vanilla JS)
-* AOS (Animate On Scroll)
+- HTML5
+- CSS3
+- JavaScript
+- AOS (Animate On Scroll)
 
 ---
 
@@ -86,33 +93,27 @@ Portfolioweb/
 
 ### Pré-requisitos
 
-* Navegador moderno
-* (Opcional) Git
+- Navegador moderno (Chrome, Edge, Firefox)
 
-### Passos
+### Execução
 
-```bash
-git clone <url-do-repositorio>
-cd Portfolioweb
-```
-
----
-
-## ▶️ Execução
-
-Abrir diretamente no navegador:
+Como é um projeto estático, basta abrir o arquivo:
 
 ```bash
 index.html
 ```
 
-Ou usar servidor local (recomendado):
+Ou rodar com servidor local (opcional):
 
 ```bash
 python -m http.server 8080
 ```
 
-Acesse: http://localhost:8080
+Acesse:
+
+```text
+http://localhost:8080
+```
 
 ---
 
@@ -120,30 +121,33 @@ Acesse: http://localhost:8080
 
 Checklist funcional:
 
-* Testar troca de idioma (PT/EN/FR)
-* Alternar tema claro/escuro
-* Validar responsividade em diferentes dispositivos
-* Verificar navegação entre seções
-* Testar links de projetos e contato
+- Validar troca de idioma (PT/EN/FR)
+- Testar alternância de tema (claro/escuro)
+- Verificar responsividade (mobile/tablet/desktop)
+- Navegar entre seções
+- Validar animações (AOS)
+- Testar links externos
 
 ---
 
 ## 📸 Screenshots
 
-Adicione aqui capturas do portfólio (home, projetos, tecnologias, contato).
+Adicione aqui imagens do portfólio (home, projetos, tecnologias, etc.).
 
 ---
 
 ## 👤 Autor
 
-**Natan Da Luz**
-Desenvolvedor de Software
+**Natan Da Luz**  
+Desenvolvedor de Software  
 
-📧 [natandaluz01@gmail.com](mailto:natandaluz01@gmail.com)
-🔗 [LinkedIn](https://www.linkedin.com/in/natan-da-luz-3156582a2/)
+📧 natandaluz01@gmail.com
+
+
+🔗 https://www.linkedin.com/in/natan-da-luz-3156582a2/
 
 ---
 
-## 📄 Licença
+## Licença
 
-Projeto de portfólio pessoal para fins de apresentação profissional.
+Projeto de portfólio pessoal.
