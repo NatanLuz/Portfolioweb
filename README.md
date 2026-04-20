@@ -1,54 +1,153 @@
+# Portfolio Web — Website Pessoal
 
-## Sobre o Portfolio.
-
-
-Meu Portfólio pessoal desenvolvido em HTML, CSS e JavaScript para apresentar projetos, tecnologias e experiência como desenvolvedor backend. O site é estático, responsivo, multilíngue (PT/EN/FR) e possui alternância de tema claro/escuro.
-
-Feito para me apresentar e mostrar meus trabalho e evolução como dev backend com noções front e sistemas operacionais.
+Aplicação web estática responsiva desenvolvida para apresentação profissional, destacando meus  projetos, tecnologias e evolução como desenvolvedor backend, com suporte a múltiplos idiomas e alternância de tema.
 
 ---
 
-## Principais Funcionalidades
+## 🎯 Proposta do projeto feito
 
-- **Layout responsivo:** otimizado para desktop, tablet e mobile.
-- **Multilíngue (PT/EN/FR):** sistema de tradução via `data-translate` e `translations.js`.
-- **Tema claro/escuro:** alternância com persistência em `localStorage`.
-- **Seção de Tecnologias:** destaque para backend (PHP, Python), bancos de dados (MySQL/SQL) e ferramentas de desenvolvimento.
-- **Seção de Projetos:** projetos reais com foco em sistemas web, automações e aplicações desktop.
-- **Acessibilidade e UX:** uso de AOS para animações, botão de voltar ao topo e navegação clara.
+Centralizar a apresentação profissional em uma interface web moderna, acessível e organizada, facilitando a visualização de projetos, habilidades técnicas e formas de contato.
+
+**Benefícios principais:**
+
+* Apresentação clara e estruturada de projetos reais
+* Suporte multilíngue (PT/EN/FR)
+* Experiência personalizada com tema claro/escuro
+* Interface responsiva e acessível
+* Foco em backend com visão full stack
 
 ---
 
-## Estrutura do Portfolio
+## ⚙️ Funcionalidades
 
+### Interface e UX
 
-```
+* Layout responsivo (desktop, tablet e mobile)
+* Navegação fluida com scroll e organização por seções
+* Botão de retorno ao topo
+* Animações suaves com AOS
+
+### Internacionalização
+
+* Sistema multilíngue (Português, Inglês e Francês)
+* Tradução dinâmica via `data-translate`
+* Gerenciamento centralizado em `translations.js`
+
+### Personalização
+
+* Alternância de tema (claro/escuro)
+* Persistência de preferência com `localStorage`
+
+### Conteúdo Profissional
+
+* Seção de tecnologias com foco em backend (PHP, Python, SQL)
+* Seção de projetos com aplicações reais
+* Área de contato integrada
+
+---
+
+## 🏗️ Arquitetura / Estrutura
+
+Separação clara entre estrutura, estilo e comportamento:
+
+* **HTML** → estrutura e conteúdo
+* **CSS** → layout, responsividade e temas
+* **JavaScript** → interações, idioma e lógica de UI
+
+**Estrutura do projeto:**
+
+```bash
 Portfolioweb/
-├── index.html          # Página principal (Home, Sobre, Tecnologias, Projetos, Contato)
-├── style.css           # Estilos globais, temas e responsividade
-├── script.js           # Lógica de idioma, tema, scroll e interações
-├── translations.js     # Dicionário de traduções PT/EN/FR
-├── assets/             # Arquivos auxiliares (ex.: currículo)
-├── img/                # Imagens e ícones do portfólio
-└── README.md           # Documentação do projeto
+├── index.html
+├── style.css
+├── script.js
+├── translations.js
+├── assets/
+├── img/
+└── README.md
 ```
 
+---
 
-## Boas Práticas no Projeto
+## 🔐 Segurança
 
-- Manter textos sincronizados em PT/EN/FR no arquivo `translations.js`.
-- Reaproveitar componentes visuais (`.project-card`, `.tech-grid`, etc.).
-- Utilizar variáveis de tema no CSS, evitando cores “soltas” no código.
-- Garantir que links externos usem `target="_blank"` com `rel="noopener"`.
+* Aplicação estática (sem backend)
+* Sem manipulação de dados sensíveis
+* Uso seguro de links externos (`rel="noopener"`)
 
 ---
 
-## Contato
+## 🧰 Stack Tecnológica
 
-- **Email:** natandaluz01@gmail.com
-- **LinkedIn:** https://www.linkedin.com/in/natan-da-luz-3156582a2/
+* HTML5 (semântico)
+* CSS3
+* JavaScript (Vanilla JS)
+* AOS (Animate On Scroll)
+
 ---
 
-## Licença
+## 🚀 Instalação
 
-Projeto de portfólio pessoal.
+### Pré-requisitos
+
+* Navegador moderno
+* (Opcional) Git
+
+### Passos
+
+```bash
+git clone <url-do-repositorio>
+cd Portfolioweb
+```
+
+---
+
+## ▶️ Execução
+
+Abrir diretamente no navegador:
+
+```bash
+index.html
+```
+
+Ou usar servidor local (recomendado):
+
+```bash
+python -m http.server 8080
+```
+
+Acesse: http://localhost:8080
+
+---
+
+## 🧪 Testes Rápidos
+
+Checklist funcional:
+
+* Testar troca de idioma (PT/EN/FR)
+* Alternar tema claro/escuro
+* Validar responsividade em diferentes dispositivos
+* Verificar navegação entre seções
+* Testar links de projetos e contato
+
+---
+
+## 📸 Screenshots
+
+Adicione aqui capturas do portfólio (home, projetos, tecnologias, contato).
+
+---
+
+## 👤 Autor
+
+**Natan Da Luz**
+Desenvolvedor de Software
+
+📧 [natandaluz01@gmail.com](mailto:natandaluz01@gmail.com)
+🔗 [LinkedIn](https://www.linkedin.com/in/natan-da-luz-3156582a2/)
+
+---
+
+## 📄 Licença
+
+Projeto de portfólio pessoal para fins de apresentação profissional.
