@@ -81,9 +81,8 @@ Portfolioweb/
 
 - HTML5
 - CSS3
-- JavaScript (Vanilla JS)
+- JavaScript
 - AOS (Animate On Scroll)
-- LocalStorage API
 
 ---
 
