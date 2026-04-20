@@ -4,13 +4,11 @@ Aplicação web estática desenvolvida para apresentação profissional, reunind
 
 ---
 
-## 🎯 Proposta do Projeto 
+## 🎯 Proposta de Valor
 
 Centralizar a apresentação profissional em um único ambiente digital, permitindo comunicação clara das competências técnicas, projetos desenvolvidos e evolução como desenvolvedor.
 
-
 **Benefícios principais:**
-
 
 - Apresentação estruturada de projetos e habilidades
 - Suporte multilíngue (PT/EN/FR)
@@ -52,9 +50,9 @@ Centralizar a apresentação profissional em um único ambiente digital, permiti
 
 Separação clara entre estrutura, estilo e comportamento:
 
-- **HTML** -> estrutura e conteúdo
-- **CSS** -> estilização, responsividade e temas
-- **JavaScript** -> interatividade, idioma e controle de UI
+- **HTML** → estrutura e conteúdo
+- **CSS** → estilização, responsividade e temas
+- **JavaScript** → interatividade, idioma e controle de UI
 
 **Estrutura do projeto:**
 
@@ -64,7 +62,6 @@ Portfolioweb/
 ├── style.css
 ├── script.js
 ├── translations.js
-├── assets/
 ├── img/
 └── README.md
 ```
@@ -84,8 +81,9 @@ Portfolioweb/
 
 - HTML5
 - CSS3
-- JavaScript
+- JavaScript (Vanilla JS)
 - AOS (Animate On Scroll)
+- LocalStorage API
 
 ---
 
@@ -93,17 +91,13 @@ Portfolioweb/
 
 ### Pré-requisitos
 
-- Navegador moderno (Chrome, Edge, Firefox)
+- Navegador moderno (Chrome, Edge ou Firefox)
 
 ### Execução
 
-Como é um projeto estático, basta abrir o arquivo:
+Como é um projeto estático, basta abrir o arquivo `index.html`.
 
-```bash
-index.html
-```
-
-Ou rodar com servidor local (opcional):
+Opcionalmente, execute com servidor local:
 
 ```bash
 python -m http.server 8080
@@ -111,9 +105,7 @@ python -m http.server 8080
 
 Acesse:
 
-```text
 http://localhost:8080
-```
 
 ---
 
@@ -132,22 +124,22 @@ Checklist funcional:
 
 ## 📸 Screenshots
 
-Adicione aqui imagens do portfólio (home, projetos, tecnologias, etc.).
+Preview da página principal:
+
+![Preview do portfólio](img/preview.jpg)
 
 ---
 
 ## 👤 Autor
 
-**Natan Da Luz**  
-Desenvolvedor de Software  
+Natan Da Luz  
+Desenvolvedor de Software
 
-📧 natandaluz01@gmail.com
-
-
+📧 natandaluz01@gmail.com  
 🔗 https://www.linkedin.com/in/natan-da-luz-3156582a2/
 
 ---
 
-## Licença
+## 📄 Licença
 
 Projeto de portfólio pessoal.
