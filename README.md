@@ -14,13 +14,12 @@ Centralizar a apresentação profissional em um único ambiente digital, permiti
 - Suporte multilíngue (PT/EN/FR)
 - Interface responsiva e acessível
 - Personalização de tema (claro/escuro)
-- Experiência fluida para recrutadores e visitantes
-
+ 
 ---
 
 ## ⚙️ Funcionalidades
 
-### Interface e UX
+### Interface e UX Design
 
 - Layout responsivo (desktop, tablet e mobile)
 - Navegação simples e intuitiva
