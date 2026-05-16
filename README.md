@@ -53,7 +53,7 @@ Separação clara entre estrutura, estilo e comportamento:
 - **CSS** → estilização, responsividade e temas
 - **JavaScript** → interatividade, idioma e controle de UI
 
-**Estrutura do projeto:**
+**Estrutura do projeto :**
 
 ```bash
 Portfolioweb/
@@ -91,7 +91,7 @@ Portfolioweb/
 
 - Navegador moderno (Chrome, Edge ou Firefox)
 
-### Execução
+## Como faz a Execução do Projeto ?
 
 Como é um projeto estático, basta abrir o arquivo `index.html`.
 
