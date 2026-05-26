@@ -1,4 +1,6 @@
-## Meu Portfólio Web Pessoal
+## Meu Portfólio Web Pessoal 
+
+(Em breve terá novas atualizações)
 
 Aplicação web estática desenvolvida para apresentação profissional, reunindo projetos, tecnologias e evolução como desenvolvedor backend, com suporte a múltiplos idiomas e personalização de interface.
 
