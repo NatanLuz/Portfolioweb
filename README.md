@@ -6,7 +6,7 @@ Aplicação web estática desenvolvida para apresentação profissional, reunind
 
 ---
 
-## 🎯 Proposta de Valor
+## 🎯 Proposta de Valor do Projeto
 
 Centralizar a apresentação profissional em um único ambiente digital, permitindo comunicação clara das competências técnicas, projetos desenvolvidos e evolução como desenvolvedor.
 
