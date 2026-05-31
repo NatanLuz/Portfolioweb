@@ -68,24 +68,12 @@ Portfolioweb/
 
 ---
 
-## 🔐 Segurança
-
-- Aplicação totalmente estática (sem backend)
-- Nenhuma manipulação de dados sensíveis
-- Uso controlado de scripts externos
-- Boas práticas em links externos (`rel="noopener"`)
-
----
-
 ## 🧰 Stack Tecnológica
 
 - HTML5
 - CSS3
-- JavaScript (Vanilla JS)
+- JavaScript
 - AOS (Animate On Scroll)
-- LocalStorage API
-
----
 
 ---
 
@@ -137,12 +125,8 @@ Preview da página principal:
 Natan Da Luz  
 Desenvolvedor de Software
 
-📧 natandaluz01@gmail.com
+## Contato
 
-🔗 https://www.linkedin.com/in/natan-da-luz-3156582a2/
+Email: natandaluz01@gmail.com
 
----
-
-## 📄 Licença
-
-MIT
+Linkedin: https://www.linkedin.com/in/natan-da-luz-3156582a2/
