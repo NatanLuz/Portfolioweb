@@ -78,12 +78,10 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
 
-    <!-- colocando as fontes do css -->
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    <!-- aba de navegação  -->
     <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
       <div class="container">
         <button
@@ -134,7 +132,6 @@
           </ul>
         </div>
 
-        <!-- Selecionar linguagem PT EN FR-->
         <div class="language-selector">
           <button class="lang-btn active" data-lang="pt" aria-label="Português">
             PT
@@ -149,7 +146,6 @@
       </div>
     </nav>
 
-    <!-- seção hero -->
     <section id="home" class="hero-section">
       <div class="container">
         <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
@@ -167,24 +163,23 @@
 
           <div class="hero-buttons" data-aos="fade-up" data-aos-delay="600">
             <a
-              href="CurriculoNatanDaLuz.pdf"
+              href="Natan_Da_Luz_DesenvolvedorCV.pdf"
               target="_blank"
               rel="noopener"
               class="btn-cta-primary cv-download-btn"
               download
             >
               <i class="fas fa-download me-2" aria-hidden="true"></i>
-              Baixar Currículo
+              <span data-translate="hero.cta.cv">Baixar Currículo</span>
             </a>
             <a href="#projetos" class="btn-cta-secondary">
               <i class="fas fa-folder-open me-2" aria-hidden="true"></i>
               Ver Projetos
             </a>
-            <!-- Botão para alternar entre tema claro e escuro -->
             <button
               class="theme-toggle"
               id="themeToggle"
-              aria-label="Toggle theme"
+              aria-label="Alternar tema claro e escuro"
             >
               <i class="fas fa-moon"></i>
             </button>
@@ -193,7 +188,6 @@
       </div>
     </section>
 
-    <!-- seção sobre do portfolio-->
     <section id="sobre" class="section">
       <div class="container">
         <div class="row justify-content-center">
@@ -202,28 +196,15 @@
               Sobre Mim
             </h2>
             <div class="about-content">
-              <div class="about-intro about-intro-layout">
+              <div class="about-intro-layout">
                 <div class="about-intro-box">
-                  <p class="about-intro-text" data-translate="about.intro">
-                    Desenvolvedor backend com foco em PHP e Laravel,
-                    especializado na construção de sistemas orientados a regras
-                    de negócio e APIs REST. Possuo experiência no
-                    desenvolvimento de aplicações completas, incluindo
-                    autenticação, modelagem de banco de dados relacional (MySQL)
-                    e organização de código seguindo boas práticas como
-                    separação de responsabilidades. Já desenvolvi sistemas
-                    utilizados em ambiente real, com foco em segurança,
-                    previsibilidade e eficiência operacional. Também possuo
-                    conhecimento em front-end, facilitando a integração e
-                    consumo de APIs.
-                  </p>
+                  <p class="about-intro-text" data-translate="about.intro"></p>
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        <!-- Minhas Soft Skills -->
         <div class="row mt-5">
           <div class="col-lg-8 mx-auto" data-aos="fade-up" data-aos-delay="200">
             <h3
@@ -234,46 +215,27 @@
             </h3>
             <div class="soft-skills-grid">
               <div class="skill-item" data-aos="fade-in" data-aos-delay="100">
-                <span data-translate="about.softSkills.teamwork">
-                  Trabalho em equipe – colaboração ativa com devs, designers e
-                  stakeholders.
-                </span>
+                <span data-translate="about.softSkills.teamwork"></span>
               </div>
               <div class="skill-item" data-aos="fade-in" data-aos-delay="150">
-                <span data-translate="about.softSkills.communication">
-                  Boa comunicação – explico decisões técnicas de forma clara
-                  para pessoas não técnicas.
-                </span>
+                <span data-translate="about.softSkills.communication"></span>
               </div>
               <div class="skill-item" data-aos="fade-in" data-aos-delay="200">
-                <span data-translate="about.softSkills.problemSolving">
-                  Resolução de problemas – foco em entender a raiz do problema
-                  antes de codar.
-                </span>
+                <span data-translate="about.softSkills.problemSolving"></span>
               </div>
               <div class="skill-item" data-aos="fade-in" data-aos-delay="250">
-                <span data-translate="about.softSkills.agility">
-                  Agilidade – adaptação rápida a mudanças de escopo e
-                  prioridades.
-                </span>
+                <span data-translate="about.softSkills.agility"></span>
               </div>
               <div class="skill-item" data-aos="fade-in" data-aos-delay="300">
-                <span data-translate="about.softSkills.adaptability">
-                  Adaptabilidade – conforto em aprender novas tecnologias e
-                  contextos de negócio.
-                </span>
+                <span data-translate="about.softSkills.adaptability"></span>
               </div>
               <div class="skill-item" data-aos="fade-in" data-aos-delay="350">
-                <span data-translate="about.softSkills.proactivity">
-                  Proatividade – proponho melhorias em fluxos, performance e
-                  organização do código.
-                </span>
+                <span data-translate="about.softSkills.proactivity"></span>
               </div>
             </div>
           </div>
         </div>
 
-        <!-- Add parte dos Idiomas -->
         <div class="row mt-5">
           <div class="col-lg-8 mx-auto" data-aos="fade-up" data-aos-delay="300">
             <h3
@@ -293,7 +255,7 @@
                   data-translate="about.languages.english"
                   >Inglês</span
                 >
-                <span class="language-level">Avançado (C1)</span>
+                <span class="language-level">Avançado(C1)</span>
               </div>
               <div
                 class="language-item"
@@ -305,7 +267,7 @@
                   data-translate="about.languages.french"
                   >Francês</span
                 >
-                <span class="language-level">Intermediário básico (A2)</span>
+                <span class="language-level">Intermediário básico(A2)</span>
               </div>
             </div>
           </div>
@@ -334,7 +296,7 @@
               class="tech-category-description"
               data-translate="technologies.backend.description"
             >
-              APIs REST • Regras de negócio • Persistência de dados
+              APIs REST • Regras de Negócio • Persistência de Dados
             </p>
           </div>
           <div class="tech-grid backend-grid">
@@ -381,7 +343,7 @@
         <div class="tech-category frontend-secondary" data-aos="fade-up">
           <h3 class="tech-category-title tech-title-with-badge">
             Frontend
-            <span class="tech-focus-label focus-secondary">COMPLEMENTAR</span>
+            <span class="tech-focus-label focus-secondary">Complementar</span>
           </h3>
           <p
             class="tech-category-description"
@@ -415,7 +377,7 @@
                 class="tech-icon"
                 loading="lazy"
               />
-              <span class="tech-name">JavaScript</span>
+              <span class="tech-name">Javascript</span>
             </div>
           </div>
         </div>
@@ -470,33 +432,87 @@
         <h2 class="section-title text-center" data-translate="projects.title">
           Projetos
         </h2>
-
-        <h3 class="projects-tier-title" data-aos="fade-up" data-aos-delay="60">
-          Projeto em destaque
-        </h3>
         <div class="row g-4 projects-tier-gap">
           <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
-            <article class="project-card featured-petshop" data-cat="fullstack">
+            <article class="project-card featured-financeiro" data-cat="fullstack">
               <div class="project-content">
-                <span class="project-highlight-badge">Case principal</span>
-                <h3 class="project-name">PetSystem — Gestão de Petshop</h3>
+                <span class="project-highlight-badge">Projeto Destaque</span>
+                <h3 class="project-name">Meu Saldo Certo</h3>
                 <p class="project-tagline">
-                  Sistema backend em PHP (com arquitetura estruturada para
-                  evolução para Laravel)
+                  Sistema Financeiro em Laravel para controle de receitas, despesas, categorias e saldo por usuário autenticado. Projeto de portfólio moderno, com foco em clareza visual, organização de código, boas práticas e experiência consistente.
                 </p>
                 <div class="project-detail-block">
                   <p class="project-problem">
-                    <strong>Problema:</strong> operação com controle manual,
-                    sujeita a conflitos de agenda e retrabalho administrativo.
+                    <strong>Visão Geral:</strong> Registre, consulte e analise movimentações financeiras de forma simples e objetiva. Cobertura do fluxo completo: autenticação, cadastro de categorias, controle de transações, filtros por período, dashboard analítico e isolamento de dados por usuário.
                   </p>
                   <p class="project-problem">
-                    <strong>Solução:</strong> centralização do fluxo em um único
-                    sistema, com regras de agendamento, autenticação e registro
-                    de atendimento.
+                    <strong>Diferenciais:</strong> Dashboard dinâmico, gráfico analítico, filtro por período, CRUD completo, multi-tenant simples, validação centralizada, seeders para testes e interface responsiva.
                   </p>
                   <p class="project-problem">
-                    <strong>Resultado:</strong> rotina mais previsível para o
-                    negócio e menor fricção no processo de atendimento.
+                    <strong>Funcionalidades:</strong> Login, registro, dashboard consolidado, gráfico, cadastro/edição/exclusão de transações, categorias por usuário, filtros, autorização, seed inicial.
+                  </p>
+                  <p class="project-problem">
+                    <strong>Tecnologias:</strong> Laravel 12, PHP, Blade, TailwindCSS, Alpine.js, Chart.js, Vite, SQLite, Laravel Breeze, MVC, Policies, Form Requests, Blade Components, Multi-tenant, Seeders.
+                  </p>
+                </div>
+                <div class="project-tech">
+                  <span class="tech-tag">Laravel</span>
+                  <span class="tech-tag">PHP</span>
+                  <span class="tech-tag">TailwindCSS</span>
+                  <span class="tech-tag">SQLite</span>
+                  <span class="tech-tag">Blade</span>
+                </div>
+                <div class="project-actions">
+                  <a
+                    href="https://github.com/NatanLuz/meu-saldo-certo"
+                    target="_blank"
+                    rel="noopener"
+                    class="btn-cta-secondary project-github-btn"
+                    aria-label="Ver projeto completo"
+                  >
+                    <i class="fab fa-github me-2" aria-hidden="true"></i>
+                    Ver projeto completo
+                  </a>
+                  <a
+                    href="https://meu-saldo-certo-production.up.railway.app/login"
+                    target="_blank"
+                    rel="noopener"
+                    class="btn-cta-primary ms-2"
+                    aria-label="Acessar aplicação online"
+                  >
+                    <i class="fas fa-external-link-alt me-2" aria-hidden="true"></i>
+                    Acessar Online
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="row g-4 projects-tier-gap">
+          <div class="col-lg-12" data-aos="fade-up" data-aos-delay="140">
+            <article class="project-card featured-petshop" data-cat="fullstack">
+              <div class="project-content">
+                <span class="project-highlight-badge">Projeto Destaque</span>
+                <h3 class="project-name">PetSystem — Gestão de Petshop</h3>
+                <p class="project-tagline">
+                  Plataforma de gestão para petshops com foco em controle
+                  operacional, agendamentos e atendimento organizado.
+                </p>
+                <div class="project-detail-block">
+                  <p class="project-problem">
+                    <strong>Problema:</strong> a operação dependia de controles
+                    manuais, com risco de conflitos de agenda e perda de visão
+                    sobre o atendimento.
+                  </p>
+                  <p class="project-problem">
+                    <strong>Solução:</strong> centralização do fluxo em um
+                    sistema único, com regras de negócio para agenda,
+                    autenticação e registro de atendimentos.
+                  </p>
+                  <p class="project-problem">
+                    <strong>Resultado:</strong> rotina mais previsível para a
+                    operação e redução de fricções no dia a dia da equipe.
                   </p>
                   <div class="project-video-wrapper">
                     <video
@@ -513,7 +529,7 @@
                 <div class="project-tech">
                   <span class="tech-tag">PHP</span>
                   <span class="tech-tag">MySQL</span>
-                  <span class="tech-tag">JavaScript</span>
+                  <span class="tech-tag">Javascript</span>
                 </div>
                 <div class="project-actions">
                   <a
@@ -541,71 +557,31 @@
               <div class="project-content">
                 <h3 class="project-name">CorteAzul — Website Institucional</h3>
                 <p class="project-tagline">
-                  Projeto complementar de interface para presença digital e
-                  comunicação de serviços.
+                  Website institucional voltado à apresentação clara do serviço
+                  e ao fortalecimento da presença digital.
                 </p>
                 <div class="project-detail-block">
                   <p class="project-problem">
-                    <strong>Problema:</strong> negócio sem canal web claro para
-                    apresentação e contato inicial.
+                    <strong>Problema:</strong> o negócio precisava de um canal
+                    web objetivo para apresentação e primeiro contato.
                   </p>
                   <p class="project-problem">
-                    <strong>Solução:</strong> website responsivo com estrutura
-                    objetiva de conteúdo e pontos de contato.
+                    <strong>Solução:</strong> criação de um site responsivo com
+                    conteúdo direto, navegação simples e chamadas de contato.
+                  </p>
+                  <p class="project-problem">
+                    <strong>Resultado:</strong> comunicação mais profissional e
+                    acesso mais rápido às informações essenciais do serviço.
                   </p>
                 </div>
                 <div class="project-tech">
                   <span class="tech-tag">HTML</span>
-                  <span class="tech-tag">CSS</span>
-                  <span class="tech-tag">Tailwind</span>
-                  <span class="tech-tag">JavaScript</span>
+                  <span class="tech-tag">Tailwind CSS</span>
+                  <span class="tech-tag">Javascript</span>
                 </div>
                 <div class="project-actions">
                   <a
-                    href="https://github.com/NatanLuz/ProjetoCorteAzulTea"
-                    target="_blank"
-                    rel="noopener"
-                    class="btn-cta-secondary project-github-btn"
-                    data-translate-attr="aria-label:project.github.aria"
-                    aria-label="Ver projeto completo"
-                  >
-                    <i class="fab fa-github me-2" aria-hidden="true"></i>
-                    <span data-translate="project.github.title">
-                      Ver projeto completo
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </article>
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="280">
-            <article class="project-card tier-study" data-cat="desktop">
-              <div class="project-content">
-                <h3 class="project-name">Workshift Manager</h3>
-                <p class="project-tagline">
-                  Projeto de estudo em Python para automação de escalas e
-                  validação de regras de distribuição de turnos.
-                </p>
-                <div class="project-detail-block">
-                  <p class="project-problem">
-                    <strong>Problema:</strong> criação manual de escalas com
-                    risco de conflito entre turnos e folgas.
-                  </p>
-                  <p class="project-problem">
-                    <strong>Solução:</strong> geração automatizada de escalas
-                    com validações de consistência.
-                  </p>
-                </div>
-                <div class="project-tech">
-                  <span class="tech-tag">Python</span>
-                  <span class="tech-tag">Tkinter</span>
-                  <span class="tech-tag">SQLite</span>
-                  <span class="tech-tag">Pandas</span>
-                </div>
-                <div class="project-actions">
-                  <a
-                    href="https://github.com/NatanLuz/workshiftmanager"
+                    href="https://projeto-corte-azul-tea.vercel.app/"
                     target="_blank"
                     rel="noopener"
                     class="btn-cta-secondary project-github-btn"
@@ -622,47 +598,6 @@
             </article>
           </div>
         </div>
-
-        <div class="row g-4 projects-tier-gap">
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="340">
-            <article class="project-card tier-study" data-cat="automacao">
-              <div class="project-content">
-                <h3 class="project-name">Amazon Scraper</h3>
-                <p class="project-tagline">
-                  Projeto de exploração em Node.js para coleta estruturada de
-                  dados de produtos.
-                </p>
-                <div class="project-detail-block">
-                  <p class="project-problem">
-                    <strong>Problema:</strong> pesquisa de preços distribuída em
-                    múltiplas páginas e sem padronização.
-                  </p>
-                  <p class="project-problem">
-                    <strong>Solução:</strong> pipeline de coleta e exibição de
-                    dados para comparação mais rápida.
-                  </p>
-                </div>
-                <div class="project-tech">
-                  <span class="tech-tag">Node.js</span>
-                  <span class="tech-tag">Express</span>
-                  <span class="tech-tag">JavaScript</span>
-                  <span class="tech-tag">HTML</span>
-                  <span class="tech-tag">CSS</span>
-                </div>
-                <div class="project-actions">
-                  <a
-                    href="https://github.com/NatanLuz/amazon_scraper_fullstackAPI"
-                    target="_blank"
-                    rel="noopener"
-                    class="btn-cta-secondary project-github-btn"
-                    data-translate-attr="aria-label:project.github.aria"
-                    aria-label="Ver projeto completo"
-                  >
-                    <i class="fab fa-github me-2" aria-hidden="true"></i>
-                    <span data-translate="project.github.title">
-                      Ver projeto completo
-                    </span>
-                  </a>
                 </div>
               </div>
             </article>
@@ -677,7 +612,7 @@
             class="btn-cta-secondary"
             data-translate="projects.viewMore"
           >
-            <i class="fab fa-github me-2"></i>Veja mais Projetos
+            <i class="fab fa-github me-2"></i>Meu Github
           </a>
         </div>
       </div>

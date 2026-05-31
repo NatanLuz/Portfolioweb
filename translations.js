@@ -57,7 +57,7 @@ const translations = {
     "projects.petshop.title": "Sistema de PetShop — Plataforma de Gestão",
     "projects.petshop.type": "Sistema Fullstack",
     "projects.petshop.description":
-      "Plataforma de gestão para petshops e clínicas veterinárias, centralizando clientes, serviços e agendamentos com foco em regras de negócio sólidas e operação segura.",
+      "Plataforma de gestão para petshops com foco em controle operacional, agendamentos e atendimento organizado.",
     "projects.petshop.feature1": "Agendamentos sem conflitos",
     "projects.petshop.feature2": "Autenticação e segurança",
     "projects.petshop.feature3": "Dashboard operacional",
@@ -65,29 +65,25 @@ const translations = {
     "projects.reddead.title": "Red Dead Redemption 2",
     "projects.reddead.type": "Website Acadêmico",
     "projects.reddead.description":
-      "Website responsivo com tema do jogo Red Dead Redemption 2, desenvolvido com HTML, CSS e JavaScript. Inclui animações, efeitos visuais e design moderno.",
+      "Website responsivo com foco em apresentação visual, navegação clara e experiência consistente em diferentes dispositivos.",
     "projects.reddead.feature1": "Design responsivo",
     "projects.reddead.feature2": "Animações CSS",
     "projects.reddead.feature3": "Hospedado no Vercel",
     "projects.barber.title": "CorteAzulTea – Website Institucional",
     "projects.barber.type": "Website Profissional",
     "projects.barber.description":
-      "Website institucional para barbearia especializada em atendimento humanizado a crianças com TEA, focado em transmitir confiança e facilitar o contato e agendamento de serviços.",
+      "Website institucional voltado à apresentação clara do serviço e ao fortalecimento da presença digital.",
     "projects.barber.feature1": "Layout responsivo",
     "projects.barber.feature2": "Conteúdo focado em conversão",
     "projects.barber.feature3": "Experiência acessível",
     "projects.amazon.title": "Amazon Scraper – Aplicação Web",
     "projects.amazon.type": "Aplicação Web",
     "projects.amazon.description":
-      "Aplicação web em Node.js para coleta e análise de produtos da Amazon, com filtros por preço e avaliação em uma interface responsiva.",
+      "Aplicação para coleta e análise de produtos, com foco em comparação rápida de ofertas.",
     "projects.amazon.feature1": "Scraping de produtos",
     "projects.amazon.feature2": "Filtros por preço e rating",
     "projects.amazon.feature3": "Interface responsiva",
     "projects.viewMore": "Veja mais Projetos",
-    "projects.workshift.title": "Workshift Manager – Sistema de Escalas",
-    "projects.workshift.type": "Aplicação Desktop",
-    "projects.workshift.description":
-      "Aplicação desktop para geração automática de escalas semanais e mensais, reduzindo erros manuais com regras para turnos, folgas e validações operacionais.",
 
     // Traduzindo para PTBR EN e FR seção certificados
     "certificates.title": "Cursos",
@@ -184,7 +180,7 @@ const translations = {
     "projects.petshop.title": "PetShop Management Platform",
     "projects.petshop.type": "Fullstack System",
     "projects.petshop.description":
-      "Management platform for pet shops and veterinary clinics, centralizing clients, services and appointments with solid business rules and safe operation.",
+      "Management platform for pet shops focused on operational control, scheduling and organized service delivery.",
     "projects.petshop.feature1": "Conflict-free scheduling",
     "projects.petshop.feature2": "Authentication and security",
     "projects.petshop.feature3": "Operational dashboard",
@@ -192,29 +188,25 @@ const translations = {
     "projects.reddead.title": "Red Dead Redemption 2",
     "projects.reddead.type": "Academic Website",
     "projects.reddead.description":
-      "Responsive website with Red Dead Redemption 2 game theme, developed with HTML, CSS and JavaScript. Includes animations, visual effects and modern design.",
+      "Responsive website focused on visual presentation, clear navigation and a consistent experience across devices.",
     "projects.reddead.feature1": "Responsive design",
     "projects.reddead.feature2": "CSS animations",
     "projects.reddead.feature3": "Hosted on Vercel",
     "projects.barber.title": "CorteAzulTea – Institutional website",
     "projects.barber.type": "Professional Website",
     "projects.barber.description":
-      "Institutional website for a barbershop specialized in humanized care for children with ASD, focused on building trust and making contact and booking easier.",
+      "Institutional website focused on clear service presentation and stronger digital presence.",
     "projects.barber.feature1": "Responsive layout",
     "projects.barber.feature2": "Content focused on conversion",
     "projects.barber.feature3": "Accessible experience",
     "projects.amazon.title": "Amazon Scraper – Web Application",
     "projects.amazon.type": "Web Application",
     "projects.amazon.description":
-      "Web application in Node.js to collect and analyze Amazon products, with filters by price and rating in a responsive interface.",
+      "Application for collecting and analyzing products, focused on faster offer comparison.",
     "projects.amazon.feature1": "Product scraping",
     "projects.amazon.feature2": "Price and rating filters",
     "projects.amazon.feature3": "Responsive interface",
     "projects.viewMore": "View more projects",
-    "projects.workshift.title": "Workshift Manager – Scheduling System",
-    "projects.workshift.type": "Desktop Application",
-    "projects.workshift.description":
-      "Desktop app for automatically generating weekly and monthly schedules, reducing manual errors with rules for shifts, days off and operational validations.",
 
     // Traduzindo para PTBR EN e FR seção certificados
     "certificates.title": "Certificates",
@@ -338,10 +330,6 @@ const translations = {
     "projects.amazon.feature2": "Filtres par prix et note",
     "projects.amazon.feature3": "Interface responsive",
     "projects.viewMore": "Voir plus de projets",
-    "projects.workshift.title": "Workshift Manager – Système de Plannings",
-    "projects.workshift.type": "Application Desktop",
-    "projects.workshift.description":
-      "Application desktop pour générer automatiquement des plannings hebdomadaires et mensuels, réduisant les erreurs manuelles avec des règles pour shifts, repos et validations opérationnelles.",
 
     // Traduzindo para PTBR EN e FR seção certificados
     "certificates.title": "Certificats",

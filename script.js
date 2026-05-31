@@ -10,7 +10,7 @@ function sendContactForm(event) {
     feedback.textContent = "Erro: envio bloqueado.";
     return false;
   }
-  
+
   feedback.style.display = "inline";
   feedback.style.color = "#f59e0b";
   feedback.textContent = "Mensagem enviada!";
@@ -76,7 +76,7 @@ function initializeLazyLoading() {
   }
 }
 
-// adicionando função skeleton loading
+// adicionando função skeleton loading para carregamento de conteúdo
 function showSkeleton(element) {
   element.classList.add("skeleton");
 }
@@ -522,6 +522,8 @@ addLoadingEffects();
 // Armazena a preferência do usuário no localStorage para persistência entre sessões
 function initializeThemeToggle() {
   const themeToggle = document.getElementById("themeToggle");
+  if (!themeToggle) return;
+
   const themeIcon = themeToggle.querySelector("i");
 
   // Verifica a preferência de tema salva ou define como 'dark' por padrão
@@ -548,8 +550,7 @@ function updateThemeIcon(theme) {
   }
 }
 
-// Inicializa a troca de um tema
-initializeThemeToggle();
+document.addEventListener("DOMContentLoaded", initializeThemeToggle);
 
 // Função principal de inicialização das novas funcionalidades
 function initializeNewFeatures() {

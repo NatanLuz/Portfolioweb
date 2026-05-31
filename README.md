@@ -1,54 +1,145 @@
+# Portfólio Web — Website Pessoal
 
-## Sobre o Portfolio.
-
-
-Portfólio pessoal desenvolvido em HTML, CSS e JavaScript para apresentar projetos, tecnologias e experiência como desenvolvedor backend. O site é estático, responsivo, multilíngue (PT/EN/FR) e possui alternância de tema claro/escuro.
-
-Feito para me apresentar e mostrar meus trabalho e evolução como dev backend com noções front e sistemas operacionais.
-
+Aplicação web estática desenvolvida para apresentação profissional, reunindo projetos, tecnologias e evolução como desenvolvedor backend, com suporte a múltiplos idiomas e personalização de interface.
 
 ---
 
-## Principais Funcionalidades
+## 🎯 Proposta de Valor
 
-- **Layout responsivo:** otimizado para desktop, tablet e mobile.
-- **Multilíngue (PT/EN/FR):** sistema de tradução via `data-translate` e `translations.js`.
-- **Tema claro/escuro:** alternância com persistência em `localStorage`.
-- **Seção de Tecnologias:** destaque para backend (PHP, Python), bancos de dados (MySQL/SQL) e ferramentas de desenvolvimento.
-- **Seção de Projetos:** projetos reais com foco em sistemas web, automações e aplicações desktop.
-- **Acessibilidade e UX:** uso de AOS para animações, botão de voltar ao topo e navegação clara.
+Centralizar a apresentação profissional em um único ambiente digital, permitindo comunicação clara das competências técnicas, projetos desenvolvidos e evolução como desenvolvedor.
+
+**Benefícios principais:**
+
+- Apresentação estruturada de projetos e habilidades
+- Suporte multilíngue (PT/EN/FR)
+- Interface responsiva e acessível
+- Personalização de tema (claro/escuro)
+- Experiência fluida para recrutadores e visitantes
 
 ---
 
-## Estrutura do Portfolio
+## ⚙️ Funcionalidades
 
-```
+### Interface e UX
+
+- Layout responsivo (desktop, tablet e mobile)
+- Navegação simples e intuitiva
+- Botão de voltar ao topo
+- Animações com AOS (Animate On Scroll)
+
+### Internacionalização
+
+- Suporte a múltiplos idiomas (Português, Inglês e Francês)
+- Sistema baseado em `data-translate`
+- Gerenciamento centralizado via `translations.js`
+
+### Personalização
+
+- Alternância de tema claro/escuro
+- Persistência de preferência com `localStorage`
+
+### Conteúdo
+
+- Seção de tecnologias (ênfase em backend: PHP, Python, SQL)
+- Seção de projetos reais
+- Apresentação da trajetória e evolução profissional
+
+---
+
+## 🏗️ Arquitetura / Estrutura
+
+Separação clara entre estrutura, estilo e comportamento:
+
+- **HTML** → estrutura e conteúdo
+- **CSS** → estilização, responsividade e temas
+- **JavaScript** → interatividade, idioma e controle de UI
+
+**Estrutura do projeto:**
+
+```bash
 Portfolioweb/
-├── index.html          # Página principal (Home, Sobre, Tecnologias, Projetos, Contato)
-├── style.css           # Estilos globais, temas e responsividade
-├── script.js           # Lógica de idioma, tema, scroll e interações
-├── translations.js     # Dicionário de traduções PT/EN/FR
-├── assets/             # Arquivos auxiliares (ex.: currículo)
-├── img/                # Imagens e ícones do portfólio
-└── README.md           # Documentação do projeto
+├── index.html
+├── style.css
+├── script.js
+├── translations.js
+├── img/
+└── README.md
 ```
 
-## Boas Práticas no Projeto
+---
 
-- Manter textos sincronizados em PT/EN/FR no arquivo `translations.js`.
-- Reaproveitar componentes visuais (`.project-card`, `.tech-grid`, etc.).
-- Utilizar variáveis de tema no CSS, evitando cores “soltas” no código.
-- Garantir que links externos usem `target="_blank"` com `rel="noopener"`.
+## 🔐 Segurança
+
+- Aplicação totalmente estática (sem backend)
+- Nenhuma manipulação de dados sensíveis
+- Uso controlado de scripts externos
+- Boas práticas em links externos (`rel="noopener"`)
 
 ---
 
-## Contato
+## 🧰 Stack Tecnológica
 
-- **Email:** natandaluz01@gmail.com
-- **LinkedIn:** https://www.linkedin.com/in/natan-da-luz-3156582a2/
+- HTML5
+- CSS3
+- JavaScript (Vanilla JS)
+- AOS (Animate On Scroll)
+- LocalStorage API
 
 ---
 
-## Licença
+## 🚀 Instalação
+
+### Pré-requisitos
+
+- Navegador moderno (Chrome, Edge ou Firefox)
+
+### Execução
+
+Como é um projeto estático, basta abrir o arquivo `index.html`.
+
+Opcionalmente, execute com servidor local:
+
+```bash
+python -m http.server 8080
+```
+
+Acesse:
+
+http://localhost:8080
+
+---
+
+## 🧪 Testes Rápidos
+
+Checklist funcional:
+
+- Validar troca de idioma (PT/EN/FR)
+- Testar alternância de tema (claro/escuro)
+- Verificar responsividade (mobile/tablet/desktop)
+- Navegar entre seções
+- Validar animações (AOS)
+- Testar links externos
+
+---
+
+## 📸 Screenshots
+
+Preview da página principal:
+
+![Preview do portfólio](img/preview.jpg)
+
+---
+
+## 👤 Autor
+
+Natan Da Luz  
+Desenvolvedor de Software
+
+📧 natandaluz01@gmail.com  
+🔗 https://www.linkedin.com/in/natan-da-luz-3156582a2/
+
+---
+
+## 📄 Licença
 
 Projeto de portfólio pessoal.
