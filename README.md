@@ -1,4 +1,4 @@
-# Portfólio Web — Website Pessoal
+# Meu Portfólio Web Pessoal
 
 Aplicação web estática desenvolvida para apresentação profissional, reunindo projetos, tecnologias e evolução como desenvolvedor backend, com suporte a múltiplos idiomas e personalização de interface.
 
@@ -87,6 +87,8 @@ Portfolioweb/
 
 ---
 
+---
+
 ## 🚀 Instalação
 
 ### Pré-requisitos
@@ -135,11 +137,12 @@ Preview da página principal:
 Natan Da Luz  
 Desenvolvedor de Software
 
-📧 natandaluz01@gmail.com  
+📧 natandaluz01@gmail.com
+
 🔗 https://www.linkedin.com/in/natan-da-luz-3156582a2/
 
 ---
 
 ## 📄 Licença
 
-Projeto de portfólio pessoal.
+MIT
