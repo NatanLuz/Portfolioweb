@@ -1,4 +1,4 @@
-# Meu Portfólio Web Pessoal
+# Meu Portfólio Pessoal
 
 Aplicação web estática desenvolvida para apresentação profissional, reunindo projetos, tecnologias e evolução como desenvolvedor backend, com suporte a múltiplos idiomas e personalização de interface.
 
@@ -73,7 +73,7 @@ Portfolioweb/
 - HTML5
 - CSS3
 - JavaScript
-- AOS (Animate On Scroll)
+- AOS(Animate On Scroll)
 
 ---
 
@@ -129,4 +129,4 @@ Desenvolvedor de Software
 
 Email: natandaluz01@gmail.com
 
-Linkedin: https://www.linkedin.com/in/natan-da-luz-3156582a2/
+Linkedin: https://www.linkedin.com/in/natandaluzdesenvolvedor/
