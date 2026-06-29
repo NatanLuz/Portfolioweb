@@ -10,7 +10,8 @@ const translations = {
 
     // Traduzindo para PTBR EN e FR seção hero
     "hero.title": "Natan Da Luz",
-    "hero.subtitle": "Desenvolvedor Backend",
+    "hero.subtitle": "Desenvolvedor Back-end PHP | Laravel",
+    "hero.techline": "PHP • Laravel • MySQL • APIs REST",
     "meta.title": "Natan Da Luz - Desenvolvedor De Software",
     "hero.cta.cv": "Download Currículo",
     "meta.description":
@@ -20,7 +21,7 @@ const translations = {
     // Traduzindo para PTBR EN e FR sobre seção
     "about.title": "Sobre Mim",
     "about.intro":
-      "Desenvolvedor backend com foco em PHP e Laravel, especializado na construção de sistemas orientados a regras de negócio e APIs REST.\n\nPossuo experiência no desenvolvimento de aplicações completas, incluindo autenticação, modelagem de banco de dados relacional (MySQL) e organização de código seguindo boas práticas como separação de responsabilidades.\n\nJá desenvolvi sistemas utilizados em ambiente real, com foco em segurança, previsibilidade e eficiência operacional.\n\nTambém possuo conhecimento em front-end, facilitando a integração e consumo de APIs.",
+      "Sou desenvolvedor back-end com foco em PHP e Laravel, atuando na construção de sistemas web, APIs REST e soluções orientadas a regras de negócio.\n\nGosto de trabalhar com código organizado, modelagem de banco de dados relacional e decisões técnicas simples, que tornem a aplicação mais segura, previsível e fácil de manter.\n\nTenho experiência em projetos com autenticação, CRUDs, dashboards, filtros, validações e integração entre interface e back-end, sempre buscando equilíbrio entre clareza para o usuário e boa estrutura interna.",
 
     // Traduzindo para PTBR EN e FR Soft Skills
     "about.softSkills.title": "Soft Skills",
@@ -47,7 +48,7 @@ const translations = {
       "APIs REST • Regras de negócio • Persistência de dados",
     "technologies.databases": "Banco de Dados",
     "technologies.databases.description":
-      "Modelagem e gerenciamento de bancos de dados relacionais com foco em segurança, consistência e performance.",
+      "Modelagem, consultas e persistência de dados relacionais",
     "technologies.tools": "Ferramentas",
     "technologies.tools.description":
       "Fluxo de versionamento, colaboração e execução de ambientes",
@@ -132,8 +133,8 @@ const translations = {
 
     // Traduzindo para PTBR EN e FR seção hero
     "hero.title": "Natan Da Luz",
-    "hero.subtitle":
-      "Backend Developer | PHP • Laravel • APIs\nSystems Development\nRobust APIs\nClean, High-Quality Code",
+    "hero.subtitle": "PHP | Laravel Back-end Developer",
+    "hero.techline": "PHP • Laravel • MySQL • REST APIs",
     "meta.title": "Natan Da Luz - Backend Software Developer",
     "hero.cta.cv": "Download CV",
     "meta.description":
@@ -143,7 +144,7 @@ const translations = {
     // Traduzindo para PTBR EN e FR sobre seção
     "about.title": "About Me",
     "about.intro":
-      "I am a backend developer focused on PHP, specialized in building systems and applications based on business rules.\n\nI have experience developing complete solutions, including authentication, database modeling, and code organization with clear separation of responsibilities.\n\nI have delivered systems used in real environments, with focus on security, predictability, and operational efficiency.\n\nI also have frontend knowledge for interface integration, but my primary focus is backend.",
+      "I am a back-end developer focused on PHP and Laravel, building web systems, REST APIs and solutions driven by business rules.\n\nI care about organized code, relational database modeling and simple technical decisions that make applications safer, more predictable and easier to maintain.\n\nI have worked on projects with authentication, CRUD flows, dashboards, filters, validations and integration between interface and back-end, balancing user clarity with solid internal structure.",
 
     // Traduzindo para PTBR EN e FR Soft Skills
     "about.softSkills.title": "Soft Skills",
@@ -170,7 +171,7 @@ const translations = {
       "REST APIs • Business rules • Data persistence",
     "technologies.databases": "Databases",
     "technologies.databases.description":
-      "Design and management of relational databases with a focus on security, consistency and performance.",
+      "Relational data modeling, queries and persistence",
     "technologies.tools": "Tools",
     "technologies.tools.description":
       "Version control, collaboration, and environment execution",
@@ -255,8 +256,8 @@ const translations = {
 
     // Traduzindo para PTBR EN e FR seção hero
     "hero.title": "Natan Da Luz",
-    "hero.subtitle":
-      "Backend Developer | PHP • Laravel • APIs\nDéveloppement de systèmes\nAPIs robustes\nCode propre et de qualité",
+    "hero.subtitle": "Développeur Back-end PHP | Laravel",
+    "hero.techline": "PHP • Laravel • MySQL • APIs REST",
     "meta.title": "Natan Da Luz - Développeur Backend",
     "hero.cta.cv": "Télécharger CV",
     "meta.description":
@@ -266,7 +267,7 @@ const translations = {
     // Traduzindo para PTBR EN e FR seção sobre
     "about.title": "À Propos de Moi",
     "about.intro":
-      "Je suis développeur backend orienté PHP, spécialisé dans la création de systèmes et d'applications basés sur des règles métier.\n\nJ'ai de l'expérience dans le développement de solutions complètes, incluant authentification, modélisation de base de données et organisation du code avec séparation claire des responsabilités.\n\nJ'ai livré des systèmes utilisés en environnement réel, avec un focus sur la sécurité, la prévisibilité et l'efficacité opérationnelle.\n\nJe possède aussi des connaissances frontend pour l'intégration d'interfaces, mais mon focus principal est le backend.",
+      "Je suis développeur back-end avec un focus sur PHP et Laravel, orienté vers la création de systèmes web, d'APIs REST et de solutions guidées par les règles métier.\n\nJ'accorde de l'importance au code organisé, à la modélisation de bases de données relationnelles et aux décisions techniques simples qui rendent une application plus sûre, prévisible et maintenable.\n\nJ'ai travaillé sur des projets avec authentification, CRUD, tableaux de bord, filtres, validations et intégration entre interface et back-end, avec un équilibre entre clarté utilisateur et structure interne solide.",
 
     // Traduzindo para PTBR EN e FR Soft Skills
     "about.softSkills.title": "Compétences Douces",
@@ -293,7 +294,7 @@ const translations = {
       "APIs REST • Règles métier • Persistance des données",
     "technologies.databases": "Bases de données",
     "technologies.databases.description":
-      "Conception et gestion de bases de données relationnelles avec un fort accent sur la sécurité, la cohérence et la performance.",
+      "Modélisation, requêtes et persistance de données relationnelles",
     "technologies.tools": "Outils",
     "technologies.tools.description":
       "Versioning, collaboration et exécution d'environnements",

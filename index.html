@@ -46,7 +46,7 @@
     <meta name="distribution" content="global" />
     <meta name="rating" content="general" />
 
-    <title>Natan - Desenvolvedor Backend</title>
+    <title>Natan - Desenvolvedor Back-end PHP | Laravel</title>
 
     <!-- Ícones que aparecem na aba do navegador e em dispositivos -->
     <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
@@ -158,7 +158,10 @@
           </div>
           <h1 class="hero-title" data-translate="hero.title">Natan Da Luz</h1>
           <p class="hero-subtitle" data-translate="hero.subtitle">
-            Desenvolvedor Backend
+            Desenvolvedor Back-end PHP | Laravel
+          </p>
+          <p class="hero-techline" data-translate="hero.techline">
+            PHP • Laravel • MySQL • APIs REST
           </p>
 
           <div class="hero-buttons" data-aos="fade-up" data-aos-delay="600">
@@ -327,7 +330,22 @@
               />
               <span class="tech-name">APIs REST</span>
             </div>
-            <div class="tech-item" data-aos="fade-in" data-aos-delay="300">
+          </div>
+        </div>
+
+        <!-- Banco de Dados -->
+        <div class="tech-category" data-aos="fade-up">
+          <h3 class="tech-category-title" data-translate="technologies.databases">
+            Banco de Dados
+          </h3>
+          <p
+            class="tech-category-description"
+            data-translate="technologies.databases.description"
+          >
+            Modelagem, consultas e persistência de dados relacionais
+          </p>
+          <div class="tech-grid database-grid">
+            <div class="tech-item" data-aos="fade-in" data-aos-delay="100">
               <img
                 src="img/mysql.svg"
                 alt="Ícone MySQL"
@@ -335,6 +353,10 @@
                 loading="lazy"
               />
               <span class="tech-name">MySQL</span>
+            </div>
+            <div class="tech-item" data-aos="fade-in" data-aos-delay="150">
+              <i class="fas fa-database tech-icon" aria-hidden="true"></i>
+              <span class="tech-name">SQLite</span>
             </div>
           </div>
         </div>
@@ -439,28 +461,33 @@
                 <span class="project-highlight-badge">Projeto Destaque</span>
                 <h3 class="project-name">Meu Saldo Certo</h3>
                 <p class="project-tagline">
-                  Sistema Financeiro em Laravel para controle de receitas, despesas, categorias e saldo por usuário autenticado. Projeto de portfólio moderno, com foco em clareza visual, organização de código, boas práticas e experiência consistente.
+                  Sistema financeiro desenvolvido em Laravel para gerenciamento
+                  de receitas, despesas, categorias e saldo por usuário
+                  autenticado.
                 </p>
                 <div class="project-detail-block">
-                  <p class="project-problem">
-                    <strong>Visão Geral:</strong> Registre, consulte e analise movimentações financeiras de forma simples e objetiva. Cobertura do fluxo completo: autenticação, cadastro de categorias, controle de transações, filtros por período, dashboard analítico e isolamento de dados por usuário.
-                  </p>
-                  <p class="project-problem">
-                    <strong>Diferenciais:</strong> Dashboard dinâmico, gráfico analítico, filtro por período, CRUD completo, multi-tenant simples, validação centralizada, seeders para testes e interface responsiva.
-                  </p>
-                  <p class="project-problem">
-                    <strong>Funcionalidades:</strong> Login, registro, dashboard consolidado, gráfico, cadastro/edição/exclusão de transações, categorias por usuário, filtros, autorização, seed inicial.
-                  </p>
-                  <p class="project-problem">
-                    <strong>Tecnologias:</strong> Laravel 12, PHP, Blade, TailwindCSS, Alpine.js, Chart.js, Vite, SQLite, Laravel Breeze, MVC, Policies, Form Requests, Blade Components, Multi-tenant, Seeders.
-                  </p>
-                </div>
-                <div class="project-tech">
-                  <span class="tech-tag">Laravel</span>
-                  <span class="tech-tag">PHP</span>
-                  <span class="tech-tag">TailwindCSS</span>
-                  <span class="tech-tag">SQLite</span>
-                  <span class="tech-tag">Blade</span>
+                  <div class="project-info-group">
+                    <h4 class="project-info-title">Destaques</h4>
+                    <ul class="project-feature-list">
+                      <li>Dashboard analítico</li>
+                      <li>CRUD completo de transações</li>
+                      <li>Categorias por usuário</li>
+                      <li>Filtros por período</li>
+                      <li>Policies e Form Requests</li>
+                    </ul>
+                  </div>
+                  <div class="project-info-group">
+                    <h4 class="project-info-title">Tecnologias</h4>
+                    <div class="project-tech">
+                      <span class="tech-tag">Laravel 12</span>
+                      <span class="tech-tag">PHP</span>
+                      <span class="tech-tag">Blade</span>
+                      <span class="tech-tag">TailwindCSS</span>
+                      <span class="tech-tag">SQLite</span>
+                      <span class="tech-tag">Chart.js</span>
+                      <span class="tech-tag">Vite</span>
+                    </div>
+                  </div>
                 </div>
                 <div class="project-actions">
                   <a
@@ -496,24 +523,31 @@
                 <span class="project-highlight-badge">Projeto Destaque</span>
                 <h3 class="project-name">PetSystem — Gestão de Petshop</h3>
                 <p class="project-tagline">
-                  Plataforma de gestão para petshops com foco em controle
-                  operacional, agendamentos e atendimento organizado.
+                  Sistema de gestão para petshops desenvolvido para organizar
+                  atendimentos, clientes, pets e serviços em ambiente real.
                 </p>
                 <div class="project-detail-block">
-                  <p class="project-problem">
-                    <strong>Problema:</strong> a operação dependia de controles
-                    manuais, com risco de conflitos de agenda e perda de visão
-                    sobre o atendimento.
-                  </p>
-                  <p class="project-problem">
-                    <strong>Solução:</strong> centralização do fluxo em um
-                    sistema único, com regras de negócio para agenda,
-                    autenticação e registro de atendimentos.
-                  </p>
-                  <p class="project-problem">
-                    <strong>Resultado:</strong> rotina mais previsível para a
-                    operação e redução de fricções no dia a dia da equipe.
-                  </p>
+                  <div class="project-info-stack">
+                    <div class="project-info-group petshop-highlights">
+                      <h4 class="project-info-title">Destaques</h4>
+                      <ul class="project-feature-list">
+                        <li>Utilizado em ambiente real</li>
+                        <li>Gestão de clientes, pets e serviços</li>
+                        <li>Controle de agenda</li>
+                        <li>Regras de negócio</li>
+                        <li>Banco de dados MySQL</li>
+                        <li>Interface responsiva</li>
+                      </ul>
+                    </div>
+                    <div class="project-info-group">
+                      <h4 class="project-info-title">Tecnologias</h4>
+                      <div class="project-tech">
+                        <span class="tech-tag">PHP</span>
+                        <span class="tech-tag">MySQL</span>
+                        <span class="tech-tag">JavaScript</span>
+                      </div>
+                    </div>
+                  </div>
                   <div class="project-video-wrapper">
                     <video
                       class="project-video-embed"
@@ -525,11 +559,6 @@
                       Seu navegador não suporta a reprodução de vídeo.
                     </video>
                   </div>
-                </div>
-                <div class="project-tech">
-                  <span class="tech-tag">PHP</span>
-                  <span class="tech-tag">MySQL</span>
-                  <span class="tech-tag">Javascript</span>
                 </div>
                 <div class="project-actions">
                   <a
@@ -545,6 +574,16 @@
                       Ver projeto completo
                     </span>
                   </a>
+                  <a
+                    href="https://petsystem.rf.gd/pages/login.php"
+                    target="_blank"
+                    rel="noopener"
+                    class="btn-cta-primary ms-2"
+                    aria-label="Acessar aplicação online"
+                  >
+                    <i class="fas fa-external-link-alt me-2" aria-hidden="true"></i>
+                    Acessar Online
+                  </a>
                 </div>
               </div>
             </article>
@@ -552,36 +591,37 @@
         </div>
 
         <div class="row g-4 projects-tier-gap">
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="180">
+          <div class="col-lg-12" data-aos="fade-up" data-aos-delay="180">
             <article class="project-card tier-secondary" data-cat="frontend">
               <div class="project-content">
                 <h3 class="project-name">CorteAzul — Website Institucional</h3>
                 <p class="project-tagline">
-                  Website institucional voltado à apresentação clara do serviço
-                  e ao fortalecimento da presença digital.
+                  Website institucional responsivo desenvolvido para fortalecer
+                  a presença digital e facilitar o contato com clientes.
                 </p>
                 <div class="project-detail-block">
-                  <p class="project-problem">
-                    <strong>Problema:</strong> o negócio precisava de um canal
-                    web objetivo para apresentação e primeiro contato.
-                  </p>
-                  <p class="project-problem">
-                    <strong>Solução:</strong> criação de um site responsivo com
-                    conteúdo direto, navegação simples e chamadas de contato.
-                  </p>
-                  <p class="project-problem">
-                    <strong>Resultado:</strong> comunicação mais profissional e
-                    acesso mais rápido às informações essenciais do serviço.
-                  </p>
-                </div>
-                <div class="project-tech">
-                  <span class="tech-tag">HTML</span>
-                  <span class="tech-tag">Tailwind CSS</span>
-                  <span class="tech-tag">Javascript</span>
+                  <div class="project-info-group">
+                    <h4 class="project-info-title">Destaques</h4>
+                    <ul class="project-feature-list">
+                      <li>Layout responsivo</li>
+                      <li>Navegação intuitiva</li>
+                      <li>Apresentação clara dos serviços</li>
+                      <li>Chamadas para contato</li>
+                      <li>Experiência otimizada para dispositivos móveis</li>
+                    </ul>
+                  </div>
+                  <div class="project-info-group">
+                    <h4 class="project-info-title">Tecnologias</h4>
+                    <div class="project-tech">
+                      <span class="tech-tag">HTML</span>
+                      <span class="tech-tag">TailwindCSS</span>
+                      <span class="tech-tag">JavaScript</span>
+                    </div>
+                  </div>
                 </div>
                 <div class="project-actions">
                   <a
-                    href="https://projeto-corte-azul-tea.vercel.app/"
+                    href="https://github.com/NatanLuz/projeto-corte-azul-tea"
                     target="_blank"
                     rel="noopener"
                     class="btn-cta-secondary project-github-btn"
@@ -593,11 +633,16 @@
                       Ver projeto completo
                     </span>
                   </a>
-                </div>
-              </div>
-            </article>
-          </div>
-        </div>
+                  <a
+                    href="https://projeto-corte-azul-tea.vercel.app/"
+                    target="_blank"
+                    rel="noopener"
+                    class="btn-cta-primary ms-2"
+                    aria-label="Acessar aplicação online"
+                  >
+                    <i class="fas fa-external-link-alt me-2" aria-hidden="true"></i>
+                    Acessar Online
+                  </a>
                 </div>
               </div>
             </article>

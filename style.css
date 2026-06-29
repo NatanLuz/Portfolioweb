@@ -1039,12 +1039,23 @@ p {
   font-size: 1.5rem;
   font-weight: 600;
   color: var(--text-secondary);
-  margin-bottom: 3rem;
+  margin-bottom: 0.55rem;
   animation:
     subtitleGlow 3s ease-in-out infinite alternate,
     fadeInUp 1s ease 2s both;
   opacity: 0;
   transform: translateY(30px);
+}
+
+.hero-techline {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.92rem;
+  color: var(--text-muted);
+  letter-spacing: 0.03em;
+  margin-bottom: 2.6rem;
+  animation: fadeInUp 1s ease 2.15s both;
+  opacity: 0;
+  transform: translateY(20px);
 }
 
 @keyframes subtitleGlow {
@@ -1315,7 +1326,7 @@ p {
 
 /* Editando a sessao tecnologias */
 .tech-category {
-  margin-bottom: 3.2rem;
+  margin-bottom: 3rem;
 }
 
 .tech-category-title {
@@ -1395,9 +1406,9 @@ p {
 
 .tech-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
-  gap: 0.7rem;
-  max-width: 600px;
+  grid-template-columns: repeat(auto-fit, minmax(96px, 1fr));
+  gap: 0.9rem;
+  max-width: 640px;
   margin: 0 auto;
   justify-items: center;
   place-items: center;
@@ -1409,13 +1420,17 @@ p {
 }
 
 .backend-grid {
-  gap: 0.6rem;
-  max-width: 500px;
+  gap: 0.8rem;
+  max-width: 430px;
 }
 
 .tools-grid {
   gap: 0.7rem;
   max-width: 400px;
+}
+
+.database-grid {
+  max-width: 280px;
 }
 
 .backend-grid .tech-item {
@@ -1478,8 +1493,8 @@ p {
   opacity: 0;
   transform: translateY(20px);
   width: 100%;
-  max-width: 100px;
-  min-height: 120px;
+  max-width: 112px;
+  min-height: 128px;
   position: relative;
 }
 
@@ -1510,11 +1525,11 @@ p {
 }
 
 .tech-icon {
-  width: 45px;
-  height: 45px;
+  width: 50px;
+  height: 50px;
   filter: grayscale(30%);
   transition: var(--transition);
-  font-size: 45px;
+  font-size: 50px;
   color: var(--text-secondary);
   object-fit: contain;
 }
@@ -1708,7 +1723,7 @@ p {
 }
 
 #projetos .project-detail-block {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.85rem;
   padding: 0;
   border: 0;
   border-radius: 0;
@@ -1718,6 +1733,45 @@ p {
 
 #projetos .project-problem {
   margin-bottom: 0.45rem;
+}
+
+.project-info-group + .project-info-group {
+  margin-top: 0.9rem;
+}
+
+.project-info-stack {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-info-title {
+  color: var(--text-primary);
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  margin-bottom: 0.45rem;
+}
+
+.project-feature-list {
+  display: grid;
+  gap: 0.35rem;
+  margin: 0;
+  padding-left: 1rem;
+  color: var(--text-secondary);
+}
+
+.project-feature-list li {
+  font-size: 0.9rem;
+  line-height: 1.55;
+  padding-left: 0.15rem;
+}
+
+.featured-petshop .project-feature-list {
+  gap: 0.28rem;
+}
+
+.featured-petshop .project-feature-list li {
+  line-height: 1.45;
 }
 
 #projetos .project-result {
@@ -1748,6 +1802,10 @@ p {
 }
 
 #projetos .project-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.65rem;
   margin-top: auto;
   padding-top: 0.35rem;
 }
@@ -1779,6 +1837,10 @@ p {
 @media (max-width: 768px) {
   #projetos .row > [class*="col-"] {
     display: block;
+  }
+
+  #projetos .project-actions {
+    align-items: stretch;
   }
 }
 
@@ -1893,20 +1955,16 @@ p {
 @media (min-width: 1100px) {
   .featured-petshop .project-detail-block {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(300px, 420px);
-    gap: 0.6rem 1.15rem;
-    align-items: start;
+    grid-template-columns: minmax(0, 0.9fr) minmax(320px, 430px);
+    gap: 0.85rem 1.35rem;
+    align-items: center;
   }
 
   .featured-petshop .project-video-wrapper {
     grid-column: 2;
-    grid-row: 1 / span 3;
+    grid-row: 1;
     margin: 0;
     max-width: none;
-  }
-
-  .featured-petshop .project-problem {
-    margin-bottom: 0.4rem;
   }
 }
 
@@ -2159,7 +2217,14 @@ p {
   }
 
   .hero-subtitle {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
+    line-height: 1.45;
+    max-width: 520px;
+  }
+
+  .hero-techline {
+    font-size: 0.82rem;
+    margin-bottom: 2rem;
   }
 
   .hero-image {
@@ -2174,7 +2239,9 @@ p {
     margin-top: 2rem;
   }
 
-  .btn {
+  .btn,
+  .btn-cta-primary,
+  .btn-cta-secondary {
     width: 100%;
     max-width: 280px;
     justify-content: center;
@@ -2217,7 +2284,7 @@ p {
 
   .tech-grid {
     gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(92px, 1fr));
   }
 
   .frontend-grid {
@@ -2237,13 +2304,14 @@ p {
 
   .tech-item {
     padding: 1rem;
-    max-width: 80px;
+    max-width: 96px;
+    min-height: 116px;
   }
 
   .tech-icon {
-    width: 35px;
-    height: 35px;
-    font-size: 35px;
+    width: 42px;
+    height: 42px;
+    font-size: 42px;
   }
 
   .tech-name {
@@ -2305,6 +2373,13 @@ p {
     padding: 1.25rem;
   }
 
+  #projetos .project-actions .btn-cta-primary,
+  #projetos .project-actions .btn-cta-secondary {
+    width: 100%;
+    max-width: none;
+    margin-left: 0 !important;
+  }
+
   .project-card {
     margin-bottom: 1.5rem;
   }
@@ -2347,7 +2422,9 @@ p {
     margin-top: 1.5rem;
   }
 
-  .btn {
+  .btn,
+  .btn-cta-primary,
+  .btn-cta-secondary {
     max-width: 240px;
     padding: 10px 20px;
     font-size: 0.9rem;
@@ -2389,7 +2466,7 @@ p {
 
   .tech-grid {
     gap: 0.8rem;
-    grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .frontend-grid {
@@ -2409,13 +2486,14 @@ p {
 
   .tech-item {
     padding: 0.8rem;
-    max-width: 70px;
+    max-width: 105px;
+    min-height: 112px;
   }
 
   .tech-icon {
-    width: 30px;
-    height: 30px;
-    font-size: 30px;
+    width: 38px;
+    height: 38px;
+    font-size: 38px;
   }
 
   .tech-name {
@@ -2461,15 +2539,18 @@ p {
   }
 
   #projetos .project-content {
-    padding: 1rem;
+    padding: 1.05rem;
   }
 
   #projetos .project-name {
     font-size: 1.02rem;
   }
 
-  #projetos .project-github-btn {
+  #projetos .project-github-btn,
+  #projetos .project-actions .btn-cta-primary,
+  #projetos .project-actions .btn-cta-secondary {
     width: 100%;
+    max-width: none;
     justify-content: center;
   }
 }
@@ -2525,13 +2606,13 @@ p {
 
   .tech-item {
     padding: 0.6rem;
-    max-width: 60px;
+    max-width: 96px;
   }
 
   .tech-icon {
-    width: 25px;
-    height: 25px;
-    font-size: 25px;
+    width: 34px;
+    height: 34px;
+    font-size: 34px;
   }
 
   .tech-name {
