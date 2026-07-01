@@ -4,20 +4,6 @@ Aplicação web estática desenvolvida para apresentação profissional, reunind
 
 ---
 
-## 🎯 Proposta de Valor
-
-Centralizar a apresentação profissional em um único ambiente digital, permitindo comunicação clara das competências técnicas, projetos desenvolvidos e evolução como desenvolvedor.
-
-**Benefícios principais:**
-
-- Apresentação estruturada de projetos e habilidades
-- Suporte multilíngue (PT/EN/FR)
-- Interface responsiva e acessível
-- Personalização de tema (claro/escuro)
-- Experiência fluida para recrutadores e visitantes
-
----
-
 ## ⚙️ Funcionalidades
 
 ### Interface e UX
@@ -37,12 +23,6 @@ Centralizar a apresentação profissional em um único ambiente digital, permiti
 
 - Alternância de tema claro/escuro
 - Persistência de preferência com `localStorage`
-
-### Conteúdo
-
-- Seção de tecnologias (ênfase em backend: PHP, Python, SQL)
-- Seção de projetos reais
-- Apresentação da trajetória e evolução profissional
 
 ---
 
