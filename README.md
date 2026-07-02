@@ -48,50 +48,6 @@ Portfolioweb/
 
 ---
 
-## 🧰 Stack Tecnológica
-
-- HTML5
-- CSS3
-- JavaScript
-- AOS(Animate On Scroll)
-
----
-
-## 🚀 Instalação
-
-### Pré-requisitos
-
-- Navegador moderno (Chrome, Edge ou Firefox)
-
-### Execução
-
-Como é um projeto estático, basta abrir o arquivo `index.html`.
-
-Opcionalmente, execute com servidor local:
-
-```bash
-python -m http.server 8080
-```
-
-Acesse:
-
-http://localhost:8080
-
----
-
-## 🧪 Testes Rápidos
-
-Checklist funcional:
-
-- Validar troca de idioma (PT/EN/FR)
-- Testar alternância de tema (claro/escuro)
-- Verificar responsividade (mobile/tablet/desktop)
-- Navegar entre seções
-- Validar animações (AOS)
-- Testar links externos
-
----
-
 ## 📸 Screenshots
 
 Preview da página principal:
