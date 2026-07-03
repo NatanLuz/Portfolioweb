@@ -50,7 +50,7 @@ Portfolioweb/
 
 ## 📸 Screenshots
 
-Preview da página principal:
+Preview
 
 ![Preview do portfólio](img/preview.jpg)
 
