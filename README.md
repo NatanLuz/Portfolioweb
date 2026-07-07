@@ -56,9 +56,10 @@ Preview
 
 ---
 
-## 👤 Autor
+## Autor
 
-Natan Da Luz  
+Natan Da Luz
+
 Desenvolvedor de Software
 
 ## Contato
