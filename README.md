@@ -65,4 +65,4 @@ Desenvolvedor de Software
 
 Email: natandaluz01@gmail.com
 
-Linkedin: https://www.linkedin.com/in/natandaluzdesenvolvedor/
+Linkedin: https://www.linkedin.com/in/natandaluz
