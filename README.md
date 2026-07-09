@@ -101,8 +101,6 @@ O projeto é uma aplicação web estática publicada na Vercel:
 
 [portfolionatan.vercel.app](https://portfolionatan.vercel.app/)
 
-Por não exigir processamento no servidor, também pode ser hospedado no GitHub Pages, Netlify ou em qualquer servidor compatível com arquivos estáticos.
-
 ## 👤 Autor
 
 **Natan Da Luz**
