@@ -81,20 +81,6 @@ Portfolioweb/
 └── README.md
 ```
 
-## 📌 Roadmap (Próximas melhorias)
-
-- adicionar novos idiomas;
-- implementar novas animações;
-- integrar automaticamente os projetos com a GitHub API;
-- adicionar integração com o LinkedIn;
-- implementar um formulário de contato funcional;
-- criar um blog técnico;
-- adicionar filtros por tecnologias;
-- implementar busca por projetos;
-- adicionar um modo de acessibilidade;
-- otimizar o SEO;
-- aprimorar a performance da aplicação.
-
 ## 🌐 Deploy
 
 O projeto é uma aplicação web estática publicada na Vercel:
