@@ -67,7 +67,7 @@ Como alternativa para desenvolvimento local, utilize a extensão **Live Server**
 3. Abra o arquivo `index.html`.
 4. Selecione a opção **Open with Live Server**.
 
-## 📂 Estrutura do projeto
+## 📂 Estrutura Do Projeto
 
 ```text
 Portfolioweb/
