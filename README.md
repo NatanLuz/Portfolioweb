@@ -32,8 +32,6 @@ A aplicação foi desenvolvida para proporcionar uma experiência moderna, respo
 - HTML5;
 - CSS3;
 - JavaScript;
-- AOS (Animate On Scroll);
-- LocalStorage;
 - Vercel.
 
 ## ⚙️ Como executar
