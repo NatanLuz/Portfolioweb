@@ -81,8 +81,6 @@ Portfolioweb/
 
 ## 🌐 Deploy
 
-O projeto é uma aplicação web estática publicada na Vercel:
-
 [portfolionatan.vercel.app](https://portfolionatan.vercel.app/)
 
 ## 👤 Autor
