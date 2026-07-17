@@ -10,7 +10,7 @@ const translations = {
 
     // Traduzindo para PTBR EN e FR seção hero
     "hero.title": "Natan Da Luz",
-    "hero.subtitle": "Desenvolvedor Back-end PHP | Laravel",
+    "hero.subtitle": "Desenvolvedor Backend",
     "hero.techline": "PHP • Laravel • MySQL • APIs REST",
     "meta.title": "Natan Da Luz - Desenvolvedor De Software",
     "hero.cta.cv": "Download Currículo",
@@ -132,7 +132,7 @@ const translations = {
     "nav.contact": "Contact",
 
     // Traduzindo para PTBR EN e FR seção hero
-    "hero.title": "Natan Da Luz",
+    "hero.title": "Natan Da Luz Backend Developer",
     "hero.subtitle": "PHP | Laravel Back-end Developer",
     "hero.techline": "PHP • Laravel • MySQL • REST APIs",
     "meta.title": "Natan Da Luz - Backend Software Developer",
@@ -255,7 +255,7 @@ const translations = {
     "nav.contact": "Contact",
 
     // Traduzindo para PTBR EN e FR seção hero
-    "hero.title": "Natan Da Luz",
+    "hero.title": "Natan Da Luz Développeur Back-end",
     "hero.subtitle": "Développeur Back-end PHP | Laravel",
     "hero.techline": "PHP • Laravel • MySQL • APIs REST",
     "meta.title": "Natan Da Luz - Développeur Backend",
