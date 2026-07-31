@@ -92,7 +92,3 @@ Portfolioweb/
 - Portfólio: [portfolionatan.vercel.app](https://portfolionatan.vercel.app/)
 
 - E-mail: [natandaluz01@gmail.com](mailto:natandaluz01@gmail.com)
-
-## 📄 Licença
-
-Este projeto está sem uma licença definida no momento.
