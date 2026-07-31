@@ -8,7 +8,7 @@ O **Meu Portfólio** é uma aplicação web estática utilizada como apresentaç
 
 A aplicação foi desenvolvida para proporcionar uma experiência moderna, responsiva e multilíngue, permitindo que o conteúdo seja acessado em diferentes dispositivos, idiomas e preferências de tema.
 
-## ✨ Funcionalidades
+##  Funcionalidades
 
 - apresentação profissional;
 - catálogo de projetos;
@@ -27,12 +27,12 @@ A aplicação foi desenvolvida para proporcionar uma experiência moderna, respo
 
 ![Prévia do Meu Portfólio](img/preview.jpg)
 
-## 🚀 Tecnologias
+##  Tecnologias
 
 - HTML5;
 - CSS3;
 - JavaScript;
-- Vercel.
+- Vercel (Para Hospedagem)
 
 ## ⚙️ Como executar
 
@@ -79,7 +79,7 @@ Portfolioweb/
 └── README.md
 ```
 
-## 🌐 Deploy Aqui :
+## 🌐 Deploy
 
 [portfolionatan.vercel.app](https://portfolionatan.vercel.app/)
 
@@ -88,7 +88,9 @@ Portfolioweb/
 **Natan Da Luz**
 
 - LinkedIn: [linkedin.com/in/natandaluz](https://www.linkedin.com/in/natandaluz/)
+  
 - Portfólio: [portfolionatan.vercel.app](https://portfolionatan.vercel.app/)
+
 - E-mail: [natandaluz01@gmail.com](mailto:natandaluz01@gmail.com)
 
 ## 📄 Licença
