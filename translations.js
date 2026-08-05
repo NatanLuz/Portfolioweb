@@ -21,16 +21,16 @@ const translations = {
     // Traduzindo para PTBR EN e FR sobre seção
     "about.title": "Sobre Mim",
     "about.intro":
-      "Sou desenvolvedor back-end com foco em PHP e Laravel, atuando na construção de sistemas web, APIs REST e soluções orientadas a regras de negócio.\n\nGosto de trabalhar com código organizado, modelagem de banco de dados relacional e decisões técnicas simples, que tornem a aplicação mais segura, previsível e fácil de manter.\n\nTenho experiência em projetos com autenticação, CRUDs, dashboards, filtros, validações e integração entre interface e back-end, sempre buscando equilíbrio entre clareza para o usuário e boa estrutura interna.",
+      "Sou Desenvolvedor de Software com foco em backend, atuando principalmente com PHP, Laravel e bancos relacionais como MySQL e PostgreSQL. Gosto de resolver problemas por trás da aplicação: modelagem de dados, autenticação, autorização e organização de código são pontos aos quais dou bastante atenção em cada projeto.\n\nUso Docker para padronizar ambientes de desenvolvimento e também tenho conhecimento complementar em Frontend, o que me ajuda a integrar as duas pontas de um sistema com mais autonomia. Estou sempre estudando arquitetura de software e boas práticas para evoluir como desenvolvedor.",
 
     // Traduzindo para PTBR EN e FR Soft Skills
     "about.softSkills.title": "Soft Skills",
     "about.softSkills.teamwork": "Trabalho em equipe",
-    "about.softSkills.communication": "Boa comunicação",
+    "about.softSkills.communication": "Comunicação clara",
     "about.softSkills.problemSolving": "Resolução de problemas",
-    "about.softSkills.agility": "Agilidade",
-    "about.softSkills.adaptability": "Adaptabilidade",
-    "about.softSkills.proactivity": "Proatividade",
+    "about.softSkills.agility": "Autonomia",
+    "about.softSkills.adaptability": "Atenção a detalhes",
+    "about.softSkills.proactivity": "Aprendizado contínuo",
 
     // Traduzindo para PTBR EN e FR Idiomas
     "about.languages.title": "Idiomas",
@@ -144,16 +144,16 @@ const translations = {
     // Traduzindo para PTBR EN e FR sobre seção
     "about.title": "About Me",
     "about.intro":
-      "I am a back-end developer focused on PHP and Laravel, building web systems, REST APIs and solutions driven by business rules.\n\nI care about organized code, relational database modeling and simple technical decisions that make applications safer, more predictable and easier to maintain.\n\nI have worked on projects with authentication, CRUD flows, dashboards, filters, validations and integration between interface and back-end, balancing user clarity with solid internal structure.",
+      "I am a software developer focused on backend, working mainly with PHP, Laravel and relational databases such as MySQL and PostgreSQL. I like solving the problems behind the application: data modeling, authentication, authorization and code organization are points I pay close attention to in every project.\n\nI use Docker to standardize development environments and I also have complementary Frontend knowledge, which helps me connect both sides of a system with more autonomy. I am always studying software architecture and best practices to keep growing as a developer.",
 
     // Traduzindo para PTBR EN e FR Soft Skills
     "about.softSkills.title": "Soft Skills",
     "about.softSkills.teamwork": "Teamwork",
-    "about.softSkills.communication": "Good communication",
+    "about.softSkills.communication": "Clear communication",
     "about.softSkills.problemSolving": "Problem solving",
-    "about.softSkills.agility": "Agility",
-    "about.softSkills.adaptability": "Adaptability",
-    "about.softSkills.proactivity": "Proactivity",
+    "about.softSkills.agility": "Autonomy",
+    "about.softSkills.adaptability": "Attention to detail",
+    "about.softSkills.proactivity": "Continuous learning",
 
     // Traduzindo para PTBR EN e FR Idiomas
     "about.languages.title": "Languages",
@@ -267,16 +267,16 @@ const translations = {
     // Traduzindo para PTBR EN e FR seção sobre
     "about.title": "À Propos de Moi",
     "about.intro":
-      "Je suis développeur back-end avec un focus sur PHP et Laravel, orienté vers la création de systèmes web, d'APIs REST et de solutions guidées par les règles métier.\n\nJ'accorde de l'importance au code organisé, à la modélisation de bases de données relationnelles et aux décisions techniques simples qui rendent une application plus sûre, prévisible et maintenable.\n\nJ'ai travaillé sur des projets avec authentification, CRUD, tableaux de bord, filtres, validations et intégration entre interface et back-end, avec un équilibre entre clarté utilisateur et structure interne solide.",
+      "Je suis développeur logiciel avec un focus sur le backend, travaillant principalement avec PHP, Laravel et des bases de données relationnelles comme MySQL et PostgreSQL. J'aime résoudre les problèmes derrière l'application : la modélisation des données, l'authentification, l'autorisation et l'organisation du code sont des points auxquels j'accorde beaucoup d'attention dans chaque projet.\n\nJ'utilise Docker pour standardiser les environnements de développement et j'ai aussi des connaissances complémentaires en Frontend, ce qui m'aide à relier les deux parties d'un système avec plus d'autonomie. J'étudie en permanence l'architecture logicielle et les bonnes pratiques pour continuer à évoluer en tant que développeur.",
 
     // Traduzindo para PTBR EN e FR Soft Skills
     "about.softSkills.title": "Compétences Douces",
     "about.softSkills.teamwork": "Travail d'équipe",
-    "about.softSkills.communication": "Bonne communication",
+    "about.softSkills.communication": "Communication claire",
     "about.softSkills.problemSolving": "Résolution de problèmes",
-    "about.softSkills.agility": "Agilité",
-    "about.softSkills.adaptability": "Adaptabilité",
-    "about.softSkills.proactivity": "Proactivité",
+    "about.softSkills.agility": "Autonomie",
+    "about.softSkills.adaptability": "Souci du détail",
+    "about.softSkills.proactivity": "Apprentissage continu",
 
     // Traduzindo para PTBR EN e FR Idiomas
     "about.languages.title": "Langues",
