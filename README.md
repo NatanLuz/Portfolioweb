@@ -49,7 +49,7 @@ Acesse o diretório do projeto:
 cd Portfolioweb
 ```
 
-### Execução no navegador
+## Execução no navegador
 
 Abra o arquivo abaixo diretamente em um navegador:
 
@@ -57,7 +57,7 @@ Abra o arquivo abaixo diretamente em um navegador:
 index.html
 ```
 
-### Execução com Live Server
+## Execução com Live Server
 
 Como alternativa para desenvolvimento local, utilize a extensão **Live Server** do Visual Studio Code:
 
