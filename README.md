@@ -2,7 +2,7 @@
 
 Portfólio profissional desenvolvido para apresentar projetos, competências, tecnologias, experiências e evolução técnica como desenvolvedor backend.
 
-## 📖 Sobre o projeto
+## 📖 Sobre o Projeto
 
 
 O **Meu Portfólio** é uma aplicação web estática utilizada como apresentação profissional online. O projeto reúne informações sobre meu perfil, principais projetos, competências e evolução técnica como desenvolvedor backend.
