@@ -7,9 +7,6 @@ Portfólio profissional desenvolvido para apresentar projetos, competências, te
 
 O **Meu Portfólio** é uma aplicação web estática utilizada como apresentação profissional online. O projeto reúne informações sobre meu perfil, principais projetos, competências e evolução técnica como desenvolvedor backend.
 
-
-A aplicação foi desenvolvida para proporcionar uma experiência moderna, responsiva e multilíngue, permitindo que o conteúdo seja acessado em diferentes dispositivos, idiomas e preferências de tema.
-
 ##  Funcionalidades
 
 - apresentação profissional;
