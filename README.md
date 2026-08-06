@@ -1,4 +1,4 @@
-# Meu Portfólio Online
+# Portfólio Online
 
 Portfólio profissional desenvolvido para apresentar projetos, competências, tecnologias, experiências e evolução técnica como desenvolvedor backend.
 
