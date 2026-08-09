@@ -15,7 +15,7 @@ const translations = {
     "meta.title": "Natan Da Luz - Desenvolvedor De Software",
     "hero.cta.cv": "Download Currículo",
     "meta.description":
-      "Desenvolvedor De Software com projetos reais: Sistema PetShop e Barbearia. Especialista em PHP, JavaScript e MySQL",
+      "Desenvolvedor De Software com projetos reais: Sistema PetShop e Barbearia. Especialista em PHP, React e MySQL",
     "hero.cta.contact": "Vamos Conversar",
 
     // Traduzindo para PTBR EN e FR sobre seção
@@ -40,9 +40,9 @@ const translations = {
 
     // Traduzindo para PTBR EN e FR seção de tecnologias
     "technologies.title": "Tecnologias",
-    "technologies.frontend": "Frontend | COMPLEMENTAR",
+    "technologies.frontend": "Frontend com React",
     "technologies.frontend.description":
-      "Integração de interfaces e consumo de APIs",
+      "Interfaces modernas e consumo de APIs",
     "technologies.backend": "Backend | FOCO PRINCIPAL",
     "technologies.backend.description":
       "APIs REST • Regras de negócio • Persistência de dados",
@@ -94,10 +94,9 @@ const translations = {
     "certificates.htmlcss.title": "HTML e CSS Completo",
     "certificates.htmlcss.description":
       "Desenvolvimento web completo com HTML5 e CSS3.",
-    "certificates.javascript.title":
-      "JavaScript Algoritmos e Estruturas de Dados",
-    "certificates.javascript.description":
-      "Programação avançada em JavaScript com foco em algoritmos.",
+    "certificates.react.title": "React para Interfaces Modernas",
+    "certificates.react.description":
+      "Desenvolvimento de interfaces com React e foco em experiência do usuário.",
 
     // Traduzindo para PTBR EN e FR seção contato
     "contact.title": "Contato",
@@ -138,7 +137,7 @@ const translations = {
     "meta.title": "Natan Da Luz - Backend Software Developer",
     "hero.cta.cv": "Download CV",
     "meta.description":
-      "Backend-oriented Software Developer with real projects such as a PetShop system, barbershop website and administrative automation solutions. Experience with PHP, JavaScript, MySQL/SQL, REST APIs and software engineering best practices.",
+      "Backend-oriented Software Developer with real projects such as a PetShop system, barbershop website and administrative automation solutions. Experience with PHP, React, MySQL/SQL, REST APIs and software engineering best practices.",
     "hero.cta.contact": "Let's Talk",
 
     // Traduzindo para PTBR EN e FR sobre seção
@@ -163,9 +162,9 @@ const translations = {
 
     // Traduzindo para PTBR EN e FR seção de tecnologias
     "technologies.title": "Technologies",
-    "technologies.frontend": "Frontend | SUPPORTING",
+    "technologies.frontend": "Frontend with React",
     "technologies.frontend.description":
-      "Interface integration and API consumption",
+      "Modern interfaces and API consumption",
     "technologies.backend": "Backend | PRIMARY FOCUS",
     "technologies.backend.description":
       "REST APIs • Business rules • Data persistence",
@@ -217,10 +216,9 @@ const translations = {
     "certificates.htmlcss.title": "Complete HTML and CSS",
     "certificates.htmlcss.description":
       "Complete web development with HTML5 and CSS3.",
-    "certificates.javascript.title":
-      "JavaScript Algorithms and Data Structures",
-    "certificates.javascript.description":
-      "Advanced JavaScript programming with focus on algorithms.",
+    "certificates.react.title": "React for Modern Interfaces",
+    "certificates.react.description":
+      "Building modern user interfaces with React and a focus on user experience.",
 
     // Traduzindo para PTBR EN e FR seção contato
     "contact.title": "Contact",
@@ -261,7 +259,7 @@ const translations = {
     "meta.title": "Natan Da Luz - Développeur Backend",
     "hero.cta.cv": "Télécharger CV",
     "meta.description":
-      "Développeur de logiciels orienté backend, avec des projets réels tels qu'un système de PetShop, un site de barbier et des solutions d'automatisation administrative. Expérience en PHP, JavaScript, MySQL/SQL, API REST et bonnes pratiques de développement.",
+      "Développeur de logiciels orienté backend, avec des projets réels tels qu'un système de PetShop, un site de barbier et des solutions d'automatisation administrative. Expérience en PHP, React, MySQL/SQL, API REST et bonnes pratiques de développement.",
     "hero.cta.contact": "Parlons",
 
     // Traduzindo para PTBR EN e FR seção sobre
@@ -312,7 +310,7 @@ const translations = {
     "projects.reddead.title": "Red Dead Redemption 2",
     "projects.reddead.type": "Site Web Académique",
     "projects.reddead.description":
-      "Site web responsif avec le thème du jeu Red Dead Redemption 2, développé avec HTML, CSS et JavaScript. Inclut des animations, des effets visuels et un design moderne.",
+      "Site web responsif avec le thème du jeu Red Dead Redemption 2, développé avec HTML, CSS et React. Inclut des animations, des effets visuels et un design moderne.",
     "projects.reddead.feature1": "Design responsif",
     "projects.reddead.feature2": "Animations CSS",
     "projects.reddead.feature3": "Hébergé sur Vercel",
@@ -340,10 +338,9 @@ const translations = {
     "certificates.htmlcss.title": "HTML et CSS Complet",
     "certificates.htmlcss.description":
       "Développement web complet avec HTML5 et CSS3.",
-    "certificates.javascript.title":
-      "JavaScript Algorithmes et Structures de Données",
-    "certificates.javascript.description":
-      "Programmation JavaScript avancée avec focus sur les algorithmes.",
+    "certificates.react.title": "React pour Interfaces Modernes",
+    "certificates.react.description":
+      "Développement d'interfaces modernes avec React et focus sur l'expérience utilisateur.",
 
     // Traduzindo para PTBR EN e FR seção contato para idioma
     "contact.title": "Contact",

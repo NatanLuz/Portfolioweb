@@ -4,10 +4,9 @@ Portfólio profissional desenvolvido para apresentar projetos, competências, te
 
 ## 📖 Sobre o Projeto
 
-
 O **Meu Portfólio** é uma aplicação web estática utilizada como apresentação profissional online. O projeto reúne informações sobre meu perfil, principais projetos, competências e evolução técnica como desenvolvedor backend.
 
-##  Funcionalidades
+## Funcionalidades
 
 - apresentação profissional;
 - catálogo de projetos;
@@ -26,11 +25,11 @@ O **Meu Portfólio** é uma aplicação web estática utilizada como apresentaç
 
 ![Prévia do Meu Portfólio](img/preview.jpg)
 
-##  Tecnologias
+## Tecnologias
 
 - HTML5;
 - CSS3;
-- JavaScript;
+- React;
 - Vercel (Para Hospedagem)
 
 ## ⚙️ Como executar
@@ -87,7 +86,6 @@ Portfolioweb/
 **Natan Da Luz**
 
 - LinkedIn: [linkedin.com/in/natandaluz](https://www.linkedin.com/in/natandaluz/)
-  
 - Portfólio: [portfolionatan.vercel.app](https://portfolionatan.vercel.app/)
 
 - E-mail: [natandaluz01@gmail.com](mailto:natandaluz01@gmail.com)
