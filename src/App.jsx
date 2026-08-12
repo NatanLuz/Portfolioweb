@@ -1,6 +1,7 @@
 import About from './components/About.jsx'
 import Header from './components/Header.jsx'
 import Hero from './components/Hero.jsx'
+import Projects from './components/Projects.jsx'
 import Technologies from './components/Technologies.jsx'
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
         <Hero />
         <About />
         <Technologies />
+        <Projects />
       </main>
     </>
   )
