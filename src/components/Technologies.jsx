@@ -40,7 +40,7 @@ function Technologies() {
             <h3 className="tech-category-title tech-title-with-badge">
               Backend
               <span className="tech-focus-label focus-primary">
-                FOCO PRINCIPAL
+                PRINCIPAL
               </span>
             </h3>
             <p
