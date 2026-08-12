@@ -21,7 +21,7 @@ const translations = {
     // Traduzindo para PTBR EN e FR sobre seção
     "about.title": "Sobre Mim",
     "about.intro":
-      "Sou Desenvolvedor de Software com foco em backend, atuando principalmente com PHP, Laravel e PostgreSQL. Gosto de resolver problemas por trás da aplicação: modelagem de dados, autenticação, autorização e organização de código são pontos aos quais dou bastante atenção em cada projeto.\n\nUso Docker para padronizar ambientes de desenvolvimento e também tenho conhecimento complementar em Frontend, o que me ajuda a integrar as duas pontas de um sistema com mais autonomia. Estou sempre estudando arquitetura de software e boas práticas para evoluir como desenvolvedor.",
+      "Sou Desenvolvedor de Software com foco em backend, atuando principalmente com PHP, Laravel e bancos relacionais como MySQL e PostgreSQL. Gosto de resolver problemas por trás da aplicação: modelagem de dados, autenticação, autorização e organização de código são pontos aos quais dou bastante atenção em cada projeto.\n\nUso Docker para padronizar ambientes de desenvolvimento e também tenho conhecimento complementar em Frontend, o que me ajuda a integrar as duas pontas de um sistema com mais autonomia. Estou sempre estudando arquitetura de software e boas práticas para evoluir como desenvolvedor.",
 
     // Traduzindo para PTBR EN e FR Soft Skills
     "about.softSkills.title": "Soft Skills",
