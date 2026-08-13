@@ -551,7 +551,7 @@
 }
 
 .project-meta {
-  display: none; /* cabeçalho removido, evita espaço vazio no topo do card */
+  display: none;
 }
 
 .project-num {
@@ -697,10 +697,8 @@
 .tech-item {
   position: relative;
   overflow: hidden;
+  
 }
-
-/* Removido efeito hover e sombra das tecnologias */
-
 .project-bullets {
   margin: 0 0 1.5rem 1.2rem;
   padding: 0;
