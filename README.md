@@ -1,91 +1,131 @@
-# Portfólio Online
+# Portfólio — Natan Da Luz
 
-Portfólio profissional desenvolvido para apresentar projetos, competências, tecnologias, experiências e evolução técnica como desenvolvedor backend.
-
-## 📖 Sobre o Projeto
-
-O **Meu Portfólio** é uma aplicação web estática utilizada como apresentação profissional online. O projeto reúne informações sobre meu perfil, principais projetos, competências e evolução técnica como desenvolvedor backend.
-
-## Funcionalidades
-
-- apresentação profissional;
-- catálogo de projetos;
-- apresentação das tecnologias utilizadas;
-- layout totalmente responsivo;
-- suporte para desktop, tablet e dispositivos móveis;
-- alternância entre tema claro e escuro;
-- persistência do tema utilizando `localStorage`;
-- suporte a múltiplos idiomas: Português, Inglês e Francês;
-- sistema de tradução utilizando `data-translate`;
-- gerenciamento centralizado das traduções em `translations.js`;
-- botão de voltar ao topo;
-- animações utilizando AOS (Animate On Scroll).
-
-## 🖼️ Screenshots
-
-![Prévia do Meu Portfólio](img/preview.jpg)
+Portfólio pessoal desenvolvido com React e Vite para apresentar meu perfil profissional, tecnologias, projetos e formas de contato.
 
 ## Tecnologias
 
+O portfólio utiliza:
+
+- React;
+- Vite;
+- JavaScript;
 - HTML5;
 - CSS3;
-- React;
-- Vercel (Para Hospedagem)
+- Bootstrap, carregado externamente para estrutura responsiva e classes utilitárias;
+- Font Awesome, carregado externamente para os ícones;
+- Google Fonts, com as famílias Inter e JetBrains Mono.
 
-## ⚙️ Como executar
+## Funcionalidades
 
-### Clonagem do repositório
+- interface componentizada em React;
+- layout responsivo para desktop, tablet e dispositivos móveis;
+- navegação responsiva com menu mobile;
+- identificação da seção ativa e comportamento dinâmico da navbar durante a rolagem;
+- navegação suave entre seções com compensação para a navbar fixa;
+- tradução completa para Português, Inglês e Francês;
+- persistência do idioma selecionado no `localStorage`;
+- atualização do idioma do documento, título e meta description;
+- alternância entre os temas claro e escuro, com preferência persistida;
+- animações de entrada implementadas com `IntersectionObserver`;
+- efeito de digitação no título do Hero;
+- barra de progresso da página;
+- botão para voltar ao topo;
+- seções de apresentação, tecnologias, projetos e contato;
+- cópia do endereço de e-mail antes da abertura do aplicativo de e-mail;
+- suporte a `prefers-reduced-motion` para reduzir animações quando solicitado pelo sistema.
 
-Clone o repositório:
+## Arquitetura
 
-```bash
-git clone https://github.com/NatanLuz/SEU-REPOSITORIO.git
+```text
+src/
+├── components/
+├── contexts/
+├── hooks/
+├── i18n/
+├── App.jsx
+└── main.jsx
 ```
 
-Acesse o diretório do projeto:
+- `components/`: componentes visuais e seções da interface;
+- `contexts/`: estados globais de idioma, tema e rolagem;
+- `hooks/`: comportamentos reutilizáveis, como tradução, seção ativa, animações e digitação;
+- `i18n/`: catálogo de traduções da aplicação;
+- `App.jsx`: composição principal da interface;
+- `main.jsx`: inicialização do React e configuração dos providers globais.
+
+## Estrutura principal da aplicação
+
+```text
+main.jsx
+└── Providers de idioma, tema e rolagem
+    └── App.jsx
+        ├── ScrollProgress
+        ├── Header
+        ├── Hero
+        ├── About
+        ├── Technologies
+        ├── Projects
+        ├── Contact
+        ├── Footer
+        └── BackToTop
+```
+
+## Projetos apresentados
+
+- **Meu Saldo Certo:** sistema financeiro desenvolvido em Laravel para gerenciar receitas, despesas, categorias e saldo por usuário autenticado;
+- **PetSystem:** sistema de gestão para petshops, com organização de atendimentos, clientes, pets e serviços;
+- **CorteAzul:** website institucional responsivo criado para fortalecer a presença digital e facilitar o contato com clientes.
+
+## Prévia
+
+![Prévia do portfólio](img/preview.jpg)
+
+## Como executar localmente
+
+É necessário ter Node.js e npm instalados.
 
 ```bash
+git clone https://github.com/NatanLuz/Portfolioweb.git
 cd Portfolioweb
+npm install
+npm run dev
 ```
 
-## Execução no navegador
+O Vite exibirá no terminal o endereço local da aplicação.
 
-Abra o arquivo abaixo diretamente em um navegador:
+## Scripts disponíveis
 
-```text
-index.html
+- `npm run dev`: inicia o servidor de desenvolvimento do Vite;
+- `npm run build`: gera o build otimizado para produção;
+- `npm run lint`: executa a análise estática do código com ESLint;
+- `npm run preview`: inicia uma prévia local do build de produção.
+
+## Build de produção
+
+```bash
+npm run build
 ```
 
-## Execução com Live Server
+O comando gera os arquivos otimizados na pasta `dist/`. Esse diretório é um artefato de build e não é versionado.
 
-Como alternativa para desenvolvimento local, utilize a extensão **Live Server** do Visual Studio Code:
+## Internacionalização
 
-1. Abra o diretório `Portfolioweb` no Visual Studio Code.
-2. Instale a extensão Live Server, caso ainda não esteja disponível.
-3. Abra o arquivo `index.html`.
-4. Selecione a opção **Open with Live Server**.
+A aplicação oferece Português, Inglês e Francês. O catálogo React está em `src/i18n/translations.js`, e o `LanguageContext` controla o idioma atual, o fallback das traduções e a persistência da preferência no `localStorage`.
 
-## 📂 Estrutura Do Projeto
+## Tema
 
-```text
-Portfolioweb/
-├── index.html
-├── style.css
-├── script.js
-├── translations.js
-├── img/
-└── README.md
-```
+Os temas claro e escuro são controlados pela infraestrutura de contexto do React. A escolha do usuário é aplicada por meio do atributo `data-theme` e armazenada no `localStorage`.
 
-## 🌐 Deploy
+## Deploy
 
-[portfolionatan.vercel.app](https://portfolionatan.vercel.app/)
+O deploy de produção é realizado pela Vercel a partir do repositório no GitHub.
 
-## 👤 Autor
+Aplicação: [portfolionatan.vercel.app](https://portfolionatan.vercel.app/)
+
+## Autor
 
 **Natan Da Luz**
 
-- LinkedIn: [linkedin.com/in/natandaluz](https://www.linkedin.com/in/natandaluz/)
-- Portfólio: [portfolionatan.vercel.app](https://portfolionatan.vercel.app/)
-
-- E-mail: [natandaluz01@gmail.com](mailto:natandaluz01@gmail.com)
+- [GitHub](https://github.com/NatanLuz)
+- [LinkedIn](https://www.linkedin.com/in/natandaluz/)
+- [Portfólio](https://portfolionatan.vercel.app/)
