@@ -2735,3 +2735,49 @@ video {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--secondary-color);
 }
+
+/* Integração React: deslocamento da navegação e revelação ao rolar */
+section[id] {
+  scroll-margin-top: 88px;
+}
+
+[data-aos] {
+  opacity: 0;
+  animation: none !important;
+  transition:
+    opacity 0.8s ease-out,
+    transform 0.8s ease-out;
+}
+
+[data-aos="fade-up"] {
+  transform: translateY(30px);
+}
+
+[data-aos="fade-in"] {
+  transform: none;
+}
+
+[data-aos].is-revealed {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  [data-aos] {
+    opacity: 1;
+    transform: none;
+  }
+}

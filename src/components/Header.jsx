@@ -1,4 +1,6 @@
 import { useState } from 'react'
+import { useActiveSection } from '../hooks/useActiveSection.js'
+import { useScroll } from '../hooks/useScroll.js'
 import { useTranslation } from '../hooks/useTranslation.js'
 
 const navigationItems = [
@@ -15,14 +17,23 @@ const languageOptions = [
   { code: 'fr', label: 'FR', translationKey: 'language.fr' },
 ]
 
+const sectionIds = navigationItems.map(({ href }) => href.slice(1))
+
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const { language, changeLanguage, t } = useTranslation()
+  const { direction, scrollY } = useScroll()
+  const activeSection = useActiveSection(sectionIds)
+  const isNavbarVisible = isMenuOpen || scrollY <= 100 || direction === 'up'
 
   const closeMenu = () => setIsMenuOpen(false)
 
   return (
-    <nav className="navbar navbar-expand-lg fixed-top" id="navbar">
+    <nav
+      className={`navbar navbar-expand-lg fixed-top${scrollY > 50 ? ' scrolled' : ''}`}
+      id="navbar"
+      style={{ transform: isNavbarVisible ? 'translateY(0)' : 'translateY(-100%)' }}
+    >
       <div className="container">
         <button
           className="navbar-toggler"
@@ -42,7 +53,12 @@ function Header() {
           <ul className="navbar-nav">
             {navigationItems.map(({ href, translationKey }) => (
               <li className="nav-item" key={href}>
-                <a className="nav-link" href={href} onClick={closeMenu}>
+                <a
+                  className={`nav-link${activeSection === href.slice(1) ? ' active' : ''}`}
+                  href={href}
+                  aria-current={activeSection === href.slice(1) ? 'page' : undefined}
+                  onClick={closeMenu}
+                >
                   {t(translationKey)}
                 </a>
               </li>

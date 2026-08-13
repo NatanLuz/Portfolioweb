@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
+import { useTranslation } from '../hooks/useTranslation.js'
 
 const emailAddress = 'natandaluz01@gmail.com'
 const emailLink = `mailto:${emailAddress}?subject=Contato%20via%20site`
@@ -6,6 +7,7 @@ const emailLink = `mailto:${emailAddress}?subject=Contato%20via%20site`
 function Contact() {
   const [isEmailFeedbackVisible, setIsEmailFeedbackVisible] = useState(false)
   const redirectTimeoutRef = useRef(null)
+  const { t } = useTranslation()
 
   useEffect(() => {
     return () => {
@@ -23,6 +25,9 @@ function Contact() {
     }
 
     setIsEmailFeedbackVisible(true)
+    if (redirectTimeoutRef.current) {
+      window.clearTimeout(redirectTimeoutRef.current)
+    }
     redirectTimeoutRef.current = window.setTimeout(() => {
       setIsEmailFeedbackVisible(false)
       window.location.href = emailLink
@@ -35,27 +40,23 @@ function Contact() {
         <div className="row justify-content-center">
           <div className="col-lg-8">
             <div className="contact-content" data-aos="fade-up">
-              <h2
-                className="section-title text-center"
-                data-translate="contact.title"
-              >
-                Contato
+              <h2 className="section-title text-center">
+                {t('contact.title')}
               </h2>
 
               <div
                 className="contact-buttons mb-4"
                 role="group"
-                aria-label="Links de contato"
+                aria-label={t('contact.group.aria')}
               >
                 <a
                   href={emailLink}
                   className="contact-btn email-btn btn-cta-primary"
-                  data-translate-attr="aria-label:contact.email.aria"
-                  aria-label="Enviar email para Natan Da Luz"
+                  aria-label={t('contact.email.aria')}
                   onClick={handleEmailClick}
                 >
                   <i className="fas fa-envelope" aria-hidden="true" />
-                  <span data-translate="contact.email">Enviar email</span>
+                  <span>{t('contact.email')}</span>
                   <small
                     id="emailFeedback"
                     className="email-feedback"
@@ -64,7 +65,7 @@ function Contact() {
                     }}
                     aria-live="polite"
                   >
-                    Email Copiado!
+                    {t('contact.email.feedback')}
                   </small>
                 </a>
 
@@ -73,11 +74,10 @@ function Contact() {
                   target="_blank"
                   rel="noopener"
                   className="contact-btn linkedin-btn btn-cta-secondary"
-                  data-translate-attr="aria-label:contact.linkedin.aria"
-                  aria-label="Abrir perfil do LinkedIn de Natan Da Luz"
+                  aria-label={t('contact.linkedin.aria')}
                 >
                   <i className="fab fa-linkedin-in" aria-hidden="true" />
-                  <span data-translate="contact.linkedin">LinkedIn</span>
+                  <span>{t('contact.linkedin')}</span>
                 </a>
 
                 <a
@@ -85,11 +85,10 @@ function Contact() {
                   target="_blank"
                   rel="noopener"
                   className="contact-btn github-btn btn-cta-secondary"
-                  data-translate-attr="aria-label:contact.github.aria"
-                  aria-label="Abrir repositório do GitHub de Natan Da Luz"
+                  aria-label={t('contact.github.aria')}
                 >
                   <i className="fab fa-github" aria-hidden="true" />
-                  <span data-translate="contact.github">Github</span>
+                  <span>{t('contact.github')}</span>
                 </a>
               </div>
             </div>

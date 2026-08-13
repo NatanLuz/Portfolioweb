@@ -1,9 +1,14 @@
 import resumeUrl from '../../CurriculoNatanDaLuz.pdf'
 import heroImage from '../../img/fotoportfolio.jpg'
+import { useTheme } from '../hooks/useTheme.js'
 import { useTranslation } from '../hooks/useTranslation.js'
+import { useTypewriter } from '../hooks/useTypewriter.js'
 
 function Hero() {
-  const { t } = useTranslation()
+  const { language, t } = useTranslation()
+  const { theme, toggleTheme } = useTheme()
+  const title = t('hero.title')
+  const { displayedText, isTyping } = useTypewriter(title, language)
 
   return (
     <section id="home" className="hero-section">
@@ -17,7 +22,10 @@ function Hero() {
             />
           </div>
 
-          <h1 className="hero-title">{t('hero.title')}</h1>
+          <h1 className="hero-title" aria-label={title}>
+            <span className="hero-title-text">{displayedText}</span>
+            {isTyping && <span className="typewriter-cursor" aria-hidden="true" />}
+          </h1>
           <p className="hero-subtitle">{t('hero.subtitle')}</p>
 
           <div className="hero-buttons">
@@ -41,8 +49,12 @@ function Hero() {
               className="theme-toggle"
               type="button"
               aria-label={t('hero.themeToggle.aria')}
+              onClick={toggleTheme}
             >
-              <i className="fas fa-moon" aria-hidden="true" />
+              <i
+                className={`fas ${theme === 'light' ? 'fa-sun' : 'fa-moon'}`}
+                aria-hidden="true"
+              />
             </button>
           </div>
         </div>

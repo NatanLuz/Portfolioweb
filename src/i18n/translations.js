@@ -23,7 +23,7 @@ export const translations = {
 
     "about.title": "Sobre Mim",
     "about.intro":
-      "Sou Desenvolvedor de Software com foco em backend, atuando principalmente com PHP, Laravel e bancos relacionais como MySQL e PostgreSQL. Gosto de resolver problemas por trás da aplicação: modelagem de dados, autenticação, autorização e organização de código são pontos aos quais dou bastante atenção em cada projeto.\n\nUso Docker para padronizar ambientes de desenvolvimento e também tenho conhecimento complementar em Frontend, o que me ajuda a integrar as duas pontas de um sistema com mais autonomia. Estou sempre estudando arquitetura de software e boas práticas para evoluir como desenvolvedor.",
+      "Sou Desenvolvedor de Software com foco em backend, atuando principalmente com PHP, Laravel e PostgreSQL. Gosto de resolver problemas por trás da aplicação: modelagem de dados, autenticação, autorização e organização de código são pontos aos quais dou bastante atenção em cada projeto.\n\nUso Docker para padronizar ambientes de desenvolvimento e também tenho conhecimento complementar em Frontend, o que me ajuda a integrar as duas pontas de um sistema com mais autonomia. Estou sempre estudando arquitetura de software e boas práticas para evoluir como desenvolvedor.",
     "about.softSkills.title": "Soft Skills",
     "about.softSkills.teamwork": "Trabalho em equipe",
     "about.softSkills.communication": "Comunicação clara",
@@ -133,7 +133,7 @@ export const translations = {
 
     "about.title": "About Me",
     "about.intro":
-      "I am a software developer focused on backend, working mainly with PHP, Laravel and relational databases such as MySQL and PostgreSQL. I like solving the problems behind the application: data modeling, authentication, authorization and code organization are points I pay close attention to in every project.\n\nI use Docker to standardize development environments and I also have complementary Frontend knowledge, which helps me connect both sides of a system with more autonomy. I am always studying software architecture and best practices to keep growing as a developer.",
+      "I am a software developer focused on backend, working mainly with PHP, Laravel, and PostgreSQL. I like solving the problems behind the application: data modeling, authentication, authorization, and code organization are points I pay close attention to in every project.\n\nI use Docker to standardize development environments and I also have complementary Frontend knowledge, which helps me connect both sides of a system with more autonomy. I am always studying software architecture and best practices to keep growing as a developer.",
     "about.softSkills.title": "Soft Skills",
     "about.softSkills.teamwork": "Teamwork",
     "about.softSkills.communication": "Clear communication",
@@ -243,7 +243,7 @@ export const translations = {
 
     "about.title": "À Propos de Moi",
     "about.intro":
-      "Je suis développeur logiciel avec un focus sur le backend, travaillant principalement avec PHP, Laravel et des bases de données relationnelles comme MySQL et PostgreSQL. J'aime résoudre les problèmes derrière l'application : la modélisation des données, l'authentification, l'autorisation et l'organisation du code sont des points auxquels j'accorde beaucoup d'attention dans chaque projet.\n\nJ'utilise Docker pour standardiser les environnements de développement et j'ai aussi des connaissances complémentaires en Frontend, ce qui m'aide à relier les deux parties d'un système avec plus d'autonomie. J'étudie en permanence l'architecture logicielle et les bonnes pratiques pour continuer à évoluer en tant que développeur.",
+      "Je suis développeur logiciel avec un focus sur le backend, travaillant principalement avec PHP, Laravel et PostgreSQL. J'aime résoudre les problèmes derrière l'application : la modélisation des données, l'authentification, l'autorisation et l'organisation du code sont des points auxquels j'accorde beaucoup d'attention dans chaque projet.\n\nJ'utilise Docker pour standardiser les environnements de développement et j'ai aussi des connaissances complémentaires en Frontend, ce qui m'aide à relier les deux parties d'un système avec plus d'autonomie. J'étudie en permanence l'architecture logicielle et les bonnes pratiques pour continuer à évoluer en tant que développeur.",
     "about.softSkills.title": "Compétences Douces",
     "about.softSkills.teamwork": "Travail d'équipe",
     "about.softSkills.communication": "Communication claire",
