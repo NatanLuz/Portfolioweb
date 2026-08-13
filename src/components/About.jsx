@@ -1,32 +1,29 @@
+import { Fragment } from 'react'
+import { useTranslation } from '../hooks/useTranslation.js'
+
 const softSkills = [
   {
     translationKey: 'about.softSkills.teamwork',
-    label: 'Trabalho em equipe',
     delay: '100',
   },
   {
     translationKey: 'about.softSkills.communication',
-    label: 'Comunicação clara',
     delay: '150',
   },
   {
     translationKey: 'about.softSkills.problemSolving',
-    label: 'Resolução de problemas',
     delay: '200',
   },
   {
     translationKey: 'about.softSkills.agility',
-    label: 'Autonomia',
     delay: '250',
   },
   {
     translationKey: 'about.softSkills.adaptability',
-    label: 'Atenção a detalhes',
     delay: '300',
   },
   {
     translationKey: 'about.softSkills.proactivity',
-    label: 'Aprendizado contínuo',
     delay: '350',
   },
 ]
@@ -34,51 +31,42 @@ const softSkills = [
 const languages = [
   {
     translationKey: 'about.languages.english',
-    name: 'Inglês',
-    level: 'Avançado (C1)',
+    levelTranslationKey: 'about.languages.englishLevel',
     delay: '150',
   },
   {
     translationKey: 'about.languages.french',
-    name: 'Francês',
-    level: 'Intermediário Básico (A2)',
+    levelTranslationKey: 'about.languages.frenchLevel',
     delay: '200',
   },
 ]
 
 function About() {
+  const { t } = useTranslation()
+  const introParagraphs = t('about.intro').split('\n\n')
+
   return (
     <section id="sobre" className="section">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-8" data-aos="fade-up">
-            <h2
-              className="section-title text-center"
-              data-translate="about.title"
-            >
-              Sobre Mim
-            </h2>
+            <h2 className="section-title text-center">{t('about.title')}</h2>
 
             <div className="about-content">
               <div className="about-intro-layout">
                 <div className="about-intro-box">
-                  <p
-                    className="about-intro-text"
-                    data-translate="about.intro"
-                  >
-                    Sou Desenvolvedor de Software com foco em backend, atuando
-                    principalmente com PHP, Laravel e bancos relacionais como
-                    MySQL e PostgreSQL. Gosto de resolver problemas por trás da
-                    aplicação: modelagem de dados, autenticação, autorização e
-                    organização de código são pontos aos quais dou bastante
-                    atenção em cada projeto.
-                    <br />
-                    <br />
-                    Uso Docker para padronizar ambientes de desenvolvimento e
-                    também tenho conhecimento complementar em Frontend, o que
-                    me ajuda a integrar as duas pontas de um sistema com mais
-                    autonomia. Estou sempre estudando arquitetura de software e
-                    boas práticas para evoluir como desenvolvedor.
+                  <p className="about-intro-text">
+                    {introParagraphs.map((paragraph, index) => (
+                      <Fragment key={paragraph}>
+                        {index > 0 && (
+                          <>
+                            <br />
+                            <br />
+                          </>
+                        )}
+                        {paragraph}
+                      </Fragment>
+                    ))}
                   </p>
                 </div>
               </div>
@@ -92,22 +80,19 @@ function About() {
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            <h3
-              className="skills-title text-center"
-              data-translate="about.softSkills.title"
-            >
-              Soft Skills
+            <h3 className="skills-title text-center">
+              {t('about.softSkills.title')}
             </h3>
 
             <div className="soft-skills-grid">
-              {softSkills.map(({ translationKey, label, delay }) => (
+              {softSkills.map(({ translationKey, delay }) => (
                 <div
                   className="skill-item"
                   data-aos="fade-in"
                   data-aos-delay={delay}
                   key={translationKey}
                 >
-                  <span data-translate={translationKey}>{label}</span>
+                  <span>{t(translationKey)}</span>
                 </div>
               ))}
             </div>
@@ -120,29 +105,25 @@ function About() {
             data-aos="fade-up"
             data-aos-delay="300"
           >
-            <h3
-              className="skills-title text-center"
-              data-translate="about.languages.title"
-            >
-              Idiomas
+            <h3 className="skills-title text-center">
+              {t('about.languages.title')}
             </h3>
 
             <div className="languages-grid">
               {languages.map(
-                ({ translationKey, name, level, delay }) => (
+                ({ translationKey, levelTranslationKey, delay }) => (
                   <div
                     className="language-item"
                     data-aos="fade-in"
                     data-aos-delay={delay}
                     key={translationKey}
                   >
-                    <span
-                      className="language-name"
-                      data-translate={translationKey}
-                    >
-                      {name}
+                    <span className="language-name">
+                      {t(translationKey)}
                     </span>
-                    <span className="language-level">{level}</span>
+                    <span className="language-level">
+                      {t(levelTranslationKey)}
+                    </span>
                   </div>
                 ),
               )}
