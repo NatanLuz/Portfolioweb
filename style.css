@@ -1,3 +1,7 @@
+/* Importando as fontes */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600&display=swap");
+
 @media (min-width: 1600px) {
   .container {
     max-width: 1200px;
@@ -18,10 +22,6 @@
     max-width: 600px;
   }
 }
-/* Importando as fontes */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600&display=swap");
-
 /*  Variáveis CSS > Tema Escuro  */
 :root {
   /* Cores do tema Dark  */
@@ -551,7 +551,7 @@
 }
 
 .project-meta {
-  display: none; /* cabeçalho removido, evita espaço vazio no topo do card */
+  display: none;
 }
 
 .project-num {
@@ -697,10 +697,8 @@
 .tech-item {
   position: relative;
   overflow: hidden;
+  
 }
-
-/* Removido efeito hover e sombra das tecnologias */
-
 .project-bullets {
   margin: 0 0 1.5rem 1.2rem;
   padding: 0;
@@ -2736,4 +2734,50 @@ video {
 
 ::-webkit-scrollbar-thumb:hover {
   background: var(--secondary-color);
+}
+
+/* Integração React: deslocamento da navegação e revelação ao rolar */
+section[id] {
+  scroll-margin-top: 88px;
+}
+
+[data-aos] {
+  opacity: 0;
+  animation: none !important;
+  transition:
+    opacity 0.8s ease-out,
+    transform 0.8s ease-out;
+}
+
+[data-aos="fade-up"] {
+  transform: translateY(30px);
+}
+
+[data-aos="fade-in"] {
+  transform: none;
+}
+
+[data-aos].is-revealed {
+  opacity: 1;
+  transform: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  [data-aos] {
+    opacity: 1;
+    transform: none;
+  }
 }
