@@ -1,7 +1,10 @@
 import resumeUrl from '../../CurriculoNatanDaLuz.pdf'
 import heroImage from '../../img/fotoportfolio.jpg'
+import { useTranslation } from '../hooks/useTranslation.js'
 
 function Hero() {
+  const { t } = useTranslation()
+
   return (
     <section id="home" className="hero-section">
       <div className="container">
@@ -14,8 +17,8 @@ function Hero() {
             />
           </div>
 
-          <h1 className="hero-title">Natan Da Luz</h1>
-          <p className="hero-subtitle">Desenvolvedor Backend</p>
+          <h1 className="hero-title">{t('hero.title')}</h1>
+          <p className="hero-subtitle">{t('hero.subtitle')}</p>
 
           <div className="hero-buttons">
             <a
@@ -26,18 +29,18 @@ function Hero() {
               download
             >
               <i className="fas fa-download me-2" aria-hidden="true" />
-              <span>Download Currículo</span>
+              <span>{t('hero.cta.cv')}</span>
             </a>
 
             <a href="#projetos" className="btn-cta-secondary">
               <i className="fas fa-folder-open me-2" aria-hidden="true" />
-              Ver Projetos
+              {t('hero.cta.projects')}
             </a>
 
             <button
               className="theme-toggle"
               type="button"
-              aria-label="Alternar tema claro e escuro"
+              aria-label={t('hero.themeToggle.aria')}
             >
               <i className="fas fa-moon" aria-hidden="true" />
             </button>

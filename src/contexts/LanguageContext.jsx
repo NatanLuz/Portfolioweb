@@ -63,7 +63,7 @@ function LanguageProvider({ children }) {
     try {
       window.localStorage.setItem(LANGUAGE_STORAGE_KEY, language)
     } catch {
-    
+      // Mantém o idioma em memória quando o armazenamento não está disponível.
     }
   }, [language, t])
 

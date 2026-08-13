@@ -1,15 +1,23 @@
 import { useState } from 'react'
+import { useTranslation } from '../hooks/useTranslation.js'
 
 const navigationItems = [
-  { href: '#home', label: 'Início' },
-  { href: '#sobre', label: 'Sobre' },
-  { href: '#tecnologias', label: 'Tecnologias' },
-  { href: '#projetos', label: 'Projetos' },
-  { href: '#contato', label: 'Contato' },
+  { href: '#home', translationKey: 'nav.home' },
+  { href: '#sobre', translationKey: 'nav.about' },
+  { href: '#tecnologias', translationKey: 'nav.technologies' },
+  { href: '#projetos', translationKey: 'nav.projects' },
+  { href: '#contato', translationKey: 'nav.contact' },
+]
+
+const languageOptions = [
+  { code: 'pt', label: 'PT', translationKey: 'language.pt' },
+  { code: 'en', label: 'EN', translationKey: 'language.en' },
+  { code: 'fr', label: 'FR', translationKey: 'language.fr' },
 ]
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const { language, changeLanguage, t } = useTranslation()
 
   const closeMenu = () => setIsMenuOpen(false)
 
@@ -21,7 +29,7 @@ function Header() {
           type="button"
           aria-controls="navbarNav"
           aria-expanded={isMenuOpen}
-          aria-label="Alternar navegação"
+          aria-label={t('header.menu.aria')}
           onClick={() => setIsMenuOpen((isOpen) => !isOpen)}
         >
           <span className="navbar-toggler-icon" />
@@ -32,26 +40,37 @@ function Header() {
           id="navbarNav"
         >
           <ul className="navbar-nav">
-            {navigationItems.map(({ href, label }) => (
+            {navigationItems.map(({ href, translationKey }) => (
               <li className="nav-item" key={href}>
                 <a className="nav-link" href={href} onClick={closeMenu}>
-                  {label}
+                  {t(translationKey)}
                 </a>
               </li>
             ))}
           </ul>
         </div>
 
-        <div className="language-selector" aria-label="Selecionar idioma">
-          <button className="lang-btn active" type="button" aria-label="Português">
-            PT
-          </button>
-          <button className="lang-btn" type="button" aria-label="English">
-            EN
-          </button>
-          <button className="lang-btn" type="button" aria-label="Français">
-            FR
-          </button>
+        <div
+          className="language-selector"
+          role="group"
+          aria-label={t('header.languageSelector.aria')}
+        >
+          {languageOptions.map(({ code, label, translationKey }) => {
+            const isActive = language === code
+
+            return (
+              <button
+                className={`lang-btn${isActive ? ' active' : ''}`}
+                type="button"
+                aria-label={t(translationKey)}
+                aria-pressed={isActive}
+                onClick={() => changeLanguage(code)}
+                key={code}
+              >
+                {label}
+              </button>
+            )
+          })}
         </div>
       </div>
     </nav>
