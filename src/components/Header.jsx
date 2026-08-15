@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { useActiveSection } from '../hooks/useActiveSection.js'
 import { useScroll } from '../hooks/useScroll.js'
+import { useTheme } from '../hooks/useTheme.js'
 import { useTranslation } from '../hooks/useTranslation.js'
 
 const navigationItems = [
@@ -22,6 +23,7 @@ const sectionIds = navigationItems.map(({ href }) => href.slice(1))
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const { language, changeLanguage, t } = useTranslation()
+  const { theme, toggleTheme } = useTheme()
   const { direction, scrollY } = useScroll()
   const activeSection = useActiveSection(sectionIds)
   const isNavbarVisible = isMenuOpen || scrollY <= 100 || direction === 'up'
@@ -66,27 +68,41 @@ function Header() {
           </ul>
         </div>
 
-        <div
-          className="language-selector"
-          role="group"
-          aria-label={t('header.languageSelector.aria')}
-        >
-          {languageOptions.map(({ code, label, translationKey }) => {
-            const isActive = language === code
+        <div className="header-controls">
+          <button
+            className="theme-toggle"
+            type="button"
+            aria-label={t('hero.themeToggle.aria')}
+            onClick={toggleTheme}
+          >
+            <i
+              className={`fas ${theme === 'light' ? 'fa-sun' : 'fa-moon'}`}
+              aria-hidden="true"
+            />
+          </button>
 
-            return (
-              <button
-                className={`lang-btn${isActive ? ' active' : ''}`}
-                type="button"
-                aria-label={t(translationKey)}
-                aria-pressed={isActive}
-                onClick={() => changeLanguage(code)}
-                key={code}
-              >
-                {label}
-              </button>
-            )
-          })}
+          <div
+            className="language-selector"
+            role="group"
+            aria-label={t('header.languageSelector.aria')}
+          >
+            {languageOptions.map(({ code, label, translationKey }) => {
+              const isActive = language === code
+
+              return (
+                <button
+                  className={`lang-btn${isActive ? ' active' : ''}`}
+                  type="button"
+                  aria-label={t(translationKey)}
+                  aria-pressed={isActive}
+                  onClick={() => changeLanguage(code)}
+                  key={code}
+                >
+                  {label}
+                </button>
+              )
+            })}
+          </div>
         </div>
       </div>
     </nav>

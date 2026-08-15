@@ -814,6 +814,18 @@ p {
   margin-left: auto;
 }
 
+.header-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: auto;
+}
+
+.header-controls .theme-toggle,
+.header-controls .language-selector {
+  margin-left: 0;
+}
+
 .lang-btn {
   background: transparent;
   border: none;
@@ -2361,6 +2373,9 @@ p {
 
   .language-selector {
     margin-left: 0;
+  }
+
+  .header-controls {
     margin-top: 1rem;
   }
 
