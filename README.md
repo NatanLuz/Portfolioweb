@@ -34,7 +34,7 @@ O portfólio utiliza:
 - cópia do endereço de e-mail antes da abertura do aplicativo de e-mail;
 - suporte a `prefers-reduced-motion` para reduzir animações quando solicitado pelo sistema.
 
-## Arquitetura
+## Arquitetura do projeto
 
 ```text
 src/
