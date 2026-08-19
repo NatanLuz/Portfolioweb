@@ -1,8 +1,8 @@
 export const translations = {
   pt: {
-    "meta.title": "Natan Da Luz - Desenvolvedor Backend",
+    "meta.title": "Natan Da Luz - Desenvolvedor de Software",
     "meta.description":
-      "Portfólio de Natan Da Luz, desenvolvedor backend com projetos em PHP, Laravel, React, PostgreSQL e MySQL.",
+      "Portfólio de Natan Da Luz, Desenvolvedor de Software com foco em PHP, Laravel, React e PostgreSQL.",
 
     "header.menu.aria": "Alternar navegação",
     "header.languageSelector.aria": "Selecionar idioma",
@@ -16,9 +16,13 @@ export const translations = {
     "nav.contact": "Contato",
 
     "hero.title": "Natan Da Luz",
-    "hero.subtitle": "Desenvolvedor Backend",
-    "hero.cta.cv": "Download Currículo",
+    "hero.role": "Desenvolvedor de Software",
+    "hero.stack": "PHP • Laravel • React • PostgreSQL",
+    "hero.cta.cv": "Currículo",
     "hero.cta.projects": "Ver Projetos",
+    "hero.social.aria": "Perfis profissionais",
+    "hero.social.github.aria": "Abrir perfil de Natan Da Luz no GitHub",
+    "hero.social.linkedin.aria": "Abrir perfil de Natan Da Luz no LinkedIn",
     "hero.themeToggle.aria": "Alternar tema claro e escuro",
 
     "about.title": "Sobre Mim",
@@ -110,9 +114,9 @@ export const translations = {
   },
 
   en: {
-    "meta.title": "Natan Da Luz - Backend Developer",
+    "meta.title": "Natan Da Luz - Software Developer",
     "meta.description":
-      "Portfolio of Natan Da Luz, a backend developer with projects using PHP, Laravel, React, PostgreSQL, and MySQL.",
+      "Portfolio of Natan Da Luz, a Software Developer focused on PHP, Laravel, React, and PostgreSQL.",
 
     "header.menu.aria": "Toggle navigation",
     "header.languageSelector.aria": "Select language",
@@ -126,9 +130,13 @@ export const translations = {
     "nav.contact": "Contact",
 
     "hero.title": "Natan Da Luz",
-    "hero.subtitle": "Backend Developer",
-    "hero.cta.cv": "Download CV",
+    "hero.role": "Software Developer",
+    "hero.stack": "PHP • Laravel • React • PostgreSQL",
+    "hero.cta.cv": "CV",
     "hero.cta.projects": "View Projects",
+    "hero.social.aria": "Professional profiles",
+    "hero.social.github.aria": "Open Natan Da Luz's GitHub profile",
+    "hero.social.linkedin.aria": "Open Natan Da Luz's LinkedIn profile",
     "hero.themeToggle.aria": "Toggle light and dark theme",
 
     "about.title": "About Me",
@@ -220,9 +228,9 @@ export const translations = {
   },
 
   fr: {
-    "meta.title": "Natan Da Luz - Développeur Backend",
+    "meta.title": "Natan Da Luz - Développeur logiciel",
     "meta.description":
-      "Portfolio de Natan Da Luz, développeur backend avec des projets en PHP, Laravel, React, PostgreSQL et MySQL.",
+      "Portfolio de Natan Da Luz, développeur logiciel spécialisé en PHP, Laravel, React et PostgreSQL.",
 
     "header.menu.aria": "Afficher ou masquer la navigation",
     "header.languageSelector.aria": "Sélectionner la langue",
@@ -236,9 +244,13 @@ export const translations = {
     "nav.contact": "Contact",
 
     "hero.title": "Natan Da Luz",
-    "hero.subtitle": "Développeur Backend",
-    "hero.cta.cv": "Télécharger le CV",
+    "hero.role": "Développeur logiciel",
+    "hero.stack": "PHP • Laravel • React • PostgreSQL",
+    "hero.cta.cv": "CV",
     "hero.cta.projects": "Voir les projets",
+    "hero.social.aria": "Profils professionnels",
+    "hero.social.github.aria": "Ouvrir le profil GitHub de Natan Da Luz",
+    "hero.social.linkedin.aria": "Ouvrir le profil LinkedIn de Natan Da Luz",
     "hero.themeToggle.aria": "Alterner entre les thèmes clair et sombre",
 
     "about.title": "À Propos de Moi",

@@ -24,26 +24,47 @@ function Hero() {
             <span className="hero-title-text">{displayedText}</span>
             {isTyping && <span className="typewriter-cursor" aria-hidden="true" />}
           </h1>
-          <p className="hero-subtitle">{t('hero.subtitle')}</p>
+          <p className="hero-subtitle">{t('hero.role')}</p>
+          <p className="hero-techline">{t('hero.stack')}</p>
 
           <div className="hero-buttons">
+            <a href="#projetos" className="btn-cta-primary">
+              <i className="fas fa-folder-open me-2" aria-hidden="true" />
+              {t('hero.cta.projects')}
+            </a>
+
             <a
               href={resumeUrl}
               target="_blank"
-              rel="noopener"
-              className="btn-cta-primary cv-download-btn"
+              rel="noopener noreferrer"
+              className="btn-cta-secondary cv-download-btn"
               download
             >
               <i className="fas fa-download me-2" aria-hidden="true" />
               <span>{t('hero.cta.cv')}</span>
             </a>
-
-            <a href="#projetos" className="btn-cta-secondary">
-              <i className="fas fa-folder-open me-2" aria-hidden="true" />
-              {t('hero.cta.projects')}
-            </a>
-
           </div>
+
+          <nav className="hero-social-links" aria-label={t('hero.social.aria')}>
+            <a
+              href="https://github.com/NatanLuz"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={t('hero.social.github.aria')}
+            >
+              <i className="fab fa-github" aria-hidden="true" />
+              <span>GitHub</span>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/natandaluz/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={t('hero.social.linkedin.aria')}
+            >
+              <i className="fab fa-linkedin" aria-hidden="true" />
+              <span>LinkedIn</span>
+            </a>
+          </nav>
         </div>
       </div>
     </section>
