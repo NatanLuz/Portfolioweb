@@ -27,19 +27,12 @@ export const translations = {
 
     "about.title": "Sobre Mim",
     "about.intro":
-      "Sou Desenvolvedor de Software com foco em backend, atuando principalmente com PHP, Laravel e PostgreSQL. Gosto de resolver problemas por trás da aplicação: modelagem de dados, autenticação, autorização e organização de código são pontos aos quais dou bastante atenção em cada projeto.\n\nUso Docker para padronizar ambientes de desenvolvimento e também tenho conhecimento complementar em Frontend, o que me ajuda a integrar as duas pontas de um sistema com mais autonomia. Estou sempre estudando arquitetura de software e boas práticas para evoluir como desenvolvedor.",
-    "about.softSkills.title": "Soft Skills",
-    "about.softSkills.teamwork": "Trabalho em equipe",
-    "about.softSkills.communication": "Comunicação clara",
-    "about.softSkills.problemSolving": "Resolução de problemas",
-    "about.softSkills.agility": "Autonomia",
-    "about.softSkills.adaptability": "Atenção a detalhes",
-    "about.softSkills.proactivity": "Aprendizado contínuo",
+      "Sou Desenvolvedor de Software com foco em PHP e Laravel, com experiência prática em projetos autorais e freelance envolvendo aplicações web, APIs REST, autenticação, regras de negócio e bancos de dados relacionais.\n\nTambém trabalho com React no frontend e utilizo PostgreSQL, Docker e Git no desenvolvimento das aplicações. Atualmente curso Sistemas de Informação e continuo aprofundando meus conhecimentos em arquitetura de software e boas práticas de desenvolvimento.",
     "about.languages.title": "Idiomas",
     "about.languages.english": "Inglês",
     "about.languages.englishLevel": "Avançado (C1)",
     "about.languages.french": "Francês",
-    "about.languages.frenchLevel": "Intermediário Básico (A2)",
+    "about.languages.frenchLevel": "Básico (A2)",
 
     "technologies.title": "Tecnologias",
     "technologies.backend": "Backend",
@@ -142,14 +135,7 @@ export const translations = {
 
     "about.title": "About Me",
     "about.intro":
-      "I am a software developer focused on backend, working mainly with PHP, Laravel, and PostgreSQL. I like solving the problems behind the application: data modeling, authentication, authorization, and code organization are points I pay close attention to in every project.\n\nI use Docker to standardize development environments and I also have complementary Frontend knowledge, which helps me connect both sides of a system with more autonomy. I am always studying software architecture and best practices to keep growing as a developer.",
-    "about.softSkills.title": "Soft Skills",
-    "about.softSkills.teamwork": "Teamwork",
-    "about.softSkills.communication": "Clear communication",
-    "about.softSkills.problemSolving": "Problem solving",
-    "about.softSkills.agility": "Autonomy",
-    "about.softSkills.adaptability": "Attention to detail",
-    "about.softSkills.proactivity": "Continuous learning",
+      "I am a Software Developer focused on PHP and Laravel, with hands-on experience in personal and freelance projects involving web applications, REST APIs, authentication, business rules, and relational databases.\n\nI also work with React on the frontend and use PostgreSQL, Docker, and Git to develop applications. I am currently pursuing a degree in Information Systems and continue to deepen my knowledge of software architecture and development best practices.",
     "about.languages.title": "Languages",
     "about.languages.english": "English",
     "about.languages.englishLevel": "Advanced (C1)",
@@ -257,14 +243,7 @@ export const translations = {
 
     "about.title": "À Propos de Moi",
     "about.intro":
-      "Je suis développeur logiciel avec un focus sur le backend, travaillant principalement avec PHP, Laravel et PostgreSQL. J'aime résoudre les problèmes derrière l'application : la modélisation des données, l'authentification, l'autorisation et l'organisation du code sont des points auxquels j'accorde beaucoup d'attention dans chaque projet.\n\nJ'utilise Docker pour standardiser les environnements de développement et j'ai aussi des connaissances complémentaires en Frontend, ce qui m'aide à relier les deux parties d'un système avec plus d'autonomie. J'étudie en permanence l'architecture logicielle et les bonnes pratiques pour continuer à évoluer en tant que développeur.",
-    "about.softSkills.title": "Compétences Douces",
-    "about.softSkills.teamwork": "Travail d'équipe",
-    "about.softSkills.communication": "Communication claire",
-    "about.softSkills.problemSolving": "Résolution de problèmes",
-    "about.softSkills.agility": "Autonomie",
-    "about.softSkills.adaptability": "Souci du détail",
-    "about.softSkills.proactivity": "Apprentissage continu",
+      "Je suis développeur logiciel spécialisé en PHP et Laravel, avec une expérience pratique acquise à travers des projets personnels et freelance impliquant des applications web, des API REST, l’authentification, les règles métier et les bases de données relationnelles.\n\nJe travaille également avec React côté frontend et j’utilise PostgreSQL, Docker et Git pour développer mes applications. Je suis actuellement étudiant en systèmes d’information et je continue d’approfondir mes connaissances en architecture logicielle et en bonnes pratiques de développement.",
     "about.languages.title": "Langues",
     "about.languages.english": "Anglais",
     "about.languages.englishLevel": "Avancé (C1)",
