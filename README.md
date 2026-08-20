@@ -2,6 +2,8 @@
 
 Portfólio pessoal desenvolvido com React e Vite para apresentar meu perfil profissional, tecnologias, projetos e formas de contato.
 
+Portfolio em atualização.
+
 ## Tecnologias
 
 O portfólio utiliza:
