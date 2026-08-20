@@ -34,6 +34,32 @@ export const translations = {
     "about.languages.french": "Francês",
     "about.languages.frenchLevel": "Básico (A2)",
 
+    "experience.title": "Trajetória",
+    "experience.professional.title": "Experiência Profissional",
+    "experience.technologies": "Tecnologias",
+    "experience.professional.petSystem.organization": "PetSystem — Freelancer",
+    "experience.professional.petSystem.role": "Desenvolvedor Back-end PHP",
+    "experience.professional.petSystem.period": "Out/2025 – Fev/2026",
+    "experience.professional.petSystem.description":
+      "Desenvolvimento de sistema web para gestão e agendamento de petshop, com autenticação, CRUDs, controle de atendimentos e regras de acesso.",
+    "experience.professional.dufrio.organization": "Refrigeração Dufrio",
+    "experience.professional.dufrio.role":
+      "Assistente de Logística / Conferente",
+    "experience.professional.dufrio.period": "2024 – 2025",
+    "experience.professional.dufrio.description":
+      "Atuação em atividades de logística e conferência, com utilização de sistemas corporativos e suporte técnico básico e ocasional quando pertinente.",
+    "experience.education.title": "Formação",
+    "experience.education.informationSystems.course":
+      "Sistemas de Informação",
+    "experience.education.informationSystems.institution":
+      "Universidade do Vale do Rio dos Sinos — UNISINOS",
+    "experience.education.informationSystems.type": "Bacharelado",
+    "experience.education.informationSystems.status": "Cursando",
+    "experience.education.webTechnician.course":
+      "Técnico em Informática para Internet",
+    "experience.education.webTechnician.institution": "SENAC-RS",
+    "experience.education.webTechnician.status": "Concluído",
+
     "technologies.title": "Tecnologias",
     "technologies.backend": "Backend",
     "technologies.backend.focus": "PRINCIPAL",
@@ -142,6 +168,31 @@ export const translations = {
     "about.languages.french": "French",
     "about.languages.frenchLevel": "Upper beginner (A2)",
 
+    "experience.title": "Journey",
+    "experience.professional.title": "Professional Experience",
+    "experience.technologies": "Technologies",
+    "experience.professional.petSystem.organization": "PetSystem — Freelance",
+    "experience.professional.petSystem.role": "PHP Back-end Developer",
+    "experience.professional.petSystem.period": "Oct 2025 – Feb 2026",
+    "experience.professional.petSystem.description":
+      "Development of a web system for pet shop management and scheduling, including authentication, CRUD operations, appointment management, and access rules.",
+    "experience.professional.dufrio.organization": "Refrigeração Dufrio",
+    "experience.professional.dufrio.role":
+      "Logistics Assistant / Inventory Checker",
+    "experience.professional.dufrio.period": "2024 – 2025",
+    "experience.professional.dufrio.description":
+      "Worked in logistics and inventory checking activities, using corporate systems and providing occasional basic technical assistance when appropriate.",
+    "experience.education.title": "Education",
+    "experience.education.informationSystems.course": "Information Systems",
+    "experience.education.informationSystems.institution":
+      "Universidade do Vale do Rio dos Sinos — UNISINOS",
+    "experience.education.informationSystems.type": "Bachelor's Degree",
+    "experience.education.informationSystems.status": "In progress",
+    "experience.education.webTechnician.course":
+      "Technical Program in Web Development",
+    "experience.education.webTechnician.institution": "SENAC-RS",
+    "experience.education.webTechnician.status": "Completed",
+
     "technologies.title": "Technologies",
     "technologies.backend": "Backend",
     "technologies.backend.focus": "PRIMARY",
@@ -249,6 +300,32 @@ export const translations = {
     "about.languages.englishLevel": "Avancé (C1)",
     "about.languages.french": "Français",
     "about.languages.frenchLevel": "Élémentaire (A2)",
+
+    "experience.title": "Parcours",
+    "experience.professional.title": "Expérience professionnelle",
+    "experience.technologies": "Technologies",
+    "experience.professional.petSystem.organization": "PetSystem — Freelance",
+    "experience.professional.petSystem.role": "Développeur back-end PHP",
+    "experience.professional.petSystem.period": "oct. 2025 – févr. 2026",
+    "experience.professional.petSystem.description":
+      "Développement d’un système web de gestion et de planification pour animalerie, avec authentification, opérations CRUD, suivi des rendez-vous et règles d’accès.",
+    "experience.professional.dufrio.organization": "Refrigeração Dufrio",
+    "experience.professional.dufrio.role":
+      "Assistant logistique / Contrôleur de marchandises",
+    "experience.professional.dufrio.period": "2024 – 2025",
+    "experience.professional.dufrio.description":
+      "Activités de logistique et de contrôle des marchandises, avec utilisation de systèmes d’entreprise et assistance technique de base occasionnelle lorsque cela était pertinent.",
+    "experience.education.title": "Formation",
+    "experience.education.informationSystems.course":
+      "Systèmes d’information",
+    "experience.education.informationSystems.institution":
+      "Universidade do Vale do Rio dos Sinos — UNISINOS",
+    "experience.education.informationSystems.type": "Licence",
+    "experience.education.informationSystems.status": "En cours",
+    "experience.education.webTechnician.course":
+      "Technicien en informatique pour Internet",
+    "experience.education.webTechnician.institution": "SENAC-RS",
+    "experience.education.webTechnician.status": "Terminé",
 
     "technologies.title": "Technologies",
     "technologies.backend": "Backend",

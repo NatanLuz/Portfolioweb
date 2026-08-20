@@ -1359,6 +1359,168 @@ p {
   }
 }
 
+/* Trajetória profissional e formação */
+#trajetoria {
+  padding: 4.5rem 0;
+}
+
+#trajetoria .section-title {
+  margin-bottom: 2.25rem;
+}
+
+.experience-layout {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 3rem;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.experience-column {
+  min-width: 0;
+}
+
+.experience-education {
+  padding-left: 2.25rem;
+  border-left: 1px solid var(--border-color);
+}
+
+.experience-group-title {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+  color: var(--text-primary);
+  font-size: 1.12rem;
+  font-weight: 700;
+}
+
+.experience-group-title::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--border-color);
+}
+
+.experience-list {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.experience-entry {
+  min-width: 0;
+  padding-left: 1rem;
+  border-left: 2px solid rgba(245, 158, 11, 0.45);
+}
+
+.experience-entry-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.55rem;
+}
+
+.experience-entry-header > div {
+  min-width: 0;
+}
+
+.experience-entry-title {
+  margin: 0;
+  color: var(--text-primary);
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.experience-entry-role,
+.experience-entry-institution {
+  margin: 0.2rem 0 0;
+  color: var(--text-secondary);
+  font-size: 0.86rem;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.experience-entry-period {
+  flex: 0 0 auto;
+  color: var(--text-muted);
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.7rem;
+  line-height: 1.45;
+  white-space: nowrap;
+}
+
+.experience-entry-description {
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: 0.87rem;
+  line-height: 1.55;
+}
+
+.experience-entry-technologies {
+  margin: 0.55rem 0 0;
+  color: var(--text-muted);
+  font-size: 0.78rem;
+}
+
+.experience-entry-technologies span {
+  color: var(--text-secondary);
+  font-weight: 700;
+}
+
+.experience-education-meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.6rem;
+  color: var(--text-muted);
+  font-size: 0.76rem;
+}
+
+.experience-status {
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  background: rgba(245, 158, 11, 0.12);
+  border: 1px solid rgba(245, 158, 11, 0.3);
+  color: #fbbf24;
+  font-weight: 700;
+}
+
+[data-theme="light"] .experience-status {
+  color: #b45309;
+}
+
+@media (max-width: 900px) {
+  .experience-layout {
+    grid-template-columns: 1fr;
+    gap: 2.25rem;
+  }
+
+  .experience-education {
+    padding-top: 1.75rem;
+    padding-left: 0;
+    border-top: 1px solid var(--border-color);
+    border-left: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  #trajetoria {
+    padding: 3.5rem 0;
+  }
+
+  .experience-entry-header {
+    display: block;
+  }
+
+  .experience-entry-period {
+    display: inline-block;
+    margin-top: 0.35rem;
+  }
+}
+
 /* Editando a sessao tecnologias */
 .tech-category {
   margin-bottom: 3rem;
