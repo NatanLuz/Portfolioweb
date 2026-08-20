@@ -120,16 +120,13 @@ export const translations = {
       "Experiência otimizada para dispositivos móveis",
 
     "contact.title": "Contato",
-    "contact.group.aria": "Links de contato",
-    "contact.email": "Enviar email",
-    "contact.email.aria": "Enviar email para Natan Da Luz",
-    "contact.email.feedback": "Email Copiado!",
-    "contact.linkedin": "LinkedIn",
-    "contact.linkedin.aria": "Abrir perfil do LinkedIn de Natan Da Luz",
-    "contact.github": "GitHub",
-    "contact.github.aria": "Abrir repositório do GitHub de Natan Da Luz",
+    "contact.subtitle": "Vamos conversar?",
+    "contact.description":
+      "Estou disponível para oportunidades e conversas sobre desenvolvimento de software.",
+    "contact.email.copy": "Copiar e-mail",
+    "contact.email.copied": "E-mail copiado!",
 
-    "footer.credit": "Desenvolvido Por Natan Da Luz",
+    "footer.credit": "Desenvolvido por Natan Da Luz",
     "backToTop.aria": "Voltar ao topo",
   },
 
@@ -253,14 +250,11 @@ export const translations = {
       "Experience optimized for mobile devices",
 
     "contact.title": "Contact",
-    "contact.group.aria": "Contact links",
-    "contact.email": "Send email",
-    "contact.email.aria": "Send an email to Natan Da Luz",
-    "contact.email.feedback": "Email copied!",
-    "contact.linkedin": "LinkedIn",
-    "contact.linkedin.aria": "Open Natan Da Luz's LinkedIn profile",
-    "contact.github": "GitHub",
-    "contact.github.aria": "Open Natan Da Luz's GitHub repository",
+    "contact.subtitle": "Let's talk?",
+    "contact.description":
+      "I am available for opportunities and conversations about software development.",
+    "contact.email.copy": "Copy email",
+    "contact.email.copied": "Email copied!",
 
     "footer.credit": "Portfolio developed and created by Natan Da Luz",
     "backToTop.aria": "Back to top",
@@ -387,14 +381,11 @@ export const translations = {
       "Expérience optimisée pour les appareils mobiles",
 
     "contact.title": "Contact",
-    "contact.group.aria": "Liens de contact",
-    "contact.email": "Envoyer un e-mail",
-    "contact.email.aria": "Envoyer un e-mail à Natan Da Luz",
-    "contact.email.feedback": "E-mail copié !",
-    "contact.linkedin": "LinkedIn",
-    "contact.linkedin.aria": "Ouvrir le profil LinkedIn de Natan Da Luz",
-    "contact.github": "GitHub",
-    "contact.github.aria": "Ouvrir le dépôt GitHub de Natan Da Luz",
+    "contact.subtitle": "Échangeons !",
+    "contact.description":
+      "Je suis disponible pour des opportunités et des échanges autour du développement logiciel.",
+    "contact.email.copy": "Copier l’e-mail",
+    "contact.email.copied": "E-mail copié !",
 
     "footer.credit": "Portfolio développé et créé par Natan Da Luz",
     "backToTop.aria": "Retour en haut",

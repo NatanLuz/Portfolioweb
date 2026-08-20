@@ -259,63 +259,6 @@
   color: white;
 }
 
-/* Contato buttons melhorados */
-.contact-btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-  border-radius: 0;
-  text-decoration: none;
-  transition: none;
-  position: relative;
-  overflow: visible;
-  min-height: 0;
-  flex: 0 0 auto;
-  max-width: none;
-}
-
-.contact-btn::before {
-  display: none;
-}
-
-.contact-btn:hover::before {
-  opacity: 0;
-}
-
-.contact-btn i {
-  font-size: 1.6rem;
-  color: #f59e0b; /* dourado */
-  margin: 0;
-  transition: none;
-}
-
-.contact-btn span {
-  display: none; /* mostrar apenas o ícone */
-}
-
-.contact-btn small {
-  font-size: 0.85rem;
-  opacity: 0.8;
-}
-
-.email-btn,
-.linkedin-btn,
-.github-btn {
-  background: transparent;
-  color: inherit;
-}
-
-.contact-btn:hover {
-  transform: none;
-  box-shadow: none;
-}
-
-.contact-btn:hover i {
-  /* sem efeito hover */
-  transform: none;
-}
-
 /* Estilo para a seção Sobre (profissional e legível) */
 .about-intro {
   font-size: 1.05rem;
@@ -2576,62 +2519,38 @@ p {
 }
 
 /* Editando a sessao de contato  */
+.contact-section {
+  padding: 4rem 0 3.5rem;
+}
+
 .contact-content {
   text-align: center;
 }
 
+.contact-content .section-title {
+  margin-bottom: 0.85rem;
+}
+
+.contact-subtitle {
+  color: var(--text-primary);
+  font-size: clamp(1.25rem, 2vw, 1.5rem);
+  font-weight: 700;
+  margin-bottom: 0.65rem;
+}
+
 .contact-description {
   color: var(--text-secondary);
-  font-size: 1.1rem;
-  margin-bottom: 3rem;
+  font-size: 1rem;
+  line-height: 1.65;
   max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto 1.5rem;
 }
 
-.contact-buttons {
-  display: flex;
+.contact-email-cta {
+  cursor: pointer;
+  font-family: inherit;
   justify-content: center;
-  gap: 1.25rem; /* ligeiramente mais espaço entre ícones */
-  flex-wrap: wrap;
-  margin-top: 2rem;
-}
-
-.contact-btn {
-  color: var(--text-secondary);
-  text-decoration: none;
-  padding: 0;
-  gap: 0;
-  transition: none;
-}
-
-.contact-btn i {
-  font-size: 1.9rem; /* ícones um pouco maiores */
-  transition: none;
-  color: #f59e0b;
-}
-
-.contact-btn span {
-  display: none;
-}
-
-.email-feedback {
-  display: none;
-  margin-left: 8px;
-  font-size: 0.8rem;
-  opacity: 0.8;
-}
-
-/* Remover estilos de CTA nos botões de contato */
-.contact-btn.btn-cta-primary,
-.contact-btn.btn-cta-secondary {
-  background: transparent !important;
-  border: none !important;
-  box-shadow: none !important;
-}
-.contact-btn.btn-cta-primary::before,
-.contact-btn.btn-cta-secondary::before {
-  display: none !important;
+  min-width: 170px;
 }
 
 /* Editando a sessao Footer */
@@ -2849,29 +2768,6 @@ p {
     font-size: 0.8rem;
   }
 
-  .contact-buttons {
-    gap: 0.6rem;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .contact-btn {
-    min-width: 140px;
-    max-width: 180px;
-    width: 100%;
-    padding: 0.8rem 1rem;
-    min-height: 65px;
-  }
-
-  .contact-btn i {
-    font-size: 1.1rem;
-    margin-bottom: 3px;
-  }
-
-  .contact-btn span {
-    font-size: 0.8rem;
-  }
-
   .language-selector {
     margin-left: 0;
   }
@@ -3019,29 +2915,6 @@ p {
     font-size: 0.7rem;
   }
 
-  .contact-buttons {
-    gap: 0.5rem;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .contact-btn {
-    min-width: 120px;
-    max-width: 160px;
-    width: 100%;
-    padding: 0.6rem 0.8rem;
-    min-height: 55px;
-  }
-
-  .contact-btn i {
-    font-size: 1rem;
-    margin-bottom: 2px;
-  }
-
-  .contact-btn span {
-    font-size: 0.75rem;
-  }
-
   #projetos .project-content {
     padding: 1.05rem;
   }
@@ -3061,25 +2934,12 @@ p {
 
 /* Media query para telas muito pequenas */
 @media (max-width: 480px) {
-  .contact-buttons {
-    gap: 0.4rem;
-    padding: 0 1rem;
+  .contact-section {
+    padding: 3rem 0;
   }
 
-  .contact-btn {
-    min-width: 100px;
-    max-width: 140px;
-    padding: 0.5rem 0.6rem;
-    min-height: 50px;
-  }
-
-  .contact-btn i {
-    font-size: 0.9rem;
-    margin-bottom: 1px;
-  }
-
-  .contact-btn span {
-    font-size: 0.7rem;
+  .contact-description {
+    font-size: 0.95rem;
   }
 }
 
