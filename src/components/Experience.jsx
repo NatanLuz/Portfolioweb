@@ -1,42 +1,51 @@
-import { useTranslation } from '../hooks/useTranslation.js'
+import { useTranslation } from "../hooks/useTranslation.js";
 
 const professionalExperiences = [
   {
-    key: 'petSystem',
-    technologies: ['PHP', 'MySQL'],
+    key: "freelance",
+    projects: [
+      {
+        key: "petSystem",
+        technologies: ["PHP", "MySQL"],
+      },
+      {
+        key: "corteAzul",
+        technologies: ["HTML5", "CSS3", "Tailwind CSS", "JavaScript"],
+      },
+    ],
   },
   {
-    key: 'dufrio',
+    key: "dufrio",
   },
-]
+];
 
 const educationEntries = [
   {
-    key: 'informationSystems',
+    key: "informationSystems",
     hasType: true,
   },
   {
-    key: 'webTechnician',
+    key: "webTechnician",
     hasType: false,
   },
-]
+];
 
 function Experience() {
-  const { t } = useTranslation()
+  const { t } = useTranslation();
 
   return (
     <section id="trajetoria" className="section experience-section">
       <div className="container">
-        <h2 className="section-title text-center">{t('experience.title')}</h2>
+        <h2 className="section-title text-center">{t("experience.title")}</h2>
 
         <div className="experience-layout">
           <div className="experience-column" data-aos="fade-up">
             <h3 className="experience-group-title">
-              {t('experience.professional.title')}
+              {t("experience.professional.title")}
             </h3>
 
             <div className="experience-list">
-              {professionalExperiences.map(({ key, technologies }) => (
+              {professionalExperiences.map(({ key, projects }) => (
                 <article className="experience-entry" key={key}>
                   <div className="experience-entry-header">
                     <div>
@@ -56,11 +65,27 @@ function Experience() {
                     {t(`experience.professional.${key}.description`)}
                   </p>
 
-                  {technologies && (
-                    <p className="experience-entry-technologies">
-                      <span>{t('experience.technologies')}:</span>{' '}
-                      {technologies.join(' • ')}
-                    </p>
+                  {projects && (
+                    <div className="experience-projects">
+                      {projects.map((project) => (
+                        <div className="experience-project" key={project.key}>
+                          <h5 className="experience-project-title">
+                            {t(
+                              `experience.professional.${key}.projects.${project.key}.name`,
+                            )}
+                          </h5>
+                          <p className="experience-project-description">
+                            {t(
+                              `experience.professional.${key}.projects.${project.key}.description`,
+                            )}
+                          </p>
+                          <p className="experience-entry-technologies">
+                            <span>{t("experience.technologies")}:</span>{" "}
+                            {project.technologies.join(" • ")}
+                          </p>
+                        </div>
+                      ))}
+                    </div>
                   )}
                 </article>
               ))}
@@ -73,7 +98,7 @@ function Experience() {
             data-aos-delay="150"
           >
             <h3 className="experience-group-title">
-              {t('experience.education.title')}
+              {t("experience.education.title")}
             </h3>
 
             <div className="experience-list">
@@ -100,7 +125,7 @@ function Experience() {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
-export default Experience
+export default Experience;

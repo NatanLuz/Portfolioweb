@@ -37,17 +37,25 @@ export const translations = {
     "experience.title": "Trajetória",
     "experience.professional.title": "Experiência Profissional",
     "experience.technologies": "Tecnologias",
-    "experience.professional.petSystem.organization": "PetSystem — Freelancer",
-    "experience.professional.petSystem.role": "Desenvolvedor Back-end PHP",
-    "experience.professional.petSystem.period": "Out/2025 – Fev/2026",
-    "experience.professional.petSystem.description":
-      "Desenvolvimento de sistema web para gestão e agendamento de petshop, com autenticação, CRUDs, controle de atendimentos e regras de acesso.",
+    "experience.professional.freelance.organization":
+      "Desenvolvedor de Software Freelancer",
+    "experience.professional.freelance.role": "Autônomo",
+    "experience.professional.freelance.period": "Ago/2025 – Fev/2026",
+    "experience.professional.freelance.description":
+      "Atuação em projetos web para diferentes clientes, trabalhando no desenvolvimento de sistemas e aplicações voltadas ao público final.",
+    "experience.professional.freelance.projects.petSystem.name": "PetSystem",
+    "experience.professional.freelance.projects.petSystem.description":
+      "Sistema de gestão e agendamento para petshop desenvolvido com base em necessidades operacionais de um ambiente real.",
+    "experience.professional.freelance.projects.corteAzul.name":
+      "Barbearia Corte Azul T.E.A.",
+    "experience.professional.freelance.projects.corteAzul.description":
+      "Website institucional responsivo desenvolvido para apresentar serviços, facilitar o contato com clientes e apoiar o fluxo de atendimento.",
     "experience.professional.dufrio.organization": "Refrigeração Dufrio",
     "experience.professional.dufrio.role":
       "Assistente de Logística / Conferente",
-    "experience.professional.dufrio.period": "2024 – 2025",
+    "experience.professional.dufrio.period": "Ago/2024 – Set/2025",
     "experience.professional.dufrio.description":
-      "Atuação em atividades de logística e conferência, com utilização de sistemas corporativos e suporte técnico básico e ocasional quando pertinente.",
+      "Atuação em conferência, expedição, atendimento de balcão e acompanhamento de pedidos, com uso diário de sistemas internos. Também apoiava novos colaboradores na utilização dos sistemas e, pontualmente, na resolução de problemas técnicos básicos com computadores, periféricos e softwares.",
     "experience.education.title": "Formação",
     "experience.education.informationSystems.course":
       "Sistemas de Informação",
@@ -168,17 +176,25 @@ export const translations = {
     "experience.title": "Journey",
     "experience.professional.title": "Professional Experience",
     "experience.technologies": "Technologies",
-    "experience.professional.petSystem.organization": "PetSystem — Freelance",
-    "experience.professional.petSystem.role": "PHP Back-end Developer",
-    "experience.professional.petSystem.period": "Oct 2025 – Feb 2026",
-    "experience.professional.petSystem.description":
-      "Development of a web system for pet shop management and scheduling, including authentication, CRUD operations, appointment management, and access rules.",
+    "experience.professional.freelance.organization":
+      "Freelance Software Developer",
+    "experience.professional.freelance.role": "Self-employed",
+    "experience.professional.freelance.period": "Aug 2025 – Feb 2026",
+    "experience.professional.freelance.description":
+      "Worked on web projects for different clients, developing systems and applications intended for end users.",
+    "experience.professional.freelance.projects.petSystem.name": "PetSystem",
+    "experience.professional.freelance.projects.petSystem.description":
+      "A pet shop management and scheduling system developed around the operational needs of a real-world business.",
+    "experience.professional.freelance.projects.corteAzul.name":
+      "Barbearia Corte Azul T.E.A.",
+    "experience.professional.freelance.projects.corteAzul.description":
+      "A responsive institutional website developed to present services, make it easier for clients to get in touch, and support the service workflow.",
     "experience.professional.dufrio.organization": "Refrigeração Dufrio",
     "experience.professional.dufrio.role":
       "Logistics Assistant / Inventory Checker",
-    "experience.professional.dufrio.period": "2024 – 2025",
+    "experience.professional.dufrio.period": "Aug 2024 – Sep 2025",
     "experience.professional.dufrio.description":
-      "Worked in logistics and inventory checking activities, using corporate systems and providing occasional basic technical assistance when appropriate.",
+      "Worked primarily in logistics, handling inventory checking, dispatch, counter service, and order tracking, with daily use of internal systems. Also helped new employees use those systems and, occasionally, resolve basic technical issues involving computers, peripherals, and software.",
     "experience.education.title": "Education",
     "experience.education.informationSystems.course": "Information Systems",
     "experience.education.informationSystems.institution":
@@ -298,17 +314,25 @@ export const translations = {
     "experience.title": "Parcours",
     "experience.professional.title": "Expérience professionnelle",
     "experience.technologies": "Technologies",
-    "experience.professional.petSystem.organization": "PetSystem — Freelance",
-    "experience.professional.petSystem.role": "Développeur back-end PHP",
-    "experience.professional.petSystem.period": "oct. 2025 – févr. 2026",
-    "experience.professional.petSystem.description":
-      "Développement d’un système web de gestion et de planification pour animalerie, avec authentification, opérations CRUD, suivi des rendez-vous et règles d’accès.",
+    "experience.professional.freelance.organization":
+      "Développeur logiciel freelance",
+    "experience.professional.freelance.role": "Indépendant",
+    "experience.professional.freelance.period": "août 2025 – févr. 2026",
+    "experience.professional.freelance.description":
+      "Réalisation de projets web pour différents clients, avec le développement de systèmes et d’applications destinés aux utilisateurs finaux.",
+    "experience.professional.freelance.projects.petSystem.name": "PetSystem",
+    "experience.professional.freelance.projects.petSystem.description":
+      "Système de gestion et de prise de rendez-vous pour une entreprise de services animaliers, développé à partir des besoins opérationnels d’un environnement réel.",
+    "experience.professional.freelance.projects.corteAzul.name":
+      "Barbearia Corte Azul T.E.A.",
+    "experience.professional.freelance.projects.corteAzul.description":
+      "Site institutionnel responsive conçu pour présenter les services, faciliter le contact avec les clients et soutenir le flux de prise en charge.",
     "experience.professional.dufrio.organization": "Refrigeração Dufrio",
     "experience.professional.dufrio.role":
       "Assistant logistique / Contrôleur de marchandises",
-    "experience.professional.dufrio.period": "2024 – 2025",
+    "experience.professional.dufrio.period": "août 2024 – sept. 2025",
     "experience.professional.dufrio.description":
-      "Activités de logistique et de contrôle des marchandises, avec utilisation de systèmes d’entreprise et assistance technique de base occasionnelle lorsque cela était pertinent.",
+      "Le poste était principalement axé sur la logistique : contrôle des marchandises, expédition, accueil au comptoir et suivi des commandes, avec une utilisation quotidienne des systèmes internes. J’accompagnais également les nouveaux collaborateurs dans l’utilisation de ces systèmes et, ponctuellement, dans la résolution de problèmes techniques simples liés aux ordinateurs, aux périphériques et aux logiciels.",
     "experience.education.title": "Formation",
     "experience.education.informationSystems.course":
       "Systèmes d’information",
