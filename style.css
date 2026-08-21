@@ -2545,7 +2545,7 @@ p {
 }
 
 /* Editando a sessao de contato  */
-.contact-section {
+.section.contact-section {
   padding: 4rem 0 3.5rem;
 }
 
@@ -2659,6 +2659,12 @@ p {
 
 /* Editando o Design responsivo */
 
+@media (max-width: 1200px) {
+  .section {
+    padding: 7rem 0;
+  }
+}
+
 /* Media query para tablets grandes */
 @media (max-width: 1024px) {
   .container {
@@ -2666,7 +2672,7 @@ p {
   }
 
   .section {
-    padding: 4rem 0;
+    padding: 6rem 0;
   }
 
   .hero-title {
@@ -2683,6 +2689,12 @@ p {
 
   .project-card {
     margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .section {
+    padding: 5rem 0;
   }
 }
 
@@ -2803,7 +2815,7 @@ p {
   }
 
   .section {
-    padding: 6rem 0;
+    padding: 4rem 0;
   }
 
   .section-title {
@@ -2960,7 +2972,7 @@ p {
 
 /* Media query para telas muito pequenas */
 @media (max-width: 480px) {
-  .contact-section {
+  .section.contact-section {
     padding: 3rem 0;
   }
 
@@ -3039,10 +3051,6 @@ video {
 }
 
 @media (max-width: 992px) {
-  .section {
-    padding: 5rem 0;
-  }
-
   .navbar .container {
     row-gap: 0.7rem;
   }
