@@ -875,6 +875,13 @@ p {
   box-shadow: none;
 }
 
+.navbar-toggler:focus-visible,
+.theme-toggle:focus-visible,
+.lang-btn:focus-visible {
+  outline: 2px solid var(--primary-color);
+  outline-offset: 2px;
+}
+
 .navbar-brand {
   display: flex;
   align-items: center;
@@ -904,6 +911,77 @@ p {
 .brand-text {
   font-family: "JetBrains Mono", monospace;
   font-weight: 600;
+}
+
+@media (max-width: 991.98px) {
+  .navbar,
+  .navbar.scrolled {
+    background: rgba(0, 0, 0, 0.92);
+    border-bottom: 1px solid var(--border-color);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    box-shadow: var(--shadow-lg);
+  }
+
+  [data-theme="light"] .navbar,
+  [data-theme="light"] .navbar.scrolled {
+    background: rgba(255, 255, 255, 0.96);
+  }
+
+  .navbar .container {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    align-items: center;
+    column-gap: 0.75rem;
+    row-gap: 0;
+  }
+
+  .navbar-toggler {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: start;
+  }
+
+  .header-controls {
+    grid-column: 2;
+    grid-row: 1;
+    justify-self: end;
+    min-width: 0;
+    margin: 0;
+  }
+
+  .navbar-collapse {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    width: 100%;
+    max-height: calc(100vh - 80px);
+    margin-top: 0.65rem;
+    padding: 0.5rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: var(--card-background);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    box-shadow: var(--shadow-lg);
+  }
+
+  .navbar-collapse .navbar-nav {
+    width: 100%;
+    margin: 0;
+    gap: 0.2rem;
+    flex-wrap: nowrap;
+  }
+
+  .navbar-collapse .nav-item,
+  .navbar-collapse .nav-link {
+    width: 100%;
+  }
+
+  .navbar-collapse .nav-link {
+    padding: 0.65rem 0.8rem !important;
+    text-align: center;
+    overflow-wrap: anywhere;
+  }
 }
 
 /*  editando a seção hero  */
@@ -2811,7 +2889,7 @@ p {
   }
 
   .header-controls {
-    margin-top: 1rem;
+    margin-top: 0;
   }
 
   .section {
@@ -2987,6 +3065,28 @@ p {
     padding: 0 0.8rem;
   }
 
+  .navbar .container {
+    column-gap: 0.4rem;
+  }
+
+  .navbar-toggler {
+    padding: 0.4rem;
+  }
+
+  .header-controls {
+    gap: 0.35rem;
+  }
+
+  .language-selector {
+    gap: 2px;
+    padding: 3px;
+  }
+
+  .lang-btn {
+    padding: 5px 7px;
+    font-size: 0.75rem;
+  }
+
   .hero-title {
     font-size: 1.8rem;
   }
@@ -3052,7 +3152,7 @@ video {
 
 @media (max-width: 992px) {
   .navbar .container {
-    row-gap: 0.7rem;
+    row-gap: 0;
   }
 
   .language-selector {
