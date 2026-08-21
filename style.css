@@ -1539,7 +1539,7 @@ p {
   color: #b45309;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 991.98px) {
   .experience-layout {
     grid-template-columns: 1fr;
     gap: 2.25rem;
@@ -2509,6 +2509,12 @@ p {
     grid-template-columns: 1fr;
   }
 
+  #projetos .project-card-featured .project-video-embed {
+    height: auto;
+    max-height: none;
+    object-fit: contain;
+  }
+
   #projetos .project-card-featured .project-content {
     padding: 1.5rem;
   }
@@ -2550,12 +2556,6 @@ p {
   #projetos .project-card-secondary .project-actions {
     grid-column: auto;
     flex-direction: column;
-  }
-}
-
-@media (max-width: 480px) {
-  #projetos .project-card-featured .project-video-embed {
-    max-height: none;
   }
 }
 
