@@ -986,7 +986,7 @@ p {
 
 /*  editando a seção hero  */
 .hero-section {
-  min-height: 100vh;
+  min-height: 85vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2398,7 +2398,13 @@ p {
 }
 
 #projetos {
-  padding-top: 5rem;
+  padding-top: 4rem;
+}
+
+@media (min-width: 769px) {
+  #projetos {
+    padding-bottom: 5rem;
+  }
 }
 
 #projetos .project-card {
