@@ -1930,6 +1930,13 @@ p {
   font-weight: 700;
 }
 
+@media (min-width: 769px) and (max-width: 991.98px) {
+  #tecnologias .backend-grid,
+  #tecnologias .tools-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
 @media (max-width: 767px) {
   #tecnologias {
     padding: 3rem 0 2.25rem;
