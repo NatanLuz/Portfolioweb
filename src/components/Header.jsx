@@ -6,9 +6,10 @@ import { useTranslation } from '../hooks/useTranslation.js'
 
 const navigationItems = [
   { href: '#home', translationKey: 'nav.home' },
-  { href: '#sobre', translationKey: 'nav.about' },
-  { href: '#tecnologias', translationKey: 'nav.technologies' },
   { href: '#projetos', translationKey: 'nav.projects' },
+  { href: '#tecnologias', translationKey: 'nav.technologies' },
+  { href: '#sobre', translationKey: 'nav.about' },
+  { href: '#trajetoria', translationKey: 'nav.experience' },
   { href: '#contato', translationKey: 'nav.contact' },
 ]
 

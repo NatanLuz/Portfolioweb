@@ -1,8 +1,8 @@
 export const translations = {
   pt: {
-    "meta.title": "Natan Da Luz - Desenvolvedor Backend",
+    "meta.title": "Natan Da Luz - Desenvolvedor de Software",
     "meta.description":
-      "Portfólio de Natan Da Luz, desenvolvedor backend com projetos em PHP, Laravel, React, PostgreSQL e MySQL.",
+      "Portfólio de Natan Da Luz, Desenvolvedor de Software com foco em PHP, Laravel, React e PostgreSQL.",
 
     "header.menu.aria": "Alternar navegação",
     "header.languageSelector.aria": "Selecionar idioma",
@@ -13,29 +13,61 @@ export const translations = {
     "nav.about": "Sobre",
     "nav.technologies": "Tecnologias",
     "nav.projects": "Projetos",
+    "nav.experience": "Trajetória",
     "nav.contact": "Contato",
 
     "hero.title": "Natan Da Luz",
-    "hero.subtitle": "Desenvolvedor Backend",
-    "hero.cta.cv": "Download Currículo",
+    "hero.role": "Desenvolvedor de Software",
+    "hero.stack": "PHP • Laravel • React • PostgreSQL",
+    "hero.cta.cv": "Currículo",
     "hero.cta.projects": "Ver Projetos",
+    "hero.social.aria": "Perfis profissionais",
+    "hero.social.github.aria": "Abrir perfil de Natan Da Luz no GitHub",
+    "hero.social.linkedin.aria": "Abrir perfil de Natan Da Luz no LinkedIn",
     "hero.themeToggle.aria": "Alternar tema claro e escuro",
 
     "about.title": "Sobre Mim",
     "about.intro":
-      "Sou Desenvolvedor de Software com foco em backend, atuando principalmente com PHP, Laravel e PostgreSQL. Gosto de resolver problemas por trás da aplicação: modelagem de dados, autenticação, autorização e organização de código são pontos aos quais dou bastante atenção em cada projeto.\n\nUso Docker para padronizar ambientes de desenvolvimento e também tenho conhecimento complementar em Frontend, o que me ajuda a integrar as duas pontas de um sistema com mais autonomia. Estou sempre estudando arquitetura de software e boas práticas para evoluir como desenvolvedor.",
-    "about.softSkills.title": "Soft Skills",
-    "about.softSkills.teamwork": "Trabalho em equipe",
-    "about.softSkills.communication": "Comunicação clara",
-    "about.softSkills.problemSolving": "Resolução de problemas",
-    "about.softSkills.agility": "Autonomia",
-    "about.softSkills.adaptability": "Atenção a detalhes",
-    "about.softSkills.proactivity": "Aprendizado contínuo",
+      "Sou Desenvolvedor de Software com foco em PHP e Laravel, com experiência prática em projetos autorais e freelance envolvendo aplicações web, APIs REST, autenticação, regras de negócio e bancos de dados relacionais.\n\nTambém trabalho com React no frontend e utilizo PostgreSQL, Docker e Git no desenvolvimento das aplicações. Atualmente curso Sistemas de Informação e continuo aprofundando meus conhecimentos em arquitetura de software e boas práticas de desenvolvimento.",
     "about.languages.title": "Idiomas",
     "about.languages.english": "Inglês",
     "about.languages.englishLevel": "Avançado (C1)",
     "about.languages.french": "Francês",
-    "about.languages.frenchLevel": "Intermediário Básico (A2)",
+    "about.languages.frenchLevel": "Básico (A2)",
+
+    "experience.title": "Trajetória",
+    "experience.professional.title": "Experiência Profissional",
+    "experience.technologies": "Tecnologias",
+    "experience.professional.freelance.organization":
+      "Desenvolvedor de Software Freelancer",
+    "experience.professional.freelance.role": "Autônomo",
+    "experience.professional.freelance.period": "Ago/2025 – Fev/2026",
+    "experience.professional.freelance.description":
+      "Atuação em projetos web para diferentes clientes, trabalhando no desenvolvimento de sistemas e aplicações voltadas ao público final.",
+    "experience.professional.freelance.projects.petSystem.name": "PetSystem",
+    "experience.professional.freelance.projects.petSystem.description":
+      "Sistema de gestão e agendamento para petshop desenvolvido com base em necessidades operacionais de um ambiente real.",
+    "experience.professional.freelance.projects.corteAzul.name":
+      "Barbearia Corte Azul T.E.A.",
+    "experience.professional.freelance.projects.corteAzul.description":
+      "Website institucional responsivo desenvolvido para apresentar serviços, facilitar o contato com clientes e apoiar o fluxo de atendimento.",
+    "experience.professional.dufrio.organization": "Refrigeração Dufrio",
+    "experience.professional.dufrio.role":
+      "Assistente de Logística / Conferente",
+    "experience.professional.dufrio.period": "Ago/2024 – Set/2025",
+    "experience.professional.dufrio.description":
+      "Atuação em conferência, expedição, atendimento de balcão e acompanhamento de pedidos, com uso diário de sistemas internos. Também apoiava novos colaboradores na utilização dos sistemas e, pontualmente, na resolução de problemas técnicos básicos com computadores, periféricos e softwares.",
+    "experience.education.title": "Formação",
+    "experience.education.informationSystems.course":
+      "Sistemas de Informação",
+    "experience.education.informationSystems.institution":
+      "Universidade do Vale do Rio dos Sinos — UNISINOS",
+    "experience.education.informationSystems.type": "Bacharelado",
+    "experience.education.informationSystems.status": "Cursando",
+    "experience.education.webTechnician.course":
+      "Técnico em Informática para Internet",
+    "experience.education.webTechnician.institution": "SENAC-RS",
+    "experience.education.webTechnician.status": "Concluído",
 
     "technologies.title": "Tecnologias",
     "technologies.backend": "Backend",
@@ -54,6 +86,7 @@ export const translations = {
 
     "projects.title": "Projetos",
     "projects.highlight": "Projeto Destaque",
+    "projects.complementary": "Projeto complementar",
     "projects.details": "Destaques",
     "projects.technologies": "Tecnologias",
     "projects.actions.repository": "Ver projeto completo",
@@ -96,23 +129,20 @@ export const translations = {
       "Experiência otimizada para dispositivos móveis",
 
     "contact.title": "Contato",
-    "contact.group.aria": "Links de contato",
-    "contact.email": "Enviar email",
-    "contact.email.aria": "Enviar email para Natan Da Luz",
-    "contact.email.feedback": "Email Copiado!",
-    "contact.linkedin": "LinkedIn",
-    "contact.linkedin.aria": "Abrir perfil do LinkedIn de Natan Da Luz",
-    "contact.github": "GitHub",
-    "contact.github.aria": "Abrir repositório do GitHub de Natan Da Luz",
+    "contact.subtitle": "Vamos conversar?",
+    "contact.description":
+      "Estou disponível para oportunidades e conversas sobre desenvolvimento de software.",
+    "contact.email.copy": "Copiar e-mail",
+    "contact.email.copied": "E-mail copiado!",
 
-    "footer.credit": "Desenvolvido Por Natan Da Luz",
+    "footer.credit": "Desenvolvido por Natan Da Luz",
     "backToTop.aria": "Voltar ao topo",
   },
 
   en: {
-    "meta.title": "Natan Da Luz - Backend Developer",
+    "meta.title": "Natan Da Luz - Software Developer",
     "meta.description":
-      "Portfolio of Natan Da Luz, a backend developer with projects using PHP, Laravel, React, PostgreSQL, and MySQL.",
+      "Portfolio of Natan Da Luz, a Software Developer focused on PHP, Laravel, React, and PostgreSQL.",
 
     "header.menu.aria": "Toggle navigation",
     "header.languageSelector.aria": "Select language",
@@ -123,29 +153,60 @@ export const translations = {
     "nav.about": "About",
     "nav.technologies": "Technologies",
     "nav.projects": "Projects",
+    "nav.experience": "Journey",
     "nav.contact": "Contact",
 
     "hero.title": "Natan Da Luz",
-    "hero.subtitle": "Backend Developer",
-    "hero.cta.cv": "Download CV",
+    "hero.role": "Software Developer",
+    "hero.stack": "PHP • Laravel • React • PostgreSQL",
+    "hero.cta.cv": "CV",
     "hero.cta.projects": "View Projects",
+    "hero.social.aria": "Professional profiles",
+    "hero.social.github.aria": "Open Natan Da Luz's GitHub profile",
+    "hero.social.linkedin.aria": "Open Natan Da Luz's LinkedIn profile",
     "hero.themeToggle.aria": "Toggle light and dark theme",
 
     "about.title": "About Me",
     "about.intro":
-      "I am a software developer focused on backend, working mainly with PHP, Laravel, and PostgreSQL. I like solving the problems behind the application: data modeling, authentication, authorization, and code organization are points I pay close attention to in every project.\n\nI use Docker to standardize development environments and I also have complementary Frontend knowledge, which helps me connect both sides of a system with more autonomy. I am always studying software architecture and best practices to keep growing as a developer.",
-    "about.softSkills.title": "Soft Skills",
-    "about.softSkills.teamwork": "Teamwork",
-    "about.softSkills.communication": "Clear communication",
-    "about.softSkills.problemSolving": "Problem solving",
-    "about.softSkills.agility": "Autonomy",
-    "about.softSkills.adaptability": "Attention to detail",
-    "about.softSkills.proactivity": "Continuous learning",
+      "I am a Software Developer focused on PHP and Laravel, with hands-on experience in personal and freelance projects involving web applications, REST APIs, authentication, business rules, and relational databases.\n\nI also work with React on the frontend and use PostgreSQL, Docker, and Git to develop applications. I am currently pursuing a degree in Information Systems and continue to deepen my knowledge of software architecture and development best practices.",
     "about.languages.title": "Languages",
     "about.languages.english": "English",
     "about.languages.englishLevel": "Advanced (C1)",
     "about.languages.french": "French",
     "about.languages.frenchLevel": "Upper beginner (A2)",
+
+    "experience.title": "Journey",
+    "experience.professional.title": "Professional Experience",
+    "experience.technologies": "Technologies",
+    "experience.professional.freelance.organization":
+      "Freelance Software Developer",
+    "experience.professional.freelance.role": "Self-employed",
+    "experience.professional.freelance.period": "Aug 2025 – Feb 2026",
+    "experience.professional.freelance.description":
+      "Worked on web projects for different clients, developing systems and applications intended for end users.",
+    "experience.professional.freelance.projects.petSystem.name": "PetSystem",
+    "experience.professional.freelance.projects.petSystem.description":
+      "A pet shop management and scheduling system developed around the operational needs of a real-world business.",
+    "experience.professional.freelance.projects.corteAzul.name":
+      "Barbearia Corte Azul T.E.A.",
+    "experience.professional.freelance.projects.corteAzul.description":
+      "A responsive institutional website developed to present services, make it easier for clients to get in touch, and support the service workflow.",
+    "experience.professional.dufrio.organization": "Refrigeração Dufrio",
+    "experience.professional.dufrio.role":
+      "Logistics Assistant / Inventory Checker",
+    "experience.professional.dufrio.period": "Aug 2024 – Sep 2025",
+    "experience.professional.dufrio.description":
+      "Worked primarily in logistics, handling inventory checking, dispatch, counter service, and order tracking, with daily use of internal systems. Also helped new employees use those systems and, occasionally, resolve basic technical issues involving computers, peripherals, and software.",
+    "experience.education.title": "Education",
+    "experience.education.informationSystems.course": "Information Systems",
+    "experience.education.informationSystems.institution":
+      "Universidade do Vale do Rio dos Sinos — UNISINOS",
+    "experience.education.informationSystems.type": "Bachelor's Degree",
+    "experience.education.informationSystems.status": "In progress",
+    "experience.education.webTechnician.course":
+      "Technical Program in Web Development",
+    "experience.education.webTechnician.institution": "SENAC-RS",
+    "experience.education.webTechnician.status": "Completed",
 
     "technologies.title": "Technologies",
     "technologies.backend": "Backend",
@@ -164,6 +225,7 @@ export const translations = {
 
     "projects.title": "Projects",
     "projects.highlight": "Featured Project",
+    "projects.complementary": "Complementary project",
     "projects.details": "Highlights",
     "projects.technologies": "Technologies",
     "projects.actions.repository": "View project",
@@ -206,23 +268,20 @@ export const translations = {
       "Experience optimized for mobile devices",
 
     "contact.title": "Contact",
-    "contact.group.aria": "Contact links",
-    "contact.email": "Send email",
-    "contact.email.aria": "Send an email to Natan Da Luz",
-    "contact.email.feedback": "Email copied!",
-    "contact.linkedin": "LinkedIn",
-    "contact.linkedin.aria": "Open Natan Da Luz's LinkedIn profile",
-    "contact.github": "GitHub",
-    "contact.github.aria": "Open Natan Da Luz's GitHub repository",
+    "contact.subtitle": "Let's talk?",
+    "contact.description":
+      "I am available for opportunities and conversations about software development.",
+    "contact.email.copy": "Copy email",
+    "contact.email.copied": "Email copied!",
 
     "footer.credit": "Portfolio developed and created by Natan Da Luz",
     "backToTop.aria": "Back to top",
   },
 
   fr: {
-    "meta.title": "Natan Da Luz - Développeur Backend",
+    "meta.title": "Natan Da Luz - Développeur logiciel",
     "meta.description":
-      "Portfolio de Natan Da Luz, développeur backend avec des projets en PHP, Laravel, React, PostgreSQL et MySQL.",
+      "Portfolio de Natan Da Luz, développeur logiciel spécialisé en PHP, Laravel, React et PostgreSQL.",
 
     "header.menu.aria": "Afficher ou masquer la navigation",
     "header.languageSelector.aria": "Sélectionner la langue",
@@ -233,29 +292,61 @@ export const translations = {
     "nav.about": "À propos",
     "nav.technologies": "Technologies",
     "nav.projects": "Projets",
+    "nav.experience": "Parcours",
     "nav.contact": "Contact",
 
     "hero.title": "Natan Da Luz",
-    "hero.subtitle": "Développeur Backend",
-    "hero.cta.cv": "Télécharger le CV",
+    "hero.role": "Développeur logiciel",
+    "hero.stack": "PHP • Laravel • React • PostgreSQL",
+    "hero.cta.cv": "CV",
     "hero.cta.projects": "Voir les projets",
+    "hero.social.aria": "Profils professionnels",
+    "hero.social.github.aria": "Ouvrir le profil GitHub de Natan Da Luz",
+    "hero.social.linkedin.aria": "Ouvrir le profil LinkedIn de Natan Da Luz",
     "hero.themeToggle.aria": "Alterner entre les thèmes clair et sombre",
 
     "about.title": "À Propos de Moi",
     "about.intro":
-      "Je suis développeur logiciel avec un focus sur le backend, travaillant principalement avec PHP, Laravel et PostgreSQL. J'aime résoudre les problèmes derrière l'application : la modélisation des données, l'authentification, l'autorisation et l'organisation du code sont des points auxquels j'accorde beaucoup d'attention dans chaque projet.\n\nJ'utilise Docker pour standardiser les environnements de développement et j'ai aussi des connaissances complémentaires en Frontend, ce qui m'aide à relier les deux parties d'un système avec plus d'autonomie. J'étudie en permanence l'architecture logicielle et les bonnes pratiques pour continuer à évoluer en tant que développeur.",
-    "about.softSkills.title": "Compétences Douces",
-    "about.softSkills.teamwork": "Travail d'équipe",
-    "about.softSkills.communication": "Communication claire",
-    "about.softSkills.problemSolving": "Résolution de problèmes",
-    "about.softSkills.agility": "Autonomie",
-    "about.softSkills.adaptability": "Souci du détail",
-    "about.softSkills.proactivity": "Apprentissage continu",
+      "Je suis développeur logiciel spécialisé en PHP et Laravel, avec une expérience pratique acquise à travers des projets personnels et freelance impliquant des applications web, des API REST, l’authentification, les règles métier et les bases de données relationnelles.\n\nJe travaille également avec React côté frontend et j’utilise PostgreSQL, Docker et Git pour développer mes applications. Je suis actuellement étudiant en systèmes d’information et je continue d’approfondir mes connaissances en architecture logicielle et en bonnes pratiques de développement.",
     "about.languages.title": "Langues",
     "about.languages.english": "Anglais",
     "about.languages.englishLevel": "Avancé (C1)",
     "about.languages.french": "Français",
     "about.languages.frenchLevel": "Élémentaire (A2)",
+
+    "experience.title": "Parcours",
+    "experience.professional.title": "Expérience professionnelle",
+    "experience.technologies": "Technologies",
+    "experience.professional.freelance.organization":
+      "Développeur logiciel freelance",
+    "experience.professional.freelance.role": "Indépendant",
+    "experience.professional.freelance.period": "août 2025 – févr. 2026",
+    "experience.professional.freelance.description":
+      "Réalisation de projets web pour différents clients, avec le développement de systèmes et d’applications destinés aux utilisateurs finaux.",
+    "experience.professional.freelance.projects.petSystem.name": "PetSystem",
+    "experience.professional.freelance.projects.petSystem.description":
+      "Système de gestion et de prise de rendez-vous pour une entreprise de services animaliers, développé à partir des besoins opérationnels d’un environnement réel.",
+    "experience.professional.freelance.projects.corteAzul.name":
+      "Barbearia Corte Azul T.E.A.",
+    "experience.professional.freelance.projects.corteAzul.description":
+      "Site institutionnel responsive conçu pour présenter les services, faciliter le contact avec les clients et soutenir le flux de prise en charge.",
+    "experience.professional.dufrio.organization": "Refrigeração Dufrio",
+    "experience.professional.dufrio.role":
+      "Assistant logistique / Contrôleur de marchandises",
+    "experience.professional.dufrio.period": "août 2024 – sept. 2025",
+    "experience.professional.dufrio.description":
+      "Le poste était principalement axé sur la logistique : contrôle des marchandises, expédition, accueil au comptoir et suivi des commandes, avec une utilisation quotidienne des systèmes internes. J’accompagnais également les nouveaux collaborateurs dans l’utilisation de ces systèmes et, ponctuellement, dans la résolution de problèmes techniques simples liés aux ordinateurs, aux périphériques et aux logiciels.",
+    "experience.education.title": "Formation",
+    "experience.education.informationSystems.course":
+      "Systèmes d’information",
+    "experience.education.informationSystems.institution":
+      "Universidade do Vale do Rio dos Sinos — UNISINOS",
+    "experience.education.informationSystems.type": "Licence",
+    "experience.education.informationSystems.status": "En cours",
+    "experience.education.webTechnician.course":
+      "Technicien en informatique pour Internet",
+    "experience.education.webTechnician.institution": "SENAC-RS",
+    "experience.education.webTechnician.status": "Terminé",
 
     "technologies.title": "Technologies",
     "technologies.backend": "Backend",
@@ -274,6 +365,7 @@ export const translations = {
 
     "projects.title": "Projets",
     "projects.highlight": "Projet phare",
+    "projects.complementary": "Projet complémentaire",
     "projects.details": "Points forts",
     "projects.technologies": "Technologies",
     "projects.actions.repository": "Voir le projet",
@@ -316,14 +408,11 @@ export const translations = {
       "Expérience optimisée pour les appareils mobiles",
 
     "contact.title": "Contact",
-    "contact.group.aria": "Liens de contact",
-    "contact.email": "Envoyer un e-mail",
-    "contact.email.aria": "Envoyer un e-mail à Natan Da Luz",
-    "contact.email.feedback": "E-mail copié !",
-    "contact.linkedin": "LinkedIn",
-    "contact.linkedin.aria": "Ouvrir le profil LinkedIn de Natan Da Luz",
-    "contact.github": "GitHub",
-    "contact.github.aria": "Ouvrir le dépôt GitHub de Natan Da Luz",
+    "contact.subtitle": "Échangeons !",
+    "contact.description":
+      "Je suis disponible pour des opportunités et des échanges autour du développement logiciel.",
+    "contact.email.copy": "Copier l’e-mail",
+    "contact.email.copied": "E-mail copié !",
 
     "footer.credit": "Portfolio développé et créé par Natan Da Luz",
     "backToTop.aria": "Retour en haut",
