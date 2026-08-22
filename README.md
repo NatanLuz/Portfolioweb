@@ -79,10 +79,6 @@ main.jsx
 - **PetSystem:** sistema de gestão para petshops, com organização de atendimentos, clientes, pets e serviços;
 - **CorteAzul:** website institucional responsivo criado para fortalecer a presença digital e facilitar o contato com clientes.
 
-## Prévia
-
-![Prévia do portfólio](img/preview.jpg)
-
 ## Como executar localmente
 
 É necessário ter Node.js e npm instalados.
