@@ -2408,6 +2408,10 @@ p {
   padding-top: 4rem;
 }
 
+#projetos .section-title {
+  margin-bottom: 2rem;
+}
+
 @media (min-width: 769px) {
   #projetos {
     padding-bottom: 5rem;

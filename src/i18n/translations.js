@@ -13,6 +13,7 @@ export const translations = {
     "nav.about": "Sobre",
     "nav.technologies": "Tecnologias",
     "nav.projects": "Projetos",
+    "nav.experience": "Trajetória",
     "nav.contact": "Contato",
 
     "hero.title": "Natan Da Luz",
@@ -152,6 +153,7 @@ export const translations = {
     "nav.about": "About",
     "nav.technologies": "Technologies",
     "nav.projects": "Projects",
+    "nav.experience": "Journey",
     "nav.contact": "Contact",
 
     "hero.title": "Natan Da Luz",
@@ -290,6 +292,7 @@ export const translations = {
     "nav.about": "À propos",
     "nav.technologies": "Technologies",
     "nav.projects": "Projets",
+    "nav.experience": "Parcours",
     "nav.contact": "Contact",
 
     "hero.title": "Natan Da Luz",
