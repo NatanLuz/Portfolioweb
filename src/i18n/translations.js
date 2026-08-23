@@ -132,8 +132,11 @@ export const translations = {
     "contact.subtitle": "Vamos conversar?",
     "contact.description":
       "Estou disponível para oportunidades e conversas sobre desenvolvimento de software.",
+    "contact.email.label": "E-mail",
     "contact.email.copy": "Copiar e-mail",
     "contact.email.copied": "E-mail copiado!",
+    "contact.whatsapp.label": "WhatsApp",
+    "contact.whatsapp.action": "Conversar no WhatsApp",
 
     "footer.credit": "Desenvolvido por Natan Da Luz",
     "backToTop.aria": "Voltar ao topo",
@@ -271,8 +274,11 @@ export const translations = {
     "contact.subtitle": "Let's talk?",
     "contact.description":
       "I am available for opportunities and conversations about software development.",
+    "contact.email.label": "Email",
     "contact.email.copy": "Copy email",
     "contact.email.copied": "Email copied!",
+    "contact.whatsapp.label": "WhatsApp",
+    "contact.whatsapp.action": "Chat on WhatsApp",
 
     "footer.credit": "Portfolio developed and created by Natan Da Luz",
     "backToTop.aria": "Back to top",
@@ -411,8 +417,11 @@ export const translations = {
     "contact.subtitle": "Échangeons !",
     "contact.description":
       "Je suis disponible pour des opportunités et des échanges autour du développement logiciel.",
-    "contact.email.copy": "Copier l’e-mail",
+    "contact.email.label": "E-mail",
+    "contact.email.copy": "Copier l'e-mail",
     "contact.email.copied": "E-mail copié !",
+    "contact.whatsapp.label": "WhatsApp",
+    "contact.whatsapp.action": "Contacter sur WhatsApp",
 
     "footer.credit": "Portfolio développé et créé par Natan Da Luz",
     "backToTop.aria": "Retour en haut",
