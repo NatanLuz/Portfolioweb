@@ -34,7 +34,8 @@ O portfólio utiliza:
 - barra de progresso da página;
 - botão para voltar ao topo;
 - seções de apresentação, tecnologias, projetos e contato;
-- cópia do endereço de e-mail antes da abertura do aplicativo de e-mail;
+- contato por e-mail com botão para copiar o endereço;
+- acesso direto ao WhatsApp com mensagem inicial;
 - suporte a `prefers-reduced-motion` para reduzir animações quando solicitado pelo sistema.
 
 ## Arquitetura do projeto
