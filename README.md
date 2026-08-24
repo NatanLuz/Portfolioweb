@@ -77,8 +77,11 @@ main.jsx
 ## Projetos apresentados
 
 - **Meu Saldo Certo:** sistema financeiro desenvolvido em Laravel para gerenciar receitas, despesas, categorias e saldo por usuário autenticado;
+
 - **PetSystem:** sistema de gestão para petshops, com organização de atendimentos, clientes, pets e serviços;
+  
 - **CorteAzul:** website institucional responsivo criado para fortalecer a presença digital e facilitar o contato com clientes.
+
 
 ## Como executar localmente
 
