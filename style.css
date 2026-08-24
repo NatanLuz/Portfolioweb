@@ -3137,6 +3137,7 @@ p {
 }
 
 /* Media query para telas extra pequenas */
+
 @media (max-width: 400px) {
   .container {
     padding: 0 0.8rem;
@@ -3216,6 +3217,7 @@ p {
 }
 
 /* Ajustes globais de responsividade e mídia */
+
 img,
 video {
   max-width: 100%;
@@ -3291,6 +3293,7 @@ video {
 }
 
 /* Editando o Scrollbar */
+
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -3309,6 +3312,7 @@ video {
 }
 
 /* Integração React: deslocamento da navegação e revelação ao rolar */
+
 section[id] {
   scroll-margin-top: 88px;
 }
