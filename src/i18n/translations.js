@@ -99,6 +99,7 @@ export const translations = {
     "projects.balance.title": "Meu Saldo Certo",
     "projects.balance.description":
       "Sistema financeiro desenvolvido em Laravel para gerenciamento de receitas, despesas, categorias e saldo por usuário autenticado.",
+    "projects.balance.image.alt": "Dashboard do sistema Meu Saldo Certo",
     "projects.balance.feature1": "Dashboard Analítico",
     "projects.balance.feature2": "CRUD completo de transações",
     "projects.balance.feature3": "Categorias por usuário",
@@ -241,6 +242,7 @@ export const translations = {
     "projects.balance.title": "Meu Saldo Certo",
     "projects.balance.description":
       "Financial system developed in Laravel for managing income, expenses, categories, and balance per authenticated user.",
+    "projects.balance.image.alt": "Meu Saldo Certo system dashboard",
     "projects.balance.feature1": "Analytics dashboard",
     "projects.balance.feature2": "Complete transaction CRUD",
     "projects.balance.feature3": "Categories per user",
@@ -384,6 +386,8 @@ export const translations = {
     "projects.balance.title": "Meu Saldo Certo",
     "projects.balance.description":
       "Système financier développé avec Laravel pour gérer les revenus, les dépenses, les catégories et le solde de chaque utilisateur authentifié.",
+    "projects.balance.image.alt":
+      "Tableau de bord du système Meu Saldo Certo",
     "projects.balance.feature1": "Tableau de bord analytique",
     "projects.balance.feature2": "CRUD complet des transactions",
     "projects.balance.feature3": "Catégories par utilisateur",

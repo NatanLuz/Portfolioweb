@@ -2463,6 +2463,12 @@ p {
   object-fit: cover;
 }
 
+#projetos .project-card-featured .project-image-embed {
+  height: auto;
+  aspect-ratio: auto;
+  object-fit: contain;
+}
+
 .project-complementary-badge {
   display: inline-block;
   margin-bottom: 0.45rem;
@@ -2530,6 +2536,10 @@ p {
     height: auto;
     max-height: none;
     object-fit: contain;
+  }
+
+  #projetos .project-card-featured .project-image-embed {
+    max-height: 420px;
   }
 
   #projetos .project-card-featured .project-content {

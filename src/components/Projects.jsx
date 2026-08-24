@@ -1,4 +1,5 @@
 import petSystemVideo from '../../img/Petsystem.mp4'
+import balanceScreenshot from '../../img/Meusaldocerto.PNG'
 import { useTranslation } from '../hooks/useTranslation.js'
 
 const balanceFeatures = Array.from(
@@ -129,6 +130,15 @@ function Projects() {
               <p className="project-tagline">
                 {t('projects.balance.description')}
               </p>
+
+              <div className="project-video-wrapper">
+                <img
+                  className="project-video-embed project-image-embed"
+                  src={balanceScreenshot}
+                  alt={t('projects.balance.image.alt')}
+                  loading="lazy"
+                />
+              </div>
 
               <div className="project-card-details">
                 <div className="project-info-group">
