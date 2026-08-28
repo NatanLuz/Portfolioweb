@@ -5,7 +5,6 @@ import githubIcon from "../../img/githubazul.svg";
 import laravelIcon from "../../img/laravel.svg";
 import linuxIcon from "../../img/linux.svg";
 import phpIcon from "../../img/php.svg";
-import postgresqlIcon from "../../img/postgresql.svg";
 import reactIcon from "../../img/react.svg";
 import { useTranslation } from "../hooks/useTranslation.js";
 
@@ -71,12 +70,6 @@ function Technologies() {
             </div>
 
             <div className="tech-grid database-grid">
-              <TechnologyItem
-                icon={postgresqlIcon}
-                name="PostgreSQL"
-                alt="PostgreSQL"
-                delay="100"
-              />
               <TechnologyItem
                 fontAwesomeIcon="fas fa-database"
                 name="MySQL"
