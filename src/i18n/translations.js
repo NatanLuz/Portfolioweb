@@ -2,7 +2,7 @@ export const translations = {
   pt: {
     "meta.title": "Natan Da Luz - Desenvolvedor de Software",
     "meta.description":
-      "Portfólio de Natan Da Luz, Desenvolvedor de Software com foco em PHP, Laravel, React e PostgreSQL.",
+      "Portfólio de Natan Da Luz, Desenvolvedor de Software com foco em PHP, Laravel, React e MySQL.",
 
     "header.menu.aria": "Alternar navegação",
     "header.languageSelector.aria": "Selecionar idioma",
@@ -18,7 +18,7 @@ export const translations = {
 
     "hero.title": "Natan Da Luz",
     "hero.role": "Desenvolvedor de Software",
-    "hero.stack": "PHP • Laravel • React • PostgreSQL",
+    "hero.stack": "PHP • Laravel • React • MySQL",
     "hero.cta.cv": "Currículo",
     "hero.cta.projects": "Ver Projetos",
     "hero.social.aria": "Perfis profissionais",
@@ -28,7 +28,7 @@ export const translations = {
 
     "about.title": "Sobre Mim",
     "about.intro":
-      "Sou Desenvolvedor de Software com foco em PHP e Laravel, com experiência prática em projetos autorais e freelance envolvendo aplicações web, APIs REST, autenticação, regras de negócio e bancos de dados relacionais.\n\nTambém trabalho com React no frontend e utilizo PostgreSQL, Docker e Git no desenvolvimento das aplicações. Atualmente curso Sistemas de Informação e continuo aprofundando meus conhecimentos em arquitetura de software e boas práticas de desenvolvimento.",
+      "Sou Desenvolvedor de Software com foco em PHP e Laravel, com experiência prática em projetos autorais e freelance envolvendo aplicações web, APIs REST, autenticação, regras de negócio e bancos de dados relacionais.\n\nTambém trabalho com React no frontend e utilizo MySQL, Docker e Git no desenvolvimento das aplicações. Atualmente curso Sistemas de Informação e continuo aprofundando meus conhecimentos em arquitetura de software e boas práticas de desenvolvimento.",
     "about.languages.title": "Idiomas",
     "about.languages.english": "Inglês",
     "about.languages.englishLevel": "Avançado (C1)",
@@ -146,7 +146,7 @@ export const translations = {
   en: {
     "meta.title": "Natan Da Luz - Software Developer",
     "meta.description":
-      "Portfolio of Natan Da Luz, a Software Developer focused on PHP, Laravel, React, and PostgreSQL.",
+      "Portfolio of Natan Da Luz, a Software Developer focused on PHP, Laravel, React, and MySQL.",
 
     "header.menu.aria": "Toggle navigation",
     "header.languageSelector.aria": "Select language",
@@ -162,7 +162,7 @@ export const translations = {
 
     "hero.title": "Natan Da Luz",
     "hero.role": "Software Developer",
-    "hero.stack": "PHP • Laravel • React • PostgreSQL",
+    "hero.stack": "PHP • Laravel • React • MySQL",
     "hero.cta.cv": "CV",
     "hero.cta.projects": "View Projects",
     "hero.social.aria": "Professional profiles",
@@ -172,7 +172,7 @@ export const translations = {
 
     "about.title": "About Me",
     "about.intro":
-      "I am a Software Developer focused on PHP and Laravel, with hands-on experience in personal and freelance projects involving web applications, REST APIs, authentication, business rules, and relational databases.\n\nI also work with React on the frontend and use PostgreSQL, Docker, and Git to develop applications. I am currently pursuing a degree in Information Systems and continue to deepen my knowledge of software architecture and development best practices.",
+      "I am a Software Developer focused on PHP and Laravel, with hands-on experience in personal and freelance projects involving web applications, REST APIs, authentication, business rules, and relational databases.\n\nI also work with React on the frontend and use MySQL, Docker, and Git to develop applications. I am currently pursuing a degree in Information Systems and continue to deepen my knowledge of software architecture and development best practices.",
     "about.languages.title": "Languages",
     "about.languages.english": "English",
     "about.languages.englishLevel": "Advanced (C1)",
@@ -289,7 +289,7 @@ export const translations = {
   fr: {
     "meta.title": "Natan Da Luz - Développeur logiciel",
     "meta.description":
-      "Portfolio de Natan Da Luz, développeur logiciel spécialisé en PHP, Laravel, React et PostgreSQL.",
+      "Portfolio de Natan Da Luz, développeur logiciel spécialisé en PHP, Laravel, React et MySQL.",
 
     "header.menu.aria": "Afficher ou masquer la navigation",
     "header.languageSelector.aria": "Sélectionner la langue",
@@ -305,7 +305,7 @@ export const translations = {
 
     "hero.title": "Natan Da Luz",
     "hero.role": "Développeur logiciel",
-    "hero.stack": "PHP • Laravel • React • PostgreSQL",
+    "hero.stack": "PHP • Laravel • React • MySQL",
     "hero.cta.cv": "CV",
     "hero.cta.projects": "Voir les projets",
     "hero.social.aria": "Profils professionnels",
@@ -315,7 +315,7 @@ export const translations = {
 
     "about.title": "À Propos de Moi",
     "about.intro":
-      "Je suis développeur logiciel spécialisé en PHP et Laravel, avec une expérience pratique acquise à travers des projets personnels et freelance impliquant des applications web, des API REST, l’authentification, les règles métier et les bases de données relationnelles.\n\nJe travaille également avec React côté frontend et j’utilise PostgreSQL, Docker et Git pour développer mes applications. Je suis actuellement étudiant en systèmes d’information et je continue d’approfondir mes connaissances en architecture logicielle et en bonnes pratiques de développement.",
+      "Je suis développeur logiciel spécialisé en PHP et Laravel, avec une expérience pratique acquise à travers des projets personnels et freelance impliquant des applications web, des API REST, l’authentification, les règles métier et les bases de données relationnelles.\n\nJe travaille également avec React côté frontend et j’utilise MySQL, Docker et Git pour développer mes applications. Je suis actuellement étudiant en systèmes d’information et je continue d’approfondir mes connaissances en architecture logicielle et en bonnes pratiques de développement.",
     "about.languages.title": "Langues",
     "about.languages.english": "Anglais",
     "about.languages.englishLevel": "Avancé (C1)",
