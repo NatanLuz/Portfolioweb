@@ -1,5 +1,5 @@
 import resumeUrl from '../../CurriculoNatanDaLuz.pdf'
-import heroImage from '../../img/fotoportfolio.jpg'
+import heroImage from '../../img/Fotoperfil.jpg'
 import { useTranslation } from '../hooks/useTranslation.js'
 import { useTypewriter } from '../hooks/useTypewriter.js'
 
