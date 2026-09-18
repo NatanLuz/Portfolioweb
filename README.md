@@ -6,7 +6,7 @@ Portfolio em atualização.
 
 ## Tecnologias
 
-O portfólio utiliza:
+Portfólio desenvolvido com as seguintes tecnologias:
 
 - React;
 - Vite;
