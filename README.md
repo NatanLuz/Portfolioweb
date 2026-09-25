@@ -1,6 +1,6 @@
 # Portfólio Online - Natan Da Luz Cândido
 
-Portfólio pessoal desenvolvido com React para apresentar meu perfil profissional
+Portfólio pessoal desenvolvido para apresentar meu perfil profissional
 
 ## Tecnologias
 
