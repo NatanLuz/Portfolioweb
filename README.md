@@ -1,4 +1,4 @@
-# Portfólio - Natan Da Luz Cândido
+# Portfólio Online - Natan Da Luz Cândido
 
 Portfólio pessoal desenvolvido com React e Vite para apresentar meu perfil profissional, tecnologias, projetos e formas de contato.
 
