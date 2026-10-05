@@ -1,7 +1,5 @@
 # Portfólio Online - Natan Da Luz Cândido Desenvolvedor 
 
-Portfólio pessoal desenvolvido para apresentar meu perfil profissional
-
 ## Tecnologias
 
 Portfólio desenvolvido com as seguintes tecnologias:
