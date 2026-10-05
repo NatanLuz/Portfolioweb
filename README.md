@@ -15,9 +15,9 @@ Portfólio desenvolvido com as seguintes tecnologias:
 
 ## Funcionalidades
 
-- interface componentizada em React;
+- interface está componentizada em React;
 - layout responsivo para desktop, tablet e dispositivos móveis;
-- navegação responsiva com menu mobile;
+- navegação está responsiva com menu mobile;
 - identificação da seção ativa e comportamento dinâmico da navbar durante a rolagem;
 - navegação suave entre seções com compensação para a navbar fixa;
 - tradução completa para Português, Inglês e Francês;
