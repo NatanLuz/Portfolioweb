@@ -41,7 +41,7 @@ export const translations = {
     "experience.professional.confidence.organization":
       "Confidence Monitoramento 24 Horas",
     "experience.professional.confidence.role": "Operador de Sistemas",
-    "experience.professional.confidence.period": "Out/2026 – Atual",
+    "experience.professional.confidence.period": "Set/2026 – Atual",
     "experience.professional.confidence.description":
       "Atuação na operação e monitoramento de sistemas em ambiente de produção, com suporte a clientes e usuários, análise inicial de incidentes, troubleshooting e acompanhamento de ocorrências até a resolução.",
     "experience.professional.confidence.additionalDescription":
@@ -195,7 +195,7 @@ export const translations = {
     "experience.professional.confidence.organization":
       "Confidence Monitoramento 24 Horas",
     "experience.professional.confidence.role": "Systems Operator",
-    "experience.professional.confidence.period": "Oct 2026 – Present",
+    "experience.professional.confidence.period": "Sep 2026 – Present",
     "experience.professional.confidence.description":
       "I operate and monitor systems in a production environment, providing support to clients and users, performing initial incident analysis and troubleshooting, and tracking incidents through to resolution.",
     "experience.professional.confidence.additionalDescription":
@@ -348,7 +348,7 @@ export const translations = {
     "experience.professional.confidence.organization":
       "Confidence Monitoramento 24 Horas",
     "experience.professional.confidence.role": "Opérateur de systèmes",
-    "experience.professional.confidence.period": "oct. 2026 – Présent",
+    "experience.professional.confidence.period": "sept. 2026 – Présent",
     "experience.professional.confidence.description":
       "J’assure l’exploitation et la surveillance de systèmes en environnement de production, avec une assistance aux clients et aux utilisateurs, une analyse initiale des incidents, un diagnostic des problèmes et un suivi des incidents jusqu’à leur résolution.",
     "experience.professional.confidence.additionalDescription":
