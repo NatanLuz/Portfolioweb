@@ -1,4 +1,4 @@
-import resumeUrl from '../../CurriculoNatanDaLuz.pdf'
+import resumeUrl from '../../CurriculoNatanDaLuzCandido.pdf'
 import heroImage from '../../img/Fotoperfil.jpg'
 import { useTranslation } from '../hooks/useTranslation.js'
 import { useTypewriter } from '../hooks/useTypewriter.js'

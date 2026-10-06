@@ -2,6 +2,11 @@ import { useTranslation } from "../hooks/useTranslation.js";
 
 const professionalExperiences = [
   {
+    key: "confidence",
+    hasAdditionalDescription: true,
+    hasSkills: true,
+  },
+  {
     key: "freelance",
     projects: [
       {
@@ -45,7 +50,7 @@ function Experience() {
             </h3>
 
             <div className="experience-list">
-              {professionalExperiences.map(({ key, projects }) => (
+              {professionalExperiences.map(({ key, projects, hasAdditionalDescription, hasSkills }) => (
                 <article className="experience-entry" key={key}>
                   <div className="experience-entry-header">
                     <div>
@@ -64,6 +69,18 @@ function Experience() {
                   <p className="experience-entry-description">
                     {t(`experience.professional.${key}.description`)}
                   </p>
+
+                  {hasAdditionalDescription && (
+                    <p className="experience-entry-description">
+                      {t(`experience.professional.${key}.additionalDescription`)}
+                    </p>
+                  )}
+
+                  {hasSkills && (
+                    <p className="experience-entry-technologies">
+                      {t(`experience.professional.${key}.skills`)}
+                    </p>
+                  )}
 
                   {projects && (
                     <div className="experience-projects">
