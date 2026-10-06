@@ -5,7 +5,6 @@
 Portfólio desenvolvido com as seguintes tecnologias:
 
 - React;
-- Vite;
 - JavaScript;
 - HTML5;
 - CSS3;
