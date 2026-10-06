@@ -5,10 +5,6 @@ const languages = [
     translationKey: 'about.languages.english',
     levelTranslationKey: 'about.languages.englishLevel',
   },
-  {
-    translationKey: 'about.languages.french',
-    levelTranslationKey: 'about.languages.frenchLevel',
-  },
 ]
 
 function About() {
