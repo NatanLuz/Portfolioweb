@@ -38,10 +38,20 @@ export const translations = {
     "experience.title": "Trajetória",
     "experience.professional.title": "Experiência Profissional",
     "experience.technologies": "Tecnologias",
+    "experience.professional.confidence.organization":
+      "Confidence Monitoramento 24 Horas",
+    "experience.professional.confidence.role": "Operador de Sistemas",
+    "experience.professional.confidence.period": "Out/2026 – Atual",
+    "experience.professional.confidence.description":
+      "Atuação na operação e monitoramento de sistemas em ambiente de produção, com suporte a clientes e usuários, análise inicial de incidentes, troubleshooting e acompanhamento de ocorrências até a resolução.",
+    "experience.professional.confidence.additionalDescription":
+      "Também realizo escalonamento para equipes técnicas, apoio em problemas de conectividade, estações Windows e periféricos, além da utilização diária de aplicações corporativas e consultas em MySQL para análise de informações e suporte à resolução de incidentes.",
+    "experience.professional.confidence.skills":
+      "Monitoramento de sistemas • Troubleshooting • Gestão de incidentes • MySQL • Windows • Redes",
     "experience.professional.freelance.organization":
       "Desenvolvedor de Software Freelancer",
     "experience.professional.freelance.role": "Autônomo",
-    "experience.professional.freelance.period": "Ago/2025 – Fev/2026",
+    "experience.professional.freelance.period": "Ago/2025 – Atual",
     "experience.professional.freelance.description":
       "Atuação em projetos web para diferentes clientes, trabalhando no desenvolvimento de sistemas e aplicações voltadas ao público final.",
     "experience.professional.freelance.projects.petSystem.name": "PetSystem",
@@ -182,10 +192,20 @@ export const translations = {
     "experience.title": "Journey",
     "experience.professional.title": "Professional Experience",
     "experience.technologies": "Technologies",
+    "experience.professional.confidence.organization":
+      "Confidence Monitoramento 24 Horas",
+    "experience.professional.confidence.role": "Systems Operator",
+    "experience.professional.confidence.period": "Oct 2026 – Present",
+    "experience.professional.confidence.description":
+      "I operate and monitor systems in a production environment, providing support to clients and users, performing initial incident analysis and troubleshooting, and tracking incidents through to resolution.",
+    "experience.professional.confidence.additionalDescription":
+      "I also escalate issues to technical teams, assist with connectivity problems, Windows workstations and peripherals, and use corporate applications and MySQL queries daily to analyze information and support incident resolution.",
+    "experience.professional.confidence.skills":
+      "Systems monitoring • Troubleshooting • Incident management • MySQL • Windows • Networks",
     "experience.professional.freelance.organization":
       "Freelance Software Developer",
     "experience.professional.freelance.role": "Self-employed",
-    "experience.professional.freelance.period": "Aug 2025 – Feb 2026",
+    "experience.professional.freelance.period": "Aug 2025 – Present",
     "experience.professional.freelance.description":
       "Worked on web projects for different clients, developing systems and applications intended for end users.",
     "experience.professional.freelance.projects.petSystem.name": "PetSystem",
@@ -325,10 +345,20 @@ export const translations = {
     "experience.title": "Parcours",
     "experience.professional.title": "Expérience professionnelle",
     "experience.technologies": "Technologies",
+    "experience.professional.confidence.organization":
+      "Confidence Monitoramento 24 Horas",
+    "experience.professional.confidence.role": "Opérateur de systèmes",
+    "experience.professional.confidence.period": "oct. 2026 – Présent",
+    "experience.professional.confidence.description":
+      "J’assure l’exploitation et la surveillance de systèmes en environnement de production, avec une assistance aux clients et aux utilisateurs, une analyse initiale des incidents, un diagnostic des problèmes et un suivi des incidents jusqu’à leur résolution.",
+    "experience.professional.confidence.additionalDescription":
+      "Je transmets également les incidents aux équipes techniques, apporte une assistance pour les problèmes de connectivité, les postes de travail Windows et les périphériques, et utilise quotidiennement des applications d’entreprise ainsi que des requêtes MySQL pour analyser les informations et contribuer à la résolution des incidents.",
+    "experience.professional.confidence.skills":
+      "Surveillance des systèmes • Diagnostic des problèmes • Gestion des incidents • MySQL • Windows • Réseaux",
     "experience.professional.freelance.organization":
       "Développeur logiciel freelance",
     "experience.professional.freelance.role": "Indépendant",
-    "experience.professional.freelance.period": "août 2025 – févr. 2026",
+    "experience.professional.freelance.period": "août 2025 – Présent",
     "experience.professional.freelance.description":
       "Réalisation de projets web pour différents clients, avec le développement de systèmes et d’applications destinés aux utilisateurs finaux.",
     "experience.professional.freelance.projects.petSystem.name": "PetSystem",
