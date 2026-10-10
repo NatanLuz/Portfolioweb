@@ -115,8 +115,6 @@ Os temas claro e escuro são controlados pela infraestrutura de contexto do Reac
 
 ## Deploy
 
-O deploy de produção é realizado pela Vercel a partir do repositório no GitHub.
-
 Aplicação: [portfolionatan.vercel.app](https://portfolionatan.vercel.app/)
 
 ## Autor
