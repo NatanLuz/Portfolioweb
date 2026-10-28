@@ -2,7 +2,7 @@
 
 ## Tecnologias
 
-Portfólio desenvolvido com as seguintes tecnologias:
+Portfólio foi desenvolvido com as seguintes tecnologias:
 
 - React;
 - JavaScript;
