@@ -61,9 +61,6 @@ function Experience() {
                         {t(`experience.professional.${key}.role`)}
                       </p>
                     </div>
-                    <span className="experience-entry-period">
-                      {t(`experience.professional.${key}.period`)}
-                    </span>
                   </div>
 
                   <p className="experience-entry-description">

@@ -41,7 +41,6 @@ export const translations = {
     "experience.professional.confidence.organization":
       "Confidence Monitoramento 24 Horas",
     "experience.professional.confidence.role": "Operador de Sistemas",
-    "experience.professional.confidence.period": "Set/2026 – Atual",
     "experience.professional.confidence.description":
       "Atuação na operação e monitoramento de sistemas em ambiente de produção, com suporte a clientes e usuários, análise inicial de incidentes, troubleshooting e acompanhamento de ocorrências até a resolução.",
     "experience.professional.confidence.additionalDescription":
@@ -51,7 +50,6 @@ export const translations = {
     "experience.professional.freelance.organization":
       "Desenvolvedor de Software Freelancer",
     "experience.professional.freelance.role": "Autônomo",
-    "experience.professional.freelance.period": "Ago/2025 – Atual",
     "experience.professional.freelance.description":
       "Atuação em projetos web para diferentes clientes, trabalhando no desenvolvimento de sistemas e aplicações voltadas ao público final.",
     "experience.professional.freelance.projects.petSystem.name": "PetSystem",
@@ -64,14 +62,13 @@ export const translations = {
     "experience.professional.dufrio.organization": "Refrigeração Dufrio",
     "experience.professional.dufrio.role":
       "Assistente de Logística / Conferente",
-    "experience.professional.dufrio.period": "Ago/2024 – Set/2025",
     "experience.professional.dufrio.description":
       "Atuação em conferência, expedição, atendimento de balcão e acompanhamento de pedidos, com uso diário de sistemas internos. Também apoiava novos colaboradores na utilização dos sistemas e, pontualmente, na resolução de problemas técnicos básicos com computadores, periféricos e softwares.",
     "experience.education.title": "Formação",
     "experience.education.informationSystems.course":
       "Sistemas de Informação",
     "experience.education.informationSystems.institution":
-      "Universidade do Vale do Rio dos Sinos — UNISINOS",
+      "Universidade do Extremo Sul Catarinense",
     "experience.education.informationSystems.type": "Bacharelado",
     "experience.education.informationSystems.status": "Cursando",
     "experience.education.webTechnician.course":
@@ -96,7 +93,6 @@ export const translations = {
 
     "projects.title": "Projetos",
     "projects.highlight": "Projeto Destaque",
-    "projects.complementary": "Projeto complementar",
     "projects.details": "Destaques",
     "projects.technologies": "Tecnologias",
     "projects.actions.repository": "Ver projeto completo",
@@ -195,7 +191,6 @@ export const translations = {
     "experience.professional.confidence.organization":
       "Confidence Monitoramento 24 Horas",
     "experience.professional.confidence.role": "Systems Operator",
-    "experience.professional.confidence.period": "Sep 2026 – Present",
     "experience.professional.confidence.description":
       "I operate and monitor systems in a production environment, providing support to clients and users, performing initial incident analysis and troubleshooting, and tracking incidents through to resolution.",
     "experience.professional.confidence.additionalDescription":
@@ -205,7 +200,6 @@ export const translations = {
     "experience.professional.freelance.organization":
       "Freelance Software Developer",
     "experience.professional.freelance.role": "Self-employed",
-    "experience.professional.freelance.period": "Aug 2025 – Present",
     "experience.professional.freelance.description":
       "Worked on web projects for different clients, developing systems and applications intended for end users.",
     "experience.professional.freelance.projects.petSystem.name": "PetSystem",
@@ -218,13 +212,12 @@ export const translations = {
     "experience.professional.dufrio.organization": "Refrigeração Dufrio",
     "experience.professional.dufrio.role":
       "Logistics Assistant / Inventory Checker",
-    "experience.professional.dufrio.period": "Aug 2024 – Sep 2025",
     "experience.professional.dufrio.description":
       "Worked primarily in logistics, handling inventory checking, dispatch, counter service, and order tracking, with daily use of internal systems. Also helped new employees use those systems and, occasionally, resolve basic technical issues involving computers, peripherals, and software.",
     "experience.education.title": "Education",
     "experience.education.informationSystems.course": "Information Systems",
     "experience.education.informationSystems.institution":
-      "Universidade do Vale do Rio dos Sinos — UNISINOS",
+      "Universidade do Extremo Sul Catarinense",
     "experience.education.informationSystems.type": "Bachelor's Degree",
     "experience.education.informationSystems.status": "In progress",
     "experience.education.webTechnician.course":
@@ -249,7 +242,6 @@ export const translations = {
 
     "projects.title": "Projects",
     "projects.highlight": "Featured Project",
-    "projects.complementary": "Complementary project",
     "projects.details": "Highlights",
     "projects.technologies": "Technologies",
     "projects.actions.repository": "View project",
@@ -348,7 +340,6 @@ export const translations = {
     "experience.professional.confidence.organization":
       "Confidence Monitoramento 24 Horas",
     "experience.professional.confidence.role": "Opérateur de systèmes",
-    "experience.professional.confidence.period": "sept. 2026 – Présent",
     "experience.professional.confidence.description":
       "J’assure l’exploitation et la surveillance de systèmes en environnement de production, avec une assistance aux clients et aux utilisateurs, une analyse initiale des incidents, un diagnostic des problèmes et un suivi des incidents jusqu’à leur résolution.",
     "experience.professional.confidence.additionalDescription":
@@ -358,7 +349,6 @@ export const translations = {
     "experience.professional.freelance.organization":
       "Développeur logiciel freelance",
     "experience.professional.freelance.role": "Indépendant",
-    "experience.professional.freelance.period": "août 2025 – Présent",
     "experience.professional.freelance.description":
       "Réalisation de projets web pour différents clients, avec le développement de systèmes et d’applications destinés aux utilisateurs finaux.",
     "experience.professional.freelance.projects.petSystem.name": "PetSystem",
@@ -371,14 +361,13 @@ export const translations = {
     "experience.professional.dufrio.organization": "Refrigeração Dufrio",
     "experience.professional.dufrio.role":
       "Assistant logistique / Contrôleur de marchandises",
-    "experience.professional.dufrio.period": "août 2024 – sept. 2025",
     "experience.professional.dufrio.description":
       "Le poste était principalement axé sur la logistique : contrôle des marchandises, expédition, accueil au comptoir et suivi des commandes, avec une utilisation quotidienne des systèmes internes. J’accompagnais également les nouveaux collaborateurs dans l’utilisation de ces systèmes et, ponctuellement, dans la résolution de problèmes techniques simples liés aux ordinateurs, aux périphériques et aux logiciels.",
     "experience.education.title": "Formation",
     "experience.education.informationSystems.course":
       "Systèmes d’information",
     "experience.education.informationSystems.institution":
-      "Universidade do Vale do Rio dos Sinos — UNISINOS",
+      "Universidade do Extremo Sul Catarinense",
     "experience.education.informationSystems.type": "Licence",
     "experience.education.informationSystems.status": "En cours",
     "experience.education.webTechnician.course":
@@ -403,7 +392,6 @@ export const translations = {
 
     "projects.title": "Projets",
     "projects.highlight": "Projet phare",
-    "projects.complementary": "Projet complémentaire",
     "projects.details": "Points forts",
     "projects.technologies": "Technologies",
     "projects.actions.repository": "Voir le projet",
