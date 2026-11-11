@@ -1,38 +1,38 @@
-# Meu Portfólio 
+# My Portfolio
 
-## Tecnologias
+## Technologies
 
-Portfólio foi desenvolvido com as seguintes tecnologias:
+The portfolio was developed using the following technologies:
 
 - React;
 - JavaScript;
 - HTML5;
 - CSS3;
-- Bootstrap, carregado externamente para estrutura responsiva e classes utilitárias;
-- Font Awesome, carregado externamente para os ícones;
-- Google Fonts, com as famílias Inter e JetBrains Mono.
+- Bootstrap, loaded externally for responsive structure and utility classes;
+- Font Awesome, loaded externally for icons;
+- Google Fonts, using the Inter and JetBrains Mono families.
 
-## Funcionalidades
+## Features
 
-- interface está componentizada em React;
-- layout responsivo para desktop, tablet e dispositivos móveis;
-- navegação está responsiva com menu mobile;
-- identificação da seção ativa e comportamento dinâmico da navbar durante a rolagem;
-- navegação suave entre seções com compensação para a navbar fixa;
-- tradução completa para Português, Inglês e Francês;
-- persistência do idioma selecionado no `localStorage`;
-- atualização do idioma do documento, título e meta description;
-- alternância entre os temas claro e escuro, com preferência persistida;
-- animações de entrada implementadas com `IntersectionObserver`;
-- efeito de digitação no título do Hero;
-- barra de progresso da página;
-- botão para voltar ao topo;
-- seções de apresentação, tecnologias, projetos e contato;
-- contato por e-mail com botão para copiar o endereço;
-- acesso direto ao WhatsApp com mensagem inicial;
-- suporte a `prefers-reduced-motion` para reduzir animações quando solicitado pelo sistema.
+- Interface componentized with React;
+- responsive layout for desktop, tablet, and mobile devices;
+- responsive navigation with a mobile menu;
+- active section identification and dynamic navbar behavior while scrolling;
+- smooth navigation between sections with compensation for the fixed navbar;
+- complete translation into Portuguese, English, and French;
+- persistence of the selected language in `localStorage`;
+- updating of the document language, title, and meta description;
+- switching between light and dark themes, with persisted preference;
+- entrance animations implemented with `IntersectionObserver`;
+- typing effect in the Hero title;
+- page progress bar;
+- back-to-top button;
+- presentation, technologies, projects, and contact sections;
+- email contact with a button to copy the address;
+- direct WhatsApp access with an initial message;
+- support for `prefers-reduced-motion` to reduce animations when requested by the system.
 
-## Arquitetura do projeto
+## Project architecture
 
 ```text
 src/
@@ -44,18 +44,18 @@ src/
 └── main.jsx
 ```
 
-- `components/`: componentes visuais e seções da interface;
-- `contexts/`: estados globais de idioma, tema e rolagem;
-- `hooks/`: comportamentos reutilizáveis, como tradução, seção ativa, animações e digitação;
-- `i18n/`: catálogo de traduções da aplicação;
-- `App.jsx`: composição principal da interface;
-- `main.jsx`: inicialização do React e configuração dos providers globais.
+- `components/`: visual components and interface sections;
+- `contexts/`: global language, theme, and scrolling states;
+- `hooks/`: reusable behaviors such as translation, active section tracking, animations, and typing;
+- `i18n/`: application translation catalog;
+- `App.jsx`: main interface composition;
+- `main.jsx`: React initialization and global provider configuration.
 
-## Estrutura principal da aplicação
+## Main application structure
 
 ```text
 main.jsx
-└── Providers de idioma, tema e rolagem
+└── Language, theme, and scrolling providers
     └── App.jsx
         ├── ScrollProgress
         ├── Header
@@ -68,18 +68,16 @@ main.jsx
         └── BackToTop
 ```
 
-## Projetos apresentados
+## Featured projects
 
-- **Meu Saldo Certo:** sistema financeiro desenvolvido em Laravel para gerenciar receitas, despesas, categorias e saldo por usuário autenticado;
+- **Meu Saldo Certo:** financial system developed with Laravel to manage income, expenses, categories, and balances for authenticated users;
 
-- **PetSystem:** sistema de gestão para petshops, com organização de atendimentos, clientes, pets e serviços;
-  
-- **CorteAzul:** website institucional responsivo criado para fortalecer a presença digital e facilitar o contato com clientes.
+- **PetSystem:** management system for pet shops, organizing appointments, clients, pets, and services;
+- **CorteAzul:** responsive institutional website created to strengthen its digital presence and make it easier for clients to get in touch.
 
+## How to run locally
 
-## Como executar localmente
-
-É necessário ter Node.js e npm instalados.
+Node.js and npm must be installed.
 
 ```bash
 git clone https://github.com/NatanLuz/Portfolioweb.git
@@ -88,39 +86,38 @@ npm install
 npm run dev
 ```
 
-O Vite exibirá no terminal o endereço local da aplicação.
+Vite will display the application's local address in the terminal.
 
-## Scripts disponíveis
+## Available scripts
 
-- `npm run dev`: inicia o servidor de desenvolvimento do Vite;
-- `npm run build`: gera o build otimizado para produção;
-- `npm run lint`: executa a análise estática do código com ESLint;
-- `npm run preview`: inicia uma prévia local do build de produção.
+- `npm run dev`: starts the Vite development server;
+- `npm run build`: generates the optimized production build;
+- `npm run lint`: runs static code analysis with ESLint;
+- `npm run preview`: starts a local preview of the production build.
 
-## Build de produção
+## Production build
 
 ```bash
 npm run build
 ```
 
-O comando gera os arquivos otimizados na pasta `dist/`. Esse diretório é um artefato de build e não é versionado.
+The command generates optimized files in the `dist/` folder. This directory is a build artifact and is not versioned.
 
-## Internacionalização
+## Internationalization
 
-A aplicação oferece Português, Inglês e Francês. O catálogo React está em `src/i18n/translations.js`, e o `LanguageContext` controla o idioma atual, o fallback das traduções e a persistência da preferência no `localStorage`.
+The application supports Portuguese, English, and French. The React catalog is located at `src/i18n/translations.js`, and `LanguageContext` controls the current language, translation fallbacks, and preference persistence in `localStorage`.
 
-## Tema
+## Theme
 
-Os temas claro e escuro são controlados pela infraestrutura de contexto do React. A escolha do usuário é aplicada por meio do atributo `data-theme` e armazenada no `localStorage`.
+Light and dark themes are controlled by React's context infrastructure. The user's choice is applied through the `data-theme` attribute and stored in `localStorage`.
 
-## Deploy
+## Deployment
 
-Aplicação: [portfolionatan.vercel.app](https://portfolionatan.vercel.app/)
+Application: [portfolionatan.vercel.app](https://portfolionatan.vercel.app/)
 
-## Autor
+## Author
 
 **Natan Da Luz**
 
-- [GitHub](https://github.com/NatanLuz)
 - [LinkedIn](https://www.linkedin.com/in/natandaluz/)
-- [Portfólio](https://portfolionatan.vercel.app/)
+- [Portfolio](https://portfolionatan.vercel.app/)
