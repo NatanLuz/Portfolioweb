@@ -203,9 +203,6 @@ function Projects() {
             <div className="project-secondary-main">
               <div className="project-heading-row">
                 <div>
-                  <span className="project-complementary-badge">
-                    {t('projects.complementary')}
-                  </span>
                   <h3 className="project-name">
                     {t('projects.corteAzul.title')}
                   </h3>

@@ -93,7 +93,6 @@ export const translations = {
 
     "projects.title": "Projetos",
     "projects.highlight": "Projeto Destaque",
-    "projects.complementary": "Projeto complementar",
     "projects.details": "Destaques",
     "projects.technologies": "Tecnologias",
     "projects.actions.repository": "Ver projeto completo",
@@ -243,7 +242,6 @@ export const translations = {
 
     "projects.title": "Projects",
     "projects.highlight": "Featured Project",
-    "projects.complementary": "Complementary project",
     "projects.details": "Highlights",
     "projects.technologies": "Technologies",
     "projects.actions.repository": "View project",
@@ -394,7 +392,6 @@ export const translations = {
 
     "projects.title": "Projets",
     "projects.highlight": "Projet phare",
-    "projects.complementary": "Projet complémentaire",
     "projects.details": "Points forts",
     "projects.technologies": "Technologies",
     "projects.actions.repository": "Voir le projet",
