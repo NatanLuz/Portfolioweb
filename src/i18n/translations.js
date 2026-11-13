@@ -112,7 +112,19 @@ export const translations = {
     "projects.balance.feature4": "Filtros por período",
     "projects.balance.feature5": "Policies e Form Requests",
 
-    "projects.petSystem.title": "PetSystem — Gestão de Petshop",
+    "projects.petSystemV3.badge": "Evolução técnica · V3",
+    "projects.petSystemV3.title": "PetSystem V3 — Gestão Veterinária e Petshop",
+    "projects.petSystemV3.description":
+      "Nova versão de um sistema desenvolvido para um cliente real, modernizado com Laravel e React para oferecer uma gestão mais organizada, segura e responsiva de um pet shop e clínica veterinária.",
+    "projects.petSystemV3.image.alt": "Interface do PetSystem V3 — Gestão Veterinária e Petshop",
+    "projects.petSystemV3.feature1": "Evolução de um sistema utilizado por um cliente real.",
+    "projects.petSystemV3.feature2": "Três perfis de acesso: administrador, recepção e veterinário.",
+    "projects.petSystemV3.feature3": "Gestão de clientes, pets, serviços, agendamentos e atendimentos.",
+    "projects.petSystemV3.feature4": "Histórico clínico, registros de pagamentos e dashboard financeiro.",
+    "projects.petSystemV3.feature5": "API REST com autenticação e permissões por perfil.",
+    "projects.petSystemV3.feature6": "Testes automatizados, interface responsiva e documentação técnica.",
+
+    "projects.petSystem.title": "PetSystem V2 — Gestão de Petshop",
     "projects.petSystem.description":
       "Sistema de gestão para petshops desenvolvido para organizar atendimentos, clientes, pets e serviços em ambiente real.",
     "projects.petSystem.feature1": "Utilizado em ambiente real",
@@ -261,7 +273,19 @@ export const translations = {
     "projects.balance.feature4": "Period filters",
     "projects.balance.feature5": "Policies and Form Requests",
 
-    "projects.petSystem.title": "PetSystem — Pet Shop Management",
+    "projects.petSystemV3.badge": "Technical evolution · V3",
+    "projects.petSystemV3.title": "PetSystem V3 — Veterinary and Pet Shop Management",
+    "projects.petSystemV3.description":
+      "A new version of a system developed for a real client, modernized with Laravel and React to provide more organized, secure, and responsive management of a pet shop and veterinary clinic.",
+    "projects.petSystemV3.image.alt": "PetSystem V3 interface — Veterinary and Pet Shop Management",
+    "projects.petSystemV3.feature1": "Evolution of a system used by a real client.",
+    "projects.petSystemV3.feature2": "Three access roles: administrator, receptionist, and veterinarian.",
+    "projects.petSystemV3.feature3": "Management of clients, pets, services, appointments, and consultations.",
+    "projects.petSystemV3.feature4": "Clinical history, payment records, and a financial dashboard.",
+    "projects.petSystemV3.feature5": "REST API with authentication and role-based permissions.",
+    "projects.petSystemV3.feature6": "Automated tests, a responsive interface, and technical documentation.",
+
+    "projects.petSystem.title": "PetSystem V2 — Pet Shop Management",
     "projects.petSystem.description":
       "Management system for pet shops developed to organize appointments, customers, pets, and services in a real-world environment.",
     "projects.petSystem.feature1": "Used in a real-world environment",
@@ -412,7 +436,19 @@ export const translations = {
     "projects.balance.feature4": "Filtres par période",
     "projects.balance.feature5": "Policies et Form Requests",
 
-    "projects.petSystem.title": "PetSystem — Gestion de Petshop",
+    "projects.petSystemV3.badge": "Évolution technique · V3",
+    "projects.petSystemV3.title": "PetSystem V3 — Gestion vétérinaire et d’animalerie",
+    "projects.petSystemV3.description":
+      "Nouvelle version d’un système développé pour un client réel, modernisé avec Laravel et React pour offrir une gestion plus organisée, sécurisée et responsive d’une animalerie et d’une clinique vétérinaire.",
+    "projects.petSystemV3.image.alt": "Interface de PetSystem V3 — Gestion vétérinaire et d’animalerie",
+    "projects.petSystemV3.feature1": "Évolution d’un système utilisé par un client réel.",
+    "projects.petSystemV3.feature2": "Trois rôles d’accès : administrateur, réceptionniste et vétérinaire.",
+    "projects.petSystemV3.feature3": "Gestion des clients, animaux, services, rendez-vous et consultations.",
+    "projects.petSystemV3.feature4": "Historique clinique, suivi des paiements et tableau de bord financier.",
+    "projects.petSystemV3.feature5": "API REST avec authentification et autorisations par rôle.",
+    "projects.petSystemV3.feature6": "Tests automatisés, interface responsive et documentation technique.",
+
+    "projects.petSystem.title": "PetSystem V2 — Gestion de Petshop",
     "projects.petSystem.description":
       "Système de gestion pour petshops développé pour organiser les rendez-vous, les clients, les animaux et les services dans un environnement réel.",
     "projects.petSystem.feature1": "Utilisé dans un environnement réel",

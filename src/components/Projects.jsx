@@ -1,4 +1,5 @@
 import petSystemVideo from '../../img/Petsystem.mp4'
+import petSystemV3Screenshot from '../../img/petsystemv3.jpeg'
 import balanceScreenshot from '../../img/Meusaldocerto.PNG'
 import { useTranslation } from '../hooks/useTranslation.js'
 
@@ -9,6 +10,10 @@ const balanceFeatures = Array.from(
 const petSystemFeatures = Array.from(
   { length: 4 },
   (_, index) => `projects.petSystem.feature${index + 1}`,
+)
+const petSystemV3Features = Array.from(
+  { length: 6 },
+  (_, index) => `projects.petSystemV3.feature${index + 1}`,
 )
 const corteAzulFeatures = Array.from(
   { length: 4 },
@@ -45,7 +50,68 @@ function Projects() {
       <div className="container">
         <h2 className="section-title text-center">{t('projects.title')}</h2>
 
-        <div className="projects-featured-grid">
+        <div className="projects-grid">
+          <article
+            className="project-card project-card-featured featured-petshop"
+            data-aos="fade-up"
+          >
+            <div className="project-content">
+              <div className="project-heading-row">
+                <div>
+                  <span className="project-highlight-badge">
+                    {t('projects.petSystemV3.badge')}
+                  </span>
+                  <h3 className="project-name">
+                    {t('projects.petSystemV3.title')}
+                  </h3>
+                </div>
+              </div>
+
+              <p className="project-tagline">
+                {t('projects.petSystemV3.description')}
+              </p>
+
+              <div className="project-video-wrapper">
+                <img
+                  className="project-video-embed project-image-embed"
+                  src={petSystemV3Screenshot}
+                  alt={t('projects.petSystemV3.image.alt')}
+                  loading="lazy"
+                />
+              </div>
+
+              <div className="project-card-details">
+                <div className="project-info-group">
+                  <h4 className="project-info-title">
+                    {t('projects.technologies')}
+                  </h4>
+                  <TechnologiesList
+                    technologies={['PHP', 'Laravel', 'React', 'Vite', 'SQLite', 'API REST', 'Sanctum']}
+                  />
+                </div>
+                <div className="project-info-group">
+                  <h4 className="project-info-title">
+                    {t('projects.details')}
+                  </h4>
+                  <FeatureList translationKeys={petSystemV3Features} t={t} />
+                </div>
+              </div>
+
+              <div className="project-actions">
+                <a
+                  href="https://github.com/NatanLuz/Petsystemv3"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-cta-secondary project-github-btn"
+                  aria-label={t('projects.actions.repository.aria')}
+                >
+                  <i className="fab fa-github me-2" aria-hidden="true" />
+                  {t('projects.actions.repository')}
+                </a>
+              </div>
+            </div>
+          </article>
+
           <article
             className="project-card project-card-featured featured-petshop"
             data-aos="fade-up"
@@ -192,15 +258,12 @@ function Projects() {
               </div>
             </div>
           </article>
-        </div>
-
         <article
-          className="project-card project-card-secondary tier-secondary"
+          className="project-card project-card-featured tier-secondary"
           data-aos="fade-up"
           data-aos-delay="180"
         >
           <div className="project-content">
-            <div className="project-secondary-main">
               <div className="project-heading-row">
                 <div>
                   <h3 className="project-name">
@@ -212,9 +275,7 @@ function Projects() {
               <p className="project-tagline">
                 {t('projects.corteAzul.description')}
               </p>
-            </div>
-
-            <div className="project-secondary-details">
+            <div className="project-card-details">
               <div className="project-info-group">
                 <h4 className="project-info-title">
                   {t('projects.technologies')}
@@ -257,6 +318,7 @@ function Projects() {
             </div>
           </div>
         </article>
+        </div>
 
         <div className="text-center mt-5" data-aos="fade-up" data-aos-delay="600">
           <a
