@@ -216,7 +216,10 @@ function Projects() {
                       'Laravel',
                       'PHP',
                       'Blade',
-                      'TailwindCSS',
+                      'Tailwind CSS',
+                      'MySQL',
+                      'Alpine.js',
+                      'Docker',
                       'Chart.js',
                       'Vite',
                     ]}
@@ -231,6 +234,9 @@ function Projects() {
                 </div>
               </div>
 
+              <p className="project-tagline">
+                {t('projects.balance.availability')}
+              </p>
               <div className="project-actions">
                 <a
                   href="https://github.com/NatanLuz/meu-saldo-certo"
@@ -241,19 +247,6 @@ function Projects() {
                 >
                   <i className="fab fa-github me-2" aria-hidden="true" />
                   {t('projects.actions.fullRepository')}
-                </a>
-                <a
-                  href="https://meu-saldo-certo-9o9r.onrender.com/login"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn-cta-primary"
-                  aria-label={t('projects.actions.online.aria')}
-                >
-                  <i
-                    className="fas fa-external-link-alt me-2"
-                    aria-hidden="true"
-                  />
-                  {t('projects.actions.online')}
                 </a>
               </div>
             </div>
@@ -280,7 +273,7 @@ function Projects() {
                 <h4 className="project-info-title">
                   {t('projects.technologies')}
                 </h4>
-                <TechnologiesList technologies={['JavaScript', 'TailwindCSS']} />
+                <TechnologiesList technologies={['HTML5', 'CSS3', 'JavaScript', 'Tailwind CSS']} />
               </div>
 
               <div className="project-info-group">
@@ -291,17 +284,10 @@ function Projects() {
               </div>
             </div>
 
+            <p className="project-tagline">
+              {t('projects.corteAzul.repositoryStatus')}
+            </p>
             <div className="project-actions">
-              <a
-                href="https://github.com/NatanLuz/projeto-corte-azul-tea"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn-cta-secondary project-github-btn"
-                aria-label={t('projects.actions.repository.aria')}
-              >
-                <i className="fab fa-github me-2" aria-hidden="true" />
-                {t('projects.actions.repository')}
-              </a>
               <a
                 href="https://projeto-corte-azul-tea.vercel.app/"
                 target="_blank"

@@ -14,16 +14,65 @@ function TechnologyItem({ icon, fontAwesomeIcon, name, alt, delay }) {
     <div className="tech-item" data-aos="fade-in" data-aos-delay={delay}>
       {icon ? (
         <img src={icon} alt={alt} className="tech-icon" loading="lazy" />
-      ) : (
+      ) : fontAwesomeIcon ? (
         <i
           className={`${fontAwesomeIcon} tech-icon tech-font-icon`}
           aria-hidden="true"
         />
-      )}
+      ) : null}
       <span className="tech-name">{name}</span>
     </div>
   );
 }
+
+const technologyCategories = [
+  {
+    key: "frontend",
+    items: [
+      { name: "React", icon: reactIcon },
+      { name: "JavaScript", fontAwesomeIcon: "fab fa-js" },
+      { name: "HTML5", fontAwesomeIcon: "fab fa-html5" },
+      { name: "CSS3", fontAwesomeIcon: "fab fa-css3-alt" },
+      { name: "Tailwind CSS", fontAwesomeIcon: "fas fa-wind" },
+    ],
+  },
+  {
+    key: "backend",
+    items: [
+      { name: "PHP", icon: phpIcon },
+      { name: "Laravel", icon: laravelIcon },
+      { name: "APIs REST", icon: apiIcon },
+    ],
+  },
+  {
+    key: "databases",
+    items: [
+      { name: "MySQL", icon: mysqlIcon },
+      { name: "SQLite", fontAwesomeIcon: "fas fa-database" },
+    ],
+  },
+  {
+    key: "tools",
+    items: [
+      { name: "Git", icon: gitIcon },
+      { name: "GitHub", icon: githubIcon },
+      { name: "Docker", icon: dockerIcon },
+      { name: "Composer", fontAwesomeIcon: "fas fa-box-open" },
+      { name: "Postman", fontAwesomeIcon: "fas fa-paper-plane" },
+      { name: "Linux", icon: linuxIcon },
+    ],
+  },
+  {
+    key: "ai",
+    descriptionKey: "technologies.ai.description",
+    items: [
+      { name: "Claude Code" },
+      { name: "OpenAI Codex" },
+      { name: "AI Agents" },
+      { name: "LLMs" },
+    ],
+  },
+];
 
 function Technologies() {
   const { t } = useTranslation();
@@ -33,112 +82,27 @@ function Technologies() {
       <div className="container">
         <h2 className="section-title text-center">{t("technologies.title")}</h2>
         <div className="tech-categories-grid">
-          <article
-            className="tech-category tech-category-primary"
-            data-aos="fade-up"
-          >
-            <div className="tech-category-header">
-              <h3 className="tech-category-title">
-                {t("technologies.backend")}
-              </h3>
-              <span className="tech-focus-label focus-primary">
-                {t("technologies.backend.focus")}
-              </span>
-            </div>
-
-            <div className="tech-grid backend-grid">
-              <TechnologyItem icon={phpIcon} name="PHP" alt="PHP" delay="100" />
-              <TechnologyItem
-                icon={laravelIcon}
-                name="Laravel"
-                alt="Laravel"
-                delay="150"
-              />
-              <TechnologyItem
-                icon={apiIcon}
-                name="APIs REST"
-                alt="APIs REST"
-                delay="200"
-              />
-            </div>
-          </article>
-
-          <article className="tech-category" data-aos="fade-up">
-            <div className="tech-category-header">
-              <h3 className="tech-category-title">
-                {t("technologies.databases")}
-              </h3>
-            </div>
-
-            <div className="tech-grid database-grid">
-              <TechnologyItem
-                icon={mysqlIcon}
-                name="MySQL"
-                alt="MySQL"
-                delay="150"
-              />
-            </div>
-          </article>
-
-          <article className="tech-category" data-aos="fade-up">
-            <div className="tech-category-header">
-              <h3 className="tech-category-title">
-                {t("technologies.frontend")}
-              </h3>
-            </div>
-
-            <div className="tech-grid frontend-grid">
-              <TechnologyItem
-                icon={reactIcon}
-                name="React"
-                alt="React"
-                delay="100"
-              />
-              <TechnologyItem
-                fontAwesomeIcon="fab fa-js"
-                name="JavaScript"
-                delay="150"
-              />
-            </div>
-          </article>
-
-          <article className="tech-category" data-aos="fade-up">
-            <div className="tech-category-header">
-              <h3 className="tech-category-title">{t("technologies.tools")}</h3>
-            </div>
-
-            <div className="tech-grid tools-grid">
-              <TechnologyItem icon={gitIcon} name="Git" alt="Git" delay="100" />
-              <TechnologyItem
-                icon={githubIcon}
-                name="GitHub"
-                alt="GitHub"
-                delay="130"
-              />
-              <TechnologyItem
-                icon={dockerIcon}
-                name="Docker"
-                alt="Docker"
-                delay="160"
-              />
-              <TechnologyItem
-                fontAwesomeIcon="fas fa-box-open"
-                name="Composer"
-                delay="190"
-              />
-              <TechnologyItem
-                fontAwesomeIcon="fas fa-paper-plane"
-                name="Postman"
-                delay="220"
-              />
-              <TechnologyItem
-                icon={linuxIcon}
-                name="Linux"
-                alt="Linux"
-                delay="250"
-              />
-            </div>
-          </article>
+          {technologyCategories.map(({ key, items, descriptionKey }) => (
+            <article className="tech-category" data-aos="fade-up" key={key}>
+              <div className="tech-category-header">
+                <h3 className="tech-category-title">
+                  {t(`technologies.${key}`)}
+                </h3>
+              </div>
+              {descriptionKey && (
+                <p className="tech-category-context">{t(descriptionKey)}</p>
+              )}
+              <div className="tech-grid">
+                {items.map((technology) => (
+                  <TechnologyItem
+                    key={technology.name}
+                    {...technology}
+                    alt=""
+                  />
+                ))}
+              </div>
+            </article>
+          ))}
         </div>
       </div>
     </section>

@@ -2,16 +2,23 @@ import { useTranslation } from "../hooks/useTranslation.js";
 
 const professionalExperiences = [
   {
+    key: "barbex",
+    hasModality: true,
+    hasAdditionalDescription: true,
+    hasSkills: true,
+  },
+  {
     key: "confidence",
     hasAdditionalDescription: true,
     hasSkills: true,
   },
   {
     key: "freelance",
+    hasAdditionalDescription: true,
     projects: [
       {
         key: "petSystem",
-        technologies: ["PHP", "MySQL"],
+        technologies: ["PHP", "MySQL", "Laravel", "React", "Vite", "APIs REST", "Sanctum", "SQLite"],
       },
       {
         key: "corteAzul",
@@ -50,7 +57,7 @@ function Experience() {
             </h3>
 
             <div className="experience-list">
-              {professionalExperiences.map(({ key, projects, hasAdditionalDescription, hasSkills }) => (
+              {professionalExperiences.map(({ key, projects, hasModality, hasAdditionalDescription, hasSkills }) => (
                 <article className="experience-entry" key={key}>
                   <div className="experience-entry-header">
                     <div>
@@ -60,6 +67,11 @@ function Experience() {
                       <p className="experience-entry-role">
                         {t(`experience.professional.${key}.role`)}
                       </p>
+                      {hasModality && (
+                        <p className="experience-entry-institution">
+                          {t(`experience.professional.${key}.modality`)}
+                        </p>
+                      )}
                     </div>
                   </div>
 
