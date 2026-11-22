@@ -1,8 +1,8 @@
 export const translations = {
   pt: {
-    "meta.title": "Natan Da Luz - Desenvolvedor de Software",
+    "meta.title": "Natan Da Luz | Desenvolvedor de Software Full Stack",
     "meta.description":
-      "Portfólio de Natan Da Luz, Desenvolvedor de Software com foco em PHP, Laravel, React e MySQL.",
+      "Portfólio de Natan Da Luz, Desenvolvedor de Software Full Stack com experiência em PHP, Laravel, React, MySQL, APIs REST, Docker e engenharia de software com agentes de IA.",
 
     "header.menu.aria": "Alternar navegação",
     "header.languageSelector.aria": "Selecionar idioma",
@@ -17,8 +17,10 @@ export const translations = {
     "nav.contact": "Contato",
 
     "hero.title": "Natan Da Luz",
-    "hero.role": "Desenvolvedor de Software",
-    "hero.stack": "PHP • Laravel • React • MySQL",
+    "hero.role": "Desenvolvedor de Software Fullstack",
+    "hero.stack": "PHP • Laravel • React • MySQL • APIs REST • Docker",
+    "hero.intro":
+      "Desenvolvo aplicações web e soluções de software, atuando do frontend ao backend, com experiência em projetos reais, integração de sistemas e práticas de engenharia de software com agentes de IA.",
     "hero.cta.cv": "Currículo",
     "hero.cta.projects": "Ver Projetos",
     "hero.social.aria": "Perfis profissionais",
@@ -28,7 +30,7 @@ export const translations = {
 
     "about.title": "Sobre Mim",
     "about.intro":
-      "Sou Desenvolvedor de Software com foco em PHP e Laravel, com experiência prática em projetos autorais e freelance envolvendo aplicações web, APIs REST, autenticação, regras de negócio e bancos de dados relacionais.\n\nTambém trabalho com React no frontend e utilizo MySQL, Docker e Git no desenvolvimento das aplicações. Atualmente curso Sistemas de Informação e continuo aprofundando meus conhecimentos em arquitetura de software e boas práticas de desenvolvimento.",
+      "Sou Desenvolvedor de Software Full Stack, com experiência prática na construção de aplicações web, APIs REST e soluções orientadas a regras de negócio.\n\nAtuo com PHP, Laravel, React, JavaScript, MySQL e Docker, desenvolvendo interfaces, funcionalidades backend, integrações, autenticação e soluções que conectam frontend e backend.\n\nMinha trajetória inclui projetos para clientes reais, aplicações autorais e desenvolvimento colaborativo de software, com experiência em levantamento de requisitos, modelagem de dados, implementação, testes e manutenção.\n\nTambém possuo experiência profissional em operação e monitoramento de sistemas em produção, suporte técnico, troubleshooting e resolução de incidentes, incluindo atividades relacionadas a hardware, software e conectividade.\n\nUtilizo agentes de inteligência artificial, como Claude Code e OpenAI Codex, em processos de engenharia de software, com direcionamento técnico, revisão de implementações e validação dos resultados.\n\nSou Técnico em Informática para Internet e graduando em Sistemas de Informação pela UNESC.",
     "about.languages.title": "Idiomas",
     "about.languages.english": "Inglês",
     "about.languages.englishLevel": "Avançado (C1)",
@@ -38,27 +40,38 @@ export const translations = {
     "experience.title": "Trajetória",
     "experience.professional.title": "Experiência Profissional",
     "experience.technologies": "Tecnologias",
+    "experience.professional.barbex.organization": "Barbex SaaS",
+    "experience.professional.barbex.role": "Desenvolvedor Full Stack",
+    "experience.professional.barbex.modality": "Projeto colaborativo",
+    "experience.professional.barbex.description":
+      "Participação no desenvolvimento colaborativo de uma plataforma SaaS voltada à gestão de barbearias, com atuação no frontend e backend de aplicações web.",
+    "experience.professional.barbex.additionalDescription":
+      "Atividades relacionadas à implementação de funcionalidades, integração entre interfaces e APIs REST, desenvolvimento de regras de negócio, versionamento de código com Git e GitHub e colaboração na evolução técnica da plataforma.",
+    "experience.professional.barbex.skills":
+      "PHP • Laravel • React • JavaScript/TypeScript • APIs REST • Git • GitHub",
     "experience.professional.confidence.organization":
       "Confidence Monitoramento 24 Horas",
     "experience.professional.confidence.role": "Operador de Sistemas",
     "experience.professional.confidence.description":
-      "Atuação na operação e monitoramento de sistemas em ambiente de produção, com suporte a clientes e usuários, análise inicial de incidentes, troubleshooting e acompanhamento de ocorrências até a resolução.",
+      "Operação e monitoramento contínuo de sistemas corporativos em produção, acompanhando alarmes, câmeras, sensores, dispositivos e falhas de comunicação. Atendimento a clientes e usuários por telefone e WhatsApp, com suporte N1, diagnóstico inicial, troubleshooting, registro, acompanhamento e escalonamento de incidentes.",
     "experience.professional.confidence.additionalDescription":
-      "Também realizo escalonamento para equipes técnicas, apoio em problemas de conectividade, estações Windows e periféricos, além da utilização diária de aplicações corporativas e consultas em MySQL para análise de informações e suporte à resolução de incidentes.",
+      "Suporte básico a estações Windows: identificação de problemas de hardware, software e drivers, travamentos e lentidão; verificação e substituição de teclados, mouses e outros periféricos. Verificações de cabeamento de rede, telefonia e conectividade, com uso de aplicações corporativas e consultas MySQL para apoiar a análise de ocorrências.",
     "experience.professional.confidence.skills":
-      "Monitoramento de sistemas • Troubleshooting • Gestão de incidentes • MySQL • Windows • Redes",
+      "Monitoramento de sistemas • Suporte N1 • Troubleshooting • Gestão de incidentes • Windows • Conectividade • Consultas MySQL",
     "experience.professional.freelance.organization":
       "Desenvolvedor de Software Freelancer",
     "experience.professional.freelance.role": "Autônomo",
     "experience.professional.freelance.description":
-      "Atuação em projetos web para diferentes clientes, trabalhando no desenvolvimento de sistemas e aplicações voltadas ao público final.",
+      "Desenvolvimento e manutenção de aplicações web para clientes reais, atuando em interfaces e funcionalidades frontend e backend. Implementação de integrações e APIs REST, modelagem de dados, regras de negócio, autenticação e controle de acesso.",
+    "experience.professional.freelance.additionalDescription":
+      "Atuação na evolução do PetSystem até a V3 e no desenvolvimento do site institucional da Barbearia Corte Azul T.E.A., traduzindo necessidades de atendimento e gestão em soluções web.",
     "experience.professional.freelance.projects.petSystem.name": "PetSystem",
     "experience.professional.freelance.projects.petSystem.description":
-      "Sistema de gestão e agendamento para petshop desenvolvido com base em necessidades operacionais de um ambiente real.",
+      "Sistema de gestão para petshop e clínica veterinária desenvolvido para um cliente real. Evolução das versões em PHP e MySQL até a V3, com Laravel 12, React, Vite e API REST, incluindo gestão de clientes, pets e agendamentos, autenticação e perfis de acesso.",
     "experience.professional.freelance.projects.corteAzul.name":
       "Barbearia Corte Azul T.E.A.",
     "experience.professional.freelance.projects.corteAzul.description":
-      "Website institucional responsivo desenvolvido para apresentar serviços, facilitar o contato com clientes e apoiar o fluxo de atendimento.",
+      "Desenvolvimento de website institucional responsivo para apresentar serviços, preços e localização, com ficha de anamnese em etapas e envio das informações pelo WhatsApp para apoiar o atendimento.",
     "experience.professional.dufrio.organization": "Refrigeração Dufrio",
     "experience.professional.dufrio.role":
       "Assistente de Logística / Conferente",
@@ -78,16 +91,18 @@ export const translations = {
 
     "technologies.title": "Tecnologias",
     "technologies.backend": "Backend",
-    "technologies.backend.focus": "PRINCIPAL",
     "technologies.backend.description":
       "APIs REST • Regras de negócio • Persistência de dados",
-    "technologies.databases": "Banco de Dados",
+    "technologies.databases": "Bancos de Dados",
     "technologies.databases.description":
       "Modelagem, consultas e persistência de dados relacionais",
     "technologies.frontend": "Frontend",
     "technologies.frontend.description":
       "Interfaces modernas e consumo de APIs",
-    "technologies.tools": "Ferramentas",
+    "technologies.tools": "Ferramentas e Desenvolvimento",
+    "technologies.ai": "Agentes de IA e LLMs",
+    "technologies.ai.description":
+      "Uso profissional de agentes de IA e LLMs no processo de engenharia de software.",
     "technologies.tools.description":
       "Fluxo de versionamento, colaboração e execução de ambientes",
 
@@ -104,18 +119,19 @@ export const translations = {
 
     "projects.balance.title": "Meu Saldo Certo",
     "projects.balance.description":
-      "Sistema financeiro desenvolvido em Laravel para gerenciamento de receitas, despesas, categorias e saldo por usuário autenticado.",
+      "Aplicação autoral de gestão financeira pessoal, desenvolvida de ponta a ponta com Laravel, Blade e MySQL. Permite acompanhar receitas, despesas e saldo, com autenticação, dados isolados por usuário e dashboard com gráficos e filtros por período.",
+    "projects.balance.availability": "Demonstração online sem disponibilidade confirmada. Código e instruções de execução local disponíveis no GitHub.",
     "projects.balance.image.alt": "Dashboard do sistema Meu Saldo Certo",
     "projects.balance.feature1": "Dashboard Analítico",
     "projects.balance.feature2": "CRUD completo de transações",
     "projects.balance.feature3": "Categorias por usuário",
     "projects.balance.feature4": "Filtros por período",
-    "projects.balance.feature5": "Policies e Form Requests",
+    "projects.balance.feature5": "Autenticação, autorização e validação com Policies e Form Requests",
 
     "projects.petSystemV3.badge": "Evolução técnica · V3",
     "projects.petSystemV3.title": "PetSystem V3 — Gestão Veterinária e Petshop",
     "projects.petSystemV3.description":
-      "Nova versão de um sistema desenvolvido para um cliente real, modernizado com Laravel e React para oferecer uma gestão mais organizada, segura e responsiva de um pet shop e clínica veterinária.",
+      "Modernização Full Stack do PetSystem V2 para o mesmo cliente real, com Laravel 12, React, Vite e API REST. Desenvolvimento da interface e do backend para centralizar a gestão de petshop e clínica veterinária, com autenticação e acesso por perfil.",
     "projects.petSystemV3.image.alt": "Interface do PetSystem V3 — Gestão Veterinária e Petshop",
     "projects.petSystemV3.feature1": "Evolução de um sistema utilizado por um cliente real.",
     "projects.petSystemV3.feature2": "Três perfis de acesso: administrador, recepção e veterinário.",
@@ -126,24 +142,25 @@ export const translations = {
 
     "projects.petSystem.title": "PetSystem V2 — Gestão de Petshop",
     "projects.petSystem.description":
-      "Sistema de gestão para petshops desenvolvido para organizar atendimentos, clientes, pets e serviços em ambiente real.",
+      "Sistema desenvolvido para um cliente real para organizar clientes, pets, serviços e agendamentos. Evolução da V1 em PHP e MySQL, com melhorias de organização, autenticação e segurança; base da posterior modernização Full Stack na V3.",
     "projects.petSystem.feature1": "Utilizado em ambiente real",
     "projects.petSystem.feature2": "Gestão de clientes, pets e serviços",
     "projects.petSystem.feature3": "Controle de agenda",
-    "projects.petSystem.feature4": "Regras de negócio",
+    "projects.petSystem.feature4": "Autenticação por sessão, validações e proteção CSRF",
     "projects.petSystem.feature5": "Banco de dados MySQL",
     "projects.petSystem.feature6": "Interface responsiva",
     "projects.petSystem.video.title": "Vídeo Projeto PetSystem",
     "projects.petSystem.video.fallback":
       "Seu navegador não suporta a reprodução de vídeo.",
 
-    "projects.corteAzul.title": "CorteAzul — Website Institucional",
+    "projects.corteAzul.title": "Barbearia Corte Azul T.E.A. — Website Institucional",
     "projects.corteAzul.description":
-      "Website institucional responsivo desenvolvido para fortalecer a presença digital e facilitar o contato com clientes.",
+      "Trabalho freelancer de desenvolvimento web para uma barbearia com atendimento especializado. Interface responsiva para apresentar serviços, preços e localização, com ficha de anamnese em etapas e envio das informações pelo WhatsApp.",
+    "projects.corteAzul.repositoryStatus": "Repositório público indisponível no momento. Conheça a implementação pelo site.",
     "projects.corteAzul.feature1": "Layout responsivo",
-    "projects.corteAzul.feature2": "Navegação intuitiva",
-    "projects.corteAzul.feature3": "Apresentação clara dos serviços",
-    "projects.corteAzul.feature4": "Chamadas para contato",
+    "projects.corteAzul.feature2": "Ficha de anamnese em etapas com validação",
+    "projects.corteAzul.feature3": "Apresentação de serviços, preços e localização",
+    "projects.corteAzul.feature4": "Envio da ficha e contato pelo WhatsApp",
     "projects.corteAzul.feature5":
       "Experiência otimizada para dispositivos móveis",
 
@@ -162,9 +179,9 @@ export const translations = {
   },
 
   en: {
-    "meta.title": "Natan Da Luz - Software Developer",
+    "meta.title": "Natan Da Luz | Full Stack Software Developer",
     "meta.description":
-      "Portfolio of Natan Da Luz, a Software Developer focused on PHP, Laravel, React, and MySQL.",
+      "Portfolio of Natan Da Luz, a Full Stack Software Developer with experience in PHP, Laravel, React, MySQL, REST APIs, Docker, and software engineering with AI agents.",
 
     "header.menu.aria": "Toggle navigation",
     "header.languageSelector.aria": "Select language",
@@ -179,8 +196,10 @@ export const translations = {
     "nav.contact": "Contact",
 
     "hero.title": "Natan Da Luz",
-    "hero.role": "Software Developer",
-    "hero.stack": "PHP • Laravel • React • MySQL",
+    "hero.role": "Fullstack Software Developer",
+    "hero.stack": "PHP • Laravel • React • MySQL • REST APIs • Docker",
+    "hero.intro":
+      "I develop web applications and software solutions, working across frontend and backend, with experience in real-world projects, systems integration, and software engineering practices using AI agents.",
     "hero.cta.cv": "CV",
     "hero.cta.projects": "View Projects",
     "hero.social.aria": "Professional profiles",
@@ -190,7 +209,7 @@ export const translations = {
 
     "about.title": "About Me",
     "about.intro":
-      "I am a Software Developer focused on PHP and Laravel, with hands-on experience in personal and freelance projects involving web applications, REST APIs, authentication, business rules, and relational databases.\n\nI also work with React on the frontend and use MySQL, Docker, and Git to develop applications. I am currently pursuing a degree in Information Systems and continue to deepen my knowledge of software architecture and development best practices.",
+      "I am a Full Stack Software Developer with hands-on experience building web applications, REST APIs, and software solutions driven by business rules.\n\nI work with PHP, Laravel, React, JavaScript, MySQL, and Docker, developing interfaces, backend features, integrations, authentication, and solutions that connect frontend and backend.\n\nMy background includes projects for real clients, personal applications, and collaborative software development, with experience in requirements gathering, data modeling, implementation, testing, and maintenance.\n\nI also have professional experience operating and monitoring production systems, providing technical support, troubleshooting, and resolving incidents involving hardware, software, and connectivity.\n\nI use AI agents such as Claude Code and OpenAI Codex in software engineering workflows, providing technical direction, reviewing implementations, and validating results.\n\nI hold a technical qualification in Web Development and am pursuing a degree in Information Systems at UNESC.",
     "about.languages.title": "Languages",
     "about.languages.english": "English",
     "about.languages.englishLevel": "Advanced (C1)",
@@ -200,27 +219,38 @@ export const translations = {
     "experience.title": "Journey",
     "experience.professional.title": "Professional Experience",
     "experience.technologies": "Technologies",
+    "experience.professional.barbex.organization": "Barbex SaaS",
+    "experience.professional.barbex.role": "Full Stack Developer",
+    "experience.professional.barbex.modality": "Collaborative project",
+    "experience.professional.barbex.description":
+      "Participation in the collaborative development of a SaaS platform for barbershop management, contributing to the frontend and backend of web applications.",
+    "experience.professional.barbex.additionalDescription":
+      "Work involving feature implementation, integration between interfaces and REST APIs, business logic development, code versioning with Git and GitHub, and collaboration on the platform’s technical evolution.",
+    "experience.professional.barbex.skills":
+      "PHP • Laravel • React • JavaScript/TypeScript • APIs REST • Git • GitHub",
     "experience.professional.confidence.organization":
       "Confidence Monitoramento 24 Horas",
     "experience.professional.confidence.role": "Systems Operator",
     "experience.professional.confidence.description":
-      "I operate and monitor systems in a production environment, providing support to clients and users, performing initial incident analysis and troubleshooting, and tracking incidents through to resolution.",
+      "Operation and continuous monitoring of corporate production systems, tracking alarms, cameras, sensors, devices, and communication failures. Client and user assistance by phone and WhatsApp, including first-line support, initial diagnosis, troubleshooting, incident logging, follow-up, and escalation.",
     "experience.professional.confidence.additionalDescription":
-      "I also escalate issues to technical teams, assist with connectivity problems, Windows workstations and peripherals, and use corporate applications and MySQL queries daily to analyze information and support incident resolution.",
+      "Basic Windows workstation support: identifying hardware, software, and driver issues, freezes, and slowdowns; checking and replacing keyboards, mice, and other peripherals. Checks of network cabling, telephony, and connectivity, using corporate applications and MySQL queries to support incident analysis.",
     "experience.professional.confidence.skills":
-      "Systems monitoring • Troubleshooting • Incident management • MySQL • Windows • Networks",
+      "Systems monitoring • First-line support • Troubleshooting • Incident management • Windows • Connectivity • MySQL queries",
     "experience.professional.freelance.organization":
       "Freelance Software Developer",
     "experience.professional.freelance.role": "Self-employed",
     "experience.professional.freelance.description":
-      "Worked on web projects for different clients, developing systems and applications intended for end users.",
+      "Development and maintenance of web applications for real clients, covering frontend interfaces and backend features. Implementation of integrations and REST APIs, data modeling, business rules, authentication, and access control.",
+    "experience.professional.freelance.additionalDescription":
+      "Contributions to the evolution of PetSystem through V3 and development of the Barbearia Corte Azul T.E.A. website, translating service and management needs into web solutions.",
     "experience.professional.freelance.projects.petSystem.name": "PetSystem",
     "experience.professional.freelance.projects.petSystem.description":
-      "A pet shop management and scheduling system developed around the operational needs of a real-world business.",
+      "A pet shop and veterinary clinic management system developed for a real client. Evolved from PHP and MySQL versions to V3 with Laravel 12, React, Vite, and a REST API, including client, pet, and appointment management, authentication, and access roles.",
     "experience.professional.freelance.projects.corteAzul.name":
       "Barbearia Corte Azul T.E.A.",
     "experience.professional.freelance.projects.corteAzul.description":
-      "A responsive institutional website developed to present services, make it easier for clients to get in touch, and support the service workflow.",
+      "Development of a responsive business website presenting services, prices, and location, with a multi-step intake form and information sent via WhatsApp to support customer service.",
     "experience.professional.dufrio.organization": "Refrigeração Dufrio",
     "experience.professional.dufrio.role":
       "Logistics Assistant / Inventory Checker",
@@ -239,7 +269,6 @@ export const translations = {
 
     "technologies.title": "Technologies",
     "technologies.backend": "Backend",
-    "technologies.backend.focus": "PRIMARY",
     "technologies.backend.description":
       "REST APIs • Business rules • Data persistence",
     "technologies.databases": "Databases",
@@ -248,7 +277,10 @@ export const translations = {
     "technologies.frontend": "Frontend",
     "technologies.frontend.description":
       "Modern interfaces and API consumption",
-    "technologies.tools": "Tools",
+    "technologies.tools": "Tools and Development",
+    "technologies.ai": "AI Agents and LLMs",
+    "technologies.ai.description":
+      "Professional use of AI agents and LLMs in the software engineering process.",
     "technologies.tools.description":
       "Version control, collaboration, and environment execution",
 
@@ -265,18 +297,19 @@ export const translations = {
 
     "projects.balance.title": "Meu Saldo Certo",
     "projects.balance.description":
-      "Financial system developed in Laravel for managing income, expenses, categories, and balance per authenticated user.",
+      "A personal finance application built independently from frontend to backend with Laravel, Blade, and MySQL. Tracks income, expenses, and balances, with authentication, user-specific data, and a dashboard with charts and date filters.",
+    "projects.balance.availability": "Online demo availability is unconfirmed. Source code and local setup instructions are available on GitHub.",
     "projects.balance.image.alt": "Meu Saldo Certo system dashboard",
     "projects.balance.feature1": "Analytics dashboard",
     "projects.balance.feature2": "Complete transaction CRUD",
     "projects.balance.feature3": "Categories per user",
     "projects.balance.feature4": "Period filters",
-    "projects.balance.feature5": "Policies and Form Requests",
+    "projects.balance.feature5": "Authentication, authorization, and validation with Policies and Form Requests",
 
     "projects.petSystemV3.badge": "Technical evolution · V3",
     "projects.petSystemV3.title": "PetSystem V3 — Veterinary and Pet Shop Management",
     "projects.petSystemV3.description":
-      "A new version of a system developed for a real client, modernized with Laravel and React to provide more organized, secure, and responsive management of a pet shop and veterinary clinic.",
+      "Full Stack modernization of PetSystem V2 for the same real client, using Laravel 12, React, Vite, and a REST API. Frontend and backend development to centralize pet shop and veterinary clinic management, with authentication and role-based access.",
     "projects.petSystemV3.image.alt": "PetSystem V3 interface — Veterinary and Pet Shop Management",
     "projects.petSystemV3.feature1": "Evolution of a system used by a real client.",
     "projects.petSystemV3.feature2": "Three access roles: administrator, receptionist, and veterinarian.",
@@ -287,24 +320,25 @@ export const translations = {
 
     "projects.petSystem.title": "PetSystem V2 — Pet Shop Management",
     "projects.petSystem.description":
-      "Management system for pet shops developed to organize appointments, customers, pets, and services in a real-world environment.",
+      "A system developed for a real client to organize clients, pets, services, and appointments. Builds on V1 in PHP and MySQL with improvements to organization, authentication, and security, forming the basis for the later Full Stack modernization in V3.",
     "projects.petSystem.feature1": "Used in a real-world environment",
     "projects.petSystem.feature2": "Customer, pet, and service management",
     "projects.petSystem.feature3": "Schedule management",
-    "projects.petSystem.feature4": "Business rules",
+    "projects.petSystem.feature4": "Session authentication, validation, and CSRF protection",
     "projects.petSystem.feature5": "MySQL database",
     "projects.petSystem.feature6": "Responsive interface",
     "projects.petSystem.video.title": "PetSystem Project Video",
     "projects.petSystem.video.fallback":
       "Your browser does not support video playback.",
 
-    "projects.corteAzul.title": "CorteAzul — Institutional Website",
+    "projects.corteAzul.title": "Barbearia Corte Azul T.E.A. — Business Website",
     "projects.corteAzul.description":
-      "Responsive institutional website developed to strengthen its digital presence and make it easier for customers to get in touch.",
+      "Freelance web development for a barbershop offering specialized services. A responsive interface presents services, prices, and location, with a multi-step intake form that sends the information via WhatsApp.",
+    "projects.corteAzul.repositoryStatus": "The public repository is currently unavailable. Explore the implementation on the website.",
     "projects.corteAzul.feature1": "Responsive layout",
-    "projects.corteAzul.feature2": "Intuitive navigation",
-    "projects.corteAzul.feature3": "Clear presentation of services",
-    "projects.corteAzul.feature4": "Contact calls to action",
+    "projects.corteAzul.feature2": "Multi-step intake form with validation",
+    "projects.corteAzul.feature3": "Services, prices, and location information",
+    "projects.corteAzul.feature4": "Form submission and contact via WhatsApp",
     "projects.corteAzul.feature5":
       "Experience optimized for mobile devices",
 
@@ -323,9 +357,9 @@ export const translations = {
   },
 
   fr: {
-    "meta.title": "Natan Da Luz - Développeur logiciel",
+    "meta.title": "Natan Da Luz | Développeur logiciel Full Stack",
     "meta.description":
-      "Portfolio de Natan Da Luz, développeur logiciel spécialisé en PHP, Laravel, React et MySQL.",
+      "Portfolio de Natan Da Luz, développeur logiciel Full Stack avec une expérience en PHP, Laravel, React, MySQL, API REST, Docker et génie logiciel avec des agents d’IA.",
 
     "header.menu.aria": "Afficher ou masquer la navigation",
     "header.languageSelector.aria": "Sélectionner la langue",
@@ -340,8 +374,10 @@ export const translations = {
     "nav.contact": "Contact",
 
     "hero.title": "Natan Da Luz",
-    "hero.role": "Développeur logiciel",
-    "hero.stack": "PHP • Laravel • React • MySQL",
+    "hero.role": "Développeur logiciel Fullstack",
+    "hero.stack": "PHP • Laravel • React • MySQL • API REST • Docker",
+    "hero.intro":
+      "Je développe des applications web et des solutions logicielles, du frontend au backend, avec une expérience de projets réels, de l’intégration de systèmes et des pratiques de génie logiciel avec des agents d’IA.",
     "hero.cta.cv": "CV",
     "hero.cta.projects": "Voir les projets",
     "hero.social.aria": "Profils professionnels",
@@ -351,7 +387,7 @@ export const translations = {
 
     "about.title": "À Propos de Moi",
     "about.intro":
-      "Je suis développeur logiciel spécialisé en PHP et Laravel, avec une expérience pratique acquise à travers des projets personnels et freelance impliquant des applications web, des API REST, l’authentification, les règles métier et les bases de données relationnelles.\n\nJe travaille également avec React côté frontend et j’utilise MySQL, Docker et Git pour développer mes applications. Je suis actuellement étudiant en systèmes d’information et je continue d’approfondir mes connaissances en architecture logicielle et en bonnes pratiques de développement.",
+      "Je suis développeur logiciel Full Stack, avec une expérience pratique dans la création d’applications web, d’API REST et de solutions répondant aux règles métier.\n\nJe travaille avec PHP, Laravel, React, JavaScript, MySQL et Docker pour développer des interfaces, des fonctionnalités backend, des intégrations, des mécanismes d’authentification et des solutions reliant le frontend au backend.\n\nMon parcours comprend des projets pour des clients réels, des applications personnelles et du développement logiciel collaboratif, avec une expérience en recueil des besoins, modélisation des données, implémentation, tests et maintenance.\n\nJe possède également une expérience professionnelle dans l’exploitation et la surveillance de systèmes en production, l’assistance technique, le diagnostic et la résolution d’incidents liés au matériel, aux logiciels et à la connectivité.\n\nJ’utilise des agents d’intelligence artificielle, comme Claude Code et OpenAI Codex, dans les processus de génie logiciel, en assurant l’orientation technique, la revue des implémentations et la validation des résultats.\n\nJe suis titulaire d’un diplôme technique en informatique pour le développement web et je poursuis des études en systèmes d’information à l’UNESC.",
     "about.languages.title": "Langues",
     "about.languages.english": "Anglais",
     "about.languages.englishLevel": "Avancé (C1)",
@@ -361,27 +397,38 @@ export const translations = {
     "experience.title": "Parcours",
     "experience.professional.title": "Expérience professionnelle",
     "experience.technologies": "Technologies",
+    "experience.professional.barbex.organization": "Barbex SaaS",
+    "experience.professional.barbex.role": "Développeur Full Stack",
+    "experience.professional.barbex.modality": "Projet collaboratif",
+    "experience.professional.barbex.description":
+      "Participation au développement collaboratif d’une plateforme SaaS de gestion de salons de coiffure, avec une contribution au frontend et au backend d’applications web.",
+    "experience.professional.barbex.additionalDescription":
+      "Activités liées à l’implémentation de fonctionnalités, à l’intégration entre les interfaces et les API REST, au développement de règles métier, au versionnement du code avec Git et GitHub et à la collaboration à l’évolution technique de la plateforme.",
+    "experience.professional.barbex.skills":
+      "PHP • Laravel • React • JavaScript/TypeScript • APIs REST • Git • GitHub",
     "experience.professional.confidence.organization":
       "Confidence Monitoramento 24 Horas",
     "experience.professional.confidence.role": "Opérateur de systèmes",
     "experience.professional.confidence.description":
-      "J’assure l’exploitation et la surveillance de systèmes en environnement de production, avec une assistance aux clients et aux utilisateurs, une analyse initiale des incidents, un diagnostic des problèmes et un suivi des incidents jusqu’à leur résolution.",
+      "Exploitation et surveillance continue de systèmes d’entreprise en production : suivi des alarmes, caméras, capteurs, dispositifs et défaillances de communication. Assistance aux clients et utilisateurs par téléphone et WhatsApp, avec support N1, diagnostic initial, dépannage, enregistrement, suivi et escalade des incidents.",
     "experience.professional.confidence.additionalDescription":
-      "Je transmets également les incidents aux équipes techniques, apporte une assistance pour les problèmes de connectivité, les postes de travail Windows et les périphériques, et utilise quotidiennement des applications d’entreprise ainsi que des requêtes MySQL pour analyser les informations et contribuer à la résolution des incidents.",
+      "Assistance de base sur les postes Windows : identification des problèmes matériels, logiciels et de pilotes, blocages et lenteurs ; vérification et remplacement de claviers, souris et autres périphériques. Vérifications du câblage réseau, de la téléphonie et de la connectivité, avec utilisation d’applications d’entreprise et de requêtes MySQL pour analyser les incidents.",
     "experience.professional.confidence.skills":
-      "Surveillance des systèmes • Diagnostic des problèmes • Gestion des incidents • MySQL • Windows • Réseaux",
+      "Surveillance des systèmes • Support N1 • Dépannage • Gestion des incidents • Windows • Connectivité • Requêtes MySQL",
     "experience.professional.freelance.organization":
       "Développeur logiciel freelance",
     "experience.professional.freelance.role": "Indépendant",
     "experience.professional.freelance.description":
-      "Réalisation de projets web pour différents clients, avec le développement de systèmes et d’applications destinés aux utilisateurs finaux.",
+      "Développement et maintenance d’applications web pour des clients réels, des interfaces frontend aux fonctionnalités backend. Implémentation d’intégrations et d’API REST, modélisation des données, règles métier, authentification et contrôle d’accès.",
+    "experience.professional.freelance.additionalDescription":
+      "Participation à l’évolution de PetSystem jusqu’à la V3 et développement du site de Barbearia Corte Azul T.E.A., en traduisant les besoins d’accueil et de gestion en solutions web.",
     "experience.professional.freelance.projects.petSystem.name": "PetSystem",
     "experience.professional.freelance.projects.petSystem.description":
-      "Système de gestion et de prise de rendez-vous pour une entreprise de services animaliers, développé à partir des besoins opérationnels d’un environnement réel.",
+      "Système de gestion d’animalerie et de clinique vétérinaire développé pour un client réel. Évolution des versions PHP et MySQL jusqu’à la V3 avec Laravel 12, React, Vite et une API REST, incluant la gestion des clients, animaux et rendez-vous, l’authentification et les rôles d’accès.",
     "experience.professional.freelance.projects.corteAzul.name":
       "Barbearia Corte Azul T.E.A.",
     "experience.professional.freelance.projects.corteAzul.description":
-      "Site institutionnel responsive conçu pour présenter les services, faciliter le contact avec les clients et soutenir le flux de prise en charge.",
+      "Développement d’un site vitrine responsive présentant les services, tarifs et localisation, avec un formulaire d’anamnèse en plusieurs étapes et envoi des informations par WhatsApp pour faciliter l’accueil.",
     "experience.professional.dufrio.organization": "Refrigeração Dufrio",
     "experience.professional.dufrio.role":
       "Assistant logistique / Contrôleur de marchandises",
@@ -401,7 +448,6 @@ export const translations = {
 
     "technologies.title": "Technologies",
     "technologies.backend": "Backend",
-    "technologies.backend.focus": "PRINCIPAL",
     "technologies.backend.description":
       "APIs REST • Règles métier • Persistance des données",
     "technologies.databases": "Bases de données",
@@ -410,7 +456,10 @@ export const translations = {
     "technologies.frontend": "Frontend",
     "technologies.frontend.description":
       "Interfaces modernes et consommation d'APIs",
-    "technologies.tools": "Outils",
+    "technologies.tools": "Outils et développement",
+    "technologies.ai": "Agents d’IA et LLMs",
+    "technologies.ai.description":
+      "Utilisation professionnelle d’agents d’IA et de LLMs dans le processus de génie logiciel.",
     "technologies.tools.description":
       "Gestion de versions, collaboration et exécution d'environnements",
 
@@ -427,19 +476,20 @@ export const translations = {
 
     "projects.balance.title": "Meu Saldo Certo",
     "projects.balance.description":
-      "Système financier développé avec Laravel pour gérer les revenus, les dépenses, les catégories et le solde de chaque utilisateur authentifié.",
+      "Application personnelle de gestion financière développée de bout en bout avec Laravel, Blade et MySQL. Suivi des revenus, dépenses et soldes, avec authentification, données propres à chaque utilisateur et tableau de bord avec graphiques et filtres par période.",
+    "projects.balance.availability": "La disponibilité de la démonstration en ligne n’est pas confirmée. Le code source et les instructions d’installation locale sont disponibles sur GitHub.",
     "projects.balance.image.alt":
       "Tableau de bord du système Meu Saldo Certo",
     "projects.balance.feature1": "Tableau de bord analytique",
     "projects.balance.feature2": "CRUD complet des transactions",
     "projects.balance.feature3": "Catégories par utilisateur",
     "projects.balance.feature4": "Filtres par période",
-    "projects.balance.feature5": "Policies et Form Requests",
+    "projects.balance.feature5": "Authentification, autorisation et validation avec Policies et Form Requests",
 
     "projects.petSystemV3.badge": "Évolution technique · V3",
     "projects.petSystemV3.title": "PetSystem V3 — Gestion vétérinaire et d’animalerie",
     "projects.petSystemV3.description":
-      "Nouvelle version d’un système développé pour un client réel, modernisé avec Laravel et React pour offrir une gestion plus organisée, sécurisée et responsive d’une animalerie et d’une clinique vétérinaire.",
+      "Modernisation Full Stack de PetSystem V2 pour le même client réel, avec Laravel 12, React, Vite et une API REST. Développement du frontend et du backend pour centraliser la gestion d’une animalerie et d’une clinique vétérinaire, avec authentification et accès par rôle.",
     "projects.petSystemV3.image.alt": "Interface de PetSystem V3 — Gestion vétérinaire et d’animalerie",
     "projects.petSystemV3.feature1": "Évolution d’un système utilisé par un client réel.",
     "projects.petSystemV3.feature2": "Trois rôles d’accès : administrateur, réceptionniste et vétérinaire.",
@@ -450,24 +500,25 @@ export const translations = {
 
     "projects.petSystem.title": "PetSystem V2 — Gestion de Petshop",
     "projects.petSystem.description":
-      "Système de gestion pour petshops développé pour organiser les rendez-vous, les clients, les animaux et les services dans un environnement réel.",
+      "Système développé pour un client réel afin d’organiser les clients, animaux, services et rendez-vous. Évolution de la V1 en PHP et MySQL, avec des améliorations d’organisation, d’authentification et de sécurité, servant de base à la modernisation Full Stack de la V3.",
     "projects.petSystem.feature1": "Utilisé dans un environnement réel",
     "projects.petSystem.feature2": "Gestion des clients, animaux et services",
     "projects.petSystem.feature3": "Gestion du planning",
-    "projects.petSystem.feature4": "Règles métier",
+    "projects.petSystem.feature4": "Authentification par session, validation et protection CSRF",
     "projects.petSystem.feature5": "Base de données MySQL",
     "projects.petSystem.feature6": "Interface responsive",
     "projects.petSystem.video.title": "Vidéo du projet PetSystem",
     "projects.petSystem.video.fallback":
       "Votre navigateur ne prend pas en charge la lecture vidéo.",
 
-    "projects.corteAzul.title": "CorteAzul — Site Institutionnel",
+    "projects.corteAzul.title": "Barbearia Corte Azul T.E.A. — Site vitrine",
     "projects.corteAzul.description":
-      "Site institutionnel responsive développé pour renforcer la présence numérique et faciliter le contact avec les clients.",
+      "Développement web en freelance pour un salon de coiffure proposant un accueil spécialisé. Interface responsive présentant les services, tarifs et localisation, avec un formulaire d’anamnèse en plusieurs étapes et envoi des informations par WhatsApp.",
+    "projects.corteAzul.repositoryStatus": "Le dépôt public est actuellement indisponible. Découvrez l’implémentation sur le site.",
     "projects.corteAzul.feature1": "Mise en page responsive",
-    "projects.corteAzul.feature2": "Navigation intuitive",
-    "projects.corteAzul.feature3": "Présentation claire des services",
-    "projects.corteAzul.feature4": "Appels à l'action de contact",
+    "projects.corteAzul.feature2": "Formulaire d’anamnèse en plusieurs étapes avec validation",
+    "projects.corteAzul.feature3": "Présentation des services, tarifs et localisation",
+    "projects.corteAzul.feature4": "Envoi du formulaire et contact par WhatsApp",
     "projects.corteAzul.feature5":
       "Expérience optimisée pour les appareils mobiles",
 

@@ -26,6 +26,7 @@ function Hero() {
           </h1>
           <p className="hero-subtitle">{t('hero.role')}</p>
           <p className="hero-techline">{t('hero.stack')}</p>
+          <p className="hero-intro">{t('hero.intro')}</p>
 
           <div className="hero-buttons">
             <a href="#projetos" className="btn-cta-primary">

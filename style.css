@@ -1089,6 +1089,15 @@ p {
   transform: translateY(20px);
 }
 
+.hero-intro {
+  max-width: 65ch;
+  margin: 0 0 0.75rem;
+  color: var(--text-secondary);
+  font-size: clamp(0.9rem, 1.5vw, 1rem);
+  line-height: 1.65;
+  overflow-wrap: anywhere;
+}
+
 @keyframes subtitleGlow {
   from {
     filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.1));
@@ -1849,9 +1858,16 @@ p {
   font-size: 0.62rem;
 }
 
+#tecnologias .tech-category-context {
+  margin: 0 0 0.9rem;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+
 #tecnologias .tech-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 125px), 1fr));
   gap: 0.6rem;
   max-width: none;
   margin: 0;
